@@ -1,0 +1,96 @@
+{
+  "_what": "Facts that must never be wrong. The build checks each one against the live pages and stops if a page changed. Dates and times come from the participant page's lab cards and the Timeline page.",
+  "contact_name": "Nichole Giller",
+  "contact_email": "nichole@realizedworth.com",
+  "cohorts": {
+    "Monday": {
+      "time": "12:00 to 1:30 PM Central",
+      "dates": [
+        "September 28",
+        "October 5",
+        "October 12",
+        "October 19",
+        "October 26",
+        "November 2",
+        "November 9"
+      ]
+    },
+    "Friday": {
+      "time": "11:00 AM to 12:30 PM Central",
+      "dates": [
+        "October 2",
+        "October 9",
+        "October 16",
+        "October 23",
+        "October 30",
+        "November 6",
+        "November 13"
+      ]
+    }
+  },
+  "verbatim": [
+    {
+      "id": "never-goes-in",
+      "label": "Never goes in",
+      "source": "hub",
+      "inline": true,
+      "text": "Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. Passwords, account numbers and personnel matters stay out too, and your organization's own policy comes first."
+    },
+    {
+      "id": "spreadsheets",
+      "label": "Spreadsheets (Lab 4)",
+      "source": "hub",
+      "inline": true,
+      "text": "People's names never go into Claude, and organization names reach it only as placeholders like ORG-01."
+    },
+    {
+      "id": "account",
+      "label": "Your Claude account",
+      "source": "hub",
+      "inline": true,
+      "text": "If your organization already gives you a Claude seat, use that. Otherwise, each of you uses your own individual Claude Pro account. You set it up, it belongs to you, and it stays yours after the program. Wells Fargo covers your Claude Pro account for six months. Rachel Bruce from RW Institute emails you about how the payment reaches you. Choose the monthly plan, not the annual one."
+    },
+    {
+      "id": "after-six-months",
+      "label": "After six months",
+      "source": "hub",
+      "inline": true,
+      "text": "When the six months end, your Claude subscription keeps charging your card each month until you cancel it."
+    },
+    {
+      "id": "who-sees-chats",
+      "label": "Who can see your chats",
+      "source": "hub",
+      "inline": true,
+      "text": "Nobody at RW Institute or PCI can see your chats or files."
+    },
+    {
+      "id": "recording",
+      "label": "Recording",
+      "source": "hub",
+      "inline": true,
+      "text": "Everything in the main room is recorded."
+    },
+    {
+      "id": "zoom-link",
+      "label": "Zoom link",
+      "source": "hub",
+      "inline": true,
+      "text": "Your sessions and the Zoom link come from the RSVP link in the welcome email."
+    },
+    {
+      "id": "attendance",
+      "label": "Attendance",
+      "source": "hub",
+      "inline": true,
+      "text": "Plan to be there live for at least five of the seven."
+    },
+    {
+      "id": "stuck",
+      "label": "Stuck",
+      "source": "hub",
+      "inline": true,
+      "text": "Email Nichole Giller at nichole@realizedworth.com, say which step you're on, and add a screenshot if you can."
+    }
+  ]
+}

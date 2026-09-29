@@ -1,0 +1,16 @@
+{
+  "name": "wf-lab-guide",
+  "owner": {
+    "name": "RW Institute"
+  },
+  "metadata": {
+    "description": "The Lab Guide for participants in Applied AI Labs for Nonprofits."
+  },
+  "plugins": [
+    {
+      "name": "wf-lab-guide",
+      "source": "./plugins/wf-lab-guide",
+      "description": "Answers participants' questions about Applied AI Labs for Nonprofits from the published lab kits and participant page."
+    }
+  ]
+}
