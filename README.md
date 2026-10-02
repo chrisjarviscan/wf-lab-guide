@@ -4,7 +4,7 @@ Ask your own Claude about the labs: the dates, what to bring, a kit's steps, the
 
 Applied AI Labs for Nonprofits is run by RW Institute and funded by Wells Fargo Philanthropy and Community Impact (PCI). The Lab Guide runs inside your own Claude account. Your questions go to Claude, the same as any other chat. Adding the guide costs no money; each question uses a little of your Claude usage, like any chat.
 
-**Current version: Lab Guide 1.0.0 · Sept 29, 2026**, built from the pages published on Sept 29, 2026.
+**Current version: Lab Guide 1.0.1 · Oct 2, 2026**, built from the pages published on Oct 2, 2026.
 
 ## Add it to your Claude
 
