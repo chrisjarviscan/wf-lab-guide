@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.1 · Oct 2, 2026. Mirrored from the Lab 2 kit as published on Oct 2, 2026 (source 78f6877). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the Lab 2 kit as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
 
@@ -27,6 +27,8 @@ You'll leave with your org brain (files that tell Claude how your organization s
 
   - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the only place the answer can come from is `AGENTS.md`.
   - If it doesn't work: if Claude can't find `AGENTS.md`, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project) and try again. If you have no `AGENTS.md` yet, step 3 starts one. If you missed Lab 1, first do the folder steps in its "Setup, if you skipped Start here" section, on the participant page (see hub-labs.md). Come anyway, and to sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
+- Optional: add the Lab Guide to your Claude, so you can ask it about the labs between sessions. It answers from these kits and the participant page. Setup steps: [github.com/chrisjarviscan/wf-lab-guide](https://github.com/chrisjarviscan/wf-lab-guide).
+  - More: on a paid plan, go to Customize, then Plugins, then Add, Add marketplace and Add from a repository, and enter `chrisjarviscan/wf-lab-guide`. On a free plan, download the guide file from the same page, switch on code execution and file creation in Settings, then Capabilities, and upload the file under Customize, then Skills. To ask it something, type / in a new chat and choose lab-guide. It runs in your own Claude, so your questions stay in your account.
 
 ## Why this matters
 
@@ -34,7 +36,7 @@ Your writing is how funders and donors meet your organization when nobody from y
 
 ## Today, step by step
 
-In your breakout room, one of you drives; your colleague answers Claude's questions and checks the draft.
+In your breakout room, each of you works on your own computer, with your own Claude, and makes your own files, your colleague included, so nobody needs to share a screen.
 
 1. **Fill `Org-Brain`.** Claude sounds more like you when it reads your writing.
    - Your own documents: save them in `Working` by hand, with names cut, because Claude works only in the folder you chose. Add after the prompt: "Cut any client, donor or volunteer name or health detail from the copies, and tell me where. Stories with no name stay."
@@ -53,7 +55,7 @@ In your breakout room, one of you drives; your colleague answers Claude's questi
 
      - Why this way: one paste replaces four rounds of copy and paste and keeps your sentences exact. It uses "check where you are first", "word for word" and "ask me, don't guess". It also files a funder's guidelines or splits a manual by program.
    - Browser: make `Org-Brain` inside `AI-Labs` yourself. In your AI-Labs Project, upload each document and ask for its plain text back, word for word, adding the line above that cuts names. Paste each into a plain text file in `Org-Brain`: `mission.md`, `sample-1.md`, `sample-2.md`, `outcomes.md` or `voice-note.md` (Notepad: "Save as type: All files"; TextEdit: Format, then Make Plain Text). The practice pack's sections 1 to 4 fill them, in order. Upload them to your Project.
-2. **Let Claude interview you about your voice.** An interview catches what your samples can't show. Name programs, never people. On the practice pack, answer as BrightPath. With a voice note, change "the two samples" to "the voice note". Claude will describe your voice in ten lines, ask one question at a time, and when you say "done", rewrite the lines and list words you never use.
+2. **Let Claude interview you about your voice.** An interview catches what your samples can't show. Name programs, never people. On the practice pack, answer as BrightPath. With a voice note, change "the two samples" to "the voice note". Claude will describe your voice in ten lines, ask one question at a time, and when you say "done", rewrite the lines and list words you never use. Type your answers, or speak them with your computer's dictation, muting yourself in Zoom first so the room doesn't hear.
 
    ```prompt
    Read the two samples in Org-Brain. Describe how our organization sounds in ten lines. Then ask me one question at a time about what the samples can't show you: words we never use, how we talk about the people we serve, how formal we get with funders. When I say "done," rewrite your ten lines with my answers in them and list the words and phrases we never use.
@@ -65,7 +67,7 @@ In your breakout room, one of you drives; your colleague answers Claude's questi
 
    - Why this way: one question at a time beats a style guide from a blank page, and Claude asks only what your samples can't show. It uses "ask me, don't guess". The same move drafts a program page or grant history from a colleague's answers.
    - Browser: paste the same prompt with "the two samples in this Project" in place of "the two samples in Org-Brain".
-3. **Edit the voice notes together.** Your voice notes are Claude's lines cut to the ones that are really you, plus a never-say list. Choose the cuts by hand with your colleague, because only you two can tell. Drop any line that fits any nonprofit ("warm, clear, professional") or names anyone; keep specific ones ("We never call families clients").
+3. **Edit the voice notes.** Your voice notes are Claude's lines cut to the ones that are really you, plus a never-say list. Choose the cuts by hand, because only you can tell. Drop any line that fits any nonprofit ("warm, clear, professional") or names anyone; keep specific ones ("We never call families clients"). When your voice notes are saved, type "saved" in the Zoom chat so your facilitator can see who needs a hand.
    - Desktop app: tell Claude which lines you cut, by number, then paste this. Claude will save `Org-Brain/voice-notes.md`, add five lines under "How we sound" in `AGENTS.md`, and show you both.
 
      ```prompt
@@ -84,7 +86,21 @@ In your breakout room, one of you drives; your colleague answers Claude's questi
    - Browser: on the practice pack, upload it to your Project.
 5. **Or start an RFP with a compliance matrix.** A compliance matrix gives each RFP requirement a row, quoting it, with what `Org-Brain` covers and what you still need. Save the public RFP in `Working`, name its file in "plus ___", make the matrix the goal, and describe those columns under "What done looks like." Check every row against the RFP by hand, because a check on Claude's work can't come from Claude.
    - Browser: upload the RFP to your Project.
-6. **Swap and read aloud.** The other organization hears your voice fresh. Read them a paragraph from a sample (or your voice note), then one from today's draft; they flag lines that don't match. Fix them in the chat that wrote the draft. With a matrix, they check three rows against the RFP.
+6. **Get an outside read of your voice (5 minutes).** A reader who's never met you hears your voice fresh. First save your draft: paste the first prompt in step 7, the one that saves it in `Outputs`, and note the file name Claude gives it. Then start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this with that file name in the blank. Claude will read your voice notes and the draft as a program officer, change nothing, quote the lines that don't sound like you, then quote the one that sounds most like you.
+
+   ```prompt
+   Read Org-Brain/voice-notes.md and the draft in Outputs, ___. Don't change any file. Read the draft as a program officer who has never met us. Quote every line in the draft that doesn't sound like our voice notes or that uses a word on our never-say list, and say why in one line. Then quote the one line that sounds most like us. End your reply with one line on its own: "Lines to check:" and how many you found.
+   ```
+
+   ```done
+   Claude quotes each line that doesn't sound like your voice notes, then the line that sounds most like you, and its last line says "Lines to check:" and a number. You've decided, line by line, to keep it, change it or cut it.
+   ```
+
+   - Why this way: the chat that wrote the draft tends to stand by it, while a fresh session reads only your voice notes and the draft, the way a program officer would. Claude finds the lines, and you decide each one by hand, because the judgment is what you're practicing. It uses "start fresh from your files" and "end with one clear line". The same read works on an event invitation before it goes out, or your website's About page.
+   - Browser: first paste the draft into a plain text file in `Outputs` and upload it to your Project. Then, in a new chat inside your AI-Labs Project, paste the same prompt with "voice-notes.md in this Project" in place of "Org-Brain/voice-notes.md" and "the draft in this Project" in place of "the draft in Outputs", and put the draft's file name in the blank.
+   - More: decide each quoted line by hand: keep it, change it or cut it. If Claude quotes none, you're done; if it quotes many, start with the first three. Make the changes in the chat that wrote the draft, then save the draft again with the first prompt in step 7. If the room runs out of time, do this after the lab.
+   - Compliance matrix: skip the prompt, and check three rows against the RFP by hand, because a check on Claude's work can't come from Claude. Read one row aloud in the round.
+   - **Room:** near the end of your room time, your facilitator calls a round: each of you reads aloud one line that sounds most like you, 20 seconds each, from Claude's reply or from your voice notes. Not there yet when the round starts? Read the line in your voice notes that sounds most like you, or pass.
 7. **Save the draft, then start fresh.** Long chats use your usage limit fastest.
    - Desktop app: paste this in the chat that wrote the draft. Claude will save the draft in `Outputs` under a name for the job and show it to you.
 
@@ -95,7 +111,7 @@ In your breakout room, one of you drives; your colleague answers Claude's questi
      ```done
      Claude shows the draft saved in `Outputs`, under a name for the job.
      ```
-   - Why this way: a new chat, or your colleague, can pick up a saved file, and its name helps you find it. It uses "show me so I can check". It suits a grant section for your director or a story you'll cut.
+   - Why this way: a new chat can pick up a saved file, and its name helps you find it. It uses "show me so I can check". It suits a grant section for your director or a story you'll cut.
    - Browser: paste the draft into a plain text file in `Outputs` and upload it to your Project.
 
    For the next round, start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project). Paste this, then add the file name and the change you want, like "The draft is donor-note-draft.md. Cut it to 100 words." Claude will read `AGENTS.md` and your saved draft and make the change, with none of the earlier conversation.
@@ -153,7 +169,7 @@ The table covers drafts that come out wrong. For anything else, ask Claude first
 Read Kits/KIT-Lab2-Writing-Org-Brain.md. I'm on this step: ___. Here's what I see: ___. What should I do next? Answer in three short steps.
 ```
 
-In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask the facilitator who drops into your room. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
+In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask your room's facilitator. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
 | What you see | What to try |
 |---|---|
@@ -164,7 +180,7 @@ In the browser, paste the step from this page instead of the file name. If Claud
 
 ## This week
 
-Choose one level with your colleague. You can switch levels any week.
+Choose one level. You and your colleague can choose different ones, and you can switch levels any week.
 
 | Level | Time | What you do | What you'll have |
 |---|---|---|---|
