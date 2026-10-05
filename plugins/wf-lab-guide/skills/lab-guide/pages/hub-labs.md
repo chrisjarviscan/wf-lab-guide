@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.8 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source d599017). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.9 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 0d4addb). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -41,6 +41,8 @@ Monday, October 5 · Friday, October 9
 Claude welcomes you, checks the files actually connected to this session, and handles the folder and file work. It asks one short question at a time and leads you from voice notes to a draft, then checks, saves and reopens your work. It pauses for your approval of the voice and facts. If access is missing, it tells you what is needed; help happens individually.
 
 Use permitted public material or practice; remove personal details before sharing. You choose the voice and verify the facts. Minimum today: saved voice notes and approved voice rules. Practice stays separate and labeled practice; your own voice is unfinished until you use your real material.
+
+Using your browser? Say the same start sentence. Claude uses visible Project files or interviews you, then creates files for download where tools allow. It cannot edit your computer’s folder or update Project files automatically.
 
 The Lab 2 worksheet (lab-2.md) is a reference if you want it. You do not need to read it first or choose the next prompt.
 

@@ -1,5 +1,5 @@
 {
-  "source_commit": "d599017",
+  "source_commit": "0d4addb",
   "files": [
     {
       "asset": "assets/KIT-Lab1-First-Safe-Win.md",
@@ -11,7 +11,7 @@
       "asset": "assets/KIT-Lab2-Writing-Org-Brain.md",
       "destination": "Kits/KIT-Lab2-Writing-Org-Brain.md",
       "source": "04-Participant Kits/Lab 2/KIT-Lab2-Writing-Org-Brain.md",
-      "sha256": "5bd7c7d6e02d66afbb362fb694234b14c801ba2473a287e11b59a9a46895fe35"
+      "sha256": "02de37864f4e16cb93167215bc0c56e3595b8de4f2ebf33e54336394e593d1dd"
     },
     {
       "asset": "assets/STARTER-AGENTS.md",

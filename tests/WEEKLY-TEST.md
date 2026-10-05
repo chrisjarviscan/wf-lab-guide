@@ -38,3 +38,8 @@ Check that earlier AGENTS.md rules and existing drafts survived; no automatic se
 Repeat using the practice pack: its voice and profile must stay under Kits/Practice, with real voice marked unfinished.
 A missing plugin or failed file tool is a failed/pending account check, regardless of package tests.
 Work-task replies need no guide banner/footer. Record the actual installed version; don't assume updates arrive automatically.
+
+Browser regression: with the current guide, say "I'm ready to begin Lab 2" in the work chat.
+With visible Project files, reuse them; without visible files, begin a one-question interview rather than demanding Cowork.
+With file creation, verify real downloadable artifacts; without it, label export pending and provide approved contents.
+Never claim the browser has changed a local folder or updated Project knowledge automatically.

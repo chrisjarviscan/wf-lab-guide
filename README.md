@@ -1,6 +1,6 @@
 # Lab Guide
 
-**Lab Guide 1.0.8 · Oct 5, 2026**
+**Lab Guide 1.0.9 · Oct 5, 2026**
 
 Five minutes. Use Claude desktop → Cowork.
 
@@ -35,3 +35,6 @@ Begin Lab 2:
 Claude welcomes you, checks saved work and guides one question at a time. It handles files; you approve voice and facts.
 
 [Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)
+
+Browser users with the current guide can use the same start sentence. Claude creates downloads where tools allow.
+Cowork folder selection is needed for local file editing, not for the browser conversation.

@@ -33,3 +33,6 @@ Begin today’s lab:
 > I'm ready to begin Lab 2.
 
 Claude guides the conversation, does the file work and saves the results. You answer and approve.
+
+Browser users with the current guide can use the same start sentence. Claude creates downloads where tools allow.
+Cowork folder selection is needed for local file editing, not for the browser conversation.

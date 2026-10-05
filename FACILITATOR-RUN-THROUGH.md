@@ -43,3 +43,6 @@ A missing file is not a missing connection. Claude checks its actual tools befor
 Minimum: saved voice notes and approved voice rules. Practice stays separate; real voice remains unfinished.
 
 [Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)
+
+Browser users with the current guide can use the same start sentence. Claude creates downloads where tools allow.
+Cowork folder selection is needed for local file editing, not for the browser conversation.

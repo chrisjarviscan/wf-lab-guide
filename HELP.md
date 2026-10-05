@@ -24,3 +24,7 @@ and [fictional transcript exercise](demo/README.md) are available after installa
 
 Keep restricted client, donor, volunteer, health, case and personnel details out. Your organization's policy comes first.
 If needed, email Nichole Giller at nichole@realizedworth.com with the guide version and the problem.
+
+Browser Lab 2 works too. Say “I'm ready to begin Lab 2.” Claude uses the files visible in that chat or interviews you.
+It creates downloadable files where file creation is available. Those files are not automatically saved to your computer or Project.
+The browser guide should not require Cowork to begin. Local folder editing requires Cowork with that folder's permission.

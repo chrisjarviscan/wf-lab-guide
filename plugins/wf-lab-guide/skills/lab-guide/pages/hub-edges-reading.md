@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.8 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source d599017). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.9 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 0d4addb). Do not edit: rebuild instead. -->
 
 # Cross-lab edges and background reading
 

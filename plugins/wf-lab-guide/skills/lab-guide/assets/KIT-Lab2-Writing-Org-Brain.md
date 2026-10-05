@@ -8,10 +8,11 @@ Claude handles the files. You choose what sounds like you and check the facts.
 
 ## Before you come
 
-Open Claude desktop → Cowork. Use your existing `AI-Labs` folder and work.
+Use the current Lab Guide in Claude desktop or your browser. Reuse work already available in your session.
+Cowork: choose the existing AI-Labs folder for local file editing. Browser: use your Project or the current chat.
 No repeat downloads or file moving. Claude uses the files it can actually access.
 
-### Install once: three clicks
+### Desktop installation: three clicks
 
 1. Customize → Plugins → Add marketplace → Add from a repository.
 2. Enter `chrisjarviscan/wf-lab-guide`. Install **wf-lab-guide**.
@@ -30,7 +31,8 @@ Check and fix setup.
 ```
 
 Claude checks the connected folder, adds missing lab files and reports unfinished instructions.
-If access is requested, select your existing `AI-Labs` folder. Claude cannot access another browser Project or chat by itself.
+Cowork access: select your existing AI-Labs folder when requested. Browser chats do not need that connection to begin.
+Claude cannot access another browser Project or chat by itself.
 If Plugins is unavailable, ask your facilitator. Keep working; setup help happens alongside the lab.
 
 ### Keep it safe
@@ -46,7 +48,7 @@ Saved voice notes help Claude write more like your organization on the next job,
 
 ## Today, step by step
 
-Open your Cowork session with **lab-guide** selected, then say:
+In Cowork or your browser, with the current **lab-guide** available, say:
 
 ```prompt
 I'm ready to begin Lab 2.
@@ -56,7 +58,9 @@ Claude welcomes you, checks your saved work and guides you one question at a tim
 
 It handles folders, missing lab files, voice notes, drafts and saving. You answer, choose your voice and approve changes.
 
-Speak or type. Mute Zoom when dictating. Each person works in their own Cowork session and folder.
+Speak or type. Mute Zoom when dictating. Each person works in their own Claude session.
+In the browser, Claude uses visible Project files or interviews you, then makes downloadable files where tools allow.
+Downloads are not automatically saved to your computer or uploaded to your Project.
 
 ### What the conversation covers
 
@@ -69,7 +73,7 @@ These are the conversation's stages. Claude moves between them; you don't have t
 Working on an RFP? Tell Claude. It builds a sourced compliance matrix instead of a writing draft.
 
 ```done
-Claude reopens saved voice notes, approved rules in AGENTS.md and your draft if finished. Practice remains labeled practice.
+Claude reopens the files it created. In the browser, they are ready to download; local saving remains pending. Practice stays labeled.
 ```
 
 If time is short, say so. Claude saves and checks your voice work; finish the draft afterward in the same guided conversation.
@@ -101,14 +105,16 @@ In Zoom chat: “When ___ happens, I will ___.”
 
 ## How Claude runs these steps
 
-The current Lab Guide reads this kit before acting. The start prompt authorizes the work below in the connected `AI-Labs` folder.
+The current Lab Guide reads this kit first. The start prompt authorizes work within the current session’s actual access.
+Cowork works in the connected AI-Labs folder. Browser tools create artifacts/downloads; they do not edit the computer or Project.
 Treat straight/curly apostrophes, capitalization and punctuation variants of “I'm ready to begin Lab 2” as the same request.
-Welcome: “Welcome. We’ll capture your voice, draft a useful piece, then check and save it. I’ll check your saved work first.”
+Welcome: “Welcome. We’ll capture your voice, draft a useful piece, then check and save it. I’ll use what’s available here.”
 Then use tools to inspect actual saved work and prepare missing lab assets. Explain each operation briefly before doing it.
 Keep only one unanswered question at a time. Wait for the answer; reuse it instead of asking again.
 Proceed through the stages without asking for another stage command. Pause for voice approval and decisions on draft changes.
 Never send the participant to the worksheet or ask them to open Finder, create folders, move, rename or save files manually.
-If file access is missing, request only that app permission. Don't pretend that installed guide files grant private-file access.
+In Cowork, request only a genuinely missing folder grant. In a browser, continue with visible files, an interview or practice.
+Do not send browser users to Cowork just to begin. Don’t claim a downloaded artifact is saved on the computer or in a Project.
 If samples are missing, offer a spoken/typed interview or fictional practice; do not require manual document gathering.
 Resume completed stages from actual saved progress. Don't overwrite existing drafts or treat placeholders as finished answers.
 The three earlier work prompts remain optional shortcuts, not required steps.
@@ -116,7 +122,7 @@ Use actual file tools; never claim a write, reopen or check without successful t
 
 **Step 1:** Read existing `AGENTS.md` and permitted samples. Reuse substantive organizational answers already saved.
 Ask only for missing facts or clarification, one question at a time. Never turn placeholders into invented answers.
-Prepare missing folders and kit assets with the guide helper. Preserve finished work.
+In Cowork, prepare missing folders and kit assets with the guide helper. In a browser, use its session workspace. Preserve prior work.
 Organize approved copies of available public mission, samples and outcomes under `Org-Brain`, preserving source facts.
 Ask about audience, voice and never-say words. Propose specific voice notes with examples rather than generic adjectives.
 After approval, save `Org-Brain/voice-notes.md` and update only “How we sound” in `AGENTS.md` with five key lines.
@@ -132,7 +138,8 @@ Practice facts support practice work only. Never present them as the participant
 
 **Step 3:** Review against sources and voice notes. Show questionable lines and let the participant choose changes.
 Save the approved draft or matrix in `Outputs` with a meaningful name; preserve earlier versions of existing results.
-Reopen the saved output, voice notes and actual `AGENTS.md`; confirm content, not merely file existence.
+Reopen the output, voice notes and actual `AGENTS.md` produced by your tools; confirm content, not merely file existence.
+Browser: provide download links, ideally one bundle. If file creation is unavailable, show approved contents and mark export pending.
 For practice, reopen its files under `Kits/Practice` instead; report rehearsal complete and real voice work unfinished.
 If no draft exists, check and save only voice work. Report genuine gaps without claiming completion.
 Record sends only after confirmation of a real send. A draft is not a ship-log entry.
