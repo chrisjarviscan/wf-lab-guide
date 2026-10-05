@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.11 · Oct 5, 2026. Mirrored from the Lab 6 kit as published on Oct 5, 2026 (source cf959cf). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.12 · Oct 5, 2026. Mirrored from the Lab 6 kit as published on Oct 5, 2026 (source 818b058). Do not edit: rebuild instead. -->
 
 # Lab 6: Skills, research and the wider toolbox
 

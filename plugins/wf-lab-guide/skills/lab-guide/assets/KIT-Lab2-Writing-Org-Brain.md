@@ -6,11 +6,26 @@ Make Claude sound like your organization. Leave with saved voice notes and, if t
 
 Claude handles the files. You choose what sounds like you and check the facts.
 
+## Your Lab 2 path
+
+We connect the guide together in the main room. Then Claude leads you through the work, one question at a time.
+
+1. **Open the guide** — Use Claude with the current Lab Guide. In Cowork, allow access to your AI-Labs folder.
+2. **Check it works** — Ask “Is the guide working?” Check the version, lab and time.
+3. **Begin Lab 2** — Say “I'm ready to begin Lab 2.” Claude checks the work it can access.
+4. **Find your voice** — Answer missing questions. Approve voice rules; Claude saves them.
+5. **Draft your piece** — Give the job, reader and facts. Claude writes in your approved voice.
+6. **Try writing skills** — Download and upload both skills where offered. Ask “Show me before and after.”
+7. **Check and save** — Judge the writing and verify facts. Approve; Claude saves and reopens the result.
+8. **Choose what's next** — Choose your homework level. Claude records your plan and helps you continue.
+
+You supply facts and make decisions. Claude handles file work with the access available in your session.
+Browser results are downloads, not automatic local or Project updates. Short on time? Save voice work; finish the draft later.
+
 ## Before you come
 
-Use the current Lab Guide in Claude desktop or your browser. Reuse work already available in your session.
-Cowork: choose the existing AI-Labs folder for local file editing. Browser: use your Project or the current chat.
-No repeat downloads or file moving. Claude uses the files it can actually access.
+We set up the guide together in the main room. Already connected? Keep your existing work chat or Cowork task.
+Cowork uses your connected AI-Labs folder. Browser Claude uses files visible in your current chat or Project.
 
 ### Desktop installation: three steps
 
@@ -56,9 +71,8 @@ In Cowork or your browser, with the current **lab-guide** available, say:
 I'm ready to begin Lab 2.
 ```
 
-Claude welcomes you, checks your saved work and guides you one question at a time. You don't need to read ahead.
-
-It handles folders, missing lab files, voice notes, drafts and saving. You answer, choose your voice and approve changes.
+Claude checks available work and asks one question at a time. Answer, choose your voice and approve changes.
+It handles missing lab files, voice notes, drafts and saving. No separate command for each stage.
 
 Speak or type. Mute Zoom when dictating. Each person works in their own Claude session.
 In the browser, Claude uses visible Project files or interviews you, then makes downloadable files where tools allow.
@@ -70,7 +84,6 @@ Downloads are not automatically saved to your computer or uploaded to your Proje
 2. **Your piece.** Claude asks what you need, who will read it and any missing facts, then drafts in your approved voice.
 3. **Your saved result.** Claude checks facts and voice, helps revise, saves and reopens the actual files.
 
-These are the conversation's stages. Claude moves between them; you don't have to paste another command.
 
 ### See a writing skill work
 
@@ -83,11 +96,10 @@ These are the conversation's stages. Claude moves between them; you don't have t
 Show me before and after.
 ```
 
-Claude keeps the original, proposes a revision and explains one change. You choose which sounds like your organization.
-Facts and quotations stay intact. If no useful edit is needed, Claude says so; improvement is not guaranteed.
-These checks are already built into the guide. The upload demonstrates a skill you can reuse outside the labs.
-Already installed, or no upload controls? Watch the demonstration and continue with the built-in checks.
-Claude introduces this short demo during writing; you don't need to read these instructions yourself.
+Compare the original and revision. Claude explains one change; you judge which sounds like your organization.
+Facts and quotations stay intact. A strong paragraph may need no changes.
+Both checks are already in the guide. Uploading teaches you to add a skill for use outside the labs.
+Already installed, or no upload controls? Watch the demo and continue with the built-in checks.
 
 Working on an RFP? Tell Claude. It builds a sourced compliance matrix instead of a writing draft.
 
