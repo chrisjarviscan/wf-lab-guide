@@ -1,40 +1,36 @@
 # Lab Guide
 
-**Lab Guide 1.0.9 · Oct 5, 2026**
+**Lab Guide 1.0.10 · Oct 5, 2026**
 
-Five minutes. Use Claude desktop → Cowork.
+Already have the current guide? Skip installation. Stay where your existing work files are accessible.
 
-1. Open Customize → Plugins → Add marketplace → Add from a repository.
-2. Paste `chrisjarviscan/wf-lab-guide`.
-3. Install **wf-lab-guide**. Select **lab-guide** from `/` in Cowork.
+## Browser
 
-In your Cowork task, choose your existing AI-Labs folder. The plugin supplies instructions; folder access lets Claude save work.
+Attach this one file in your own Claude work chat or Project:
+[Full guide attachment](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md)
+If it opens as text, save it as `lab-guide-chat.md`, then attach it. No Project or GitHub account required.
 
-Ask:
+## Desktop → Cowork
+
+1. If offered, open plugin controls and add a marketplace from a repository.
+2. Enter `chrisjarviscan/wf-lab-guide`; install **wf-lab-guide**.
+3. In Cowork, select **lab-guide** from `/` if offered and grant access to your existing **AI-Labs** folder.
+
+## Check, then begin
 
 > Is the guide working?
 
-Pass: Claude shows the current version, today’s lab and its time.
-
-Optional:
-
-> Check and fix setup.
-
-Claude checks your connected AI-Labs folder, adds missing lab files and verifies the result. Existing work stays intact.
-
-If Claude requests folder access, select your existing AI-Labs folder.
-
-If Plugins is missing, ask your facilitator. No GitHub account is needed.
-
-[Facilitator script](FACILITATOR-RUN-THROUGH.md) · [More help](HELP.md)
-
-Begin Lab 2:
+Pass: current README version, Lab 2, October 5 at 1:00–2:30 PM Eastern / noon–1:30 Central.
 
 > I'm ready to begin Lab 2.
 
-Claude welcomes you, checks saved work and guides one question at a time. It handles files; you approve voice and facts.
+Claude checks actual files, asks one short question at a time, and handles file work. You approve voice and facts.
+Browser downloads do not automatically save to your computer or update Project files.
 
-[Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)
+Optional setup help: **Check and fix setup.**
 
-Browser users with the current guide can use the same start sentence. Claude creates downloads where tools allow.
-Cowork folder selection is needed for local file editing, not for the browser conversation.
+[More help](HELP.md): access, updates, file tools and privacy. Help happens individually.
+
+[Today’s win: Lab 2 kit](https://wf-ai-labs.rw.institute/participant#lab-2)
+
+Writing checks are built in. [Optional skill downloads](SKILLS.md).

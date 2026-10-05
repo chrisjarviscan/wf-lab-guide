@@ -1,48 +1,43 @@
-# Five-minute install
+# Five-minute connection, then one start
 
-“Open Claude desktop. We’re using Cowork.”
+Monday October 5: 1:00–2:30 PM Eastern / noon–1:30 PM Central.
 
-“The plugin gives Claude the guide. Choose your existing AI-Labs folder in the Cowork task so it can save your work.”
+## Minutes 0–2: keep their route
 
-“Customize → Plugins → Add marketplace → Add from a repository.”
+“Already have the current guide? Stay where your work files are available.”
 
-“Paste this. Install wf-lab-guide. Select lab-guide from `/`.”
+“Browser first time? Attach one guide file in your own Claude work chat or Project.”
+
+[Full guide attachment](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md)
+
+“Desktop: add the repository marketplace, install wf-lab-guide, then select lab-guide in Cowork if offered.”
 
 `chrisjarviscan/wf-lab-guide`
 
-“Ask this.”
+“Grant that Cowork task access to your existing AI-Labs folder. The plugin alone does not grant file access.”
+
+## Minute 2–3: check
 
 > Is the guide working?
 
-Pass: current version, Lab 2, today at 1:00–2:30 PM Eastern.
+Pass: [current README version](README.md), Lab 2, today's time above. This checks the guide, not private-file access.
 
-“Optional: let Claude check and fix your folder.”
-
-> Check and fix setup.
-
-Claude reuses existing work, adds missing lab files and reports what still needs your answers.
-
-If access is requested, select the existing AI-Labs folder. No moving files by hand.
-
-If Plugins is missing, help that participant individually. Continue the lab at five minutes.
-
-[Current version](README.md) · [Troubleshooting](HELP.md)
-
-## Lab 2: one start
+## Minutes 3–5: begin
 
 > I'm ready to begin Lab 2.
 
-Claude welcomes you, checks actual saved work and asks one question at a time.
+“Answer one question at a time. Claude handles the files; you approve the voice and verify facts.”
 
-It guides voice → draft → check and save. It handles folders and files. Participants answer and approve.
+Claude leads voice → draft → check/save/reopen. No worksheet reading or separate stage commands required.
+Optional setup help: **Check and fix setup.** Help individuals; continue the existing agenda at five minutes.
 
-Keep the writing time. The worksheet is a reference; participants don't need to read it or paste stage commands.
+Browser uses visible files, interviews or practice. Downloads do not automatically update local or Project files.
+No file tools? Continue with approved text, export pending. Practice stays separate; real voice remains unfinished.
 
-A missing file is not a missing connection. Claude checks its actual tools before asking for app access.
+## Rehearse on actual Claude accounts
 
-Minimum: saved voice notes and approved voice rules. Practice stays separate; real voice remains unfinished.
+Record each route passed, failed or untested. Package checks do not prove live installation or file access.
+Check browser without Projects, existing Project work and Cowork folder access; verify writes and reopened contents.
+Use fictional material. Keep restricted details out. Check human approvals and one question at a time.
 
-[Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)
-
-Browser users with the current guide can use the same start sentence. Claude creates downloads where tools allow.
-Cowork folder selection is needed for local file editing, not for the browser conversation.
+[Participant start page](START-HERE.md) · [More help](HELP.md)

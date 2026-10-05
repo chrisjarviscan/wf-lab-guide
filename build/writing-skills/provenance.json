@@ -1,0 +1,18 @@
+{
+  "repository": "chrisjarviscan/rw-plugins",
+  "commit": "76bc0da19ed4532c748982afe0c4659259abab51",
+  "plugin": "rw-core",
+  "plugin_version": "1.6.1",
+  "skills": [
+    {
+      "name": "ai-syntax-avoidance",
+      "source_path": "plugins/rw-core/skills/ai-syntax-avoidance/SKILL.md",
+      "sha256": "28d0515dd6ef4d1c87d894dd6817365878498e2a49c633f962145f0aee252132"
+    },
+    {
+      "name": "ai-syntax-avoidance-extended",
+      "source_path": "plugins/rw-core/skills/ai-syntax-avoidance-extended/SKILL.md",
+      "sha256": "6e69368da85ce85c7f7c75a3c4c310439f25d0c2a76ff06fadb0b919de4401a8"
+    }
+  ]
+}

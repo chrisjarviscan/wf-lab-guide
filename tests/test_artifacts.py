@@ -189,13 +189,37 @@ class Artifacts(unittest.TestCase):
 
     def test_every_zip_member_matches_plugin_bytes(self):
         expected = {"lab-guide/" + p.relative_to(SKILL).as_posix(): p.read_bytes()
-                    for p in SKILL.rglob("*") if p.is_file() and not p.name.startswith(".")}
+                    for p in SKILL.rglob("*") if p.is_file() and not p.name.startswith(".")
+                    and "__pycache__" not in p.parts and p.suffix != ".pyc"}
         with zipfile.ZipFile(ROOT / "download/lab-guide.zip") as z:
             self.assertEqual(sorted(z.namelist()), sorted(expected))
             self.assertEqual(len(z.namelist()), len(set(z.namelist())))
             for member, data in expected.items():
                 self.assertEqual(z.read(member), data, member)
                 self.assertEqual(z.getinfo(member).date_time, (2026, 1, 1, 0, 0, 0))
+
+    def test_writing_skills_are_complete_pinned_and_available_in_every_route(self):
+        provenance = json.loads((ROOT / "build/writing-skills/provenance.json").read_text())
+        self.assertEqual(provenance["plugin_version"], "1.6.1")
+        self.assertEqual({item["name"] for item in provenance["skills"]},
+                         {"ai-syntax-avoidance", "ai-syntax-avoidance-extended"})
+        bundle = (ROOT / "download/lab-guide-chat.md").read_text()
+        for item in provenance["skills"]:
+            name = item["name"]
+            source = (ROOT / "build/writing-skills" / name / "SKILL.md").read_bytes()
+            self.assertEqual(hashlib.sha256(source).hexdigest(), item["sha256"])
+            for path in (SKILL.parent / name / "SKILL.md",
+                         SKILL / "assets/writing-skills" / name / "SKILL.md",
+                         ROOT / "download" / f"{name}.md"):
+                self.assertEqual(path.read_bytes(), source, str(path))
+            with zipfile.ZipFile(ROOT / "download" / f"{name}.zip") as z:
+                self.assertEqual(z.namelist(), [f"{name}/SKILL.md"])
+                self.assertEqual(z.read(f"{name}/SKILL.md"), source)
+            rel = f"assets/writing-skills/{name}/SKILL.md"
+            start = f"<!-- BEGIN ASSET {rel} -->\n"
+            end = f"\n<!-- END ASSET {rel} -->"
+            self.assertEqual(bundle.count(start), 1)
+            self.assertEqual(bundle.split(start, 1)[1].split(end, 1)[0], source.decode().rstrip())
 
     def test_version_and_marketplace_resolution(self):
         version = (ROOT / "build/VERSION").read_text().strip()
@@ -225,6 +249,11 @@ class Artifacts(unittest.TestCase):
         guide = re.sub(r"^---\n.*?\n---\n", "", (SKILL / "SKILL.md").read_text(), count=1, flags=re.S).lstrip()
         self.assertIn(guide.rstrip(), bundle)
         self.assertIn("matching Embedded source page", bundle)
+        start = "<!-- BEGIN ASSET assets/MOCK-OrgBrain-Starter-Pack.md -->\n"
+        end = "\n<!-- END ASSET assets/MOCK-OrgBrain-Starter-Pack.md -->"
+        self.assertEqual(bundle.count(start), 1)
+        practice = bundle.split(start, 1)[1].split(end, 1)[0]
+        self.assertEqual(practice, (SKILL / "assets/MOCK-OrgBrain-Starter-Pack.md").read_text().rstrip())
 
     def test_kit_prompts_match_published_source_word_for_word(self):
         if SOURCE is None:

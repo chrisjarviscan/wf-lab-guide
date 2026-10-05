@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.9 · Oct 5, 2026. Mirrored from the Lab 7 kit as published on Oct 5, 2026 (source 0d4addb). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.10 · Oct 5, 2026. Mirrored from the Lab 7 kit as published on Oct 5, 2026 (source b968b76). Do not edit: rebuild instead. -->
 
 # Lab 7: Build session and 90-day roadmap
 

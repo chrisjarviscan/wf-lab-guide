@@ -1,30 +1,55 @@
 # More help
 
-Use the plugin in Cowork for automatic file work. Desktop chat alone cannot write to your computer's folders.
+## Browser: use the guide where your work is
 
-Installation uses the marketplace controls shown in Claude desktop. Their labels and availability can vary by account.
-The entry page uses the path in the lab materials; the actual controls in your account take priority.
+Already have the current guide? Continue in the chat or Project with the permitted files actually visible there.
 
-An older version in a reply means that session is using an older guide. A GitHub push does not reload an open Claude session.
-Update wf-lab-guide through your account's plugin controls, then start a new Cowork session and select lab-guide.
-Ask “Is the guide working?” Its version should match the current README before today's guided start.
-If the current guide reports missing access, check whether that Cowork task shows AI-Labs selected.
-A missing AGENTS.md means an unfinished setup file; it does not prove the folder is disconnected.
+First time? Attach this one file to your own Claude work chat or Project:
 
-The guide does not connect your private work to GitHub. It uses your Claude account and the folder access you grant.
-It preserves existing files and only adds missing public lab materials. It cannot invent organizational interview answers.
-An unfinished interview is reported as unfinished, with one short question to continue it.
+[Full guide attachment](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md)
 
-If a participant cannot install the plugin, a facilitator can use [the full guide attachment](download/lab-guide-chat.md).
-That attachment answers questions but does not install the workspace helper. Do not present it as local-folder access.
-The [ZIP skill](download/lab-guide.zip) includes the helper and resources; use it where Skills and execution are available.
+If the link opens as text, use your browser's Save Page As to save `lab-guide-chat.md`, then attach the file.
+The attachment supports guide questions and the guided Lab 2 conversation. It does not install the local workspace helper.
+No Project is required. Say “I'm ready to begin Lab 2.” Claude can use visible files, interview you or use practice.
+
+With file tools, Claude creates artifacts and reopens their contents before offering downloads.
+Without file tools, continue with the interview and approved complete text; file export remains pending.
+Downloads do not save to your computer or update your Project automatically.
+A guide chat cannot inspect another chat or Project. Use the current guide with the existing work where it is accessible.
+Do not rebuild finished work because a different session cannot see it; ask your facilitator for access help.
+
+## Desktop: installation and folder access are separate
+
+[Install the guide](START-HERE.md) using the repository option if your account offers it.
+Cowork needs that task's actual AI-Labs folder grant for local file editing; ordinary desktop chat has no such grant.
+Select your existing AI-Labs folder when the app requests permission. Do not move files or recreate finished work.
+A missing AGENTS.md is an unfinished file, not proof that the folder is disconnected.
+If AI-Labs is selected but tools fail, ask your facilitator. Collect approved voice answers while file work is pending.
+
+The [ZIP skill](download/lab-guide.zip) includes the helper and resources; use it only where Skills and execution are offered.
+Missing installation controls or organization restrictions? Use the browser route if permitted and get individual help.
+Do not change organization controls or buy a plan during the lab.
+
+## Older guide or incomplete setup
+
+Ask “Is the guide working?” Compare its version with [README](README.md).
+A GitHub push does not reload an open Claude session. Update only through controls actually offered by your account.
+If none is available, ask your facilitator for the current full guide attachment. Preserve your unfinished work.
+The attachment is a snapshot; a new chat needs the current guide and accessible work sources again.
+
+“Check and fix setup” checks actual tools and existing work, then adds missing lab materials when authorized.
+It preserves existing files. Missing organizational interview answers remain unfinished; Claude must ask rather than invent them.
+“Help me continue Lab 2” resumes actual progress instead of restarting completed stages.
+
+## Privacy and practice
+
+The guide does not upload or sync private chats or work files to GitHub. No GitHub account is needed for public downloads.
+Your questions and uploaded files go to your own Claude account, subject to your organization's controls and policy.
+Keep client, donor, volunteer, service-user, health, case and personnel details out; remove passwords and account numbers too.
+Remove restricted details before sharing. Fictional practice is a complete rehearsal route, distinct from your real voice.
+A saved draft is not a send. A file is verified only after actual tools write it and reopen its contents.
 
 [Practical examples](plugins/wf-lab-guide/skills/lab-guide/pages/hub-practical-help.md)
-and [fictional transcript exercise](demo/README.md) are available after installation.
+· [Fictional transcript exercise](demo/README.md)
 
-Keep restricted client, donor, volunteer, health, case and personnel details out. Your organization's policy comes first.
-If needed, email Nichole Giller at nichole@realizedworth.com with the guide version and the problem.
-
-Browser Lab 2 works too. Say “I'm ready to begin Lab 2.” Claude uses the files visible in that chat or interviews you.
-It creates downloadable files where file creation is available. Those files are not automatically saved to your computer or Project.
-The browser guide should not require Cowork to begin. Local folder editing requires Cowork with that folder's permission.
+Between labs, email Nichole Giller at nichole@realizedworth.com with the version, step and what you see.

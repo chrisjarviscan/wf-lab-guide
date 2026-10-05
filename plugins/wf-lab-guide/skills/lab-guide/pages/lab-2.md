@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.9 · Oct 5, 2026. Mirrored from the Lab 2 kit as published on Oct 5, 2026 (source 0d4addb). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.10 · Oct 5, 2026. Mirrored from the Lab 2 kit as published on Oct 5, 2026 (source b968b76). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
 
@@ -14,11 +14,13 @@ Use the current Lab Guide in Claude desktop or your browser. Reuse work already 
 Cowork: choose the existing AI-Labs folder for local file editing. Browser: use your Project or the current chat.
 No repeat downloads or file moving. Claude uses the files it can actually access.
 
-### Desktop installation: three clicks
+### Desktop installation: three steps
 
-1. Customize → Plugins → Add marketplace → Add from a repository.
+1. If offered, open plugin controls and add a marketplace from a repository.
 2. Enter `chrisjarviscan/wf-lab-guide`. Install **wf-lab-guide**.
-3. Select **lab-guide** from `/` in your Cowork session.
+3. In Cowork, select **lab-guide** from `/` if offered and grant access to your existing AI-Labs folder.
+
+Browser first time? Attach the [full guide](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md).
 
 ### Two short checks
 
@@ -32,7 +34,7 @@ Pass: current version, Lab 2 and today's time. Monday, October 5: 1:00–2:30 PM
 Check and fix setup.
 ```
 
-Claude checks the connected folder, adds missing lab files and reports unfinished instructions.
+Cowork: Claude checks the connected folder and adds missing files. Browser: it checks visible work and prepares exports where possible.
 Cowork access: select your existing AI-Labs folder when requested. Browser chats do not need that connection to begin.
 Claude cannot access another browser Project or chat by itself.
 If Plugins is unavailable, ask your facilitator. Keep working; setup help happens alongside the lab.
@@ -93,17 +95,19 @@ Ask your facilitator for access help; use the practice pack while they help. No 
 
 ## This week
 
-| Level | Your next result |
-|---|---|
-| Keep Pace | Finish your own voice notes and one real piece. Review it before sending. |
-| Ship It | Send an approved piece. Tell Claude to record the real send and measured time in your ship log. |
-| Build Ahead | Make a second piece for another reader, or build an RFP compliance matrix. |
+| Level | Time | Your next result |
+|---|---|---|
+| Keep Pace | 30–45 minutes | Send one more real piece; improve a voice rule where the draft slipped. |
+| Ship It | 1–2 hours | Finish, check and send today's real piece. Log the actual send and measured time. |
+| Build Ahead | 3+ hours | Build a second reader's voice; send one real piece in each voice. |
 
 Tell the guide your level. Claude saves next steps in `TO-DO.md` without replacing existing tasks.
 Practice route: before real work, say “Use our real voice.” Claude keeps practice files separate and interviews you for your voice.
 Bring to Lab 3: one messy reporting input, report name and reader. Aggregate numbers and staff notes only; no individual client rows.
 Or use the Lab 3 practice mess pack. The same privacy rule applies.
 In Zoom chat: “When ___ happens, I will ___.”
+Claude helps you resume during the week. Say “Help me finish Lab 2.”
+A draft, an actual send and readiness for Lab 3 are separate results. Claude checks the evidence before reporting each one.
 
 ## How Claude runs these steps
 
@@ -127,8 +131,11 @@ Ask only for missing facts or clarification, one question at a time. Never turn 
 In Cowork, prepare missing folders and kit assets with the guide helper. In a browser, use its session workspace. Preserve prior work.
 Organize approved copies of available public mission, samples and outcomes under `Org-Brain`, preserving source facts.
 Ask about audience, voice and never-say words. Propose specific voice notes with examples rather than generic adjectives.
-After approval, save `Org-Brain/voice-notes.md` and update only “How we sound” in `AGENTS.md` with five key lines.
-If AGENTS.md is missing, create a partial file with approved voice rules; label the remaining interview unfinished.
+After approval, preserve earlier versions and save `Org-Brain/voice-notes.md`.
+Update only “How we sound” in `AGENTS.md` with five approved lines.
+If AGENTS.md is missing, create a partial file with approved voice rules and the course's fixed privacy baseline.
+Keep client, donor, volunteer, health, case and personnel details out; do not invent missing organizational answers.
+Label the remaining interview unfinished. A partial file is usable for this exercise, not a completed organizational interview.
 Reopen both files. For practice, use `Kits/MOCK-OrgBrain-Starter-Pack.md`; save under `Kits/Practice/Org-Brain`.
 Save practice voice rules in `Kits/Practice/AGENTS.md`, preserving real privacy rules when available.
 Keep BrightPath's voice out of real `AGENTS.md`. Label every practice draft fictional.
@@ -138,13 +145,25 @@ Match the voice; don't reuse sentences or stories from samples. Never invent out
 For an RFP matrix, quote each requirement and source location, match only documented evidence and mark unsupported rows as gaps.
 Practice facts support practice work only. Never present them as the participant's facts.
 
-**Step 3:** Review against sources and voice notes. Show questionable lines and let the participant choose changes.
+**Step 3:** Trace every factual claim to a permitted source. Flag unsupported comparisons, causal claims and conflicting sources.
+Do not choose between conflicting figures without clarification. Show questionable lines and let the participant decide changes.
+Ask them to read the draft aloud and judge whether it sounds like them. Recheck facts and voice after revisions.
+For a matrix, show up to three requirement/evidence rows beside their exact RFP quotes and locations, one at a time.
+Ask the participant to verify each pairing; lacking evidence stays a gap, never a compliant claim.
+Offer to retain a useful correction as a new instruction. Show the exact change and save only after approval.
+Keep existing rules. Save the successful brief, without invented facts, under Recipes if the participant wants to reuse it.
 Save the approved draft or matrix in `Outputs` with a meaningful name; preserve earlier versions of existing results.
 Reopen the output, voice notes and actual `AGENTS.md` produced by your tools; confirm content, not merely file existence.
 Browser: provide download links, ideally one bundle. If file creation is unavailable, show approved contents and mark export pending.
 For practice, reopen its files under `Kits/Practice` instead; report rehearsal complete and real voice work unfinished.
 If no draft exists, check and save only voice work. Report genuine gaps without claiming completion.
 Record sends only after confirmation of a real send. A draft is not a ship-log entry.
+Ask for the item, send date, audience group and measured old/new minutes, one question at a time; never estimate missing values.
+At the guided weekly close, let the person choose the original homework level above and save their plan under “Before Lab 3”.
+Readiness for Lab 3 requires the person's real voice notes, corresponding approved AGENTS rules and a confirmed-send log entry.
+If the interview, real voice, verified file export or measured times are unfinished, name those gaps separately.
+In the browser, say “Ready to download” for verified files; local saving and Project updating remain unconfirmed.
+Without file creation, show approved complete contents and mark export pending; never mark saved-file readiness complete.
 For a requested fresh-session check, read these saved files again. The exact setup readback prompt remains:
 
 ```prompt

@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.9 · Oct 5, 2026. Practical help authored for the Lab Guide; not a mirrored participant kit. -->
+<!-- Lab Guide 1.0.10 · Oct 5, 2026. Practical help authored for the Lab Guide; not a mirrored participant kit. -->
 
 # Working with Claude: files, folders, writing and slides
 
@@ -20,13 +20,13 @@ For today's desktop flow, use Cowork with the existing AI-Labs folder connected.
 Use the route and capabilities already established. Browser users can run the same guided Lab 2 conversation and create files for download where tools allow. Ask about the route only if a needed operation truly depends on it. Explain one next action, then check what happened. Do not require a GitHub account or a connection to every repository. GitHub supplies this guide; it does not supply a participant's private working files, automatically save their chats or sync their computer with Claude.
 
 - **Cowork:** when the participant has selected `AI-Labs` itself and the session actually has file tools and permission, Claude can create and update requested files. Check the selected folder before changing anything. Preserve existing files and ask before replacing existing content. Claim a save only after the tool succeeds, then reread the actual file yourself. Do not turn your verification into a manual chore for the participant.
-- **Browser Project:** uploaded files are copies. Claude can explain the next step and, if file creation is available, provide a downloadable file. The participant downloads it, saves it in their local `AI-Labs` folder and uploads the current version to the Project. Remove superseded Project copies after checking the new copy. A Project does not give Claude direct access to local folders.
+- **Browser Project:** use the guide in the current work chat with actually visible files. Claude interviews, drafts and creates downloadable results where tools allow. Uploaded files are copies; a Project gives no local-folder access. Later, if the participant wants future chats to use a revision, they can replace the older Project copy with the approved export. That optional reuse step is not a prerequisite to this lab, and never happens automatically.
 - **Browser without Projects:** Lab 2 uses one guided chat with visible files or an interview; no Project is required. For other kit tasks requiring fresh chats, attach the current files as that kit describes. Browser outputs are downloads or approved text, not automatic local saves.
 - **Browser guide chat:** it can coach and work with its own visible material, but cannot inspect another chat, Project or computer without access. If no sources are visible, start an interview rather than blocking the lab. Browser artifacts are downloadable results, not changes to local or Project files. In Cowork, the same session can answer guide questions and do authorized file work.
 
 ## Set up the lab folder and Markdown files
 
-Read the full Lab 1 kit's step 4 and the participant start page before helping with setup. Cowork uses the folder prompts there exactly; browser participants use the Project instructions, not a folder-writing prompt. Ask them to tell you which route they use before offering a route-specific action.
+For guided Lab 2, use its current kit and actual capabilities already established; do not repeat a route question or force setup before interviewing. For a separate Lab 1 setup request, read that kit’s step 4 and participant start page. Perform authorized Cowork folder work yourself; browser tools create session files/downloads, not local-folder edits.
 
 The starting folders are `Kits`, `Working`, `Recipes` and `Outputs` inside `AI-Labs`. `Org-Brain` is added in Lab 2; later labs add `Skills` and `Workflows`. Create only what the selected kit or requested task calls for, rather than running the whole course's setup at once.
 
@@ -49,9 +49,9 @@ The permitted files I provide for this task.
 A draft I have checked and can reopen.
 ```
 
-If file creation is available, offer to create or provide that exact file only when asked. Otherwise show the complete contents. On Windows, use Notepad's Save As, choose All files, and save `my-task.md`; check that it did not become `my-task.md.txt`. On Mac, use TextEdit's Make Plain Text before saving. Reopen the actual saved file to verify the text. Current app controls may differ; do not invent a menu label if their screen differs.
+For an authorized guided task, create the file yourself with available tools and reread it. Browser results are ready to download, not saved to the computer or Project. Without file creation, show complete approved contents and mark export pending. Offer manual saving instructions only if the person asks; never make them a prerequisite to the conversation.
 
-For `AGENTS.md`, follow the Lab 1 interview and retain only answers the participant supplied. Do not replace missing answers with guesses. Lab 2 step 1 can start a partial file with approved voice rules; the rest of the interview becomes homework. A starter with "To fill in" is unfinished. If asked for a fresh-session check, run the Lab 2 readback and compare three rules with the actual file.
+For `AGENTS.md`, follow the Lab 1 interview and retain only answers the participant supplied. Do not replace missing answers with guesses. Lab 2 step 1 can start a partial file with approved voice rules and fixed course privacy rules; the rest of the interview becomes homework. A starter with "To fill in" is unfinished. If asked for a fresh-session check, run the Lab 2 readback and compare three rules with the actual file.
 
 ## Find a design you like and keep it reusable
 
