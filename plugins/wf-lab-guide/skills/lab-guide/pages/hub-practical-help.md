@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.4 · Oct 5, 2026. Practical help authored for the Lab Guide; not a mirrored participant kit. -->
+<!-- Lab Guide 1.0.5 · Oct 5, 2026. Practical help authored for the Lab Guide; not a mirrored participant kit. -->
 
 # Working with Claude: files, folders, writing and slides
 
@@ -15,12 +15,14 @@ Participant-facing operational updates summarized from the published program rol
 
 ## Start with the place you are working
 
+For today's desktop flow, use Cowork with the existing AI-Labs folder connected. Do authorized file work yourself, reuse existing files and reread what you save. Do not send the participant through the browser/manual instructions below when Cowork can do the work. For missing-only setup, use the bundled workspace helper and assets. Keep the visible setup reply to one short sentence; ask for folder access only if it is actually missing.
+
 Ask whether the participant uses Cowork with an `AI-Labs` folder, a browser Project, or an ordinary browser chat. Explain one next action, then check what happened. Do not require a GitHub account or a connection to every repository. GitHub supplies this guide; it does not supply a participant's private working files, automatically save their chats or sync their computer with Claude.
 
-- **Cowork:** when the participant has selected `AI-Labs` itself and the session actually has file tools and permission, Claude can create and update the requested files in that folder. Check the selected folder before changing anything. Preserve existing files and ask before replacing existing content. Do not claim a file was saved unless the tool succeeded; then show its path and ask the participant to reopen it.
+- **Cowork:** when the participant has selected `AI-Labs` itself and the session actually has file tools and permission, Claude can create and update requested files. Check the selected folder before changing anything. Preserve existing files and ask before replacing existing content. Claim a save only after the tool succeeds, then reread the actual file yourself. Do not turn your verification into a manual chore for the participant.
 - **Browser Project:** uploaded files are copies. Claude can explain the next step and, if file creation is available, provide a downloadable file. The participant downloads it, saves it in their local `AI-Labs` folder and uploads the current version to the Project. Remove superseded Project copies after checking the new copy. A Project does not give Claude direct access to local folders.
 - **Browser without Projects:** use a fresh chat for each step and attach the current files needed for that step, as Lab 1 describes. Download and save outputs yourself, then attach them in the next chat.
-- **Guide-only chat:** ask program questions here, outside the AI-Labs Project. It cannot inspect another chat, a Project or the computer without access. To carry out work, move the relevant instructions into the work session and provide only permitted files. The guide can coach the participant without collecting their private work as proof.
+- **Guide-only browser chat:** it cannot inspect another chat, Project or computer without access. Work belongs in a session with the necessary access. In desktop Cowork, the same session can answer guide questions and do authorized file work.
 
 ## Set up the lab folder and Markdown files
 

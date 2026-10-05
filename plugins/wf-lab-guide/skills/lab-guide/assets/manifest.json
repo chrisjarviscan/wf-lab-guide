@@ -1,0 +1,41 @@
+{
+  "source_commit": "5b4afb4",
+  "files": [
+    {
+      "asset": "assets/KIT-Lab1-First-Safe-Win.md",
+      "destination": "Kits/KIT-Lab1-First-Safe-Win.md",
+      "source": "04-Participant Kits/Lab 1/KIT-Lab1-First-Safe-Win.md",
+      "sha256": "037fcc8351e7681be83ff9d21f780ab15d1cea4b140e32fc8dab45b863aed750"
+    },
+    {
+      "asset": "assets/KIT-Lab2-Writing-Org-Brain.md",
+      "destination": "Kits/KIT-Lab2-Writing-Org-Brain.md",
+      "source": "04-Participant Kits/Lab 2/KIT-Lab2-Writing-Org-Brain.md",
+      "sha256": "024440b19745ff66ad9e744f902e8ce9afe1a874ee47a69e78d9edd1ee26a89b"
+    },
+    {
+      "asset": "assets/STARTER-AGENTS.md",
+      "destination": "Kits/STARTER-AGENTS.md",
+      "source": "04-Participant Kits/Lab 1/STARTER-AGENTS.md",
+      "sha256": "1237da3902dbe6bd64adaf4d44da18044bd66e55b5e1f1c0d701c249240d51d2"
+    },
+    {
+      "asset": "assets/STARTER-Ship-Log.md",
+      "destination": "Outputs/ship-log.md",
+      "source": "04-Participant Kits/Lab 1/STARTER-Ship-Log.md",
+      "sha256": "09247175125bd57f40e4839c65e925ceed5e61f24803713f0c247232e49291a2"
+    },
+    {
+      "asset": "assets/MOCK-Program-Update-Email-Thread.txt",
+      "destination": "Kits/MOCK-Program-Update-Email-Thread.txt",
+      "source": "04-Participant Kits/Lab 1/MOCK-Program-Update-Email-Thread.txt",
+      "sha256": "f3d509d306ad0ccf18f4d20a9193dc9aab85c9d59b2d137cb4a8733a62b1af6a"
+    },
+    {
+      "asset": "assets/MOCK-OrgBrain-Starter-Pack.md",
+      "destination": "Kits/MOCK-OrgBrain-Starter-Pack.md",
+      "source": "04-Participant Kits/Lab 2/MOCK-OrgBrain-Starter-Pack.md",
+      "sha256": "ea9da9950dc370104f328afe0bd7413ffa32280edf54373da4edc5f0ff1f519e"
+    }
+  ]
+}

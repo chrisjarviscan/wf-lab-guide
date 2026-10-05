@@ -1,21 +1,19 @@
-<!-- Lab Guide 1.0.5 · Oct 5, 2026. Mirrored from the Lab 1 kit as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
-
 # Lab 1: First safe win
 
-You'll leave with your AI-Labs folder, an `AGENTS.md` file Claude writes by interviewing you, and one small piece of real writing, checked and ready to send. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
+You'll leave with your AI-Labs folder, an `AGENTS.md` file Claude writes by interviewing you, and one small piece of real writing, checked and ready to send. If a word is new to you, it's in [Words we use](/participant#words). The moves behind every prompt are in [Ways to ask Claude](/participant#ways).
 
 ## Before you come
 
-If you did the seven steps in Start here (see hub-start.md), setup is done and today starts at "Today, step by step". Before you come, choose what you'll write:
+If you did the seven steps in [Start here](/participant#start), setup is done and today starts at "Today, step by step". Before you come, choose what you'll write:
 
 - Your own: the notes or emails behind a small piece of writing due this week, one you'd show a peer, like a board update.
 - The practice thread: a fictional nonprofit's emails for a board update.
 
 Both take the same steps. You and your colleague each write your own today, so bring one item each, or use the practice thread. Either way, this rule holds from the first minute: Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine.
 
-Skipped Start here? It takes about 45 minutes: do it on the participant page (see hub-start.md) or in Setup, if you skipped Start here at the end of this kit. Short on time, or on a free account? Come anyway: you can use Claude in your browser today, in a Project that step 4 sets up, and a facilitator helps you with the rest.
+Skipped Start here? It takes about 45 minutes: do it on the [participant page](/participant#start) or in [Setup, if you skipped Start here](#setup-if-you-skipped-start-here) at the end of this kit. Short on time, or on a free account? Come anyway: you can use Claude in your browser today, in a Project that step 4 sets up, and a facilitator helps you with the rest.
 
-The Lab 1 files, to save again: this kit, `KIT-Lab1-First-Safe-Win.md`; the practice email thread, `MOCK-Program-Update-Email-Thread.txt`; the interview prompt, `STARTER-AGENTS.md`. If a file saves with "(1)" in its name because you saved it before, delete the older copy and remove the "(1)" so the name matches.
+The Lab 1 files, to save again: this kit, [KIT-Lab1-First-Safe-Win.md](KIT-Lab1-First-Safe-Win.md); the practice email thread, [MOCK-Program-Update-Email-Thread.txt](MOCK-Program-Update-Email-Thread.txt); the interview prompt, [STARTER-AGENTS.md](STARTER-AGENTS.md). If a file saves with "(1)" in its name because you saved it before, delete the older copy and remove the "(1)" so the name matches.
 
 ## Why this matters
 
@@ -34,13 +32,14 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
    - More: start thinking about your workflow, the task you'll rebuild over the seven labs: one you do twice a month or more that ends in something you send. If you finish early today, the prompt under "Finished early?" helps you choose it.
 3. **Set the model-training setting (2 minutes).** On your own account, set it so your chats aren't used to train Claude's models, unless your organization says otherwise. It's by hand because it's your choice: click your name, choose Settings, then Privacy, and switch off "Help improve our AI models". Turn memory on after today's steps, not before: steps 6 to 8 test what your files alone tell Claude.
 
-   4. **Catch up on setup (3 minutes, or about 8 if you build your folder now).** **Sharing one AI-Labs folder with your colleague?** Whoever didn't set it up makes a folder in Documents named with their first name, copies the whole AI-Labs folder into it, keeping the name AI-Labs, and from step 5 on starts every Cowork session on that copy. It takes a minute and needs no prompts. **Desktop app working but no folder yet, or your ready check said "Not yet"?** The two folder prompts are just below, and they're safe to paste again; the ready check is in Setup, if you skipped Start here. Haven't started setup, or IT blocked the app? Don't start the full setup now: use Claude in your browser at claude.ai for today, as the browser note below says, and a facilitator helps you get set up right after the lab. No account yet? Sign up free at claude.ai (Google sign-in is quickest) and upgrade the same account to Pro later. A free account works for the chat steps, though it may reach its message limit, and if it doesn't offer Projects, attach the files to each new chat instead. New account? Do step 3 on it before you paste anything. In the browser, everyone does this step, to make the Project.
+   <!-- shot: lab1-04 -->
+4. **Catch up on setup (3 minutes, or about 8 if you build your folder now).** **Sharing one AI-Labs folder with your colleague?** Whoever didn't set it up makes a folder in Documents named with their first name, copies the whole AI-Labs folder into it, keeping the name AI-Labs, and from step 5 on starts every Cowork session on that copy. It takes a minute and needs no prompts. **Desktop app working but no folder yet, or your ready check said "Not yet"?** The two folder prompts are just below, and they're safe to paste again; the ready check is in [Setup, if you skipped Start here](#setup-if-you-skipped-start-here). Haven't started setup, or IT blocked the app? Don't start the full setup now: use Claude in your browser at claude.ai for today, as the browser note below says, and a facilitator helps you get set up right after the lab. No account yet? Sign up free at claude.ai (Google sign-in is quickest) and upgrade the same account to Pro later. A free account works for the chat steps, though it may reach its message limit, and if it doesn't offer Projects, attach the files to each new chat instead. New account? Do step 3 on it before you paste anything. In the browser, everyone does this step, to make the Project.
 
    ```done
    Prompt 2's last line says "Your Lab 1 files and to-do list are ready," or the ready check says "Ready for Lab 1." In the browser, the Project setup prompt ends "Ready for Lab 1."
    ```
 
-   - **Desktop app, no folder yet:** make an empty folder called `AI-Labs` in Documents, not on the Desktop (Cowork couldn't open one on a Desktop synced to OneDrive; if it can't open one in Documents either, use Claude in your browser today), and save the three Lab 1 files from Before you come into it. Start a Cowork session on `AI-Labs` itself and paste prompt 1. Claude will check the folder's name, make four folders and your ship log, list everything, and end with "AI-Labs is set up."
+   - **Desktop app, no folder yet:** make an empty folder called `AI-Labs` in Documents, not on the Desktop (Cowork couldn't open one on a Desktop synced to OneDrive; if it can't open one in Documents either, use Claude in your browser today), and save the three Lab 1 files from [Before you come](#before-you-come) into it. Start a Cowork session on `AI-Labs` itself and paste prompt 1. Claude will check the folder's name, make four folders and your ship log, list everything, and end with "AI-Labs is set up."
 
      ```prompt
      First check the folder I chose to work in. If it isn't called AI-Labs, don't change anything. Just tell me its name. If it is, make these four folders in it, unless they're already there: Kits, Working, Recipes and Outputs. Then, unless Outputs/ship-log.md already exists, make it with exactly these two lines:
@@ -85,7 +84,7 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
      Claude's last line says "Your Lab 1 files and to-do list are ready." If it ends with "Missing:" instead, save the file it names into `AI-Labs` and paste prompt 2 again.
      ```
    - Why this way: one paste writes the list exactly and moves the files unopened. Like prompt 1, it uses "check where you are first" and "end with one clear line". The same moves start an annual audit checklist or archive last year's grant drafts.
-   - **In the browser, including a free account:** at claude.ai, open Projects, choose New project, name it AI-Labs, and add the three Lab 1 files from Before you come to its files. Then start a chat inside the Project and paste this. Claude will check that the three files are there, write instructions for you to paste into the Project's instructions box, and end with one line: ready, or what's missing.
+   - **In the browser, including a free account:** at claude.ai, open Projects, choose New project, name it AI-Labs, and add the three Lab 1 files from [Before you come](#before-you-come) to its files. Then start a chat inside the Project and paste this. Claude will check that the three files are there, write instructions for you to paste into the Project's instructions box, and end with one line: ready, or what's missing.
 
      ```prompt
      This Project, AI-Labs, holds my organization's AI work in place of folders on my computer. First, list the files you can see in this Project and tell me whether all three Lab 1 files are there: the kit (KIT-Lab1-First-Safe-Win.md), the practice email thread (MOCK-Program-Update-Email-Thread.txt) and the interview prompt (STARTER-AGENTS.md). Then write short Project instructions I can paste into this Project's instructions box, and put them in one block I can copy. Include this rule word for word: "Clients, donors, volunteers and anyone we serve never go into AI tools or this Project, and neither do health or case details. Staff names in our everyday writing are fine." Also say: read AGENTS.md first in every chat once it's in this Project's files; when I add a file, its name starts with Kit, Draft, Recipe or Log; and never invent numbers, names or dates. End your reply with exactly one line on its own: "Ready for Lab 1." if all three files are there, or "Missing:" and the names of the missing files.
@@ -97,7 +96,8 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
    - Why this way: the Project does your folder's job. Its files are what Claude reads, and its instructions carry your rules into every chat in it. It uses "check where you are first" and "end with one clear line". The same setup works for a Project for your grant season or your board year.
    - If it doesn't work: if you can't find Projects, your account may not offer them. Start a new chat for each step instead, and attach `AGENTS.md` and any file the step names.
 
-     5. **Get interviewed (10 minutes).** `AGENTS.md` is one page you ask any AI tool to read first, so it knows who you are and how you sound. You each run your own interview: Claude asks, you answer, and Claude does all the writing. Speak your answers with your computer's dictation (on a Mac, Edit, then Start Dictation, or the Dictation key; on Windows, the Windows key and H), muting yourself in Zoom first so the room doesn't hear, or type them. Leave out anything on the never-goes-in list. You and your colleague each end up with an `AGENTS.md`. Say "done" to finish; thin answers get a "To fill in" line. Any model works here, and Sonnet uses less of your limit than Opus. When your file is saved, type "saved" in the Zoom chat so your facilitator can see who needs a hand.
+     <!-- shot: lab1-05 -->
+5. **Get interviewed (10 minutes).** `AGENTS.md` is one page you ask any AI tool to read first, so it knows who you are and how you sound. You each run your own interview: Claude asks, you answer, and Claude does all the writing. Speak your answers with your computer's dictation (on a Mac, Edit, then Start Dictation, or the Dictation key; on Windows, the Windows key and H), muting yourself in Zoom first so the room doesn't hear, or type them. Leave out anything on the never-goes-in list. You and your colleague each end up with an `AGENTS.md`. Say "done" to finish; thin answers get a "To fill in" line. Any model works here, and Sonnet uses less of your limit than Opus. When your file is saved, type "saved" in the Zoom chat so your facilitator can see who needs a hand.
    - Desktop app: in a Cowork session on `AI-Labs` itself, paste this. Claude will read the interview prompt, ask one question at a time about six topics, then save `AGENTS.md` at the top of `AI-Labs`.
 
      ```prompt
@@ -110,7 +110,8 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
    - Why this way: on a blank page, people leave out what they know best, and an interview draws it out. It uses "ask me, don't guess". The same move drafts a job description with a hiring manager, or a program summary with the staff who run it.
    - Browser: in a new chat inside your AI-Labs Project, type: Read STARTER-AGENTS.md and run the interview prompt in it. When Claude shows your `AGENTS.md`, add it to the Project's files, named `AGENTS.md`: upload it as a file, or paste it in as text if your Project offers that. You're done when `AGENTS.md` is in the Project's files.
 
-   6. **Run the readback test (2 minutes).** It checks that Claude really follows the file you just made, including the privacy rules from your interview. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this. Claude will read `AGENTS.md` and name the three rules in it that matter most.
+   <!-- shot: lab1-06 -->
+6. **Run the readback test (2 minutes).** It checks that Claude really follows the file you just made, including the privacy rules from your interview. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this. Claude will read `AGENTS.md` and name the three rules in it that matter most.
 
    ```prompt
    Read AGENTS.md first. What did I ask you to follow in this folder? Name the three rules that matter most.
@@ -120,7 +121,7 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
    Claude names three rules, and each one is in your `AGENTS.md`.
    ```
 
-   - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md). A new session doesn't remember your interview, so the only place the answer can come from is `AGENTS.md`.
+   - Why this way: it uses "start fresh from your files" from [Ways to ask Claude](/participant#ways). A new session doesn't remember your interview, so the only place the answer can come from is `AGENTS.md`.
    - If it doesn't work: if Claude says it can't find `AGENTS.md`, you're probably in the wrong folder: start a new Cowork session and choose `AI-Labs` itself (in the browser, open a new chat inside your AI-Labs Project). If Claude names a rule you never gave, open `AGENTS.md` in Notepad or TextEdit, fix that line, save it, start fresh and paste the test again. In the browser, delete the old `AGENTS.md` from your Project and upload the fixed one first.
 7. **Write your real item (12 minutes).** Start a stopwatch now for your new-way time; stop it when the item is sent. Stay in the session where you ran the readback test.
    - **Your own item:** first, by hand, copy the notes or emails into a blank email or document and delete every client, donor and volunteer name and any health or case detail, because those never go near Claude. Then paste this prompt and, under it in the same message, your cleaned notes (Shift+Enter starts a new line). Claude will save your notes in `Working`, ask you four short questions (speak or type your answers), write your brief with the limits built in, and show it to you; say yes, and it writes and saves the draft.
@@ -134,7 +135,7 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
      ```
    - Why this way: writing a brief from scratch is the slowest part of a first try, and questions pull out what only you know. The limits go in word for word, so the draft can't fill gaps, If a name slipped through, Claude stops before saving anything, but the name has already reached that chat: delete it, cut the line Claude names, and paste the prompt and your notes in a new session. It uses "ask me, don't guess" and "only after I say yes". The same prompt briefs a grant narrative from a program lead's notes, or a volunteer handbook page from staff notes.
    - **Browser, own item:** in the chat where you ran the readback test, paste the same prompt with your notes. Claude can't save files there, so it shows the file names, the brief and the draft in the chat. Add your notes and the draft to the Project's files, with the names Claude gave, starting with Draft for the draft.
-   - **Practice thread:** paste the brief under Your brief to Claude as it is. In the browser, the email thread is already in your Project's files. Claude will write a one-page draft and end it with a "Check before sending" list.
+   - **Practice thread:** paste the brief under [Your brief to Claude](#your-brief-to-claude) as it is. In the browser, the email thread is already in your Project's files. Claude will write a one-page draft and end it with a "Check before sending" list.
    - More: on the practice thread, on a first try, start with "Plan only: tell me how you'd do this before you write anything," or add "I'm new to this, so keep it simple and tell me what you're doing." On a Mac, TextEdit saves plain text after Format, then Make Plain Text.
    - Check it: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, once the draft and your notes are in its files; in the prompt, delete `Outputs/` and fill in the file names alone) and paste this with the blanks filled in: on the practice thread, `board-update-draft.md` and `Kits/MOCK-Program-Update-Email-Thread.txt`; on your own item, the draft's name, and `Working/` plus the notes' name, as Claude gave them. Claude will read the draft against those files, change nothing, and quote every line they don't support, plus anything important the draft left out.
 
@@ -147,7 +148,8 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
      ```
    - Why this way: the chat that wrote the draft tends to stand by it, while a fresh session reads it against your files the way an outsider would. Claude finds the lines, and you decide each one by hand, because the judgment is what you're practicing. It uses "start fresh from your files" and "end with one clear line". The same check works on a grant narrative against last year's report, or a flyer against the event plan.
 
-     - Desktop app: in the check session, paste this and fill in the blank with the changes you decided, like "Cut the line about growth." Claude will make only those changes, delete the "Check before sending" list, save the draft and show it to you.
+     <!-- shot: lab1-07 -->
+   - Desktop app: in the check session, paste this and fill in the blank with the changes you decided, like "Cut the line about growth." Claude will make only those changes, delete the "Check before sending" list, save the draft and show it to you.
 
      ```prompt
      Fix the draft with what we settled: ___. Then delete the "Check before sending" list. Don't change anything else. Save the draft and show it to me so I can check it.
@@ -184,7 +186,8 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
    - Why this way: in a long chat it's easy to copy an early version of the brief or drop a line. It uses "word for word", so Claude saves exactly what ran. The same move keeps a welcome email for new board members or a yearly report's outline.
    - Browser: add the brief to the Project's files, named for the job, like Recipe - board update.
 
-   10. **Save what you learned (2 minutes).** Every lab ends this way, so your folder gets a little better each week. Paste this in the session where you checked and fixed the draft, and before you send it, add a line in the same message (Shift+Enter starts a new line) with anything that session didn't see, like the outside reader's questions and your answers. On the practice thread, say no to any line that's a fact about the made-up organization. Claude will suggest up to three lines for `AGENTS.md` from today's fixes and wait for your yes on each one.
+   <!-- shot: lab1-08 -->
+10. **Save what you learned (2 minutes).** Every lab ends this way, so your folder gets a little better each week. Paste this in the session where you checked and fixed the draft, and before you send it, add a line in the same message (Shift+Enter starts a new line) with anything that session didn't see, like the outside reader's questions and your answers. On the practice thread, say no to any line that's a fact about the made-up organization. Claude will suggest up to three lines for `AGENTS.md` from today's fixes and wait for your yes on each one.
 
     ```prompt
     Before we stop, suggest up to three lines to add to AGENTS.md from what we fixed today, so you get it right next time without being told. Don't include the name of any client, donor or volunteer. Show me the lines, and change AGENTS.md only after I say yes to each one.
@@ -194,7 +197,7 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
     You've said yes or no to each suggested line, and `AGENTS.md` holds only the ones you agreed to.
     ```
 
-    - Why this way: it uses "only after I say yes" from Ways to ask Claude (see hub-ways.md), so nothing changes in the file Claude reads first until you've read the new lines.
+    - Why this way: it uses "only after I say yes" from [Ways to ask Claude](/participant#ways), so nothing changes in the file Claude reads first until you've read the new lines.
     - Browser: paste the same prompt. Claude shows your updated `AGENTS.md`; replace the old `AGENTS.md` in the Project's files with it.
 
     Afterward, email your `AGENTS.md` to your colleague and read theirs. Copy any line of theirs you'd like into yours, in Notepad or TextEdit, since you each wrote from your own view of the same organization.
@@ -223,7 +226,7 @@ Read AGENTS.md. For each heading that says "To fill in" or has only one short li
 You've said yes or no to each new line, and `AGENTS.md` holds only the ones you agreed to.
 ```
 
-- Why this way: it uses "ask me, don't guess" and "only after I say yes" from Ways to ask Claude (see hub-ways.md), so every new line is yours.
+- Why this way: it uses "ask me, don't guess" and "only after I say yes" from [Ways to ask Claude](/participant#ways), so every new line is yours.
 - Browser: Claude shows your updated `AGENTS.md`; replace the old one in the Project's files with it.
 
 ## Your brief to Claude
@@ -288,6 +291,8 @@ Start with any of today's steps you didn't finish: from the interview on, they t
 
 Write your plan in the Zoom chat before you leave: When ___ happens this week, I will ___. For example: When I sit down to write Thursday's board update, I will run my saved brief first.
 
+<!-- track: lab1-hw started done extras -->
+
 Before you leave, add the week to your to-do list. In Cowork, paste this with your level filled in. Claude will add your homework and the Lab 2 bring list to `TO-DO.md` as unticked items and change nothing else.
 
 ```prompt
@@ -298,14 +303,14 @@ My homework level this week is ___. Add it and the Lab 2 bring list from Kits/KI
 `TO-DO.md` has a heading "Before Lab 2" with your homework and the bring list under it.
 ```
 
-- Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains this week's items and keeps everything else as you left it.
+- Why this way: it uses "change only what I name" from [Ways to ask Claude](/participant#ways), so your list gains this week's items and keeps everything else as you left it.
 - Browser: add your level and the bring list below to wherever you keep your to-do list.
 
 Bring to Lab 2:
 
 - your mission, and an outcomes summary if you have one
 - two writing samples you're proud of, one written for funders and one for donors
-- or a 10-minute voice note transcript with names cut (the Lab 2 kit on the participant page (see hub-labs.md) says what to cover), or the Lab 2 practice pack; the steps are the same
+- or a 10-minute voice note transcript with names cut (the Lab 2 kit on the [participant page](/participant#labs) says what to cover), or the Lab 2 practice pack; the steps are the same
 - a live RFP (a funder's request for proposals), if you have one
 - the name of your workflow, and how long it takes the old way, without Claude, timed once with a stopwatch
 
@@ -321,7 +326,7 @@ Add a line to Outputs/ship-log.md for the item we just sent. Ask me what it was,
 Claude asked you what it was, the date, who it went to and both times, then added one line to `Outputs/ship-log.md`.
 ```
 
-- Why this way: it uses "ask me, don't guess" from Ways to ask Claude (see hub-ways.md), so every number in your log is one you measured.
+- Why this way: it uses "ask me, don't guess" from [Ways to ask Claude](/participant#ways), so every number in your log is one you measured.
 - More: the new way runs from start to sent, checks included. If you never timed the old way, say so, and that part stays blank.
 
 When your homework is done, check you're ready for Lab 2. In Cowork, paste this. Claude will look through your folder without changing anything and end with one line: ready, or the first thing still missing.
@@ -334,8 +339,10 @@ Check my AI-Labs folder, and don't change anything. Look for AGENTS.md at the to
 Claude's last line says "Ready for Lab 2."
 ```
 
-- Why this way: it uses "end with one clear line" from Ways to ask Claude (see hub-ways.md), so the last line tells you at a glance whether you're set.
+- Why this way: it uses "end with one clear line" from [Ways to ask Claude](/participant#ways), so the last line tells you at a glance whether you're set.
 - Browser: check your Project's files for `AGENTS.md`, a Recipe file, and a Log file with a line for something you sent. Then tap Done.
+
+<!-- track: lab1-ready done -->
 
 ## Use it again
 
@@ -360,14 +367,17 @@ AI-Labs/
     ship-log.md    one line for each thing you send (new)
 ```
 
+
 ## Setup, if you skipped Start here
 
-The setup steps from Start here (see hub-start.md), for anyone who skipped them. Use the computer you'll bring to the lab; Start here covers getting Claude Pro and the desktop app. Using Claude in your browser, including a free account? Skip this section and make the AI-Labs Project in Today, step 4.
+The setup steps from [Start here](/participant#start), for anyone who skipped them. Use the computer you'll bring to the lab; Start here covers getting Claude Pro and the desktop app. Using Claude in your browser, including a free account? Skip this section and make the AI-Labs Project in Today, step 4.
 
 1. **Make one folder by hand.** Each of you makes an empty folder called `AI-Labs`, with the hyphen, because Claude checks the name. It's by hand because Claude works only in a folder you've chosen.
    - More: each of you makes your own, because you each write your own files in the lab. Use Documents, not the Desktop folder: in testing, Cowork couldn't open an AI-Labs folder on a Desktop synced to OneDrive. Your own space on a cloud drive such as Google Drive or Dropbox can work too. If Cowork can't open the folder wherever you put it, use Claude in your browser for the lab.
-2. **Save the three Lab 1 files.** Click each file link under Before you come to save it, usually into Downloads, then drag all three into `AI-Labs`, by hand for the same reason. If your browser asks about downloads, choose Allow.
+2. **Save the three Lab 1 files.** Click each file link under [Before you come](#before-you-come) to save it, usually into Downloads, then drag all three into `AI-Labs`, by hand for the same reason. If your browser asks about downloads, choose Allow.
 3. **Paste prompt 1: your folder system.** Open Cowork in the Claude desktop app and choose `AI-Labs` itself, not Documents, as the folder it works on. Paste this, and give Claude your OK if it asks. Claude will check the folder's name, make four folders and your ship log, list everything, and end with "AI-Labs is set up."
+
+   <!-- shot: lab1-01 -->
 
    ```prompt
    First check the folder I chose to work in. If it isn't called AI-Labs, don't change anything. Just tell me its name. If it is, make these four folders in it, unless they're already there: Kits, Working, Recipes and Outputs. Then, unless Outputs/ship-log.md already exists, make it with exactly these two lines:
@@ -384,7 +394,8 @@ The setup steps from Start here (see hub-start.md), for anyone who skipped them.
    - If it doesn't work: if Claude names another folder, start a new Cowork session on `AI-Labs` itself; pasting again is safe. If you can't find Cowork or IT blocks the desktop app, use the browser fold below. Or come anyway: you'll use Claude in your browser for the lab, and a facilitator helps with setup right after it. To sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on and a screenshot.
    - Browser: using Claude in your browser, including a free account? You don't need these folders or prompts: make the AI-Labs Project in Today, step 4, instead, and tap Done under "Run the ready check" once its setup prompt says "Ready for Lab 1."
 
-   4. **Paste prompt 2: your to-do list.** In the same session, paste this. Claude will check the folder, write your to-do list, move the Lab 1 files into `Kits`, and end with one line: ready, or what's missing.
+   <!-- shot: lab1-02 -->
+4. **Paste prompt 2: your to-do list.** In the same session, paste this. Claude will check the folder, write your to-do list, move the Lab 1 files into `Kits`, and end with one line: ready, or what's missing.
 
    ```prompt
    First check the folder I chose to work in. If it isn't called AI-Labs, don't change anything. Just tell me its name. If it is, make a file called TO-DO.md at the top of AI-Labs, unless it's already there, with exactly this text:
@@ -427,3 +438,7 @@ The setup steps from Start here (see hub-start.md), for anyone who skipped them.
 
    - Why this way: the check names the first gap and its fix, so you don't open each folder. It uses "end with one clear line". The same move checks a grant application against the funder's attachment list, or report files before a designer gets them.
    - If it doesn't work: if it still says "Not yet:" after you paste the prompt it names, come anyway: you'll use Claude in your browser for the lab, and a facilitator helps with setup right after it. To sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
+
+   <!-- shot: lab1-03 -->
+
+   <!-- track: pre-check done -->

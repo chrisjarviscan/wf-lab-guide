@@ -115,6 +115,11 @@ def main():
     for rel, text in files:
         for i, line in enumerate(text.splitlines(), 1):
             for email in re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}", line):
+                # This public practice thread uses the reserved example.org
+                # domain. Permit its fictional senders only in that asset.
+                practice_thread = rel.endswith("assets/MOCK-Program-Update-Email-Thread.txt")
+                if practice_thread and email.lower().endswith("@brightpath.example.org"):
+                    continue
                 if email.lower() not in ALLOWED_EMAILS:
                     fail(f"{rel}:{i}: email address {email}")
             low = line.lower()
@@ -170,7 +175,11 @@ def main():
     zpath = os.path.join(ROOT, "download", "lab-guide.zip")
     with zipfile.ZipFile(zpath) as z:
         members = sorted(z.namelist())
-        expected = sorted(["lab-guide/SKILL.md"] + [f"lab-guide/pages/{p}" for p in os.listdir(PAGES)])
+        skill_root = os.path.dirname(SKILL_MD)
+        expected = sorted("lab-guide/" + os.path.relpath(os.path.join(base, name), skill_root)
+                          for base, dirs, names in os.walk(skill_root)
+                          for name in names if not name.startswith(".")
+                          and "__pycache__" not in base)
         if members != expected:
             fail("the ZIP's files differ from the skill folder; rebuild")
         else:

@@ -1,16 +1,15 @@
-<!-- Lab Guide 1.0.5 · Oct 5, 2026. Mirrored from the Lab 2 kit as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
-
 # Lab 2: Writing and the org brain
 
-You'll leave with your org brain (files that tell Claude how your organization sounds) and one real piece in that voice, or a compliance matrix for a funder's request for proposals (RFP). If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
+You'll leave with your org brain (files that tell Claude how your organization sounds) and one real piece in that voice, or a compliance matrix for a funder's request for proposals (RFP). If a word is new to you, it's in [Words we use](/participant#words). The moves behind every prompt are in [Ways to ask Claude](/participant#ways).
 
 ## Before you come
 
 - Save the Lab 2 files into `AI-Labs/Kits`, whichever material you choose: click each link, then drag each file into `Kits`. Claude works only in the folder you chose, so this move is by hand.
-  - this kit, `KIT-Lab2-Writing-Org-Brain.md`
-  - the practice pack, `MOCK-OrgBrain-Starter-Pack.md`
+  - this kit, [KIT-Lab2-Writing-Org-Brain.md](KIT-Lab2-Writing-Org-Brain.md)
+  - the practice pack, [MOCK-OrgBrain-Starter-Pack.md](MOCK-OrgBrain-Starter-Pack.md)
 
-  - Choose your material. Both take the same steps today.
+  <!-- shot: lab2-01 -->
+- Choose your material. Both take the same steps today.
   - Your own: three or four public documents you'd show a peer at another nonprofit (your mission, an outcomes summary if you have one, and two writing samples you're proud of, one for funders and one for donors). Or a 10-minute voice note transcript with names cut. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine.
     - More: for a voice note, tell a new colleague what your organization is for, who each program serves, how you sound with funders and donors, and words you never use. Talk about programs, never one person.
   - The practice pack: documents from BrightPath, a fictional nonprofit, and a practice RFP, already in `Kits`.
@@ -25,8 +24,8 @@ You'll leave with your org brain (files that tell Claude how your organization s
   Claude names three rules, and each one is in your `AGENTS.md`.
   ```
 
-  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the only place the answer can come from is `AGENTS.md`.
-  - If it doesn't work: if Claude can't find `AGENTS.md`, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project) and try again. If you have no `AGENTS.md` yet, step 3 starts one. If you missed Lab 1, first do the folder steps in its "Setup, if you skipped Start here" section, on the participant page (see hub-labs.md). Come anyway, and to sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
+  - Why this way: it uses "start fresh from your files" from [Ways to ask Claude](/participant#ways), so the only place the answer can come from is `AGENTS.md`.
+  - If it doesn't work: if Claude can't find `AGENTS.md`, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project) and try again. If you have no `AGENTS.md` yet, step 3 starts one. If you missed Lab 1, first do the folder steps in its "Setup, if you skipped Start here" section, on the [participant page](/participant#labs). Come anyway, and to sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 - Optional: add the Lab Guide to your Claude, so you can ask it about the labs between sessions. It answers from these kits and the participant page. Setup steps: [github.com/chrisjarviscan/wf-lab-guide](https://github.com/chrisjarviscan/wf-lab-guide).
   - More: on a paid plan, go to Customize, then Plugins, then Add, Add marketplace and Add from a repository, and enter `chrisjarviscan/wf-lab-guide`. On a free plan, download the guide file from the same page, switch on code execution and file creation in Settings, then Capabilities, and upload the file under Customize, then Skills. To ask it something, type / in a new chat and choose lab-guide. It runs in your own Claude, so your questions stay in your account.
 
@@ -53,7 +52,8 @@ In your breakout room, each of you works on your own computer, with your own Cla
      Claude lists `Org-Brain` with your files in it. Open one and check it holds your words exactly as written.
      ```
 
-     - Why this way: one paste replaces four rounds of copy and paste and keeps your sentences exact. It uses "check where you are first", "word for word" and "ask me, don't guess". It also files a funder's guidelines or splits a manual by program.
+     <!-- shot: lab2-02 -->
+   - Why this way: one paste replaces four rounds of copy and paste and keeps your sentences exact. It uses "check where you are first", "word for word" and "ask me, don't guess". It also files a funder's guidelines or splits a manual by program.
    - Browser: make `Org-Brain` inside `AI-Labs` yourself. In your AI-Labs Project, upload each document and ask for its plain text back, word for word, adding the line above that cuts names. Paste each into a plain text file in `Org-Brain`: `mission.md`, `sample-1.md`, `sample-2.md`, `outcomes.md` or `voice-note.md` (Notepad: "Save as type: All files"; TextEdit: Format, then Make Plain Text). The practice pack's sections 1 to 4 fill them, in order. Upload them to your Project.
 2. **Let Claude interview you about your voice.** An interview catches what your samples can't show. Name programs, never people. On the practice pack, answer as BrightPath. With a voice note, change "the two samples" to "the voice note". Claude will describe your voice in ten lines, ask one question at a time, and when you say "done", rewrite the lines and list words you never use. Type your answers, or speak them with your computer's dictation, muting yourself in Zoom first so the room doesn't hear.
 
@@ -78,8 +78,9 @@ In your breakout room, each of you works on your own computer, with your own Cla
      Claude shows `voice-notes.md` and the new lines under "How we sound" in `AGENTS.md`, and both say what you decided. Ask Claude to delete any leftover "To fill in."
      ```
 
-     - Why this way: both changes land in one paste, and your Lab 1 rules stay put. It uses "change only what I name" and "show me so I can check". Try it when a program joins your grant boilerplate or a handbook section changes.
-   - More: with no `AGENTS.md` yet, the same prompt starts one. This week, run the interview in `STARTER-AGENTS.md`, giving it your five lines when it asks how you sound.
+     <!-- shot: lab2-03 -->
+   - Why this way: both changes land in one paste, and your Lab 1 rules stay put. It uses "change only what I name" and "show me so I can check". Try it when a program joins your grant boilerplate or a handbook section changes.
+   - More: with no `AGENTS.md` yet, the same prompt starts one. This week, run the interview in [STARTER-AGENTS.md](../Lab%201/STARTER-AGENTS.md), giving it your five lines when it asks how you sound.
    - Browser: save the lines you kept, and your never-say list, as `voice-notes.md` in `Org-Brain`, and add the five that matter most under "How we sound" in `AGENTS.md`. Uploads are copies: upload both and delete the old `AGENTS.md` from the Project.
 4. **Draft one real piece.** Pick something due this week, like a donor note, so the time saved is real. Start a stopwatch, copy the brief below into Claude, and replace each ___ (or cut "plus ___") before you send it. Name the reader as a group, never a person.
    - Practice pack: the RFP's letter of intent, with `Kits/MOCK-OrgBrain-Starter-Pack.md` in "plus ___".
@@ -116,6 +117,8 @@ In your breakout room, each of you works on your own computer, with your own Cla
 
    For the next round, start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project). Paste this, then add the file name and the change you want, like "The draft is donor-note-draft.md. Cut it to 100 words." Claude will read `AGENTS.md` and your saved draft and make the change, with none of the earlier conversation.
 
+   <!-- shot: lab2-04 -->
+
    ```prompt
    Read AGENTS.md and the draft in Outputs.
    ```
@@ -136,7 +139,9 @@ In your breakout room, each of you works on your own computer, with your own Cla
    You've said yes or no to each suggested line, and `AGENTS.md` holds only the ones you agreed to.
    ```
 
-   - Why this way: it uses "only after I say yes" from Ways to ask Claude (see hub-ways.md), so nothing changes in the file Claude reads first until you've read the new lines.
+   <!-- shot: lab2-05 -->
+
+   - Why this way: it uses "only after I say yes" from [Ways to ask Claude](/participant#ways), so nothing changes in the file Claude reads first until you've read the new lines.
    - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and delete the old one from the Project's files.
 
 ## Your brief to Claude
@@ -203,6 +208,8 @@ Read Org-Brain/voice-notes.md. Take its lines out of AGENTS.md, then move everyt
 
 Write your plan in the Zoom chat before you leave: When ___ happens this week, I will ___. For example: When a donor note is due, I will run the brief from my folder.
 
+<!-- track: lab2-hw started done extras -->
+
 Before you leave, add the week to your to-do list. In Cowork, paste this with your level filled in. Claude will add your homework and the Lab 3 bring list to `TO-DO.md` as unticked items and change nothing else.
 
 ```prompt
@@ -213,7 +220,7 @@ My homework level this week is ___. Add it and the Lab 3 bring list from Kits/KI
 `TO-DO.md` has a heading "Before Lab 3" with your homework and the bring list under it.
 ```
 
-- Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains this week's items and keeps everything else as you left it.
+- Why this way: it uses "change only what I name" from [Ways to ask Claude](/participant#ways), so your list gains this week's items and keeps everything else as you left it.
 - Browser: add your level and the bring list below to wherever you keep your to-do list.
 
 Bring to Lab 3: one messy real reporting input, the kind your next report actually starts from (meeting notes, emails, a partial sheet), plus the name of the report and who reads it. Aggregate numbers and staff notes only, with no rows about individual clients. Or choose the practice mess pack in the Lab 3 kit; the steps are the same. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine.
@@ -228,7 +235,7 @@ Add a line to Outputs/ship-log.md for the item we just sent. Ask me what it was,
 Claude asked you what it was, the date, who it went to and both times, then added one line to `Outputs/ship-log.md`.
 ```
 
-- Why this way: it uses "ask me, don't guess" from Ways to ask Claude (see hub-ways.md), so every number in your log is one you measured.
+- Why this way: it uses "ask me, don't guess" from [Ways to ask Claude](/participant#ways), so every number in your log is one you measured.
 
 When your homework is done, check you're ready for Lab 3. In Cowork, paste this. Claude will look through your folder without changing anything and end with one line: ready, or the first thing still missing.
 
@@ -240,8 +247,12 @@ Check my AI-Labs folder, and don't change anything. Look for Org-Brain/voice-not
 Claude's last line says "Ready for Lab 3."
 ```
 
-- Why this way: it uses "end with one clear line" from Ways to ask Claude (see hub-ways.md), so the last line tells you at a glance whether you're set.
+<!-- shot: lab2-06 -->
+
+- Why this way: it uses "end with one clear line" from [Ways to ask Claude](/participant#ways), so the last line tells you at a glance whether you're set.
 - Browser: check by hand for `voice-notes.md` in `Org-Brain` and your Project, "How we sound" in `AGENTS.md`, and a line in `ship-log.md` for something you sent. Then tap Done.
+
+<!-- track: lab2-ready done -->
 
 ## Use it again
 

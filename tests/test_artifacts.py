@@ -55,13 +55,125 @@ class CopyPrompts(HTMLParser):
 
 
 def artifact_hashes():
-    paths = list(SKILL.rglob("*.md")) + list((ROOT / "download").glob("*"))
+    paths = [p for p in SKILL.rglob("*") if p.is_file()] + list((ROOT / "download").glob("*"))
     paths += [ROOT / "README.md", ROOT / "plugins/wf-lab-guide/.claude-plugin/plugin.json"]
     return {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
             for p in sorted(paths) if p.is_file()}
 
 
 class Artifacts(unittest.TestCase):
+    def test_desktop_start_flow_is_short_and_checks_are_natural(self):
+        questions = ("Is the guide working?", "Check and fix setup.")
+        for rel in ("README.md", "START-HERE.md", "FACILITATOR-RUN-THROUGH.md"):
+            text = (ROOT / rel).read_text()
+            long_lines = [(n, len(line)) for n, line in enumerate(text.splitlines(), 1) if len(line) > 140]
+            self.assertEqual(long_lines, [], f"{rel}: lines longer than 140 characters")
+            for question in questions:
+                self.assertIn(question, text, rel)
+                self.assertIn(len(question.split()), (4, 5))
+            self.assertNotIn("Show me the exact Lab 2 setup readback prompt", text)
+            self.assertNotIn("From the participant page's Lab 2 card, save these", text)
+        skill = (SKILL / "SKILL.md").read_text()
+        for phrase in (*questions, "Is my workspace ready?"):
+            self.assertIn(phrase, skill)
+
+    def test_workspace_helper_checks_then_repairs_missing_only(self):
+        helper = SKILL / "scripts/prepare_workspace.py"
+        self.assertTrue(helper.is_file(), "real packaged workspace helper is required")
+        with tempfile.TemporaryDirectory() as tmp:
+            workspace = Path(tmp) / "AI-Labs"
+            (workspace / "Kits").mkdir(parents=True)
+            (workspace / "Outputs").mkdir()
+            agents = workspace / "AGENTS.md"
+            agents.write_text("# Our rules\n- Use only approved sources.\n- Keep private details out.\n- Ask before changing existing files.\n")
+            draft = workspace / "Outputs/existing-draft.md"
+            draft.write_text("An existing draft that must remain exactly as saved.\n")
+            existing_kit = workspace / "Kits/KIT-Lab2-Writing-Org-Brain.md"
+            existing_kit.write_text("Existing participant kit: preserve this exact copy.\n")
+            existing_log = workspace / "Outputs/ship-log.md"
+            existing_log.write_text("# Ship log\nKeep this existing log exactly.\n")
+            before = {p.relative_to(workspace).as_posix(): p.read_bytes()
+                      for p in workspace.rglob("*") if p.is_file()}
+            cmd = [sys.executable, str(helper), "--workspace", str(workspace)]
+            check = subprocess.run(cmd, capture_output=True, text=True)
+            # A missing setup may return nonzero; the read-only check must run
+            # and report the condition rather than silently prepare anything.
+            self.assertTrue(check.stdout.strip(), check.stderr)
+            report = json.loads(check.stdout)
+            self.assertFalse(report["lab_files_ready"])
+            self.assertIn("readback", report["instructions"])
+            self.assertEqual(before, {p.relative_to(workspace).as_posix(): p.read_bytes()
+                                      for p in workspace.rglob("*") if p.is_file()})
+            repair = subprocess.run(cmd + ["--prepare"], capture_output=True, text=True)
+            self.assertEqual(repair.returncode, 0, repair.stdout + repair.stderr)
+            self.assertTrue(json.loads(repair.stdout)["lab_files_ready"])
+            for rel, content in before.items():
+                self.assertEqual((workspace / rel).read_bytes(), content, rel)
+            for name in ("Kits", "Working", "Recipes", "Outputs", "Org-Brain"):
+                self.assertTrue((workspace / name).is_dir(), name)
+            for name in ("KIT-Lab1-First-Safe-Win.md", "KIT-Lab2-Writing-Org-Brain.md",
+                         "MOCK-Program-Update-Email-Thread.txt", "MOCK-OrgBrain-Starter-Pack.md",
+                         "STARTER-AGENTS.md"):
+                self.assertTrue((workspace / "Kits" / name).is_file(), name)
+            after = {p.relative_to(workspace).as_posix(): p.read_bytes()
+                     for p in workspace.rglob("*") if p.is_file()}
+            rerun = subprocess.run(cmd + ["--prepare"], capture_output=True, text=True)
+            self.assertEqual(rerun.returncode, 0, rerun.stdout + rerun.stderr)
+            self.assertEqual(after, {p.relative_to(workspace).as_posix(): p.read_bytes()
+                                     for p in workspace.rglob("*") if p.is_file()})
+            wrong = Path(tmp) / "Not-AI-Labs"
+            wrong.mkdir()
+            reject = subprocess.run([sys.executable, str(helper), "--workspace", str(wrong), "--prepare"],
+                                    capture_output=True, text=True)
+            self.assertNotEqual(reject.returncode, 0)
+            self.assertEqual(list(wrong.iterdir()), [])
+
+    def test_workspace_helper_does_not_fabricate_missing_profile(self):
+        helper = SKILL / "scripts/prepare_workspace.py"
+        self.assertTrue(helper.is_file())
+        with tempfile.TemporaryDirectory() as tmp:
+            workspace = Path(tmp) / "AI-Labs"
+            workspace.mkdir()
+            prepare = subprocess.run([sys.executable, str(helper), "--workspace", str(workspace), "--prepare"],
+                                     capture_output=True, text=True)
+            self.assertEqual(prepare.returncode, 0, prepare.stdout + prepare.stderr)
+            self.assertEqual(json.loads(prepare.stdout)["instructions"], "missing")
+            self.assertFalse((workspace / "AGENTS.md").exists(), "a starter must not impersonate the participant's profile")
+            self.assertTrue((workspace / "Kits/STARTER-AGENTS.md").is_file())
+
+    def test_bundled_workspace_assets_match_published_sources(self):
+        manifest = json.loads((SKILL / "assets/manifest.json").read_text())
+        destinations = [item["destination"] for item in manifest["files"]]
+        self.assertEqual(len(destinations), len(set(destinations)))
+        for item in manifest["files"]:
+            asset = SKILL / item["asset"]
+            data = asset.read_bytes()
+            self.assertEqual(hashlib.sha256(data).hexdigest(), item["sha256"])
+            destination = Path(item["destination"])
+            self.assertFalse(destination.is_absolute())
+            self.assertNotIn("..", destination.parts)
+            self.assertTrue(destination.parts[0] == "Kits" or destination.as_posix() == "Outputs/ship-log.md",
+                            f"unapproved preparation target: {destination}")
+            if SOURCE:
+                source_path = Path(item["source"])
+                self.assertFalse(source_path.is_absolute())
+                self.assertNotIn("..", source_path.parts)
+                self.assertEqual(source_path.parts[0], "04-Participant Kits")
+                self.assertEqual(data, (SOURCE / source_path).read_bytes(),
+                                 f"bundled {destination.name} changed from published source")
+        with tempfile.TemporaryDirectory() as tmp:
+            copied = Path(tmp) / "skill"
+            shutil.copytree(SKILL, copied)
+            injected = json.loads((copied / "assets/manifest.json").read_text())
+            injected["files"][0]["destination"] = "Outputs/unapproved-file.md"
+            (copied / "assets/manifest.json").write_text(json.dumps(injected))
+            workspace = Path(tmp) / "AI-Labs"
+            workspace.mkdir()
+            rejected = subprocess.run([sys.executable, str(copied / "scripts/prepare_workspace.py"),
+                                       "--workspace", str(workspace), "--prepare"], capture_output=True, text=True)
+            self.assertNotEqual(rejected.returncode, 0, "helper accepted an unapproved Outputs destination")
+            self.assertEqual(list(workspace.iterdir()), [], "invalid manifest caused partial workspace writes")
+
     def test_practical_help_ships_with_clear_authored_provenance(self):
         page = (SKILL / "pages/hub-practical-help.md").read_text()
         authored = (ROOT / "build/working-with-claude.md").read_text().rstrip()
@@ -77,7 +189,7 @@ class Artifacts(unittest.TestCase):
 
     def test_every_zip_member_matches_plugin_bytes(self):
         expected = {"lab-guide/" + p.relative_to(SKILL).as_posix(): p.read_bytes()
-                    for p in SKILL.rglob("*.md")}
+                    for p in SKILL.rglob("*") if p.is_file() and not p.name.startswith(".")}
         with zipfile.ZipFile(ROOT / "download/lab-guide.zip") as z:
             self.assertEqual(sorted(z.namelist()), sorted(expected))
             self.assertEqual(len(z.namelist()), len(set(z.namelist())))

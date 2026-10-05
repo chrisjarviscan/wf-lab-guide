@@ -1,5 +1,3 @@
-<!-- Lab Guide 1.0.5 · Oct 5, 2026. Mirrored from the Lab 1 starter file as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
-
 # Starter AGENTS.md
 
 AGENTS.md is one page you ask any AI tool to read first when it opens your AI-Labs folder. Claude writes yours in Lab 1 by interviewing you, which takes about ten minutes. This file holds the interview prompt that starts it.

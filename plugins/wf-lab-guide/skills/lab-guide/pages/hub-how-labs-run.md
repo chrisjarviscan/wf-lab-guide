@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.4 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.5 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # How the labs run: what you need, the rooms, the week between labs, recordings, who to ask
 

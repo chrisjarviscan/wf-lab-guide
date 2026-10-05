@@ -27,6 +27,7 @@ import argparse
 import datetime as dt
 import glob
 import html
+import hashlib
 import json
 import os
 import re
@@ -641,9 +642,36 @@ def main():
     starter_texts = {page: clean_kit(open(os.path.join(src, rel), encoding="utf-8").read(), cfg)
                      for page, rel in cfg["starters"].items()}
     practical_help = open(os.path.join(BUILD, "working-with-claude.md"), encoding="utf-8").read()
+    # Bundle participant materials so Cowork can prepare a workspace without
+    # asking anyone to find, download or move kit files.
+    asset_sources = {
+        "KIT-Lab1-First-Safe-Win.md": "04-Participant Kits/Lab 1/KIT-Lab1-First-Safe-Win.md",
+        "KIT-Lab2-Writing-Org-Brain.md": "04-Participant Kits/Lab 2/KIT-Lab2-Writing-Org-Brain.md",
+        "STARTER-AGENTS.md": "04-Participant Kits/Lab 1/STARTER-AGENTS.md",
+        "STARTER-Ship-Log.md": "04-Participant Kits/Lab 1/STARTER-Ship-Log.md",
+        "MOCK-Program-Update-Email-Thread.txt": "04-Participant Kits/Lab 1/MOCK-Program-Update-Email-Thread.txt",
+        "MOCK-OrgBrain-Starter-Pack.md": "04-Participant Kits/Lab 2/MOCK-OrgBrain-Starter-Pack.md",
+    }
+    asset_contents = {}
+    for name, relative in asset_sources.items():
+        refuse_internal(cfg, relative)
+        asset_contents[name] = open(os.path.join(src, relative), encoding="utf-8").read()
     check_facts(facts, norm(hub_html), norm(timeline_html), kit_texts)
     if args.bump:
         write(vfile, version + "\n")
+
+    asset_dir = os.path.join(SKILL, "assets")
+    if os.path.isdir(asset_dir):
+        shutil.rmtree(asset_dir)
+    manifest_files = []
+    for name, content in asset_contents.items():
+        write(os.path.join(asset_dir, name), content)
+        destination = "Outputs/ship-log.md" if name == "STARTER-Ship-Log.md" else f"Kits/{name}"
+        manifest_files.append({"asset": f"assets/{name}", "destination": destination,
+                               "source": asset_sources[name],
+                               "sha256": hashlib.sha256(content.encode("utf-8")).hexdigest()})
+    write(os.path.join(asset_dir, "manifest.json"), json.dumps(
+        {"source_commit": commit, "files": manifest_files}, indent=2) + "\n")
 
     # fresh pages folder every build, so a dropped page never lingers
     if os.path.isdir(PAGES):
