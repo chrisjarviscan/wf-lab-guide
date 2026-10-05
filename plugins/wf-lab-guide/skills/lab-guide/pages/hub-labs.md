@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.7 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 2672df5). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.8 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source d599017). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -34,19 +34,17 @@ One real piece of writing in your organization's voice, or a compliance matrix f
 
 Monday, October 5 · Friday, October 9
 
-**Today: Claude desktop → Cowork.** [Install the guide](https://github.com/chrisjarviscan/wf-lab-guide/blob/main/START-HERE.md), choose your `AI-Labs` folder, then use these three prompts.
+**Today: Claude desktop → Cowork.** [Install the guide](https://github.com/chrisjarviscan/wf-lab-guide/blob/main/START-HERE.md), choose your `AI-Labs` folder, then say:
 
-Use permitted public material or practice; remove personal details before sharing.
+`I’m ready to begin Lab 2.`
 
-1. `Build our voice notes.` Claude asks about your voice and saves the lines you approve.
-2. `Draft my real piece.` Tell Claude what you need and who it is for. It asks for missing facts and drafts from your files.
-3. `Check and save it.` Claude checks, saves and reopens your work so you can verify it.
+Claude welcomes you, checks the files actually connected to this session, and handles the folder and file work. It asks one short question at a time and leads you from voice notes to a draft, then checks, saves and reopens your work. It pauses for your approval of the voice and facts. If access is missing, it tells you what is needed; help happens individually.
 
-You choose the voice and facts. Claude saves and reopens your work. Help with access happens individually.
+Use permitted public material or practice; remove personal details before sharing. You choose the voice and verify the facts. Minimum today: saved voice notes and approved voice rules. Practice stays separate and labeled practice; your own voice is unfinished until you use your real material.
 
-Minimum today: saved voice notes and approved voice rules in `AGENTS.md`. Practice work stays labeled practice; your own voice is unfinished until you use your real material. Today’s win: open the Lab 2 worksheet (lab-2.md).
+The Lab 2 worksheet (lab-2.md) is a reference if you want it. You do not need to read it first or choose the next prompt.
 
-**Lab 2 kit**: Three short asks: build approved voice notes, draft a real piece, then check and save it. Claude handles the file work its tools allow; you decide what sounds like you and verify the result. (lab-2.md)
+**Lab 2 kit**: Start with “I’m ready to begin Lab 2.” Claude checks connected files and leads the work one question at a time, handling files and pausing for your approvals. This worksheet is an optional reference. (lab-2.md)
 
 **Practice file: org brain starter pack**: Documents from BrightPath, a fictional nonprofit: its mission, two writing samples, outcomes and a practice RFP. It takes the same steps as your own documents.
 

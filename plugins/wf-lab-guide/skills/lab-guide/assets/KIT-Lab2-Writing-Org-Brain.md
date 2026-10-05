@@ -46,49 +46,33 @@ Saved voice notes help Claude write more like your organization on the next job,
 
 ## Today, step by step
 
-Use the same Cowork session with **lab-guide** selected. Each person works in their own folder.
+Open your Cowork session with **lab-guide** selected, then say:
 
-1. **Build your voice.**
+```prompt
+I'm ready to begin Lab 2.
+```
 
-   ```prompt
-   Build our voice notes.
-   ```
+Claude welcomes you, checks your saved work and guides you one question at a time. You don't need to read ahead.
 
-   Claude uses available samples and asks one short question at a time. Speak or type; mute Zoom when dictating.
-   Say which lines sound like you, which don't, and words you'd never use. Claude edits and saves the approved lines.
+It handles folders, missing lab files, voice notes, drafts and saving. You answer, choose your voice and approve changes.
 
-   ```done
-   Claude reopens saved voice notes and five approved voice rules. Practice is labeled rehearsal; your own voice is still unfinished.
-   ```
+Speak or type. Mute Zoom when dictating. Each person works in their own Cowork session and folder.
 
-2. **Make one real piece.**
+### What the conversation covers
 
-   ```prompt
-   Draft my real piece.
-   ```
+1. **Your voice.** Claude reuses available material, interviews only for gaps and saves voice lines after your approval.
+2. **Your piece.** Claude asks what you need, who will read it and any missing facts, then drafts in your approved voice.
+3. **Your saved result.** Claude checks facts and voice, helps revise, saves and reopens the actual files.
 
-   Tell Claude the job, reader, length and facts when it asks. Choose a follow-up, update or proposal section.
-   Claude drafts in your approved voice. Read it. Tell it what to change.
-   Working on an RFP? Say “Make my compliance matrix.” Claude quotes requirements and flags gaps.
+These are the conversation's stages. Claude moves between them; you don't have to paste another command.
 
-   ```done
-   You have a draft in your voice, or a matrix checked against the RFP. It is ready for review, not automatically sent.
-   ```
+Working on an RFP? Tell Claude. It builds a sourced compliance matrix instead of a writing draft.
 
-3. **Check it and keep it.**
+```done
+Claude reopens saved voice notes, approved rules in AGENTS.md and your draft if finished. Practice remains labeled practice.
+```
 
-   ```prompt
-   Check and save it.
-   ```
-
-   Claude checks facts and voice, asks about uncertain changes, saves the result and reopens the actual files.
-   You decide whether a flagged line stays, changes or goes. Read aloud one line that sounds most like your organization.
-
-   ```done
-   Claude reopens saved voice notes and AGENTS.md. Practice uses Kits/Practice; real organizational instructions remain unfinished.
-   ```
-
-If time is short, stop after saved voice notes and instructions. Finish the draft with the guide afterward.
+If time is short, say so. Claude saves and checks your voice work; finish the draft afterward in the same guided conversation.
 
 ## If you get stuck
 
@@ -117,7 +101,17 @@ In Zoom chat: “When ___ happens, I will ___.”
 
 ## How Claude runs these steps
 
-The current Lab Guide reads this kit before acting. Short prompts authorize the work below in the connected `AI-Labs` folder.
+The current Lab Guide reads this kit before acting. The start prompt authorizes the work below in the connected `AI-Labs` folder.
+Treat straight/curly apostrophes, capitalization and punctuation variants of “I'm ready to begin Lab 2” as the same request.
+Welcome: “Welcome. We’ll capture your voice, draft a useful piece, then check and save it. I’ll check your saved work first.”
+Then use tools to inspect actual saved work and prepare missing lab assets. Explain each operation briefly before doing it.
+Keep only one unanswered question at a time. Wait for the answer; reuse it instead of asking again.
+Proceed through the stages without asking for another stage command. Pause for voice approval and decisions on draft changes.
+Never send the participant to the worksheet or ask them to open Finder, create folders, move, rename or save files manually.
+If file access is missing, request only that app permission. Don't pretend that installed guide files grant private-file access.
+If samples are missing, offer a spoken/typed interview or fictional practice; do not require manual document gathering.
+Resume completed stages from actual saved progress. Don't overwrite existing drafts or treat placeholders as finished answers.
+The three earlier work prompts remain optional shortcuts, not required steps.
 Use actual file tools; never claim a write, reopen or check without successful tool evidence. Keep coaching short.
 
 **Step 1:** Read existing `AGENTS.md` and permitted samples. Reuse substantive organizational answers already saved.

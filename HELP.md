@@ -5,6 +5,12 @@ Use the plugin in Cowork for automatic file work. Desktop chat alone cannot writ
 Installation uses the marketplace controls shown in Claude desktop. Their labels and availability can vary by account.
 The entry page uses the path in the lab materials; the actual controls in your account take priority.
 
+An older version in a reply means that session is using an older guide. A GitHub push does not reload an open Claude session.
+Update wf-lab-guide through your account's plugin controls, then start a new Cowork session and select lab-guide.
+Ask “Is the guide working?” Its version should match the current README before today's guided start.
+If the current guide reports missing access, check whether that Cowork task shows AI-Labs selected.
+A missing AGENTS.md means an unfinished setup file; it does not prove the folder is disconnected.
+
 The guide does not connect your private work to GitHub. It uses your Claude account and the folder access you grant.
 It preserves existing files and only adds missing public lab materials. It cannot invent organizational interview answers.
 An unfinished interview is reported as unfinished, with one short question to continue it.

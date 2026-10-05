@@ -1,12 +1,14 @@
 # Lab Guide
 
-**Lab Guide 1.0.7 · Oct 5, 2026**
+**Lab Guide 1.0.8 · Oct 5, 2026**
 
 Five minutes. Use Claude desktop → Cowork.
 
 1. Open Customize → Plugins → Add marketplace → Add from a repository.
 2. Paste `chrisjarviscan/wf-lab-guide`.
 3. Install **wf-lab-guide**. Select **lab-guide** from `/` in Cowork.
+
+In your Cowork task, choose your existing AI-Labs folder. The plugin supplies instructions; folder access lets Claude save work.
 
 Ask:
 
@@ -26,14 +28,10 @@ If Plugins is missing, ask your facilitator. No GitHub account is needed.
 
 [Facilitator script](FACILITATOR-RUN-THROUGH.md) · [More help](HELP.md)
 
-Today, Lab 2:
+Begin Lab 2:
 
-> Build our voice notes.
+> I'm ready to begin Lab 2.
 
-> Draft my real piece.
-
-> Check and save it.
-
-You approve the voice and facts. Claude handles files and reopens the saved result.
+Claude welcomes you, checks saved work and guides one question at a time. It handles files; you approve voice and facts.
 
 [Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)

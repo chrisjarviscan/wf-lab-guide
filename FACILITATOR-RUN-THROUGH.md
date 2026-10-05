@@ -2,6 +2,8 @@
 
 “Open Claude desktop. We’re using Cowork.”
 
+“The plugin gives Claude the guide. Choose your existing AI-Labs folder in the Cowork task so it can save your work.”
+
 “Customize → Plugins → Add marketplace → Add from a repository.”
 
 “Paste this. Install wf-lab-guide. Select lab-guide from `/`.”
@@ -26,22 +28,18 @@ If Plugins is missing, help that participant individually. Continue the lab at f
 
 [Current version](README.md) · [Troubleshooting](HELP.md)
 
-## Lab 2: three prompts
+## Lab 2: one start
 
-> Build our voice notes.
+> I'm ready to begin Lab 2.
 
-Approve the voice. Claude saves and reopens it.
+Claude welcomes you, checks actual saved work and asks one question at a time.
 
-> Draft my real piece.
+It guides voice → draft → check and save. It handles folders and files. Participants answer and approve.
 
-Tell Claude the job and reader when it asks. Review the draft.
+Keep the writing time. The worksheet is a reference; participants don't need to read it or paste stage commands.
 
-> Check and save it.
-
-Claude checks, saves and reopens the result. Read one best line aloud.
+A missing file is not a missing connection. Claude checks its actual tools before asking for app access.
 
 Minimum: saved voice notes and approved voice rules. Practice stays separate; real voice remains unfinished.
-
-Keep the existing writing time. If late, finish the draft afterward.
 
 [Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)

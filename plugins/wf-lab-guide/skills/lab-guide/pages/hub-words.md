@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.7 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 2672df5). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.8 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source d599017). Do not edit: rebuild instead. -->
 
 # Words we use
 
@@ -44,7 +44,7 @@ What the words in the kits mean, in plain terms. Each kit also explains a word w
 
 **Never-say list**: The words and phrases your organization avoids in its writing, kept in your voice notes. It's different from the never-goes-in list, which is about what never goes into Claude at all.
 
-**Org brain**: Your `Org-Brain` folder: your mission, two writing samples and an outcomes summary if you have one (or a voice note transcript), and your voice notes, saved as plain text files that tell Claude how your organization sounds. Claude helps you build and save it in Lab 2 after you approve the voice notes. Ask "Draft my real piece" to use it for your next piece.
+**Org brain**: Your `Org-Brain` folder: your mission, two writing samples and an outcomes summary if you have one (or a voice note transcript), and your voice notes, saved as plain text files that tell Claude how your organization sounds. Claude helps you build and save it in Lab 2 after you approve the voice notes. Claude uses these checked files when it drafts your piece.
 
 **Placeholder and placeholder key**: A placeholder is a stand-in such as `ORG-01` where an organization's real name would be, so the real name stays out of Claude. The placeholder key is the list that matches each placeholder to the real name. It never goes near Claude or in your AI-Labs folder, so every step that uses it happens by hand, in your spreadsheet. You'll use both in Lab 4.
 
@@ -86,7 +86,7 @@ What the words in the kits mean, in plain terms. Each kit also explains a word w
 
 **Usage limit**: One allowance shared across everything you do in Claude. Long conversations, large files, Research and multi-step tasks use it fastest. Starting a new chat when you move to unrelated work helps it last. If you hit it during a lab, tell your room's facilitator and finish that step after the limit resets.
 
-**Voice notes**: Claude's description of how your organization sounds, edited and approved by you, plus your never-say list. In today's Cowork session, Claude saves the approved notes as `Org-Brain/voice-notes.md` and updates the approved voice rules under "How we sound" in `AGENTS.md`. Practice voice notes stay labeled practice until you build your own voice from your real material.
+**Voice notes**: Claude's description of how your organization sounds, edited and approved by you, plus your never-say list. For your own material in today's Cowork session, Claude saves the approved notes as `Org-Brain/voice-notes.md` and updates the approved voice rules under "How we sound" in `AGENTS.md`. Practice voice notes stay separate and labeled practice, and do not replace your real voice rules.
 
 **Workflow**: The recurring task you'll rebuild with Claude over the seven labs: something you do at least twice a month that ends in something you send. You start choosing it in Lab 1, bring its name to Lab 2, and write it up in Lab 7, so a colleague could run it without you.
 

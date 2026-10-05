@@ -31,7 +31,8 @@ Every Monday before the lab, and after any release. It takes about an hour. Owne
 ## October 5: short Cowork flow
 
 Use current desktop Cowork with a connected AI-Labs test folder. Ask "Is the guide working?" and "Check and fix setup."
-Then run "Build our voice notes.", "Draft my real piece." and "Check and save it."
+Then say "I'm ready to begin Lab 2." Claude must lead every stage without another stage command.
+Try curly apostrophes and "I am ready to begin Lab 2" too. A missing AGENTS.md must not be called a disconnected folder.
 Approve a specific voice line, supply sourced facts, and inspect the files Claude actually reopened.
 Check that earlier AGENTS.md rules and existing drafts survived; no automatic send or invented ship-log entry.
 Repeat using the practice pack: its voice and profile must stay under Kits/Practice, with real voice marked unfinished.
