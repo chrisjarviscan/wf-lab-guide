@@ -18,9 +18,18 @@ Downloads do not save to your computer or update your Project automatically.
 A guide chat cannot inspect another chat or Project. Use the current guide with the existing work where it is accessible.
 Do not rebuild finished work because a different session cannot see it; ask your facilitator for access help.
 
-## Desktop: installation and folder access are separate
+## Install without GitHub sign-in
 
-[Install the guide](START-HERE.md) using the repository option if your account offers it.
+[Download the complete guide ZIP](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide.zip).
+In Claude's Skills controls, upload it and enable lab-guide, where offered. The ZIP includes the sources and writing checks.
+GitHub sign-in and Claude's GitHub connector are not required for downloading and uploading this package.
+A public repository does not establish that a particular Claude GitHub connector can access it.
+For “not accessible”, record which screen and exact error; do not keep asking participants to retry GitHub sign-in.
+If Skills uploads are unavailable, use the full guide attachment above in the existing work chat.
+
+## Cowork: installation and folder access are separate
+
+[Install the guide](START-HERE.md).
 Cowork needs that task's actual AI-Labs folder grant for local file editing; ordinary desktop chat has no such grant.
 Select your existing AI-Labs folder when the app requests permission. Do not move files or recreate finished work.
 A missing AGENTS.md is an unfinished file, not proof that the folder is disconnected.
@@ -53,3 +62,10 @@ A saved draft is not a send. A file is verified only after actual tools write it
 · [Fictional transcript exercise](demo/README.md)
 
 Between labs, email Nichole Giller at nichole@realizedworth.com with the version, step and what you see.
+
+## Optional repository plugin
+
+Where Claude offers repository marketplaces, enter `chrisjarviscan/wf-lab-guide` and install wf-lab-guide.
+This is the plugin marketplace route. Claude's GitHub connector is a different integration.
+If the marketplace reports access trouble, use direct installation above; keep the group working.
+Installed skills, plugins and attachments are snapshots. Update through supported controls; a push alone does not refresh them.

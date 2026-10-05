@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.12 · Oct 5, 2026. Mirrored from the Lab 2 kit as published on Oct 5, 2026 (source 818b058). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.13 · Oct 5, 2026. Mirrored from the Lab 2 kit as published on Oct 5, 2026 (source a68b350). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
 
@@ -29,13 +29,14 @@ Browser results are downloads, not automatic local or Project updates. Short on 
 We set up the guide together in the main room. Already connected? Keep your existing work chat or Cowork task.
 Cowork uses your connected AI-Labs folder. Browser Claude uses files visible in your current chat or Project.
 
-### Desktop installation: three steps
+### Install the guide: three steps
 
-1. If offered, open plugin controls and add a marketplace from a repository.
-2. Enter `chrisjarviscan/wf-lab-guide`. Install **wf-lab-guide**.
-3. In Cowork, select **lab-guide** from `/` if offered and grant access to your existing AI-Labs folder.
+1. [Download the guide ZIP](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide.zip).
+2. In Claude's Skills controls, upload it and enable **lab-guide**, where offered.
+3. Continue in your existing work session. Cowork: grant access to the existing AI-Labs folder when asked.
 
-Browser first time? Attach the [full guide](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md).
+GitHub sign-in and Claude's GitHub connector are not needed for this download/upload installation.
+No Skills upload controls? Attach the [full guide](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md).
 
 ### Two short checks
 
@@ -52,7 +53,7 @@ Check and fix setup.
 Cowork: Claude checks the connected folder and adds missing files. Browser: it checks visible work and prepares exports where possible.
 Cowork access: select your existing AI-Labs folder when requested. Browser chats do not need that connection to begin.
 Claude cannot access another browser Project or chat by itself.
-If Plugins is unavailable, ask your facilitator. Keep working; setup help happens alongside the lab.
+If upload controls are unavailable, use the full guide attachment. Keep working; setup help happens alongside the lab.
 
 ### Keep it safe
 

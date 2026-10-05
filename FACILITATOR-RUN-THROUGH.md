@@ -10,9 +10,11 @@ Monday October 5: 1:00–2:30 PM Eastern / noon–1:30 PM Central.
 
 [Full guide attachment](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md)
 
-“Desktop: add the repository marketplace, install wf-lab-guide, then select lab-guide in Cowork if offered.”
+“Download the guide ZIP. In Claude’s Skills controls, upload it and enable lab-guide, where offered.”
 
-`chrisjarviscan/wf-lab-guide`
+[Complete guide ZIP](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide.zip)
+
+“GitHub sign-in and Claude’s GitHub connector are not needed for this installation.”
 
 “Grant that Cowork task access to your existing AI-Labs folder. The plugin alone does not grant file access.”
 
