@@ -72,6 +72,23 @@ Downloads are not automatically saved to your computer or uploaded to your Proje
 
 These are the conversation's stages. Claude moves between them; you don't have to paste another command.
 
+### See a writing skill work
+
+1. Download [Syntax Avoidance](https://github.com/chrisjarviscan/wf-lab-guide/raw/refs/heads/main/download/ai-syntax-avoidance.zip)
+   and [Extended review](https://github.com/chrisjarviscan/wf-lab-guide/raw/refs/heads/main/download/ai-syntax-avoidance-extended.zip).
+2. Where offered, open Claude’s Skills controls, upload both ZIPs and enable them. Keep this work chat.
+3. Give Claude one permitted paragraph. Say:
+
+```prompt
+Show me before and after.
+```
+
+Claude keeps the original, proposes a revision and explains one change. You choose which sounds like your organization.
+Facts and quotations stay intact. If no useful edit is needed, Claude says so; improvement is not guaranteed.
+These checks are already built into the guide. The upload demonstrates a skill you can reuse outside the labs.
+Already installed, or no upload controls? Watch the demonstration and continue with the built-in checks.
+Claude introduces this short demo during writing; you don't need to read these instructions yourself.
+
 Working on an RFP? Tell Claude. It builds a sourced compliance matrix instead of a writing draft.
 
 ```done
@@ -140,6 +157,14 @@ Keep BrightPath's voice out of real `AGENTS.md`. Label every practice draft fict
 
 **Step 2:** Read saved instructions and approved voice notes. Ask for missing goal, reader, length and source facts.
 Match the voice; don't reuse sentences or stories from samples. Never invent outcomes, quotes, people or commitments.
+During the writing stage, offer the skill demo one action at a time. Preserve writing time; do not require another start command.
+Explain that both checks are included already, then offer the two download links above for optional standalone installation.
+Only the participant can use the app's upload/enable controls. Do not claim installation without actual confirmation.
+If already installed, unavailable or time is short, continue using the built-in checks; no bypass or purchase required.
+For “Show me before and after,” reuse a visible permitted paragraph, or ask for one missing source.
+Preserve the original, apply base syntax review then extended craft review, and show both with one concrete explanation.
+Use approved organizational voice. Preserve source facts, uncertainty, quotations and required language; do not invent detail.
+An unchanged strong paragraph is a valid result. Let the participant judge; save revisions only after approval.
 For an RFP matrix, quote each requirement and source location, match only documented evidence and mark unsupported rows as gaps.
 Practice facts support practice work only. Never present them as the participant's facts.
 

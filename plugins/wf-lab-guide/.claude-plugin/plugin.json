@@ -1,6 +1,6 @@
 {
   "name": "wf-lab-guide",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "The Lab Guide for Applied AI Labs for Nonprofits (RW Institute, funded by Wells Fargo PCI). Answers participants' questions from the published lab kits and participant page, in your own Claude.",
   "author": {
     "name": "RW Institute"

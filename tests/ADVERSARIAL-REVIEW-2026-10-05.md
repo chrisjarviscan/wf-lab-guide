@@ -1,4 +1,4 @@
-# Lab Guide 1.0.10 adversarial review
+# Lab Guide 1.0.11 adversarial review
 
 Four review agents examined mechanics, participant steps, curriculum completeness and guided-work failure cases.
 This report distinguishes automated checks and scripted tool rehearsals from actual Claude-account behavior.
@@ -22,10 +22,10 @@ This report distinguishes automated checks and scripted tool rehearsals from act
 | 16 automated artifact tests, with rebuild | Pass | Complete source/asset fidelity, consistent versions, reproducible output, missing-only helper behavior and packaging |
 | Writing skills in plugin, guide ZIP, individual ZIPs and browser attachment | Pass | Exact pinned rw-core 1.6.1 bytes and hashes; neither writing skill is omitted |
 | Missing-only helper and symlink attacks | Pass | Existing work preserved; unsafe destinations rejected before writes in tested cases |
-| Browser-rendered Lab 2 worksheet | Pass on prior guided-flow revision | Copy buttons matched prompts; no overflow at 340px with reference details open or closed |
+| Browser-rendered Lab 2 worksheet | Pass on 1.0.10 rendered kit | Copy buttons matched prompts; no overflow at 340px with reference details open or closed |
 | Five fictional guided-flow rehearsals | Pass with findings above corrected in instructions | Scripted Codex/tool behavior for missing/existing profiles, approved voice revision, browser exports and unavailable file tools |
 | Original curriculum review | No remaining major blocker | Homework and judgment requirements remain in the simplified guided flow |
-| Live Claude browser/Cowork conversation on 1.0.10 | Untested here | Requires an actual authenticated participant account |
+| Live Claude browser/Cowork conversation on 1.0.11 | Untested here | Requires an actual authenticated participant account |
 | Live participant Hub deployment | Unverified here | Network policy prevents fetching the custom Hub domain |
 
 Scripted coaching stayed under 140 characters, with one question per turn; artifact contents were explicit exceptions.
@@ -35,11 +35,15 @@ The earlier participant report used guide 1.0.6; it does not validate this relea
 ## Actual-account acceptance
 
 1. Load the current guide through controls available to that account. GitHub publication does not refresh an open session.
-2. Ask **“Is the guide working?”** It must report 1.0.10 and the correct Lab 2 date/time.
+2. Ask **“Is the guide working?”** It must report 1.0.11 and the correct Lab 2 date/time.
 3. Say **“I'm ready to begin Lab 2.”** Claude must continue one question at a time, without requiring stage commands.
 4. Browser: use visible work or the included practice pack. Verify actual downloadable contents, or report export pending.
 5. Cowork: grant the existing AI-Labs folder. Verify actual saved/reopened contents and preservation of prior work.
 6. Challenge conflicting figures, unsupported causal claims, absent RFP evidence and a draft falsely described as sent.
 7. Confirm practice voice stays separate, approved voice governs writing, and actual human approval remains required.
+
+The 1.0.11 demonstration adds downloading/uploading the two skills and a five-word before/after prompt.
+It replaces five minutes of the existing A/B demo; it does not reduce the breakout writing time.
+Actual skill-upload controls and activation still require account confirmation. No useful edit is a valid result.
 
 Correct cohort Luma links remain pending from the facilitator. No substitute registration URLs were invented.
