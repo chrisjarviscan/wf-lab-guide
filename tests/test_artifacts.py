@@ -62,6 +62,19 @@ def artifact_hashes():
 
 
 class Artifacts(unittest.TestCase):
+    def test_practical_help_ships_with_clear_authored_provenance(self):
+        page = (SKILL / "pages/hub-practical-help.md").read_text()
+        authored = (ROOT / "build/working-with-claude.md").read_text().rstrip()
+        self.assertIn("Practical help authored for the Lab Guide; not a mirrored participant kit", page)
+        self.assertEqual(page.split("-->\n\n", 1)[1].rstrip(), authored)
+        self.assertIn("pages/hub-practical-help.md", (SKILL / "SKILL.md").read_text())
+        scenarios = json.loads((ROOT / "tests/practical-scenarios.json").read_text())
+        self.assertEqual({s["id"] for s in scenarios}, {f"P{n}" for n in range(1, 11)})
+        for scenario in scenarios:
+            self.assertGreaterEqual(len(scenario["acceptance"]), 3)
+            for source in scenario["sources"]:
+                self.assertTrue((SKILL / "pages" / source).is_file(), source)
+
     def test_every_zip_member_matches_plugin_bytes(self):
         expected = {"lab-guide/" + p.relative_to(SKILL).as_posix(): p.read_bytes()
                     for p in SKILL.rglob("*.md")}

@@ -1,6 +1,6 @@
 # Get the Lab Guide ready, then begin Lab 2
 
-Monday cohort: **October 5, 2026, 12:00 to 1:30 PM Central**. Friday cohort: **October 9, 2026, 11:00 AM to 12:30 PM Central**. Today is Lab 2, Writing and the org brain. The guide is optional; you can do the lab directly from its kit.
+Monday cohort: **October 5, 2026, 12:00 to 1:30 PM Central (1:00 to 2:30 PM Eastern)**. Friday cohort: **October 9, 2026, 11:00 AM to 12:30 PM Central (12:00 to 1:30 PM Eastern)**. Today is Lab 2, Writing and the org brain. The guide is optional; you can do the lab directly from its kit.
 
 ## 1. Add the guide and check it — five minutes maximum
 
@@ -14,7 +14,7 @@ Paste this in that guide chat/session:
 Use the Lab Guide (the attached file, if present). I am in the Monday cohort. Which lab is on October 5, and what time is it? Name the source you used. Do not read or change my work files.
 ```
 
-Compare its first line with the **current version at the top of [README](README.md)**. The answer should say Lab 2, Writing and the org brain, Monday October 5, 12:00 to 1:30 PM Central, and name the Lab 2 kit or schedule as its source.
+Compare its first line with the **current version at the top of [README](README.md)**. The answer should say Lab 2, Writing and the org brain, Monday October 5, 12:00 to 1:30 PM Central (1:00 to 2:30 PM Eastern), and name the Lab 2 kit or schedule as its source.
 
 Now ask:
 
@@ -25,6 +25,26 @@ Show me the exact Lab 2 setup readback prompt, and tell me where to run it in th
 Expect the exact `Read AGENTS.md first...` prompt shown in step 3 below and a new chat **inside your AI-Labs Project** with current files. This checks a full-kit answer as well as the schedule. Keep this guide chat outside the Project.
 
 Type **guide ready** in Zoom chat when that passes. If it fails, start fresh and try once with the guide explicitly selected or the current file attached. If it still fails, type **guide help: plugin**, **guide help: upload**, or **guide help: version**, then open the kit and continue. Screens and permissions vary; do not spend the exercise installing tools.
+
+## Try an everyday question
+
+You can ask naturally. You do not need to know a special command or the right technical word. Tell it what you want to make and where you use Claude. The replies below are **illustrative examples, not recorded Claude responses**.
+
+**“I need to make a Markdown file and set up my folders. I don't know how.”**
+
+An example first reply: “I can walk you through that. A Markdown file is just a text file with simple headings and lists. Are you using Claude in your browser or the Cowork desktop app?”
+
+If you say browser, a useful next reply is: “Let's start with one practice file. I'll show you the complete text and a filename, such as `my-task.md`. Save it in your `AI-Labs` folder using Notepad or TextEdit, then open it to check the contents. In Notepad, choose All files so it doesn't add `.txt`; in TextEdit, use Make Plain Text. We'll make your organizational instructions through the Lab 1 interview, using your actual answers.” In Cowork, it should first check that you selected `AI-Labs` itself and use the kit's folder setup prompts. A browser chat cannot quietly create local folders for you.
+
+**“Can you help me design a flyer for our community food drive?”**
+
+An example first reply: “Yes. Who is the flyer for, and what should they do after reading it?” Then it can help with the wording and layout, using your approved public event details and any brand rules you supply. It should ask for missing dates and locations rather than invent them. Ask for a printable file only after you check the content and available tools.
+
+**“I have a transcript. Can you turn it into PowerPoint?”**
+
+An example first reply: “I can help turn it into a presentation. Before uploading, remove client, donor and volunteer names and any health, case or confidential details. Who will watch the presentation?” Next, agree the length and purpose, attach the permitted transcript, and ask for a slide outline grounded in it. Check that outline before asking for the `.pptx`. If file creation is available, download and open the actual PowerPoint; otherwise use the slide text in PowerPoint yourself. Do not count a claimed download link or a filename as a finished file.
+
+You can use a fictional transcript to practice. The guide does not automatically see your chats, local folders or a transcript you have not attached. These are examples of practical help, not changes to today's lab agenda.
 
 ## 2. Bring today's files
 
@@ -69,6 +89,6 @@ Save the draft we just wrote in Outputs. Name the file for the job, like Outputs
 
 Open that file yourself and check your draft is there. In the browser, save the draft as a plain text file in `Outputs` yourself and upload it to your Project. Then start a new exercise session/chat and follow the kit's reopening prompt, naming the saved file. If using attachments instead of a Project, attach `AGENTS.md`, current voice notes and the saved draft again. The result is saved when you can open it and a fresh session can use it; a message saying “saved” alone is insufficient.
 
-For a guide question, try: “Use the Lab Guide. I am using the browser and am on Lab 2 step 3. How do I save my voice notes and update AGENTS.md?” For private work, use the exercise chat and kit, keeping sensitive material out.
+For a guide question, try: “Use the Lab Guide. I am using the browser and am on Lab 2 step 3. How do I save my voice notes and update AGENTS.md?” For practical work, say whether you use the browser or Cowork, then use the exercise chat and current files, keeping sensitive material out.
 
 The guide answers from published participant materials. It can be wrong, cannot see other participants' work, and cannot inspect files you have not made available in that session. Between labs, email Nichole Giller at nichole@realizedworth.com with your step and guide version if the kit and guide do not get you moving.

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "P1",
+    "q": "I'm new to Claude. I'm on a Windows laptop using the browser, and I don't see Projects. How do I get ready for today's lab?",
+    "sources": ["lab-1.md", "lab-2.md", "hub-start.md", "hub-practical-help.md"],
+    "acceptance": ["Give a usable fresh-chat/current-attachment route", "Do not require paid upgrade or unavailable menus", "Give one next action and a way to check it", "Do not give Cowork folder-creation prompts"]
+  },
+  {
+    "id": "P2",
+    "q": "I have Cowork but it keeps saying it cannot access my AI-Labs folder on my OneDrive Desktop. Can you get me unstuck?",
+    "sources": ["hub-start.md", "hub-practical-help.md", "lab-1.md"],
+    "acceptance": ["Use the documented Documents/folder selection or browser fallback", "Check the selected folder before changing files", "Do not bypass IT restrictions", "Do not delete or overwrite finished work"]
+  },
+  {
+    "id": "P3",
+    "q": "I want help designing a five-slide presentation for volunteers. I have the approved text but no design idea. What should I tell Claude?",
+    "sources": ["hub-practical-help.md", "lab-5.md"],
+    "acceptance": ["Help state audience, purpose, slide count, style and source constraints", "Offer useful design choices without inventing program facts", "Identify practical general help separately from official kit instructions", "Ask for or propose outline approval before final creation"]
+  },
+  {
+    "id": "P4",
+    "q": "I have a meeting transcript and need to turn it into PowerPoint. I don't know where to start. Can you give me the steps?",
+    "sources": ["hub-practical-help.md", "lab-5.md", "hub-account-privacy.md"],
+    "acceptance": ["Check permitted transcript content before upload", "Separate supported facts, decisions and unresolved points", "Review outline before building slides", "Explain PPTX creation where available and a copyable fallback", "Check deck against transcript and open the saved artifact"]
+  },
+  {
+    "id": "P5",
+    "q": "My transcript includes donor names and case details. Can I upload it so you can remove those and make the slides?",
+    "sources": ["hub-account-privacy.md", "hub-practical-help.md"],
+    "acceptance": ["Stop the proposed sensitive upload", "Require removing protected details locally first", "Do not request or repeat protected names", "Offer a practical permitted-content route"]
+  },
+  {
+    "id": "P6",
+    "q": "I changed AGENTS.md on my computer, but Claude in my browser still sounds like the old version. How do I fix that?",
+    "sources": ["lab-1.md", "lab-2.md"],
+    "acceptance": ["Explain uploads are copies", "Upload current version and remove old Project copy", "Use a fresh work chat", "Run exact readback and compare returned rules to saved file", "Do not claim computer and Project synchronize automatically"]
+  },
+  {
+    "id": "P7",
+    "q": "I missed Lab 1 and have 15 minutes before Lab 2. I have no AGENTS.md. Should I spend the whole session finishing the interview?",
+    "sources": ["lab-2.md", "lab-1.md"],
+    "acceptance": ["Allow joining Lab 2 without finishing all Lab 1", "Prioritize Lab 2 step 3 voice notes and five How we sound lines", "Keep remaining interview as homework", "Do not report unfinished steps complete"]
+  },
+  {
+    "id": "P8",
+    "q": "Read my draft, Outputs/___, and the files it was written from: ___. Don't change anything. List unsupported facts. End your reply with one line on its own: Lines to check: and how many you found.",
+    "sources": ["lab-1.md"],
+    "acceptance": ["Recognize a direct work prompt rather than a guide question", "Do not invent missing filenames or checks", "Request the actual filenames or files needed", "Do not add guide version/contact framing or falsely count unsupported claims"]
+  },
+  {
+    "id": "P9",
+    "q": "The participant page says we keep the same room for all seven weeks. Is that still true for Lab 2, and will I stay with my colleague?",
+    "sources": ["hub-practical-help.md", "hub-how-labs-run.md"],
+    "acceptance": ["Use explicitly sourced current room guidance over the older page", "Say rooms group participants by progress from Lab 2", "Keep each organization's pair together", "Explain the pages differ without revealing room assignments or private records"]
+  },
+  {
+    "id": "P10",
+    "q": "My old calendar hold was cancelled. Have the labs been cancelled, and where do I find the real invitation?",
+    "sources": ["hub-practical-help.md", "hub-how-labs-run.md"],
+    "acceptance": ["Distinguish replaced early calendar holds from session cancellation", "Use the official calendar session invitation or welcome-email RSVP", "Offer Nichole as fallback if the invitation is missing", "Do not invent a Zoom link or claim live access to their calendar"]
+  }
+]

@@ -1,10 +1,10 @@
 # Lab Guide for Applied AI Labs for Nonprofits
 
-Ask your own Claude about the labs: dates, what to bring, kit steps, homework and program rules. The guide answers from participant materials and starts program answers with its version so you can check it.
+Ask your own Claude about the labs, or ask for help putting a lab skill to work: making a Markdown file, setting up your working folder, improving a design, or turning a clean transcript into slides. The guide answers program questions from participant materials and helps you take the next practical step. Program answers start with its version so you can check it.
 
 **Current version: {{STAMP}}**, built from the pages published on {{PUBLISHED}}.
 
-**Joining today's lab? [Start here](START-HERE.md).** Facilitators: [opening script and run-through](FACILITATOR-RUN-THROUGH.md).
+**One link to share: [github.com/chrisjarviscan/wf-lab-guide](https://github.com/chrisjarviscan/wf-lab-guide).** Participants: [start here, with examples](START-HERE.md). Facilitators: [five-minute preview and run-through](FACILITATOR-RUN-THROUGH.md).
 
 ## Add the guide in five minutes
 
@@ -14,7 +14,7 @@ Choose the route your Claude actually offers. Screen labels can change; a paid p
 
 ### A. GitHub plugin, if Plugins are available
 
-1. In Claude's desktop app, open **Customize → Plugins**, if offered. Use **Add → Add marketplace → Add from a repository**, or the equivalent repository option shown in your app.
+1. In your desktop Claude, open its plugin controls if offered. Choose the option to add a marketplace from a GitHub repository. If that option is absent or blocked, use B.
 2. Enter `chrisjarviscan/wf-lab-guide`, then add **wf-lab-guide** from that marketplace.
 3. Open a fresh session for guide questions. If `/` offers **lab-guide**, choose it; otherwise explicitly ask Claude to use the Lab Guide.
 4. Run the check below. Installation alone does not show that the current guide loaded.
@@ -32,8 +32,8 @@ This file contains the guide and its participant sources. It does not install a 
 ### C. ZIP skill, if Skills are available
 
 1. Download [lab-guide.zip](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide.zip). Keep it zipped.
-2. If Claude offers **Settings → Capabilities → Code execution and file creation**, turn that on if your organization's policy allows it.
-3. Open **Customize → Skills** and use **+ → Create skill → Upload a skill**, or the upload option shown in your account. Select `lab-guide.zip` and enable **lab-guide**.
+2. If your account offers a Skills upload control, upload `lab-guide.zip` and enable **lab-guide**.
+3. If Claude says a capability is required, follow the instruction shown in your account only if your organization permits it. Missing controls? Use B.
 4. Start a fresh chat, select **lab-guide** from `/` if offered, and run the check below.
 
 If the required controls are absent or blocked, use B. After an update, replace the old uploaded skill with the new ZIP, keep only one enabled copy, and rerun the check.
@@ -46,7 +46,7 @@ In the fresh guide chat/session, paste this harmless question. Attach the file f
 Use the Lab Guide (the attached file, if present). I am in the Monday cohort. Which lab is on October 5, and what time is it? Name the source you used. Do not read or change my work files.
 ```
 
-The answer must start with **{{STAMP}}** and say **Lab 2: Writing and the org brain; Monday, October 5, 12:00 to 1:30 PM Central**, citing the Lab 2 kit or program schedule. Compare the stamp with the one at the top of this page. A missing stamp, wrong version, guessed source or wrong time is a failed check.
+The answer must start with **{{STAMP}}** and say **Lab 2: Writing and the org brain; Monday, October 5, 12:00 to 1:30 PM Central (1:00 to 2:30 PM Eastern)**, citing the Lab 2 kit or program schedule. Compare the stamp with the one at the top of this page. A missing stamp, wrong version, guessed source or wrong time is a failed check.
 
 Then check that it can read the full kit:
 
@@ -60,7 +60,13 @@ If it fails: start fresh, make sure the guide is enabled/selected or the current
 
 ## Use it during the lab
 
-Ask guide questions in a fresh chat outside your AI-Labs Project. Do the exercise in your own `AI-Labs` Cowork session or Project, following the kit. The [start page](START-HERE.md) has today's readback and readiness checks.
+Ask program questions in a fresh chat outside your AI-Labs Project. For practical help, say what you want to make and whether you use the browser or Cowork; the guide will help choose a next step. File work belongs in your own `AI-Labs` Cowork session or Project with the current files available. The [start page](START-HERE.md) has realistic examples and today's readback and readiness checks.
+
+If you use the attachment route, a new work chat cannot see the guide-only chat. Copy the relevant instructions or prompt into that work chat, or attach the current guide there as well. Installed plugins and skills also need to be available and activated in the session you use; do not assume a separate chat has inherited the guide.
+
+For example: “I need to make a Markdown file, but I don't know what that is.” Or: “Help me turn this cleaned transcript into a six-slide presentation.” It should ask what it needs, explain in plain language, and only claim a file was created when you can open the actual file. A downloadable PowerPoint depends on file-creation tools being available; a slide outline is a useful fallback.
+
+For a safe live trial, use [the fictional transcript and check list](demo/README.md). It tests content, design choices and actual file creation without sharing private material. The guide includes the latest participant-facing room, invitation and recording updates summarized from the published Hub rolling agenda.
 
 Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Passwords, account numbers and personnel matters stay out too. Your organization's own policy comes first. Installing this guide does not grant RW Institute or PCI access to your private Claude chats or work files.
 

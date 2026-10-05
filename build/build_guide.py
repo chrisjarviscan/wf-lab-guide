@@ -640,6 +640,7 @@ def main():
         kit_texts[n] = norm(md)
     starter_texts = {page: clean_kit(open(os.path.join(src, rel), encoding="utf-8").read(), cfg)
                      for page, rel in cfg["starters"].items()}
+    practical_help = open(os.path.join(BUILD, "working-with-claude.md"), encoding="utf-8").read()
     check_facts(facts, norm(hub_html), norm(timeline_html), kit_texts)
     if args.bump:
         write(vfile, version + "\n")
@@ -682,6 +683,9 @@ def main():
 
     came_up = open(os.path.join(BUILD, "what-came-up.md"), encoding="utf-8").read()
     write(os.path.join(PAGES, "what-came-up.md"), came_up)
+    write(os.path.join(PAGES, "hub-practical-help.md"),
+          f"<!-- {stamp}. Practical help authored for the Lab Guide; not a mirrored participant kit. -->\n\n"
+          + practical_help.rstrip() + "\n")
 
     # SKILL.md
     dates_rows = "\n".join(
