@@ -27,3 +27,13 @@ Every Monday before the lab, and after any release. It takes about an hour. Owne
 - Does the plugin install from the repository on Pro, and does a push reach it without re-adding? If Claude offers an automatic update setting when the marketplace is added, record what it's called.
 - Does `claude.ai/new?q=` fill in the message box on the web?
 - Can skills or plugins be added from the Claude phone app?
+
+## October 5: short Cowork flow
+
+Use current desktop Cowork with a connected AI-Labs test folder. Ask "Is the guide working?" and "Check and fix setup."
+Then run "Build our voice notes.", "Draft my real piece." and "Check and save it."
+Approve a specific voice line, supply sourced facts, and inspect the files Claude actually reopened.
+Check that earlier AGENTS.md rules and existing drafts survived; no automatic send or invented ship-log entry.
+Repeat using the practice pack: its voice and profile must stay under Kits/Practice, with real voice marked unfinished.
+A missing plugin or failed file tool is a failed/pending account check, regardless of package tests.
+Work-task replies need no guide banner/footer. Record the actual installed version; don't assume updates arrive automatically.

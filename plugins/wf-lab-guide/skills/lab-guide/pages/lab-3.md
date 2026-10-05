@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.5 · Oct 5, 2026. Mirrored from the Lab 3 kit as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.6 · Oct 5, 2026. Mirrored from the Lab 3 kit as published on Oct 5, 2026 (source 1f110c5). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 

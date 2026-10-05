@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.5 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.6 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 1f110c5). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -34,7 +34,19 @@ One real piece of writing in your organization's voice, or a compliance matrix f
 
 Monday, October 5 · Friday, October 9
 
-**Lab 2 kit**: Building the Org-Brain folder from your own documents or the practice pack, then writing with it. (lab-2.md)
+**Today: Claude desktop → Cowork.** [Install the guide](https://github.com/chrisjarviscan/wf-lab-guide/blob/main/START-HERE.md), choose your `AI-Labs` folder, then use these three prompts.
+
+Use permitted public material or practice; remove personal details before sharing.
+
+1. `Build our voice notes.` Claude asks about your voice and saves the lines you approve.
+2. `Draft my real piece.` Tell Claude what you need and who it is for. It asks for missing facts and drafts from your files.
+3. `Check and save it.` Claude checks, saves and reopens your work so you can verify it.
+
+You choose the voice and facts. Claude saves and reopens your work. Help with access happens individually.
+
+Minimum today: saved voice notes and approved voice rules in `AGENTS.md`. Practice work stays labeled practice; your own voice is unfinished until you use your real material. Open the short Lab 2 kit (lab-2.md).
+
+**Lab 2 kit**: Three short asks: build approved voice notes, draft a real piece, then check and save it. Claude handles the file work its tools allow; you decide what sounds like you and verify the result. (lab-2.md)
 
 **Practice file: org brain starter pack**: Documents from BrightPath, a fictional nonprofit: its mission, two writing samples, outcomes and a practice RFP. It takes the same steps as your own documents.
 

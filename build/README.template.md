@@ -25,3 +25,13 @@ If Claude requests folder access, select your existing AI-Labs folder.
 If Plugins is missing, ask your facilitator. No GitHub account is needed.
 
 [Facilitator script](FACILITATOR-RUN-THROUGH.md) · [More help](HELP.md)
+
+Today, Lab 2:
+
+> Build our voice notes.
+
+> Draft my real piece.
+
+> Check and save it.
+
+You approve the voice and facts. Claude handles files and reopens the saved result.

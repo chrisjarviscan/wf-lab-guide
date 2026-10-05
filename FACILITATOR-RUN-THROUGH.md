@@ -25,3 +25,21 @@ If access is requested, select the existing AI-Labs folder. No moving files by h
 If Plugins is missing, help that participant individually. Continue the lab at five minutes.
 
 [Current version](README.md) · [Troubleshooting](HELP.md)
+
+## Lab 2: three prompts
+
+> Build our voice notes.
+
+Approve the voice. Claude saves and reopens it.
+
+> Draft my real piece.
+
+Tell Claude the job and reader when it asks. Review the draft.
+
+> Check and save it.
+
+Claude checks, saves and reopens the result. Read one best line aloud.
+
+Minimum: saved voice notes and approved voice rules. Practice stays separate; real voice remains unfinished.
+
+Keep the existing writing time. If late, finish the draft afterward.

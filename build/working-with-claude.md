@@ -49,7 +49,7 @@ A draft I have checked and can reopen.
 
 If file creation is available, offer to create or provide that exact file only when asked. Otherwise show the complete contents. On Windows, use Notepad's Save As, choose All files, and save `my-task.md`; check that it did not become `my-task.md.txt`. On Mac, use TextEdit's Make Plain Text before saving. Reopen the actual saved file to verify the text. Current app controls may differ; do not invent a menu label if their screen differs.
 
-For `AGENTS.md`, follow the Lab 1 interview and retain only answers the participant supplied. Do not replace missing organizational answers with guesses. Lab 2 step 3 can start the file if it is missing, and the rest of the interview becomes homework. A starter with "To fill in" is not a finished interview. Run the Lab 2 fresh-session readback and compare its three rules with the actual file.
+For `AGENTS.md`, follow the Lab 1 interview and retain only answers the participant supplied. Do not replace missing answers with guesses. Lab 2 step 1 can start a partial file with approved voice rules; the rest of the interview becomes homework. A starter with "To fill in" is unfinished. If asked for a fresh-session check, run the Lab 2 readback and compare three rules with the actual file.
 
 ## Find a design you like and keep it reusable
 

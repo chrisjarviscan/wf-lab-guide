@@ -498,6 +498,8 @@ def quick_facts(n, title, md, facts):
             cells = [c.strip() for c in row.split("|") if c.strip()]
             if len(cells) >= 3:
                 row = f"{cells[0]} ({cells[1]}): {cells[2]}"
+            elif len(cells) == 2:
+                row = f"{cells[0]}: {cells[1]}"
             levels.append(squeeze(row, 170))
     if levels:
         lines.append("- **This week's homework levels:** " + " ".join(
