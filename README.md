@@ -1,6 +1,6 @@
 # Lab Guide
 
-**Lab Guide 1.0.6 · Oct 5, 2026**
+**Lab Guide 1.0.7 · Oct 5, 2026**
 
 Five minutes. Use Claude desktop → Cowork.
 
@@ -35,3 +35,5 @@ Today, Lab 2:
 > Check and save it.
 
 You approve the voice and facts. Claude handles files and reopens the saved result.
+
+[Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)

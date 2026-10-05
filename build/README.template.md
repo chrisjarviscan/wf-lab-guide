@@ -35,3 +35,5 @@ Today, Lab 2:
 > Check and save it.
 
 You approve the voice and facts. Claude handles files and reopens the saved result.
+
+[Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)

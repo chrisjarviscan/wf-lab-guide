@@ -43,3 +43,5 @@ Claude checks, saves and reopens the result. Read one best line aloud.
 Minimum: saved voice notes and approved voice rules. Practice stays separate; real voice remains unfinished.
 
 Keep the existing writing time. If late, finish the draft afterward.
+
+[Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)

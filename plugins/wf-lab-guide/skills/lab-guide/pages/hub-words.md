@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.6 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 1f110c5). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.7 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 2672df5). Do not edit: rebuild instead. -->
 
 # Words we use
 

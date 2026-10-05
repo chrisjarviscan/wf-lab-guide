@@ -21,3 +21,5 @@ Claude checks your connected AI-Labs folder, adds missing lab files and verifies
 If Claude requests folder access, select your existing AI-Labs folder.
 
 If Plugins is missing, ask your facilitator. No GitHub account is needed.
+
+[Participant Hub → today’s win](https://wf-ai-labs.rw.institute/participant#lab-2)

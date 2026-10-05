@@ -1,6 +1,8 @@
-<!-- Lab Guide 1.0.6 · Oct 5, 2026. Mirrored from the Lab 2 kit as published on Oct 5, 2026 (source 1f110c5). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.7 · Oct 5, 2026. Mirrored from the Lab 2 kit as published on Oct 5, 2026 (source 2672df5). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
+
+[Participant Hub](https://wf-ai-labs.rw.institute/participant#lab-2) · Today’s win worksheet
 
 Make Claude sound like your organization. Leave with saved voice notes and, if time permits, one real draft.
 

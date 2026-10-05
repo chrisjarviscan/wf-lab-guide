@@ -1,5 +1,7 @@
 # Lab 2: Writing and the org brain
 
+[Participant Hub](https://wf-ai-labs.rw.institute/participant#lab-2) · Today’s win worksheet
+
 Make Claude sound like your organization. Leave with saved voice notes and, if time permits, one real draft.
 
 Claude handles the files. You choose what sounds like you and check the facts.

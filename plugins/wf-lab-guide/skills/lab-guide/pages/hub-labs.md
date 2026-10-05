@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.6 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 1f110c5). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.7 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 2672df5). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -44,7 +44,7 @@ Use permitted public material or practice; remove personal details before sharin
 
 You choose the voice and facts. Claude saves and reopens your work. Help with access happens individually.
 
-Minimum today: saved voice notes and approved voice rules in `AGENTS.md`. Practice work stays labeled practice; your own voice is unfinished until you use your real material. Open the short Lab 2 kit (lab-2.md).
+Minimum today: saved voice notes and approved voice rules in `AGENTS.md`. Practice work stays labeled practice; your own voice is unfinished until you use your real material. Today’s win: open the Lab 2 worksheet (lab-2.md).
 
 **Lab 2 kit**: Three short asks: build approved voice notes, draft a real piece, then check and save it. Claude handles the file work its tools allow; you decide what sounds like you and verify the result. (lab-2.md)
 
