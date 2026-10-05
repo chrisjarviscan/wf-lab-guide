@@ -15,6 +15,7 @@ import argparse
 import json
 import os
 import re
+import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DENY = os.path.expanduser("~/Projects/wf-lab-guide-local/denylist.txt")
@@ -24,8 +25,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("results")
     ap.add_argument("--version", default=open(os.path.join(HERE, "..", "build", "VERSION")).read().strip())
+    ap.add_argument("--only", default="", help="score only these comma-separated question IDs")
     a = ap.parse_args()
     qs = {q["id"]: q for q in json.load(open(os.path.expanduser("~/Projects/wf-lab-guide-local/questions.json")))}
+    if a.only:
+        selected = set(a.only.split(","))
+        unknown = selected - qs.keys()
+        if unknown:
+            print("unknown question IDs: " + ", ".join(sorted(unknown)), file=sys.stderr)
+            return 1
+        qs = {qid: q for qid, q in qs.items() if qid in selected}
     res = {r["id"]: r for r in json.load(open(a.results))}
     deny = []
     if os.path.exists(DENY):
@@ -35,6 +44,7 @@ def main():
         r = res.get(qid)
         if not r:
             print(f"{qid:4} ----  no answer")
+            total += 1
             continue
         ans = r["answer"]
         low = ans.lower()
@@ -43,10 +53,10 @@ def main():
         if f"lab guide {a.version}" not in first.lower():
             problems.append("no version stamp on line 1")
         for group in q.get("must", []):
-            if not any(w in low for w in group):
+            if not any(w.lower() in low for w in group):
                 problems.append(f"missing '{group[0]}'")
         for w in q.get("mustnot", []):
-            if w in low:
+            if w.lower() in low:
                 problems.append(f"forbidden '{w}'")
         if q.get("no_other_emails") or True:
             for e in re.findall(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+", ans):
@@ -63,7 +73,8 @@ def main():
         flag = "  (read it)" if q.get("manual") else ""
         print(f"{qid:4} {'PASS' if not problems else 'FAIL'}  {words:3}w  {'; '.join(problems)}{flag}")
     print(f"automatic checks: {passed}/{total} pass")
+    return 0 if total > 0 and passed == total else 1
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the Lab 4 kit as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.3 · Oct 5, 2026. Mirrored from the Lab 4 kit as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # Lab 4: Data, clean and extract
 
@@ -15,6 +15,8 @@ If your ready check at the end of Lab 3 said you're ready for Lab 4, your folder
 - Choose your material. Both take the same steps today.
   - Your own: your recurring spreadsheet's tab exported as a `.csv` file, every column unhidden, saved outside `AI-Labs`, plus one month's total from your system and how long cleaning it takes by hand.
   - The practice sheet: a fictional funder's grants export, already in `Kits`.
+- Optional, and it saves time in the room: start your key at home. In your key folder, list each organization name from your sheet's Organization column once, by hand. Nothing here goes near Claude.
+- In step 1 you check your column headings, the top row only, with Claude. If a heading names an organization, change it to its `ORG-01` placeholder first.
 - Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet adds a stricter rule:
   - Delete every column that names or identifies a person, staff included: names, addresses, phones, emails, birth dates, ID numbers. These are the red columns.
   - Delete notes and comments columns too. Names hide in them, and a header can't show you what's in the cells.
@@ -41,19 +43,34 @@ Your board and funder reports start from the spreadsheet you rebuild every month
 
 ## Today, step by step
 
-In your breakout room, one of you drives and shares the screen, but never your key or real names; your colleague checks. Time steps 1 to 7 on a stopwatch.
+In your breakout room, each of you works on your own computer, with your own Claude, copy and key, your colleague included. If your facilitator asks to see your screen, never show your key folder. Time steps 1 to 7 on a stopwatch.
 
-1. **Save a copy and show your headers.** Save a copy in your key folder, so the original stays untouched. Delete any red or notes column, share only the headers, and wait for the facilitator's OK before anything goes into `Working`. You delete columns by hand because the data has to be safe before anything goes near Claude.
+1. **Save a copy and check your headings.** Save a copy in your key folder, so the original stays untouched. Delete any red or notes column, and change any heading that names an organization to its `ORG-01` placeholder. Then open a new chat in Claude and check your headings, the top row only. Save your copy into `Working` only once Claude says "Headings clean." You delete columns by hand because the data has to be safe before anything goes near Claude, and the headings are the only part of your sheet Claude sees in this step.
    - Your own sheet: keep one month, about 50 rows.
-   - Practice sheet: copy `Kits/MOCK-Benevity-Export-Messy.csv`.
-   - More: about 50 rows is few enough to check every change; keep the month your system total covers. If that month runs well past 50 rows, keep all of it, or keep 50 and skip the system-total check in step 7, since that total covers rows you cut. To share only the headers, copy the header row into a blank sheet and share that window. Start your key while you wait.
+   - Practice sheet: copy `Kits/MOCK-Benevity-Export-Messy.csv` into `Working`. It holds no personal data, so skip the heading check.
+   - More: about 50 rows is few enough to check every change; keep the month your system total covers. If that month runs well past 50 rows, keep all of it, or keep 50 and skip the system-total check in step 7, since that total covers rows you cut. To copy only the top row, click the row number 1 so nothing else is selected, and never paste a row below it. Start your key next, in step 2.
+
+   Claude will read only your headings, list any that could point to a person, and end with one line.
+
+   ```prompt
+   Below are the column headings from a spreadsheet, the top row and nothing else. Which of these columns could point to one person, such as names, addresses, phone numbers, emails, birth dates, ID numbers, or notes and comments? Also flag any heading that is itself a person's name or an organization's name; a plain heading like "Organization" is fine. Don't ask for the file, and don't guess at what is in the cells. Keep your reply short. The last line of your reply must be exactly one of these two lines, with nothing after it: "Headings clean." or "Delete these columns:" followed by the headings.
+
+   Paste the top row here:
+   ```
+
+   ```done
+   Claude's last line says "Headings clean." If it says "Delete these columns:", delete each one it names from your copy, or change a heading that names an organization to its `ORG-01` placeholder, copy the top row again and run it again. This checks headings only. It can't see the cells, which is why the notes columns go first.
+   ```
+   - Why this way: the headings are the only part of your sheet Claude sees, so nothing personal goes in, and the fixed last line answers at a glance. It uses "end with one clear line". The same move fits any sheet you are about to share.
+   - If it doesn't work: if Claude asks for the file, say no and paste the top row only. If you pasted more than the top row, delete that chat, delete any column that names a person from your copy, and tell your facilitator; at home, email Nichole Giller at nichole@realizedworth.com. If Claude flags a heading that isn't personal, like Site Name, keep the column, tell Claude why and run it again.
+   - Browser: use a new chat outside your Project, so Claude reads nothing but the top row you paste.
 
    2. **Make your placeholder key.** A column of organization names, like partners or grantees, is yellow: its names get placeholders, and the key lets you put them back. You make the key by hand because it never goes near Claude. In your key folder, start a sheet with three columns: Placeholder, Name in the sheet, Swap back to. Number the names ORG-01, ORG-02 and on; two spellings of one organization share a placeholder.
    - Your own sheet: put "key" in the file name, like `volunteer-hours-key.csv`, so the key check spots it.
    - Practice sheet: use `MOCK-Placeholder-Key.csv`.
    - More: every other column is green and stays as it is. To list each name once, copy the yellow column into the key's "Name in the sheet" column and delete the repeats; keep every spelling, since each gets its own row. "Swap back to" holds the spelling you want in the finished sheet. If your sheet names no organizations, skip the key and the swap, and still count in step 3. Next month, open this key again and give only new organizations the next free number, so each placeholder keeps meaning the same organization and your recipe's rules still fit.
 
-   3. **Swap the names, then count.** You swap and count by hand, because the key never goes near Claude and a check on Claude can't come from Claude. In your copy's yellow columns, find and replace each name with its placeholder, ticking the whole-cell option. Filter each yellow column: any value but a bare placeholder is a missed name, so add it to the key and swap it. Save the copy in `Working` as a `.csv`, like `volunteer-hours-swapped.csv` (practice: `grants-swapped.csv`). Write down its data row count (last row number minus 1) and the total of the column you report on (practice: Amount).
+   3. **Swap the names, then count.** You swap and count by hand, because the key never goes near Claude and a check on Claude can't come from Claude. In your copy's yellow columns, find and replace each name with its placeholder, ticking the whole-cell option. Filter each yellow column: any value but a bare placeholder is a missed name, so add it to the key and swap it. Save the copy in `Working` as a `.csv`, like `volunteer-hours-swapped.csv` (practice: `grants-swapped.csv`). Write down its data row count (last row number minus 1) and the total of the column you report on (practice: Amount). Then type "saved" in the Zoom chat so your facilitator can see who needs a hand.
    - More: the whole-cell option is often called "Match entire cell contents". Add any amount typed as words into your total. Saving as a `.csv` can change how dates look or drop leading zeros from ID numbers, so compare a few cells with the original before you blame Claude for a change.
 
    4. **Run your brief on 10 rows.** Ten rows are few enough to check by eye, so a missing rule shows up early. Write your brief from "Your brief to Claude", whose must-have lines ask for a change log: each change, with its row and reason. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste it.
@@ -96,8 +113,21 @@ In your breakout room, one of you drives and shares the screen, but never your k
 
    - Why this way: next month, a saved brief runs rules you've already checked, and you skip writing it again. It uses "word for word", so every rule you added today survives. The same move keeps the brief behind a monthly board dashboard or a quarterly grant report.
    - Browser: save the Notepad or TextEdit file you wrote the brief in as a plain text file named for the sheet, like `volunteer-hours-cleanup.md`, in `Recipes` (Windows Notepad: choose "Save as type: All files"; Mac TextEdit: choose Format, then Make Plain Text). Then upload it to your Project.
-9. **Trade recipes (7 minutes).** Fresh eyes spot rules you'll want. Show the other organization your recipe, never your key, and pass rules in the Zoom chat, placeholders only.
-   - More: you pick rules and add them by hand, because which ones fit your sheet is a judgment call. Open your recipe in `Recipes` with Notepad or TextEdit, add them, placeholders only, and save. In the browser, upload the new file to your Project and delete the old one from the Project's files.
+9. **Get an outside read of your recipe (5 minutes).** Next month's session will read only your recipe. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this with your sheet's short name in both blanks. Claude will read your recipe and change log, change nothing, and quote each rule that reads two ways, each call with no rule, then the rule most worth keeping.
+
+   ```prompt
+   Read Recipes/___-cleanup.md and Outputs/___-change-log.md. Don't change any file, and don't open any file with "key" in its name. Read the recipe as someone who will run it next month on a new export and wasn't here today. Quote every rule that could be read two ways, and every judgment call in the change log that no rule in the recipe covers, and say why in one line each. If any line names an organization or a person instead of a placeholder like ORG-01, give only its line number, never the name. Then quote the one rule most worth keeping. End your reply with one line on its own: "Rules to check:" and how many you found.
+   ```
+
+   ```done
+   Claude quotes rules that read two ways, calls with no rule and the rule most worth keeping, and its last line says "Rules to check:" and a number. You've decided each one: add a rule, reword one or leave it.
+   ```
+
+   - Why this way: the chat that wrote your recipe knows what you meant, so its rules look clear to it. A fresh session reads only the recipe and the log, as next month's will, and a call Claude made once with no rule can go the other way next time. You decide each one by hand, because which rules fit your sheet is a judgment call. It uses "start fresh from your files" and "end with one clear line". The same read works on any procedure a colleague will follow without you.
+   - More: open your recipe in `Recipes` with Notepad or TextEdit, make each change, placeholders only, and save. If Claude quotes none, you're done; if it quotes many, start with the first three. If the room runs out of time, do this after the lab.
+   - If it doesn't work: if Claude gives a line number in place of a name, your recipe names someone. Open it, put the placeholder in place of an organization or delete a person's name, save it, and tell your facilitator.
+   - Browser: upload today's change log to your Project if it isn't there yet. Then, in a new chat inside your AI-Labs Project, paste the same prompt with "the cleanup recipe and change log in this Project" in place of "Recipes/___-cleanup.md and Outputs/___-change-log.md". After you change the recipe, upload the new file and delete the old one from the Project's files.
+   - **Room:** near the end of room time, your facilitator calls a round: each of you reads aloud one rule from your recipe, placeholders only, 20 seconds each. Not there yet? Read one limit from your brief, or pass. Hear a rule that fits your sheet? Note it and add it by hand after the lab.
 10. **Save what you learned (2 minutes).** Every lab ends this way, so your folder gets a little better each week. Paste this in the chat where you did most of today's fixing. If you ran step 4 more than once, that chat can't see the earlier fixes, so add a line after the prompt saying what you changed today. Claude will suggest up to three lines for `AGENTS.md` from today's fixes and wait for your yes on each one.
 
     ```prompt
@@ -163,7 +193,7 @@ The table covers the likeliest problems this week. For anything else, ask Claude
 Read Kits/KIT-Lab4-Data-Clean-Extract.md. I'm on this step: ___. Here's what I see: ___. What should I do next? Answer in three short steps.
 ```
 
-In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask the facilitator who drops into your room. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
+In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask your room's facilitator. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
 | What you see | What to try |
 |---|---|
@@ -172,11 +202,11 @@ In the browser, paste the step from this page instead of the file name. If Claud
 
 ## This week
 
-Choose one level with your colleague. You can switch levels any week.
+Choose one level. You and your colleague can choose different ones, and you can switch levels any week.
 
 | Level | Time | What you do | What you'll have |
 |---|---|---|---|
-| **Keep Pace** | 30 to 45 min | Your own sheet through steps 1 to 8, your colleague checking the headers, 10 rows first. Send it, names back in, to whoever uses it | A cleaned sheet sent |
+| **Keep Pace** | 30 to 45 min | Your own sheet through steps 1 to 8, with someone at your organization checking the headers first, 10 rows first. Send it, names back in, to whoever uses it | A cleaned sheet sent |
 | **Ship It** | 1 to 2 hours | Keep Pace on a bigger sheet, timed against your by-hand minutes | A timed sheet sent |
 | **Build Ahead** | 3 hours or more | Ship It, plus a recipe for a second sheet, and send that one too | Two sheets sent |
 

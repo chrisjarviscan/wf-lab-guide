@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the Lab 7 kit as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.3 · Oct 5, 2026. Mirrored from the Lab 7 kit as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # Lab 7: Build session and 90-day roadmap
 
@@ -33,9 +33,9 @@ In the first lab you each named a task you'd hand off tomorrow. Today you find o
 
 ## Today, step by step
 
-You work in a merged breakout room, your usual room and one other. One of you drives; the one who knows the workflow best answers Claude's questions.
+In your breakout room, each of you works on your own computer, with your own Claude, and documents your own workflow, your colleague included, so nobody needs to share a screen.
 
-1. **Write the workflow document (12 minutes).** A colleague can only run what's written down. Start a Cowork session on `AI-Labs` itself. Copy the brief under Your brief to Claude, fill in each part and the file name, and send it. Claude will read `Workflows`, ask one question at a time about what the files don't show, then save the document when you say "done" and tell you where it is.
+1. **Write the workflow document (12 minutes).** A colleague can only run what's written down. Start a Cowork session on `AI-Labs` itself. Copy the brief under Your brief to Claude, fill in each part and the file name, and send it. When the document is saved, type "saved" in the Zoom chat so your facilitator can see who needs a hand. Claude will read `Workflows`, ask one question at a time about what the files don't show, then save the document when you say "done" and tell you where it is.
 
    ```done
    Claude says it saved the document in `Workflows`, most times with the whole document in its reply. Open it to check: all ten headings, with something under each one.
@@ -45,8 +45,20 @@ You work in a merged breakout room, your usual room and one other. One of you dr
    - More: a small workflow you run often counts in full. If Claude is still asking at about 10 minutes, say "done"; step 3 fills the gaps. On the practice files, answer as if the grants summary were yours.
    - If it doesn't work: if Claude says `Workflows` is empty or missing, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project). If you did, run the gather prompt under "This week" in the Lab 6 kit (lab-6.md), then send the brief again.
    - Browser: in a new chat inside your AI-Labs Project, upload the files from `Workflows` and `Outputs/ship-log.md`, then paste the brief. Claude can't save into your folder, so copy the finished document into a plain text file named as in your brief, like `volunteer-hours-report.md`, save it in `Workflows`, and upload it to your Project.
-2. **Read it cold (5 minutes).** The one who knows the workflow less reads the document on the driver's shared screen, as if new to the work, noting each question as a gap for step 3. The reading stays by hand, because deciding what a newcomer needs is the judgment you're practicing.
-3. **Fix the gaps (6 minutes).** A step with no tool stops a colleague too. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project). Fill in your file name and your gaps. Claude will read both files and ask about each gap one at a time until you say "done", then change only those lines, mark estimates and tell you what it changed.
+2. **Get a cold read (5 minutes).** A reader who has never done the work finds what you left out. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this with your document's file name in the blank. Claude will read only your document, change nothing, list each question a newcomer would need answered, then name the clearest step.
+
+   ```prompt
+   Read only Workflows/___.md, and don't change any file. Read it as a colleague who has never done this work and has to run it next month from this document alone. Go through it step by step and list every question you would have to ask before you could run it, one line each, naming the heading or step it comes from. Then name the one step that is clearest. End your reply with one line on its own: "Gaps found:" and how many you found.
+   ```
+
+   ```done
+   Claude lists a newcomer's questions, one line each with its heading or step, names the clearest step, and its last line says "Gaps found:" and a number. You've marked the questions that are real gaps.
+   ```
+
+   - Why this way: your colleague will have only the document, and a fresh session that reads only that file meets it the way they would, without the chat that wrote it. Claude finds the questions and you decide which are real gaps, because deciding what a newcomer needs is the judgment you're practicing. It uses "start fresh from your files" and "end with one clear line". The same read tests a handover note before leave.
+   - More: a real gap is a question only you could answer. Skip any that everyone at your organization already knows. If the list is long, keep the first five.
+   - Browser: paste the same prompt with "the workflow document in this Project, ___" in place of "Workflows/___.md", and put its file name in the blank.
+3. **Fix the gaps (6 minutes).** A step with no tool stops a colleague too. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project). Fill in your file name and the gaps you kept from step 2. Claude will read both files and ask about each gap one at a time until you say "done", then change only those lines, mark estimates and tell you what it changed.
 
    ```prompt
    Read Workflows/___.md and Outputs/ship-log.md, and don't change anything yet. Our cold read found these gaps: ___. Also find every step that doesn't name its tool (by hand counts as one) and every time that isn't in the ship log. Ask me about each gap, step and time, one question at a time. If I say "done" early, mark what's left "not answered yet". Then change only those lines in the document and mark any time I didn't measure on a stopwatch as an estimate. Last, write out the whole file in your reply so I can check it.
@@ -62,8 +74,8 @@ You work in a merged breakout room, your usual room and one other. One of you dr
    - Browser: upload your current `ship-log.md` to the Project, delete any older copy, and paste the same prompt. Claude can't save into your folder, so open your copy in Notepad or TextEdit and replace everything in it with the file from Claude's reply. Then upload the new file and delete the old one from the Project's files.
 
    Then start your 90-day plan.
-4. **Show your workflow to the room (18 minutes).** Other pairs' workflows may give you your next one. Each pair has 3 minutes on five points: what it does, what it replaced, your old-way and new-way minutes (start to sent), what surprised you, and what it can't do. While others talk, post one thing you'd borrow in the room's Zoom chat.
-   - More: another organization from your usual room asks each pair one question. If your document isn't finished, show the part that is; it still counts.
+4. **Show your workflow to the room (about 18 minutes).** Other people's workflows may give you your next one. You each have 90 seconds, reading from your document, on five points, a sentence each: what it does, what it replaced, your old-way and new-way minutes (start to sent), what surprised you, and what it can't do. Then the person who went just before you asks one question: what they'd need to know to run it from your document alone. While others talk, post one thing you'd borrow in the room's Zoom chat.
+   - More: your facilitator sets the order so the person who asks you is always from another organization; whoever goes last asks the first question. Nobody shares a screen. If your document isn't finished, show the part that is; it still counts. If you and your colleague wrote down the same workflow, each of you presents your own, and you can spend your time on where yours differs. When you ask, ask to understand, with no critique.
 5. **Save what you learned (2 minutes).** Every lab ends this way, so your folder gets a little better each week. Paste this where you fixed the gaps in step 3. If you corrected Claude in step 1, add a line after the prompt saying what; that session may not have it. Claude will suggest up to three lines for `AGENTS.md` from today's fixes and wait for your yes on each one.
 
    ```prompt
@@ -138,7 +150,7 @@ In the browser, paste the step from this page instead of the file name. If Claud
 
 ## This week
 
-The 90-day plan replaces this week's homework levels. Decide it with your colleague, in the room or later today.
+The 90-day plan replaces this week's homework levels. Decide it on your own, in the room or later today. Your colleague makes their own; compare the two after the lab.
 
 | Month | Workflow | Which tool | Why that tool |
 |---|---|---|---|

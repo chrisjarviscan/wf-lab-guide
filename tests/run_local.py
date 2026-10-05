@@ -31,6 +31,8 @@ def ask(q, model, workdir, explicit=False):
            "--allowedTools", "Skill Read Glob Grep WebSearch",
            "--output-format", "stream-json", "--verbose", "--max-turns", "12"]
     proc = subprocess.run(cmd, cwd=workdir, capture_output=True, text=True, timeout=600)
+    if proc.returncode:
+        raise RuntimeError(f"{q['id']}: Claude exited with status {proc.returncode}; no answer was scored")
     answer, tools, key_source = "", [], "?"
     for line in proc.stdout.splitlines():
         try:
@@ -45,7 +47,11 @@ def ask(q, model, workdir, explicit=False):
                     arg = c["input"].get("file_path") or c["input"].get("skill") or c["input"].get("query") or c["input"].get("pattern") or ""
                     tools.append(f"{c['name']}:{os.path.basename(str(arg)) if c['name'] == 'Read' else arg}")
         if d.get("type") == "result":
+            if d.get("is_error"):
+                raise RuntimeError(f"{q['id']}: Claude returned an error result; no answer was scored")
             answer = d.get("result") or ""
+    if not answer.strip():
+        raise RuntimeError(f"{q['id']}: Claude returned no answer; no answer was scored")
     return {"id": q["id"], "q": q["q"], "answer": answer, "tools": tools, "key_source": key_source}
 
 
@@ -59,7 +65,12 @@ def main():
     qs = json.load(open(os.path.expanduser("~/Projects/wf-lab-guide-local/questions.json")))
     if a.only:
         keep = set(a.only.split(","))
+        unknown = keep - {q["id"] for q in qs}
+        if unknown:
+            ap.error("unknown question IDs: " + ", ".join(sorted(unknown)))
         qs = [q for q in qs if q["id"] in keep]
+    if not qs:
+        ap.error("no questions selected")
     os.makedirs(OUT, exist_ok=True)
     stamp = dt.datetime.now().strftime("%Y%m%d-%H%M")
     results = []
@@ -75,8 +86,11 @@ def main():
     path = os.path.join(OUT, f"run-{stamp}-{a.model}{'-explicit' if a.explicit else ''}.json")
     json.dump(results, open(path, "w"), indent=1, ensure_ascii=False)
     print(f"saved {path}")
-    subprocess.call([sys.executable, os.path.join(HERE, "score.py"), path])
+    score_cmd = [sys.executable, os.path.join(HERE, "score.py"), path]
+    if a.only:
+        score_cmd += ["--only", a.only]
+    return subprocess.call(score_cmd)
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

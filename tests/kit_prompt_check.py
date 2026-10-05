@@ -41,7 +41,11 @@ def main():
                "--settings", json.dumps({"disableAllHooks": True}),
                "--plugin-dir", PLUGIN, "--model", a.model, "--no-session-persistence",
                "--allowedTools", "Skill Read Glob Grep LS", "--output-format", "json", "--max-turns", "12"]
-        out = subprocess.run(cmd, cwd=folder, capture_output=True, text=True, timeout=600).stdout
+        proc = subprocess.run(cmd, cwd=folder, capture_output=True, text=True, timeout=600)
+        if proc.returncode:
+            print(f"KIT PROMPT CHECK: FAIL (Claude exited with status {proc.returncode})")
+            return 1
+        out = proc.stdout
     answer = (json.loads(out).get("result") or "").strip()
     lines = [ln for ln in answer.splitlines() if ln.strip()]
     problems = []

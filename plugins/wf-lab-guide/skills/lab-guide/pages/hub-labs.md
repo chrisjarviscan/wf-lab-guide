@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the participant page as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.3 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -86,7 +86,7 @@ Monday, November 2 · Friday, November 6
 
 ### Lab 7: Build session and 90-day roadmap
 
-A written workflow a colleague could run without you, timed before and after and shown to a few other pairs, and a plan for the next 90 days.
+A written workflow a colleague could run without you, timed before and after and shown to your room, and a plan for the next 90 days.
 
 Monday, November 9 · Friday, November 13
 

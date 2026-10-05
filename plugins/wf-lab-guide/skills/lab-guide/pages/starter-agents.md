@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the Lab 1 starter file as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.3 · Oct 5, 2026. Mirrored from the Lab 1 starter file as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # Starter AGENTS.md
 

@@ -15,6 +15,7 @@ Run it before every release (the build runs it too). It fails on:
 It also lists, without failing, model names and quotes it couldn't find in the
 step they point to, for a person to look at.
 """
+import argparse
 import io
 import json
 import os
@@ -88,6 +89,12 @@ def gitignored(rel):
 
 
 def main():
+    global LOCAL
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--config-dir", default=LOCAL,
+                    help="external directory containing the release privacy lists and sources.json")
+    args = ap.parse_args()
+    LOCAL = os.path.abspath(os.path.expanduser(args.config_dir))
     files = [(rel, text) for rel, text in shipped_files() if not gitignored(rel)]
 
     denylist = load_list("denylist.txt")
@@ -156,7 +163,8 @@ def main():
     if pj.get("version") != version:
         fail(f"plugin.json version {pj.get('version')} differs from VERSION {version}")
     stamp = f"Lab Guide {version} ·"
-    for rel in ("plugins/wf-lab-guide/skills/lab-guide/SKILL.md", "download/copy-prompt.md", "README.md"):
+    for rel in ("plugins/wf-lab-guide/skills/lab-guide/SKILL.md", "download/copy-prompt.md", "README.md",
+                "download/lab-guide-chat.md"):
         if stamp not in open(os.path.join(ROOT, rel), encoding="utf-8").read():
             fail(f"{rel} doesn't carry '{stamp}'")
     zpath = os.path.join(ROOT, "download", "lab-guide.zip")
@@ -165,8 +173,25 @@ def main():
         expected = sorted(["lab-guide/SKILL.md"] + [f"lab-guide/pages/{p}" for p in os.listdir(PAGES)])
         if members != expected:
             fail("the ZIP's files differ from the skill folder; rebuild")
-        elif z.read("lab-guide/SKILL.md").decode() != skill:
-            fail("the ZIP's SKILL.md differs from the plugin's; rebuild")
+        else:
+            for member in members:
+                path = os.path.join(ROOT, "plugins", "wf-lab-guide", "skills", member)
+                with open(path, "rb") as fh:
+                    if z.read(member) != fh.read():
+                        fail(f"the ZIP's {member} differs from the plugin's; rebuild")
+
+    # The no-install attachment must carry every current page, without stale
+    # embedded copies. Scan its text above as well as checking source fidelity.
+    bundle = open(os.path.join(ROOT, "download", "lab-guide-chat.md"), encoding="utf-8").read()
+    embedded = re.findall(r"<!-- BEGIN SOURCE pages/([^ ]+) -->\n(.*?)\n<!-- END SOURCE pages/\1 -->",
+                          bundle, flags=re.S)
+    if [name for name, _ in embedded] != sorted(os.listdir(PAGES)):
+        fail("the chat attachment's source pages differ from the skill folder; rebuild")
+    else:
+        for name, text in embedded:
+            current = open(os.path.join(PAGES, name), encoding="utf-8").read().rstrip()
+            if text != current:
+                fail(f"the chat attachment's pages/{name} differs from the plugin's; rebuild")
 
     # "Lab N, step M" references
     steps = {}

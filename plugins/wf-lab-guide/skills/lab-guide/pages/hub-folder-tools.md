@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the participant page as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.3 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # Your AI-Labs folder, and the tools
 
@@ -71,4 +71,4 @@ AI tools change from month to month, and names may change while the program runs
 
 Every line above comes from Anthropic's own announcements and help pages, read in the week of September 22. If you see something different in your account, tell us and we'll check it.
 
-Model names change often, so this guide leaves them out. Check the model picker in your Claude, or Anthropic's help pages. The kits name models by role, such as "the default model".
+Model names and Claude's controls change often. Check your account and Anthropic's current help pages. Installation availability depends on your organization's settings; older plan and screen descriptions in the participant materials are not a guarantee.

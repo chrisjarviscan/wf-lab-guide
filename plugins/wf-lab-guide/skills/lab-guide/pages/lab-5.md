@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the Lab 5 kit as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.3 · Oct 5, 2026. Mirrored from the Lab 5 kit as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # Lab 5: Numbers to narrative to deck
 
@@ -43,13 +43,13 @@ Numbers change things for a nonprofit when they reach the people who decide, usu
 
 ## Today, step by step
 
-In your breakout room, one of you drives. First tell the other organization which meeting your deck is for, because at the swap they play its skeptic. Start a stopwatch; on your own numbers, keep timing at home until the deck goes out.
+In your breakout room, each of you works on your own computer, with your own Claude, and makes your own files, your colleague included, so nobody needs to share a screen. Start a stopwatch; on your own numbers, keep timing at home until the deck goes out.
 
 - Browser: upload the files each prompt names to your AI-Labs Project and paste the prompt in a chat there. When Claude shows or offers a file, save it under the name and folder the prompt gives (Lab 1's Notepad and TextEdit tips apply), upload it, and delete any older copy from the Project's files.
 
 1. **Write the context file (5 minutes).** It holds what the numbers can't show. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project).
    - Your own numbers: paste this, answer by role, never by name, and say "done" to finish.
-   - Practice set: read `Kits/MOCK-Program-Context.md` together, then go to step 2.
+   - Practice set: read `Kits/MOCK-Program-Context.md`, then go to step 2.
 
    Claude will interview you, then save and show you `Working/context.md`.
 
@@ -62,7 +62,7 @@ In your breakout room, one of you drives. First tell the other organization whic
    ```
 
    - Why this way: from a blank page you'd skip what you take for granted, like the month the counting changed; one question at a time pulls it out. It uses "ask me, don't guess" and "show me so I can check". The same interview writes a new treasurer's background notes, or a handover note before a role change.
-2. **Find the insights (4 minutes).** Each insight names its rows, so you can check it before it becomes a story.
+2. **Find the insights (4 minutes).** Each insight names its rows, so you can check it before it becomes a story. When the row count and total show, type "counted" in the Zoom chat so your facilitator can see who needs a hand.
    - Your own numbers: the blanks are your sheet, like `Outputs/volunteer-hours-cleaned.csv`, and `Working/context.md`.
    - Practice set: the blanks are `Kits/MOCK-Benevity-Export-CLEANED-Reference.csv` and `Kits/MOCK-Program-Context.md`.
 
@@ -78,10 +78,10 @@ In your breakout room, one of you drives. First tell the other organization whic
 
    - Why this way: a bare "what do these numbers say?" gets fluent sentences you can't check. Named rows make every number something you can look up, and the context file rules out misleading comparisons. It uses "show me so I can check". Try it on attendance counts before a staff meeting, or survey totals before a funder call.
    - If it doesn't work: if Claude stopped at the name check, delete this chat. In your spreadsheet app, find that row and, by hand, give an organization its placeholder or delete a person's name. Then start fresh and paste this again. Tell your facilitator; at home, email Nichole Giller at nichole@realizedworth.com.
-3. **Check two insights against the sheet (4 minutes).** You check by hand, because a check on Claude has to come from somewhere other than Claude. Meanwhile, your colleague drafts answers to the brief's questions for step 4. In your spreadsheet app, check the row count and total, then add up the rows behind the two insights that matter most. If a number is off, tell Claude what you got.
+3. **Check two insights against the sheet (4 minutes).** You check by hand, because a check on Claude has to come from somewhere other than Claude. In your spreadsheet app, check the row count and total, then add up the rows behind the two insights that matter most. If a number is off, tell Claude what you got.
 
    - More: for "$352,500 (all 2025 rows)", filter Award Date to 2025, select the Amount cells, and read their sum at the bottom of the window; a =SUM formula would also add the rows the filter hides. A whole-column count includes the header row, so it's one more than Claude's.
-4. **Write the narrative, then save it (6 minutes).** The narrative is the story the meeting will hear. Send your answers to Your brief to Claude in the same chat. When every number in the narrative is one of the insights, rows named, paste this. Claude will check the folder, save the insights and narrative in `Outputs` and both briefs as a recipe, replacing any earlier ones, then list the folder.
+4. **Write the narrative, then save it (7 minutes).** The narrative is the story the meeting will hear. Send your answers to Your brief to Claude in the same chat; your context file already names the meeting and the slot, so a line or two per part is enough. When every number in the narrative is one of the insights, rows named, paste this. Claude will check the folder, save the insights and narrative in `Outputs` and both briefs as a recipe, replacing any earlier ones, then list the folder.
 
    ```prompt
    First check the folder I chose to work in. If it isn't called AI-Labs, don't change anything. Just tell me its name. If it is, save the insights as Outputs/insights.md and the narrative as Outputs/narrative.md, word for word. Then save the insights prompt and the narrative brief I sent in this chat, word for word and in that order, as Recipes/numbers-to-deck.md, under the heading "Part 1: insights and narrative". Replace any earlier version of these three files. Then list everything in the folder so I can check it.
@@ -105,7 +105,7 @@ In your breakout room, one of you drives. First tell the other organization whic
 
    - Why this way: the chat that wrote the narrative has seen every choice along the way; a fresh one reads only the page. It uses "start fresh from your files" and "change only what I name". The same move checks a budget justification against the budget sheet, or a website impact page against last year's outcomes.
    - If it doesn't work: if Claude can't find `Recipes/second-chair.md`, ask it what's in `Recipes` and put that file's name in the prompt.
-6. **Settle the top three findings (3 minutes).** A finding can be wrong too. With your colleague, take the three that matter most and, for each, fix it, reject it with a reason, or check the source. You settle them by hand, because the judgment is what you're practicing. Then name the fixes in step 5's chat, like "Fix 1 and 3. Leave 2: the context file explains it."
+6. **Settle the top three findings (3 minutes).** A finding can be wrong too. Take the three that matter most and, for each, fix it, reject it with a reason, or check the source. You settle them by hand, because the judgment is what you're practicing. Then name the fixes in step 5's chat, like "Fix 1 and 3. Leave 2: the context file explains it."
 7. **Make the slide outline (4 minutes).** The outline is the deck in words, made from the checked narrative alone, so a number from anywhere else stands out. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this. Claude will read only `Outputs/narrative.md`, save a slide outline as `Outputs/slide-outline.md`, and show it to you.
 
    ```prompt
@@ -146,7 +146,19 @@ In your breakout room, one of you drives. First tell the other organization whic
 
    - Why this way: the deck comes only from the saved outline, so the prompt works in any chat, today or at home, and the last line tells you it saved, however long the build took. It uses "start fresh from your files" and "end with one clear line". Both fit a handout (.docx) made from a program summary, or a site-visit sheet (.pdf) from an approved program plan.
    - If it doesn't work: if Claude couldn't make the file, switch on the setting from "Before you come". Then, or if the chat closed before the file name showed, start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this prompt again.
-10. **Swap: face the skeptic on one slide (7 minutes).** An outsider asks what your meeting will. Show the other organization one slide, placeholders in, or the narrative if you have no outline yet. They ask the question you'd least like to hear, then you trade. Answer from the narrative and the sheet, and note what you couldn't answer, to settle before the meeting. On your own numbers, you finish the rest at home, in order.
+10. **Face the meeting's skeptic on one slide (5 minutes).** A reader who wasn't in your chats asks what your meeting will. Leave the deck building, start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this with your context file, then a slide like "slide 3 of the outline" (no outline yet: "the narrative's main paragraph"). Claude will play the person in your meeting most likely to doubt you, change nothing, and end with the question you'd least like to hear.
+
+    ```prompt
+    Read the context file ___, Outputs/narrative.md, and Outputs/slide-outline.md if it's there. Don't change any file. Play the person in that meeting most likely to doubt us. Look only at ___ and ask me the one question about it I'd least like to hear there. Then say in one or two lines whether the narrative answers it, and quote the line if it does. End your reply with one line on its own: "Question:" followed by the question.
+    ```
+
+    ```done
+    Claude changes no file, says whether the narrative answers the question, and ends with a line that starts "Question:". If the narrative can't answer it, you've noted it to settle before the meeting.
+    ```
+
+    - Why this way: the chats that built the deck have seen every choice, while a fresh session reads only the meeting and the page, the way the doubter in the room will. Claude asks, and you decide what the answer is, because you'll be the one standing there. It uses "start fresh from your files" and "end with one clear line". The same move rehearses a funder site visit, or a budget question at a board meeting.
+    - More: on your own numbers, finish the rest at home, in order. Answer the question from the narrative and the sheet, not from memory; a gap goes in the context file, and steps 2 to 9 run again from there.
+    - **Room:** near the end of your room time, your facilitator calls a round: each of you reads aloud Claude's "Question:" line, 20 seconds each, with no answer. Not there yet? Read the question you'd least like to hear, or pass.
 11. **Save what you learned (2 minutes).** Every lab ends this way, so your folder gets a little better each week. Paste this in step 5's chat, where you fixed the narrative. It can't see the other chats, so add a line after the prompt saying what else you changed today. Claude will suggest up to three lines for `AGENTS.md` from today's fixes and wait for your yes on each one.
 
     ```prompt
@@ -195,7 +207,7 @@ The table covers drafts that come out wrong. For anything else, ask Claude first
 Read Kits/KIT-Lab5-Numbers-Narrative-Deck.md. I'm on this step: ___. Here's what I see: ___. What should I do next? Answer in three short steps.
 ```
 
-In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask the facilitator who drops into your room. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
+In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask your room's facilitator. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
 | What you see | What to try |
 |---|---|
@@ -204,7 +216,7 @@ In the browser, paste the step from this page instead of the file name. If Claud
 
 ## This week
 
-Choose one level with your colleague. You can switch levels any week.
+Choose one level. You and your colleague can choose different ones, and you can switch levels any week.
 
 | Level | Time | What you do | What you'll have |
 |---|---|---|---|
@@ -230,7 +242,7 @@ My homework level this week is ___. Add it and the Lab 6 bring list from Kits/KI
 
 - Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains this week's items and keeps everything else as you left it.
 
-Bring to Lab 6: a draft that's about to ship and the files it came from (today's narrative counts), and a research brief. Pick one real question your organization needs answered, the kind you'd act on this month. Write the brief in the four parts, ask for a date on every source and a list of what it couldn't find, and save it as `Working/research-brief.md`. Decide with your colleague who runs Research and who builds the skill.
+Bring to Lab 6: a draft that's about to ship and the files it came from (today's narrative counts), and a research brief. Pick one real question your organization needs answered, the kind you'd act on this month. Write the brief in the four parts, ask for a date on every source and a list of what it couldn't find, and save it as `Working/research-brief.md`. You'll each run Research on your own brief, so if you and your colleague share a question, each save a copy of the brief in your own folder.
 
 In Cowork, paste this with your brief below it. Claude will check it names no client, donor or volunteer, save it word for word as `Working/research-brief.md`, and show it, without acting on it.
 

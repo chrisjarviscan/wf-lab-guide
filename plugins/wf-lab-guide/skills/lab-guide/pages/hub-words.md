@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the participant page as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.3 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # Words we use
 
@@ -64,7 +64,7 @@ What the words in the kits mean, in plain terms. Each kit also explains a word w
 
 **Re-identify**: Putting the organization names back in place of the placeholders, by hand, with your placeholder key. In Lab 4 you do it in a copy of the cleaned sheet saved in your key folder, outside your AI-Labs folder.
 
-**Research**: A Claude feature you run on a question of your own. It comes back with a report and its sources, which you then check. It comes with your Pro account and can use up your usage limit faster, so each pair runs it once, in Lab 6.
+**Research**: A Claude feature you run on a question of your own. It comes back with a report and its sources, which you then check. It comes with your Pro account and can use up your usage limit faster, so each person runs it once, in Lab 6.
 
 **RFP (request for proposals)**: A funder's published call for grant proposals, with its rules and deadline. A live RFP is one you're answering now. It's public, so it can go into your folder as it is.
 

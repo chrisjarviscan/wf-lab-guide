@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the Lab 6 kit as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.3 · Oct 5, 2026. Mirrored from the Lab 6 kit as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # Lab 6: Skills, research and the wider toolbox
 
@@ -14,7 +14,7 @@ If your ready check at the end of Lab 5 said you're ready for Lab 6, your folder
 - Choose your draft. Both take the same steps today.
   - Your own: a draft about to ship and the files it came from (your Lab 5 narrative counts). Save any not yet in `AI-Labs` into `Working`. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet comes only as prepared in Lab 4: red and notes columns deleted, placeholders in, the key outside `AI-Labs`.
   - The practice set: the narrative you wrote from it in Lab 5, `Outputs/narrative.md`, and the set's two files. Without one, any draft in `Outputs` works, with the files it came from.
-- Your research brief, with all four parts, in `Working/research-brief.md`, and a decision on who runs Research and who builds the skill. If you have none, write a rough one in the four parts under "Your brief to Claude", on a question you'd act on this month, and save it there.
+- Your research brief, with all four parts, in `Working/research-brief.md`. You each run Research today, so colleagues who wrote one brief each save a copy. If you have none, write a rough one in the four parts under "Your brief to Claude", on a question you'd act on this month, and save it there.
 - Code execution and file creation still on in Claude's settings, as in Lab 5. It's an account setting, so check it by hand.
 - Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
 
@@ -35,20 +35,20 @@ A research report reads as if it knows, and it can end up in a grant proposal un
 
 ## Today, step by step
 
-In your breakout room, you each drive your own screen: one on Research, one on the skill.
+In your breakout room, each of you works on your own computer, with your own Claude, and makes your own files, your colleague included, so nobody needs to share a screen.
 
-1. **Launch Research.** It runs while you build the skill, so start it first. Open `Working/research-brief.md`, copy it all, and in a new regular chat (not a Cowork session) click the + button, choose Research and paste it. Its place and name on your screen may differ. Answer any question it asks, and check back during step 2.
+1. **Launch Research.** It runs while you build the skill, so start it first. Open `Working/research-brief.md`, copy it all, and in a new regular chat (not a Cowork session) click the + button, choose Research and paste it. Its place and name on your screen may differ. Answer any question it asks, type "launched" in the Zoom chat, and check back during step 2.
 
-   - More: run one per pair, because Research can use up your limits faster.
-   - If it doesn't work: if you can't find Research, check it's a regular chat, then ask the facilitator who drops into your room. If the report comes late, or Research stops before it lands, steps 5 and 6 become this week's Ship It. After a stop, launch it again at home, the same way.
-2. **Turn your second chair into a skill.** A skill gives Claude the same questions for every draft. In a Cowork session on `AI-Labs` itself, paste this. Claude will save your recipe as `Skills/second-chair/SKILL.md`, ask what your board and funders push on until you say "done", then add your answers and show you the file.
+   - More: run it once today, because Research can use up your limits faster.
+   - If it doesn't work: if you can't find Research, check it's a regular chat, then ask your room's facilitator. If the report comes late, or Research stops before it lands, steps 5 and 6 become this week's Ship It. After a stop, launch it again at home, the same way.
+2. **Turn your second chair into a skill.** A skill gives Claude the same questions for every draft. In a Cowork session on `AI-Labs` itself, paste this. Type your answers, or dictate them with Zoom muted. Claude will save your recipe as `Skills/second-chair/SKILL.md`, ask what your board and funders push on until you say "done", then add your answers and show you the file.
 
    ```prompt
    Turn Recipes/second-chair.md into a skill, saved as Skills/second-chair/SKILL.md, with a name and a one-line description of when to use it between two --- lines at the top, then the recipe's instructions, starting with "Ask for the source files before judging any number." Then ask me, one question at a time, what our board and funders always push on, leaving out any client, donor or volunteer names. When I say "done", add my answers and show me the file so I can check it.
    ```
 
    ```done
-   Claude shows `Skills/second-chair/SKILL.md`: a name and description between two `---` lines, then the instructions, with your answers in them.
+   Claude shows `Skills/second-chair/SKILL.md`: a name and description between two `---` lines, then the instructions, with your answers in them. Then type "saved" in the Zoom chat.
    ```
 
    - Why this way: Claude writes the skill's name and a line on when to use it, and the interview adds the questions your board really asks. It uses "ask me, don't guess" and "show me so I can check". It works the same way for a grant checklist, or your finance lead's budget questions.
@@ -68,7 +68,7 @@ In your breakout room, you each drive your own screen: one on Research, one on t
 
      - If it doesn't work: if Claude says it can't find the skill, check that you opened `AI-Labs` itself and that `Skills/second-chair/SKILL.md` is there (in the browser, that `SKILL.md` is uploaded to your Project), then try again.
    - Browser: upload the draft and its files to your Project if they aren't there, then paste the same prompt.
-4. **Settle the top three findings.** A skill repeats whatever its file gets wrong, so supervise every run: read each one before anything goes out. Settle each finding by hand with your colleague, because the judgment is what you're practicing: fix it, reject it with a reason, or open the file it names and check.
+4. **Settle the top three findings.** A skill repeats whatever its file gets wrong, so supervise every run: read each one before anything goes out. Settle each finding by hand, because the judgment is what you're practicing: fix it, reject it with a reason, or open the file it names and check.
 5. **Check three claims at the source.** A claim you repeat carries your name. When the report lands, pick three you'd repeat. Open each one's source, find the passage and note its date; cut any claim the passage doesn't back or that's out of date. Check by hand, because a check on Claude's work has to come from somewhere other than Claude. Then write your missing-voices line: whose voices are missing, and who you'd ask, as a group, never a person.
    - More: a missing-voices line might read "None of these sources ask older adults themselves; we'd ask the seniors in our wellness program."
 6. **Write the one-page summary.** Someone will act on it, so it holds only checked claims. In the report's chat, turn Research off where you turned it on, if you can, so Claude doesn't search again. Paste this with the reader, your checked claims, each with its source and the date you noted, and your missing-voices line. Claude will write one page from those claims only, then save it as `Outputs/research-summary.md` or show it in the chat.
@@ -95,7 +95,20 @@ In your breakout room, you each drive your own screen: one on Research, one on t
 
    - Why this way: steps you've just seen work make a better skill than one designed on a blank page, and saved instructions stay the same, where retyped ones change a little each time. It uses "check where you are first" and "show me so I can check". Try it on how you built this year's grant report, or an event recap for your board.
    - Browser: paste the prompt from "save what we just did" onward, leaving out the folder check. Save the result as plain text, as in step 2, named `SKILL.md`, in a new folder in `Skills` named for the job. Make a copy named for the job, like `grant-report-SKILL.md`, and upload the copy to your Project, so it isn't mixed up with your second chair's `SKILL.md`.
-8. **Trade second chairs (7 minutes).** Another board's worries catch what yours miss. Open your `SKILL.md` in Notepad or TextEdit, check it names no board member, client or donor, and copy it into the Zoom chat. Start fresh as in step 3 and paste its prompt with "the second chair below" in place of the file name, your draft and files in the blanks, and their skill under it. Tell each other what yours missed.
+8. **Get an outside read of your skill (5 minutes).** A reader your skill doesn't imagine asks what your board doesn't. Start fresh as in step 3 and paste this with your step 3 draft in the blank. Claude will read both as a program officer at a new funder, change nothing, and name one question your skill never asks.
+
+   ```prompt
+   Read Skills/second-chair/SKILL.md and the draft ___. Don't change any file. Read the draft as a program officer at a funder we've never applied to. Name the one question they would ask about it that my skill never asks, quote the line in the draft it's about, and say in one line why my skill misses it. End your reply with one line on its own that starts "Missing question:" followed by that question.
+   ```
+
+   ```done
+   Claude quotes a line from your draft, says why your skill misses it, and ends with "Missing question:" and a question. You've decided whether your funders would really ask it.
+   ```
+
+   - Why this way: a fresh session reads only your skill and the draft, so it shows what your skill leaves out, as another board's worries would. You decide if the question belongs, because only you know what your funders ask. It uses "start fresh from your files" and "end with one clear line". The same read works on a grant checklist before a deadline, or a volunteer orientation script.
+   - Browser: in a new chat inside your AI-Labs Project, paste the same prompt with "SKILL.md in this Project" in place of "Skills/second-chair/SKILL.md", and the draft's file name in the blank.
+   - More: if your board or funders would ask it, ask Claude in a Cowork session to add the question to `Skills/second-chair/SKILL.md` and change nothing else, today or after the lab (in the browser, add it by hand and upload the file again).
+   - **Room:** near the end of room time, your facilitator calls a round: each of you reads your missing question aloud, 20 seconds each. Not there yet? Read a question from your skill, or pass.
 9. **Save what you learned (2 minutes).** Every lab ends this way, so your folder gets a little better each week. Paste this in the chat where you did most of today's fixing. If you already started fresh in step 8, that chat can't see the earlier fixes, so add a line after the prompt saying what you changed today. Claude will suggest up to three lines for `AGENTS.md` from today's fixes and wait for your yes on each one.
 
    ```prompt
@@ -143,7 +156,7 @@ The table covers the likeliest problems this week. For anything else, ask Claude
 Read Kits/KIT-Lab6-Agents-Toolbox.md. I'm on this step: ___. Here's what I see: ___. What should I do next? Answer in three short steps.
 ```
 
-In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask the facilitator who drops into your room. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
+In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask your room's facilitator. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
 | What you see | What to try |
 |---|---|
@@ -152,7 +165,7 @@ In the browser, paste the step from this page instead of the file name. If Claud
 
 ## This week
 
-Choose one level with your colleague. You can switch levels any week.
+Choose one level. You and your colleague can choose different ones, and you can switch levels any week.
 
 | Level | Time | What you do | What you'll have |
 |---|---|---|---|

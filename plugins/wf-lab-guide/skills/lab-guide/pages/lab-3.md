@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.2 · Oct 2, 2026. Mirrored from the Lab 3 kit as published on Oct 2, 2026 (source 0411554). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.3 · Oct 5, 2026. Mirrored from the Lab 3 kit as published on Oct 5, 2026 (source 5b4afb4). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 
@@ -34,9 +34,9 @@ A board decides where money and attention go from the picture your report gives 
 
 ## Today, step by step
 
-Everything below happens in your breakout room; one of you drives. On your own input, start a stopwatch at step 1 and stop it when the revised section is ready to send. For old-way minutes, use the time you brought to Lab 2 if it was for this report, or time one section the old way this week.
+In your breakout room, each of you works on your own computer, with your own Claude, and makes your own files, your colleague included, so nobody needs to share a screen. On your own input, start a stopwatch at step 1 and stop it when the revised section is ready to send. For old-way minutes, use the time you brought to Lab 2 if it was for this report, or time one section the old way this week.
 
-1. **Draft the section, three openings first (8 minutes).** The board reads the rest through the opening, so you choose it. Copy your Lab 1 brief from `Recipes` into Notepad or TextEdit, change its goal, files, reader and length to today's section, and cut its line about where to save, since the prompt below names the file.
+1. **Draft the section, three openings first (8 minutes).** The board reads the rest through the opening, so you choose it. Copy your Lab 1 brief from `Recipes` into Notepad or TextEdit, change its goal, files, reader and length to today's section, and cut its line about where to save, since the prompt below names the file. When your draft is saved, type "saved" in the Zoom chat so your facilitator can see who needs a hand.
    - Your own input: a one-page section of your report, from your file in `Working`.
    - Practice mess pack: a one-page board update from Items 1 to 3 in `Kits/MOCK-Mess-Pack.md`.
 
@@ -62,7 +62,7 @@ Everything below happens in your breakout room; one of you drives. On your own i
    - Why this way: the chat that wrote the draft already knows what every line was meant to say, and your board member won't. A fresh chat has only the page and its files, and your own answers tell it which skeptic to be. It uses "start fresh from your files". The same move gives a staff memo a cold read before it goes out, or checks an event plan against the budget it has to fit.
    - If it doesn't work: if Claude can't find the draft, name the file from step 1, like `Outputs/board-report-draft.md`, and check that the session is on `AI-Labs` itself.
    - Browser: check that the draft and your input file (or the mess pack) are in your Project's files, then start the new chat inside it.
-3. **Settle the top three (5 minutes).** With your colleague, pick the three findings that matter most and settle each: fix it (note the fix for step 5), reject it with a reason, or open the file it names and check. Settle any "Check before sending" items at the end of the draft the same way. You settle them by hand, because that judgment is what you're practicing.
+3. **Settle the top three (5 minutes).** Pick the three findings that matter most and settle each: fix it (note the fix for step 5), reject it with a reason, or open the file it names and check. Settle any "Check before sending" items at the end of the draft the same way. You settle them by hand, because that judgment is what you're practicing.
 
    4. **Save your second chair, then add a rule (3 minutes).** Saved as a recipe, it's ready for every report.
    - Desktop app: paste this in the chat where you ran it. Claude will save the brief, word for word, as `Recipes/second-chair.md` and tell you the file name.
@@ -102,10 +102,20 @@ Everything below happens in your breakout room; one of you drives. On your own i
 
    - Why this way: a bare "fix it" invites a rewrite, and then every line needs checking again. Naming the fixes keeps the change small. It uses "change only what I name" and "show me so I can check". The same move applies a finance lead's notes to a budget narrative, or a board chair's edits to a policy.
    - Browser: paste the same prompt, then copy the revision into a plain text file named for the job, like `board-report-revised.md`, save it in `Outputs` and upload it to your Project.
-6. **Swap second chairs (7 minutes).** The other organization wrote theirs for a different board, so it may ask what yours didn't.
-   - Share yours: copy it from `Recipes/second-chair.md`, check it names no board member, client or donor, and paste it into the Zoom chat.
-   - Run theirs: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project), paste their second chair, change the files it names to your revision and its sources, and send it.
-   - More: if theirs finds something yours missed, add it to yours with step 4's rule prompt.
+6. **Get an outside read of your second chair (5 minutes).** Your second chair reads as one skeptic, so a different reader may ask what it never does. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this with your revision's file name in the blank, or your draft's if you haven't revised. Claude will read both as a program officer, change nothing, quote up to three questions your second chair doesn't check for, and name the one that matters most.
+
+   ```prompt
+   Read Recipes/second-chair.md and the draft in Outputs, ___. Don't change any file. My second chair reads as one skeptic. Read the draft as a different one: a program officer at a foundation that funds work like ours, who has never met us. If my second chair already reads as a funder, read as our board treasurer instead. List up to three questions this reader would ask that my second chair doesn't tell you to check for, each quoting the sentence in the draft that raises it. Then say in one line which question matters most. End your reply with one line on its own: "Questions my second chair misses:" and how many you found.
+   ```
+
+   ```done
+   Claude quotes up to three questions your second chair doesn't check for, each with the sentence that raises it, names the one that matters most, and its last line says "Questions my second chair misses:" and a number.
+   ```
+
+   - Why this way: your second chair was written for one reader, and a fresh session reading as a different one finds the questions it never asks. Claude only reports, and you decide by hand whether a question becomes a rule, because that judgment is what you're practicing. It uses "start fresh from your files" and "end with one clear line". The same read helps before a grant report goes to a funder, or a budget goes to your finance committee.
+   - More: if a question would matter in every report, add it to your second chair with step 4's rule prompt. If the room runs out of time, do this after the lab.
+   - Browser: check that `second-chair.md` and the draft are in your Project's files. In a new chat inside your AI-Labs Project, paste the same prompt with "second-chair.md in this Project" in place of "Recipes/second-chair.md" and "the draft in this Project" in place of "the draft in Outputs", and put the draft's file name in the blank.
+   - **Room:** near the end of your room time, your facilitator calls a round: each of you reads aloud the question Claude said matters most, 20 seconds each. Not there yet when the round starts? Read the best finding you settled in step 3, or pass.
 7. **Save what you learned (2 minutes).** Every lab ends this way, so your folder gets a little better each week. Paste this in the chat where you did most of today's fixing. If you already started fresh in step 6, that chat can't see the earlier fixes, so add a line after the prompt saying what you changed today. Claude will suggest up to three lines for `AGENTS.md` from today's fixes and wait for your yes on each one.
 
    ```prompt
@@ -152,7 +162,7 @@ The table covers drafts that come out wrong. For anything else, ask Claude first
 Read Kits/KIT-Lab3-Reporting-Adversarial-Pass.md. I'm on this step: ___. Here's what I see: ___. What should I do next? Answer in three short steps.
 ```
 
-In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask the facilitator who drops into your room. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
+In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask your room's facilitator. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
 | What you see | What to try |
 |---|---|
@@ -165,7 +175,7 @@ In the browser, paste the step from this page instead of the file name. If Claud
 
 ## This week
 
-Choose one level with your colleague. You can switch levels any week.
+Choose one level. You and your colleague can choose different ones, and you can switch levels any week.
 
 | Level | Time | What you do | What you'll have |
 |---|---|---|---|
