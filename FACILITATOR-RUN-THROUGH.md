@@ -1,6 +1,6 @@
 # Five-minute connection, then one start
 
-Monday October 5: 1:00–2:30 PM Eastern / noon–1:30 PM Central.
+Lab 2: Monday, October 5, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, October 9, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). Use the participant’s cohort; if unknown, show both.
 
 ## Minutes 0–2: keep their route
 
@@ -34,7 +34,7 @@ Claude leads voice → draft → check/save/reopen. No worksheet reading or sepa
 Optional setup help: **Check and fix setup.** Help individuals; continue the existing agenda at five minutes.
 
 Browser uses visible files, interviews or practice. Downloads do not automatically update local or Project files.
-No file tools? Continue with approved text, export pending. Practice stays separate; real voice remains unfinished.
+No file tools? Use the kit’s manual-save fallback or arrange facilitator help before the chat closes. Record saving pending until verified. Practice stays separate.
 
 ## Rehearse on actual Claude accounts
 

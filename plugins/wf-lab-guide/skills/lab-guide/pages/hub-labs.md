@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.13 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source a68b350). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.14 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 1601688). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -30,11 +30,13 @@ Save the Lab 1 kit as a file: KIT-Lab1-First-Safe-Win.md (lab-1.md)
 
 ### Lab 2: Writing and the org brain
 
-One real piece of writing in your organization's voice, or a compliance matrix for a funder's request for proposals (RFP), with your org brain saved along the way: plain text files that tell Claude how your organization sounds.
+Save written notes about your organization's writing style. Then draft one useful piece, or make a table matching a funder's requirements to supporting evidence and any gaps.
 
 Monday, October 5 · Friday, October 9
 
-**Today: Claude desktop → Cowork.** [Install the guide](https://github.com/chrisjarviscan/wf-lab-guide/blob/main/START-HERE.md), choose your `AI-Labs` folder, then say:
+**Today’s finish line:** written notes about your organization’s writing style and five approved voice rules, saved and reopened. “Org-Brain” means the folder for reusable organization information. A draft is the next goal when time permits; sending it is separate homework. The writing checks are already included, so extra skill uploads are optional.
+
+**Today: stay where your work is available.** Add the current guide. Classic Claude may show a Cowork selector; unified Claude has no selector. Claude checks the actual file tools and permissions. Then say:
 
 `I’m ready to begin Lab 2.`
 
@@ -42,7 +44,7 @@ Claude welcomes you, checks the files actually connected to this session, and ha
 
 Use permitted public material or practice; remove personal details before sharing. You choose the voice and verify the facts. Minimum today: saved voice notes and approved voice rules. Practice stays separate and labeled practice; your own voice is unfinished until you use your real material.
 
-Using your browser? Say the same start sentence. Claude uses visible Project files or interviews you, then creates files for download where tools allow. It cannot edit your computer’s folder or update Project files automatically.
+Using your browser? Say the same start sentence. Claude uses visible Project files or interviews you, then creates files for download where tools allow. Downloads do not update your computer’s folder or Project files automatically. Local edits need actual connected-folder access. If Claude cannot create files, use the worksheet’s saving-help steps before closing the chat.
 
 The Lab 2 worksheet (lab-2.md) is a reference if you want it. You do not need to read it first or choose the next prompt.
 

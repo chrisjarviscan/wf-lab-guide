@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.13 · Oct 5, 2026. Mirrored from the participant page as published on Oct 5, 2026 (source a68b350). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.14 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 1601688). Do not edit: rebuild instead. -->
 
 # Start here: seven steps before Lab 1
 

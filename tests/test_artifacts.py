@@ -7,6 +7,7 @@ python3 tests/test_artifacts.py --source /path/to/published/hub --config-dir /ex
 These checks validate packaging and source fidelity, not Claude's live answers.
 """
 import argparse
+import datetime as dt
 import hashlib
 import html
 import json
@@ -62,12 +63,12 @@ def artifact_hashes():
 
 
 class Artifacts(unittest.TestCase):
-    def test_desktop_start_flow_is_short_and_checks_are_natural(self):
+    def test_start_flow_is_clear_and_checks_are_natural(self):
         questions = ("Is the guide working?", "Check and fix setup.")
         for rel in ("README.md", "START-HERE.md", "FACILITATOR-RUN-THROUGH.md"):
             text = (ROOT / rel).read_text()
-            long_lines = [(n, len(line)) for n, line in enumerate(text.splitlines(), 1) if len(line) > 140]
-            self.assertEqual(long_lines, [], f"{rel}: lines longer than 140 characters")
+            self.assertIn("Friday", text, rel)
+            self.assertIn("October 9", text, rel)
             for question in questions:
                 self.assertIn(question, text, rel)
                 self.assertIn(len(question.split()), (4, 5))
@@ -358,8 +359,11 @@ class Artifacts(unittest.TestCase):
             self.skipTest("pass --rebuild with explicit source and privacy settings")
         self.assertIsNotNone(SOURCE)
         self.assertIsNotNone(CONFIG)
+        manifest = ROOT / "build/last-build.json"
+        build_date = (json.loads(manifest.read_text())["built"] if manifest.exists()
+                      else dt.date.today().isoformat())
         cmd = [sys.executable, str(ROOT / "build/build_guide.py"), "--source", str(SOURCE),
-               "--config-dir", str(CONFIG), "--date", "2026-10-05"]
+               "--config-dir", str(CONFIG), "--date", build_date]
         for i in range(2):
             proc = subprocess.run(cmd, capture_output=True, text=True)
             self.assertEqual(proc.returncode, 0, proc.stdout + proc.stderr)

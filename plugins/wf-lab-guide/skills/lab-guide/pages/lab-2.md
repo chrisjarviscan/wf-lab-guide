@@ -1,10 +1,10 @@
-<!-- Lab Guide 1.0.13 · Oct 5, 2026. Mirrored from the Lab 2 kit as published on Oct 5, 2026 (source a68b350). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.14 · Oct 9, 2026. Mirrored from the Lab 2 kit as published on Oct 9, 2026 (source 1601688). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
 
 [Participant Hub](https://wf-ai-labs.rw.institute/participant#lab-2) · Today’s win worksheet
 
-Make Claude sound like your organization. Leave with saved voice notes and, if time permits, one real draft.
+Make Claude sound like your organization. Leave with saved voice notes and, if time permits, one real draft. Voice notes are written notes about your organization’s writing style, not an audio recording.
 
 Claude handles the files. You choose what sounds like you and check the facts.
 
@@ -17,12 +17,12 @@ We connect the guide together in the main room. Then Claude leads you through th
 3. **Begin Lab 2** — Say “I'm ready to begin Lab 2.” Claude checks the work it can access.
 4. **Find your voice** — Answer missing questions. Approve voice rules; Claude saves them.
 5. **Draft your piece** — Give the job, reader and facts. Claude writes in your approved voice.
-6. **Try writing skills** — Download and upload both skills where offered. Ask “Show me before and after.”
+6. **Optional: try writing skills** — Both checks are already included. Download and upload the separate skills where offered. Ask “Show me before and after.”
 7. **Check and save** — Judge the writing and verify facts. Approve; Claude saves and reopens the result.
 8. **Choose what's next** — Choose your homework level. Claude records your plan and helps you continue.
 
 You supply facts and make decisions. Claude handles file work with the access available in your session.
-Browser results are downloads, not automatic local or Project updates. Short on time? Save voice work; finish the draft later.
+Where file tools allow, browser results can be downloaded. Text-only sessions use the saving-help steps below. Neither route automatically updates your local files or Project. Short on time? Save voice work; finish the draft later.
 
 ## Before you come
 
@@ -31,12 +31,12 @@ Cowork uses your connected AI-Labs folder. Browser Claude uses files visible in 
 
 ### Install the guide: three steps
 
-1. [Download the guide ZIP](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide.zip).
-2. In Claude's Skills controls, upload it and enable **lab-guide**, where offered.
+1. [Download the guide ZIP](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip).
+2. In **Customize → Skills**, upload it and enable **lab-guide**, where offered.
 3. Continue in your existing work session. Cowork: grant access to the existing AI-Labs folder when asked.
 
 GitHub sign-in and Claude's GitHub connector are not needed for this download/upload installation.
-No Skills upload controls? Attach the [full guide](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md).
+No Skills upload controls? Attach the [full guide](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md).
 
 ### Two short checks
 
@@ -44,7 +44,7 @@ No Skills upload controls? Attach the [full guide](https://raw.githubusercontent
 Is the guide working?
 ```
 
-Pass: current version, Lab 2 and today's time. Monday, October 5: 1:00–2:30 PM Eastern (noon–1:30 Central).
+Pass: the current guide version and the correct cohort time. Lab 2: Monday, October 5, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, October 9, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). Use the participant’s cohort; if unknown, show both.
 
 ```prompt
 Check and fix setup.
@@ -85,12 +85,12 @@ Downloads are not automatically saved to your computer or uploaded to your Proje
 
 1. **Your voice.** Claude reuses available material, interviews only for gaps and saves voice lines after your approval.
 2. **Your piece.** Claude asks what you need, who will read it and any missing facts, then drafts in your approved voice.
-3. **Your saved result.** Claude checks facts and voice, helps revise, saves and reopens the actual files.
+3. **Your saved result.** Claude checks facts and voice and helps revise. With file tools, it saves and reopens the files. Otherwise it helps you save and reopen a retained copy, one action at a time.
 
-### See a writing skill work
+### Optional: see a writing skill work
 
-1. Download [Syntax Avoidance](https://github.com/chrisjarviscan/wf-lab-guide/raw/refs/heads/main/download/ai-syntax-avoidance.zip)
-   and [Extended review](https://github.com/chrisjarviscan/wf-lab-guide/raw/refs/heads/main/download/ai-syntax-avoidance-extended.zip).
+1. Download [Syntax Avoidance](https://wf-ai-labs.rw.institute/lab-guide/ai-syntax-avoidance.zip)
+   and [Extended review](https://wf-ai-labs.rw.institute/lab-guide/ai-syntax-avoidance-extended.zip).
 2. Where offered, open Claude’s Skills controls, upload both ZIPs and enable them. Keep this work chat.
 3. Give Claude one permitted paragraph. Say:
 
@@ -106,7 +106,7 @@ Already installed, or no upload controls? Watch the demo and continue with the b
 Working on an RFP? Tell Claude. It builds a sourced compliance matrix instead of a writing draft.
 
 ```done
-Claude reopens the files it created. In the browser, they are ready to download; local saving remains pending. Practice stays labeled.
+Your approved voice files have been saved and reopened. Claude checks files its tools can access. For downloads or manually saved text, you open your retained copy and confirm the approved contents. The guide states who checked each copy. Practice stays labeled. Sending is separate homework.
 ```
 
 If time is short, say so. Claude saves and checks your voice work; finish the draft afterward in the same guided conversation.
@@ -141,13 +141,13 @@ A draft, an actual send and readiness for Lab 3 are separate results. Claude che
 ## How Claude runs these steps
 
 The current Lab Guide reads this kit first. The start prompt authorizes work within the current session’s actual access.
-Cowork works in the connected AI-Labs folder. Browser tools create artifacts/downloads; they do not edit the computer or Project.
+Inspect actual tools and permission. Connected-folder tools can edit the approved AI-Labs folder; session-only tools create downloadable files; text-only sessions use the saving fallback. Do not infer local access from browser or desktop alone. Project copies need an explicit update.
 Treat straight/curly apostrophes, capitalization and punctuation variants of “I'm ready to begin Lab 2” as the same request.
 Welcome: “Welcome. We’ll capture your voice, draft a useful piece, then check and save it. I’ll use what’s available here.”
 Then use tools to inspect actual saved work and prepare missing lab assets. Explain each operation briefly before doing it.
 Keep only one unanswered question at a time. Wait for the answer; reuse it instead of asking again.
 Proceed through the stages without asking for another stage command. Pause for voice approval and decisions on draft changes.
-Never send the participant to the worksheet or ask them to open Finder, create folders, move, rename or save files manually.
+Do the authorized file work your tools support. If a download, manual-save fallback or Project update requires the participant, guide it one action at a time with a visible success check. Use the recovery instructions below.
 In Cowork, request only a genuinely missing folder grant. In a browser, continue with visible files, an interview or practice.
 Do not send browser users to Cowork just to begin. Don’t claim a downloaded artifact is saved on the computer or in a Project.
 If samples are missing, offer a spoken/typed interview or fictional practice; do not require manual document gathering.
@@ -199,8 +199,8 @@ Ask for the item, send date, audience group and measured old/new minutes, one qu
 At the guided weekly close, let the person choose the original homework level above and save their plan under “Before Lab 3”.
 Readiness for Lab 3 requires the person's real voice notes, corresponding approved AGENTS rules and a confirmed-send log entry.
 If the interview, real voice, verified file export or measured times are unfinished, name those gaps separately.
-In the browser, say “Ready to download” for verified files; local saving and Project updating remain unconfirmed.
-Without file creation, show approved complete contents and mark export pending; never mark saved-file readiness complete.
+For verified session files, say “Ready to download”. Local saving or Project updating stays unconfirmed until tools verify it or the participant confirms opening the retained copy. State which kind of evidence you have.
+Without file creation, show approved complete contents and use the plain-text saving fallback below. Keep saving pending until the participant confirms the reopened copy; describe it as participant-confirmed, not a local save verified by Claude’s tools.
 For a requested fresh-session check, read these saved files again. The exact setup readback prompt remains:
 
 ```prompt
@@ -209,3 +209,31 @@ Read AGENTS.md first. What did I ask you to follow in this folder? Name the thre
 
 Each returned rule must actually appear in the file. A fresh-session check remains pending until that session runs it.
 Never send externally on the participant's behalf as part of these steps.
+
+## Keep your work and return later
+
+Voice notes are written notes about your organization’s writing style, not an audio recording.
+`Org-Brain` is the folder for reusable information about your organization.
+An RFP compliance matrix is a table matching each requested requirement to supporting evidence or a visible gap.
+
+Claude should do every file operation its tools and your permissions allow. Downloading a file or adding it to Project files may still need your action. The guide gives one action at a time and waits for your confirmation.
+
+- With connected-folder tools: Claude writes and reopens the approved files in your existing AI-Labs folder. Keep the desktop app open while Claude needs its connected files.
+- With downloadable files: open each offered file and check its contents. Download the approved bundle. Open the downloaded copy and confirm you can see your approved voice rules. Only then is your own copy confirmed saved. If you use a Project, add the new files there and check the updated copy before removing any older copy.
+- Without file tools: Claude shows the full approved text with its filename, one file at a time. Save that text in a plain-text editor. On Windows, choose All files and name it exactly `AGENTS.md`; on Mac, choose Format → Make Plain Text before saving. For `Org-Brain/voice-notes.md`, use the `Org-Brain` folder in AI-Labs. Open the saved file and check it contains your approved text. If you cannot do this, ask the facilitator for saving help before closing the chat. This is a pending save, not completed file work.
+
+Before stopping, ask: “Help me pause here.” Claude supplies a short resume note naming the approved files, where they are, the last completed step, any unsaved text, and the next action. It includes no restricted information. Save the note with your work, or keep this conversation available until a facilitator helps. A summary does not replace unsaved full file contents.
+
+To return in a new chat, attach the current guide, your latest `AGENTS.md`, `Org-Brain/voice-notes.md`, and any draft or next-step note. Ask: “Read these files and help me continue Lab 2 from the first unfinished step.” Claude must read what is actually attached before claiming progress. No Project is required.
+
+For Lab 3, add its kit and your permitted reporting input or fictional mess pack to the new conversation. If you use a Project, update its copies explicitly; if you do not, attach the same files in each fresh review chat. Run the readback check against the actual attached AGENTS.md. A new chat alone does not prove memory is off; turn Memory off where offered for the independent check, and compare each quoted rule with the file.
+
+If the guide cannot be installed or attached, attach the Lab 2 Markdown kit linked from the participant hub and say: “Read this kit, including How Claude runs these steps. Guide me through Lab 2 one question at a time. Check your actual file tools, ask before saving voice changes, and never send anything for me.” Confirm Claude can read the kit before beginning. If attachments are blocked, ask the facilitator to guide the exercise; the short start phrase alone does not contain the lab instructions.
+
+## What counts as finished
+
+The live lab’s minimum is your approved written voice notes and five approved “How we sound” rules saved and reopened. A partial AGENTS.md must still show unfinished interview sections. A real draft or RFP table is the next goal when time permits. Fictional practice is a rehearsal, not your organization’s completed voice work.
+
+A file ready to download still needs the participant’s download/open check. A participant-confirmed local save is not a tool-verified local save. Report these separately and accurately.
+
+Sending is a separate homework action that you decide and perform after review. Claude does not send for you. Record only real, confirmed sends. Missing measured times must stay missing; never estimate them. Report the live lab’s saved work separately from remaining homework and timing gaps.

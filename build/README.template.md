@@ -16,7 +16,7 @@ GitHub hosts the download. You do not need GitHub sign-in or Claude's GitHub con
 
 > Is the guide working?
 
-Pass: current README version, Lab 2, October 5 at 1:00–2:30 PM Eastern / noon–1:30 Central.
+Pass: current README version and the correct cohort. Lab 2: Monday, October 5, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, October 9, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). Use the participant’s cohort; if unknown, show both.
 
 > I'm ready to begin Lab 2.
 
@@ -32,3 +32,5 @@ Browser downloads do not automatically update local or Project files.
 
 [More help](HELP.md) · [Today’s win: Lab 2 kit](https://wf-ai-labs.rw.institute/participant#lab-2)
 Writing checks are built in. [Optional skill downloads](SKILLS.md).
+
+No Cowork selector? In unified Claude, continue in the same conversation. Do not use Add from GitHub. For help retaining work without file tools, use the kit’s “Keep your work and return later” steps.

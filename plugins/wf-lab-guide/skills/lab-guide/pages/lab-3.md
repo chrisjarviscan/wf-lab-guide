@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.13 · Oct 5, 2026. Mirrored from the Lab 3 kit as published on Oct 5, 2026 (source a68b350). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.14 · Oct 9, 2026. Mirrored from the Lab 3 kit as published on Oct 9, 2026 (source 1601688). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 
@@ -262,3 +262,9 @@ AI-Labs/
 ```
 
 Outside `AI-Labs`: your Lab 4 `.csv`, red and notes columns deleted, and one total from your own system.
+
+## Coming from Lab 2 without a Project
+
+You can attend Lab 3 even if Lab 2 homework is unfinished. In each new chat, attach the current guide or this kit, your latest AGENTS.md and written voice notes, plus the source input or practice mess pack. For review stages, also attach the draft and second-chair recipe used in that stage. Where this kit says to start inside your Project, you may instead start a new chat with those current files attached. Compare the readback with the actual attached file; a new chat alone does not prove memory is off. Use the app’s Memory control where offered for an independent review.
+
+If Claude cannot make downloadable files, ask your facilitator for the Lab 2 plain-text saving steps before closing the chat. Do not claim the work is saved until you can reopen your retained copy. A Project is optional; a usable copy of the current work is essential.

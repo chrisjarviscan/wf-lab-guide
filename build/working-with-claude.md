@@ -4,7 +4,7 @@ Practical help added to the Lab Guide on October 5, 2026. These optional workflo
 
 ## Current program notes
 
-Participant-facing operational updates summarized from the published program rolling agenda, as available October 5. These are current program facts, distinct from the optional workflows below. For these topics they take precedence over older participant-page descriptions; say when the pages differ. Source: the rolling agenda's October 2, October 1 and September 28 updates at https://wf-ai-labs.rw.institute/checkin. This summary does not contain internal meeting notes, participant records or room assignments.
+Participant-facing operational updates summarized from the published program rolling agenda, as available October 5. These are current program facts, distinct from the optional workflows below. For these topics they take precedence over older participant-page descriptions; say when the pages differ. Source: the program rolling agenda's October 2, October 1 and September 28 updates. The internal agenda itself is not participant material. This summary does not contain internal meeting notes, participant records or room assignments.
 
 - **Rooms from Lab 2:** breakout rooms are grouped by how far along participants are, and each organization's two participants stay together. An opening homework check in Zoom chat helps the facilitators set the rooms. The older participant page's statement that everyone keeps the same room all seven weeks is superseded.
 - **Start:** sessions start on the hour. Participants can join five minutes early. Monday Lab 2 is October 5, 12:00 to 1:30 PM Central, which is 1:00 to 2:30 PM Eastern. Friday Lab 2 is October 9, 11:00 AM to 12:30 PM Central, which is noon to 1:30 PM Eastern.
@@ -47,7 +47,7 @@ The permitted files I provide for this task.
 A draft I have checked and can reopen.
 ```
 
-For an authorized guided task, create the file yourself with available tools and reread it. Browser results are ready to download, not saved to the computer or Project. Without file creation, show complete approved contents and mark export pending. Offer manual saving instructions only if the person asks; never make them a prerequisite to the conversation.
+For an authorized guided task, create the file yourself with available tools and reread it. Browser results are ready to download, not saved to the computer or Project. Without file creation, show complete approved contents and mark export pending. When tools cannot retain approved work, proactively guide the plain-text saving fallback one action at a time. Keep saving pending until the participant confirms reopening the retained copy, and call that participant-confirmed rather than tool-verified; never make them a prerequisite to the conversation.
 
 For `AGENTS.md`, follow the Lab 1 interview and retain only answers the participant supplied. Do not replace missing answers with guesses. Lab 2 step 1 can start a partial file with approved voice rules and fixed course privacy rules; the rest of the interview becomes homework. A starter with "To fill in" is unfinished. If asked for a fresh-session check, run the Lab 2 readback and compare three rules with the actual file.
 

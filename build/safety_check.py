@@ -88,6 +88,60 @@ def gitignored(rel):
     return False
 
 
+def load_marker_exceptions(config_dir):
+    """Optional owner-approved exact occurrences; never whole-line exemptions."""
+    path = os.path.join(config_dir, "approved-marker-exceptions.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as stream:
+        data = json.load(stream)
+    if not isinstance(data, list):
+        raise ValueError("marker exceptions must be a list")
+    for entry in data:
+        if set(entry) != {"kind", "value", "markers", "file"}:
+            raise ValueError("invalid marker exception fields")
+        if entry["kind"] not in {"url", "quoted_literal"}:
+            raise ValueError("invalid marker exception kind")
+        if not isinstance(entry["value"], str) or not entry["value"]:
+            raise ValueError("empty marker exception")
+        if not isinstance(entry["markers"], list) or not entry["markers"] or not all(isinstance(m, str) and m for m in entry["markers"]):
+            raise ValueError("invalid exception markers")
+        if entry["kind"] == "url":
+            if entry["file"] is not None or not entry["value"].startswith("https://"):
+                raise ValueError("invalid exact URL exception")
+        elif not isinstance(entry["file"], str) or not entry["file"] or entry["value"][0] not in {chr(34), chr(39)} or entry["value"][-1] != entry["value"][0]:
+            raise ValueError("quoted literal requires an exact file and quotes")
+    return data
+
+
+def has_unapproved_marker(rel, line, marker, exceptions):
+    """Allow only marker occurrences inside approved complete tokens."""
+    spans = []
+    for entry in exceptions:
+        if marker not in entry["markers"] or entry["file"] not in (None, rel):
+            continue
+        if entry["kind"] == "url":
+            # Delimiters terminate Markdown/HTML URL tokens. Suffixes such as
+            # queries, encoded text and extra path segments remain part of it.
+            tokens = re.finditer(r"https://[^\s<>\"'`]+", line)
+            for token in tokens:
+                previous = line[token.start()-1] if token.start() else " "
+                if not (previous.isspace() or previous in "(\"'`<"):
+                    continue
+                value = token.group()
+                end = token.end()
+                closing = re.search(r"\)[.,;:]*$", value) if previous == "(" else None
+                if closing:
+                    end = token.start() + closing.start()
+                    value = value[:closing.start()]
+                if value == entry["value"]:
+                    spans.append((token.start(), end))
+        else:
+            spans.extend(m.span() for m in re.finditer(re.escape(entry["value"]), line))
+    return any(not any(a <= m.start() and m.end() <= b for a, b in spans)
+               for m in re.finditer(re.escape(marker), line))
+
+
 def main():
     global LOCAL
     ap = argparse.ArgumentParser()
@@ -112,6 +166,12 @@ def main():
         fail(f"no internal_markers in {LOCAL}/sources.json, so internal material can't be checked")
         internal = []
 
+    try:
+        marker_exceptions = load_marker_exceptions(LOCAL)
+    except (OSError, ValueError, TypeError, KeyError):
+        fail("invalid approved-marker-exceptions.json; no exceptions applied")
+        marker_exceptions = []
+
     for rel, text in files:
         for i, line in enumerate(text.splitlines(), 1):
             for email in re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}", line):
@@ -129,7 +189,7 @@ def main():
                         fail(f"{rel}:{i}: a name on the denylist appears ({name[0]}…; see the local list)")
             if True:
                 for marker in internal:
-                    if marker in line:
+                    if has_unapproved_marker(rel, line, marker, marker_exceptions):
                         fail(f"{rel}:{i}: internal marker '{marker}'")
                 for phrase in banned:
                     if phrase.lower() in low:
