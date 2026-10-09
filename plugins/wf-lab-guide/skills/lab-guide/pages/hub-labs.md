@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.14 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 1601688). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -45,6 +45,8 @@ Claude welcomes you, checks the files actually connected to this session, and ha
 Use permitted public material or practice; remove personal details before sharing. You choose the voice and verify the facts. Minimum today: saved voice notes and approved voice rules. Practice stays separate and labeled practice; your own voice is unfinished until you use your real material.
 
 Using your browser? Say the same start sentence. Claude uses visible Project files or interviews you, then creates files for download where tools allow. Downloads do not update your computer’s folder or Project files automatically. Local edits need actual connected-folder access. If Claude cannot create files, use the worksheet’s saving-help steps before closing the chat.
+
+Browser: open AGENTS.md in the right-hand document panel. If Save to Project is available at the top right, choose it and select your AI-Labs Project. Otherwise, download AGENTS.md, open that Project, and upload the file to its Project files. Button names and availability may vary. Confirm AGENTS.md appears in Project files and open it to check the approved text before starting a fresh chat inside that Project for the readback. Downloading alone does not add a file to Project files. If replacing an older copy, check the new copy before removing the old one. No Project? Keep the complete file and attach it in each new chat; do not assume Claude remembers it.
 
 The Lab 2 worksheet (lab-2.md) is a reference if you want it. You do not need to read it first or choose the next prompt.
 

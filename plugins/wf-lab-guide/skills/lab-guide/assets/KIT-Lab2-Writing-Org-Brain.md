@@ -215,6 +215,8 @@ Voice notes are written notes about your organization’s writing style, not an 
 `Org-Brain` is the folder for reusable information about your organization.
 An RFP compliance matrix is a table matching each requested requirement to supporting evidence or a visible gap.
 
+Browser: open AGENTS.md in the right-hand document panel. If Save to Project is available at the top right, choose it and select your AI-Labs Project. Otherwise, download AGENTS.md, open that Project, and upload the file to its Project files. Button names and availability may vary. Confirm AGENTS.md appears in Project files and open it to check the approved text before starting a fresh chat inside that Project for the readback. Downloading alone does not add a file to Project files. If replacing an older copy, check the new copy before removing the old one. No Project? Keep the complete file and attach it in each new chat; do not assume Claude remembers it.
+
 Claude should do every file operation its tools and your permissions allow. Downloading a file or adding it to Project files may still need your action. The guide gives one action at a time and waits for your confirmation.
 
 - With connected-folder tools: Claude writes and reopens the approved files in your existing AI-Labs folder. Keep the desktop app open while Claude needs its connected files.

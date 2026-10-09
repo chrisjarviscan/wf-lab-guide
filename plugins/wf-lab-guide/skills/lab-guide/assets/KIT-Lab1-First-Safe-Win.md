@@ -108,7 +108,7 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
      Claude says it saved `AGENTS.md`, and the file sits at the top of `AI-Labs`, next to `Kits` and `Working`.
      ```
    - Why this way: on a blank page, people leave out what they know best, and an interview draws it out. It uses "ask me, don't guess". The same move drafts a job description with a hiring manager, or a program summary with the staff who run it.
-   - Browser: in a new chat inside your AI-Labs Project, type: Read STARTER-AGENTS.md and run the interview prompt in it. When Claude shows your `AGENTS.md`, add it to the Project's files, named `AGENTS.md`: upload it as a file, or paste it in as text if your Project offers that. You're done when `AGENTS.md` is in the Project's files.
+   - Browser: in a new chat inside your AI-Labs Project, type: Read STARTER-AGENTS.md and run the interview prompt in it. Browser: open AGENTS.md in the right-hand document panel. If Save to Project is available at the top right, choose it and select your AI-Labs Project. Otherwise, download AGENTS.md, open that Project, and upload the file to its Project files. Button names and availability may vary. Confirm AGENTS.md appears in Project files and open it to check the approved text before starting a fresh chat inside that Project for the readback. Downloading alone does not add a file to Project files. If replacing an older copy, check the new copy before removing the old one. No Project? Keep the complete file and attach it in each new chat; do not assume Claude remembers it.
 
    <!-- shot: lab1-06 -->
 6. **Run the readback test (2 minutes).** It checks that Claude really follows the file you just made, including the privacy rules from your interview. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this. Claude will read `AGENTS.md` and name the three rules in it that matter most.
@@ -198,7 +198,7 @@ Steps 2 to 10 happen in your breakout room: about eight people from four organiz
     ```
 
     - Why this way: it uses "only after I say yes" from [Ways to ask Claude](/participant#ways), so nothing changes in the file Claude reads first until you've read the new lines.
-    - Browser: paste the same prompt. Claude shows your updated `AGENTS.md`; replace the old `AGENTS.md` in the Project's files with it.
+    - Browser: open AGENTS.md in the right-hand document panel. If Save to Project is available at the top right, choose it and select your AI-Labs Project. Otherwise, download AGENTS.md, open that Project, and upload the file to its Project files. Button names and availability may vary. Confirm AGENTS.md appears in Project files and open it to check the approved text before starting a fresh chat inside that Project for the readback. Downloading alone does not add a file to Project files. If replacing an older copy, check the new copy before removing the old one. No Project? Keep the complete file and attach it in each new chat; do not assume Claude remembers it.
 
     Afterward, email your `AGENTS.md` to your colleague and read theirs. Copy any line of theirs you'd like into yours, in Notepad or TextEdit, since you each wrote from your own view of the same organization.
 
