@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -36,17 +36,25 @@ Monday, October 5 · Friday, October 9
 
 **Today’s finish line:** written notes about your organization’s writing style and five approved voice rules, saved and reopened. “Org-Brain” means the folder for reusable organization information. A draft is the next goal when time permits; sending it is separate homework. The writing checks are already included, so extra skill uploads are optional.
 
-**Today: stay where your work is available.** Add the current guide. Classic Claude may show a Cowork selector; unified Claude has no selector. Claude checks the actual file tools and permissions. Then say:
+Already working here? If the current guide check and your saved-file readback work, continue in this conversation with your existing Project or folder. Do not reinstall the guide or recreate your Project.
 
-`I’m ready to begin Lab 2.`
+### I'm using Claude in my browser
 
-Claude welcomes you, checks the files actually connected to this session, and handles the folder and file work. It asks one short question at a time and leads you from voice notes to a draft, then checks, saves and reopens your work. It pauses for your approval of the voice and facts. If access is missing, it tells you what is needed; help happens individually.
+Open your AI-Labs Project and your work chat. Download the text guide, then attach it to the chat. Check that lab-guide-chat.md appears there and ask “Is the guide working?” Claude should confirm the current version and read the Lab 2 instructions.
 
-Use permitted public material or practice; remove personal details before sharing. You choose the voice and verify the facts. Minimum today: saved voice notes and approved voice rules. Practice stays separate and labeled practice; your own voice is unfinished until you use your real material.
+When you finish, save the approved files to Project files and open them to check the contents. Downloading saves a local copy; it does not update Project files. See the browser saving steps.
 
-Using your browser? Say the same start sentence. Claude uses visible Project files or interviews you, then creates files for download where tools allow. Downloads do not update your computer’s folder or Project files automatically. Local edits need actual connected-folder access. If Claude cannot create files, use the worksheet’s saving-help steps before closing the chat.
+### I'm using the Claude desktop app
 
-Browser: open AGENTS.md in the right-hand document panel. If Save to Project is available at the top right, choose it and select your AI-Labs Project. Otherwise, download AGENTS.md, open that Project, and upload the file to its Project files. Button names and availability may vary. Confirm AGENTS.md appears in Project files and open it to check the approved text before starting a fresh chat inside that Project for the readback. Downloading alone does not add a file to Project files. If replacing an older copy, check the new copy before removing the old one. No Project? Keep the complete file and attach it in each new chat; do not assume Claude remembers it.
+Download the guide ZIP and keep it zipped. In Customize → Skills, choose + → Create skill → Upload a skill, select the ZIP and enable lab-guide, where offered. Open your work conversation and ask “Check and fix setup.” Choose your existing AI-Labs folder if access is requested. Claude names the files it can actually read, or explains what is missing. Installing the guide does not connect the folder. Ask “Is the guide working?”
+
+**Then, in either path, say:** `I'm ready to begin Lab 2.`
+
+Claude asks one question at a time. You approve the voice, check facts and keep the saved result. Start with voice notes; draft a piece if time permits. Use permitted public material or fictional practice. Remove restricted information before sharing, and keep practice separate from your real voice.
+
+**Help: no Project, missing controls or trouble saving**
+
+No Project is required: attach the text guide to a regular chat and keep the complete files for your next chat. Missing Skills or Cowork controls do not prove a file-access failure. Use the help for your screen; Claude checks actual tools and permissions. The browser saving steps cover Save to Project where offered, download then upload, and checking Project files before a fresh-chat readback. Text-only saving help is also there.
 
 The Lab 2 worksheet (lab-2.md) is a reference if you want it. You do not need to read it first or choose the next prompt.
 

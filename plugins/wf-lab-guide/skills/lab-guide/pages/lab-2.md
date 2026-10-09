@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 2 kit as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 2 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
 
@@ -8,11 +8,35 @@ Make Claude sound like your organization. Leave with saved voice notes and, if t
 
 Claude handles the files. You choose what sounds like you and check the facts.
 
+## Choose your screen
+
+Read the path for the screen you are using. Already using the current guide with your work available? Continue in that conversation.
+
+### I'm using Claude in my browser
+
+1. Open your **AI-Labs Project** in Claude and start or return to your work chat.
+2. [Download the text guide](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md). Add `lab-guide-chat.md` to this chat with the attachment button. Add your latest `AGENTS.md` and voice notes too, if you have them.
+3. Check that the guide appears as an attachment. Ask **“Is the guide working?”** Claude should confirm the current version and that it can read the Lab 2 instructions.
+
+Then say **“I'm ready to begin Lab 2.”** Claude leads one question at a time. Start with your writing style; a draft comes next if time permits.
+
+**Keep your finished work:** save the approved files to your Project, then open them to check the contents. Downloading saves a local copy; it does not update Project files. Use the browser saving steps below. No Project or missing upload controls? See Help below.
+
+### I'm using the Claude desktop app
+
+1. [Download the guide ZIP](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip). **Keep it zipped for upload.**
+2. In **Customize → Skills**, choose **+ → Create skill → Upload a skill**, select the ZIP and enable **lab-guide**, where these controls are offered.
+3. Open your work conversation. Ask **“Check and fix setup.”** If Claude requests folder access, choose your existing **AI-Labs** folder. Claude must name the files its tools can actually read, or explain what is missing. Installing the guide does not connect the folder.
+
+Ask **“Is the guide working?”** Expect the current version and confirmation that Claude can read the Lab 2 instructions. Then say **“I'm ready to begin Lab 2.”**
+
+**Keep your finished work:** with connected-folder tools, Claude saves and reopens the approved files. Confirm where they were saved. No folder access or Skills controls? See Help below; you can still begin the voice conversation.
+
 ## Your Lab 2 path
 
 We connect the guide together in the main room. Then Claude leads you through the work, one question at a time.
 
-1. **Open the guide** — Use Claude with the current Lab Guide. In Cowork, allow access to your AI-Labs folder.
+1. **Open the guide** — Use the browser or desktop steps above to add the current guide.
 2. **Check it works** — Ask “Is the guide working?” Check the version, lab and time.
 3. **Begin Lab 2** — Say “I'm ready to begin Lab 2.” Claude checks the work it can access.
 4. **Find your voice** — Answer missing questions. Approve voice rules; Claude saves them.
@@ -22,21 +46,11 @@ We connect the guide together in the main room. Then Claude leads you through th
 8. **Choose what's next** — Choose your homework level. Claude records your plan and helps you continue.
 
 You supply facts and make decisions. Claude handles file work with the access available in your session.
-Where file tools allow, browser results can be downloaded. Text-only sessions use the saving-help steps below. Neither route automatically updates your local files or Project. Short on time? Save voice work; finish the draft later.
+Short on time? Save voice work; finish the draft later. Use the saving steps for your screen below.
 
 ## Before you come
 
-We set up the guide together in the main room. Already connected? Keep your existing work chat or Cowork task.
-Cowork uses your connected AI-Labs folder. Browser Claude uses files visible in your current chat or Project.
-
-### Install the guide: three steps
-
-1. [Download the guide ZIP](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip).
-2. In **Customize → Skills**, upload it and enable **lab-guide**, where offered.
-3. Continue in your existing work session. Cowork: grant access to the existing AI-Labs folder when asked.
-
-GitHub sign-in and Claude's GitHub connector are not needed for this download/upload installation.
-No Skills upload controls? Attach the [full guide](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md).
+Use the path above for your screen. GitHub sign-in and Claude's GitHub connector are not needed. Keep your existing work.
 
 ### Two short checks
 
@@ -50,10 +64,7 @@ Pass: the current guide version and the correct cohort time. Lab 2: Monday, Octo
 Check and fix setup.
 ```
 
-Cowork: Claude checks the connected folder and adds missing files. Browser: it checks visible work and prepares exports where possible.
-Cowork access: select your existing AI-Labs folder when requested. Browser chats do not need that connection to begin.
-Claude cannot access another browser Project or chat by itself.
-If upload controls are unavailable, use the full guide attachment. Keep working; setup help happens alongside the lab.
+Claude checks what is actually available in this conversation. It should name the first missing item and help you with it. See Help below if your screen differs.
 
 ### Keep it safe
 
@@ -79,7 +90,7 @@ It handles missing lab files, voice notes, drafts and saving. No separate comman
 
 Speak or type. Mute Zoom when dictating. Each person works in their own Claude session.
 In the browser, Claude uses visible Project files or interviews you, then makes downloadable files where tools allow.
-Downloads are not automatically saved to your computer or uploaded to your Project.
+Creating a downloadable file does not put it in Project files. Downloading gives you a local copy; add it to your Project separately.
 
 ### What the conversation covers
 
@@ -112,6 +123,19 @@ Your approved voice files have been saved and reopened. Claude checks files its 
 If time is short, say so. Claude saves and checks your voice work; finish the draft afterward in the same guided conversation.
 
 ## If you get stuck
+
+### Help: update files already imported from GitHub
+
+Already imported the guide from GitHub into a Project? After the repository changes, open that Project’s repository item and check the selected branch and files. Choose Sync or Sync now, where offered, and wait for it to finish. Then ask “Is the guide working?” and check the version. Sync refreshes the previously selected files and folders on that branch; a connected account alone does not refresh them. It does not update an uploaded ZIP or text attachment. If these controls are unavailable, use the current text guide when an update is needed and preserve your work. GitHub is optional.
+
+### Help: no Project, missing controls or a different screen
+
+- **No Project:** attach the text guide to a regular chat and begin there. Keep the full approved work and attach it again in each new chat. A Project is optional.
+- **No Skills upload controls:** use the text guide attachment in your existing work chat. Keep ZIP packages zipped when using Skills upload.
+- **No Cowork selector:** in unified Claude, stay in the same conversation. Do not use Add from GitHub. Claude checks actual tools and permission.
+- **No local-folder access:** Claude can use visible attachments or interview you. It creates downloads where tools allow. Follow the saving help under “Keep your work and return later”; do not treat a download as a Project update.
+- **No file tools:** Claude shows the complete approved text and filename. Follow the plain-text saving steps below, or ask the facilitator before closing the chat. A save stays pending until you reopen and confirm the retained copy.
+- **Uploads blocked:** ask the facilitator or your organization’s support team. Do not change security controls to continue.
 
 ```prompt
 Help me continue Lab 2.

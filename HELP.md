@@ -1,6 +1,6 @@
 # More help
 
-## Browser: use the guide where your work is
+## I'm using Claude in my browser
 
 Already have the current guide? Continue in the chat or Project with the permitted files actually visible there.
 
@@ -14,7 +14,7 @@ No Project is required. Say “I'm ready to begin Lab 2.” Claude can use visib
 
 With file tools, Claude creates artifacts and reopens their contents before offering downloads.
 Without file tools, use the plain-text saving steps under Keep your work and return later below. Until you reopen a saved copy, file work remains pending.
-Downloads do not save to your computer or update your Project automatically.
+Downloading saves a local copy. It does not update Project files; upload the new copy or use Save to Project where offered.
 A guide chat cannot inspect another chat or Project. Use the current guide with the existing work where it is accessible.
 Do not rebuild finished work because a different session cannot see it; ask your facilitator for access help.
 
@@ -27,7 +27,7 @@ A public repository does not establish that a particular Claude GitHub connector
 For “not accessible”, record which screen and exact error; do not keep asking participants to retry GitHub sign-in.
 If Skills uploads are unavailable, use the full guide attachment above in the existing work chat.
 
-## Cowork: installation and folder access are separate
+## I'm using the Claude desktop app
 
 [Install the guide](START-HERE.md).
 Local file editing requires this conversation’s actual AI-Labs folder permission and working file tools. Classic Claude may offer a Cowork selector; unified Claude has none. The app or conversation name alone does not establish file access.
@@ -38,6 +38,10 @@ If AI-Labs is selected but tools fail, ask your facilitator. Collect approved vo
 The [ZIP skill](download/lab-guide.zip) includes the helper and resources; use it only where Skills and execution are offered.
 Missing installation controls or organization restrictions? Use the browser route if permitted and get individual help.
 Do not change organization controls or buy a plan during the lab.
+
+## Help: update files already imported from GitHub
+
+Already imported the guide from GitHub into a Project? After the repository changes, open that Project’s repository item and check the selected branch and files. Choose Sync or Sync now, where offered, and wait for it to finish. Then ask “Is the guide working?” and check the version. Sync refreshes the previously selected files and folders on that branch; a connected account alone does not refresh them. It does not update an uploaded ZIP or text attachment. If these controls are unavailable, use the current text guide when an update is needed and preserve your work. GitHub is optional.
 
 ## Older guide or incomplete setup
 
@@ -71,6 +75,13 @@ If the marketplace reports access trouble, use direct installation above; keep t
 Installed skills, plugins and attachments are snapshots. Update through supported controls; a push alone does not refresh them.
 
 ## Keep your work and return later
+
+### Browser: save to your Project before the readback
+
+Open AGENTS.md in the right-hand document panel and read it. If Save to Project is available at the top right, select your AI-Labs Project. Otherwise download AGENTS.md, open that Project and upload it to Project files. Button names and availability may vary. Confirm AGENTS.md appears in Project files and open it to check the approved contents. Keep voice notes and drafts there too. Check the new copy before removing an older one.
+
+Only then start a fresh chat inside that Project and ask: “Read AGENTS.md first. What did I ask you to follow in this folder? Name the three rules that matter most.” Check each rule against the file. Downloading saves a local copy; it does not update Project files. No Project is required: keep the full approved files and attach them to each new chat.
+
 
 Voice notes are written notes about your organization’s writing style, not an audio recording.
 `Org-Brain` is the folder for reusable information about your organization.

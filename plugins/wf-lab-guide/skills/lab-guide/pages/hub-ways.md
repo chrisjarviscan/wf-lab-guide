@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Ways to ask Claude
 

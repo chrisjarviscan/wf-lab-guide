@@ -4,13 +4,29 @@
 
 Already have the current guide? Skip installation. Stay where your existing work files are accessible.
 
-## Install the guide: three steps
+## Choose your screen
 
-1. [Download the complete Lab Guide ZIP](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide.zip).
-2. In Claude's Skills controls, upload the ZIP and enable **lab-guide**, where offered.
-3. Use your existing work session. In Cowork, grant access to your existing **AI-Labs** folder when asked.
+Read the path for the screen you are using. Already using the current guide with your work available? Continue in that conversation.
 
-GitHub hosts the download. You do not need GitHub sign-in or Claude's GitHub connector for this installation.
+### I'm using Claude in my browser
+
+1. Open your **AI-Labs Project** in Claude and start or return to your work chat.
+2. [Download the text guide](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md). Add `lab-guide-chat.md` to this chat with the attachment button. Add your latest `AGENTS.md` and voice notes too, if you have them.
+3. Check that the guide appears as an attachment. Ask **“Is the guide working?”** Claude should confirm the current version and that it can read the Lab 2 instructions.
+
+Then say **“I'm ready to begin Lab 2.”** Claude leads one question at a time. Start with your writing style; a draft comes next if time permits.
+
+**Keep your finished work:** save the approved files to your Project, then open them to check the contents. Downloading saves a local copy; it does not update Project files. Use the browser saving steps in [Help](HELP.md). No Project or missing upload controls? See [Help](HELP.md).
+
+### I'm using the Claude desktop app
+
+1. [Download the guide ZIP](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide.zip). **Keep it zipped for upload.**
+2. In **Customize → Skills**, choose **+ → Create skill → Upload a skill**, select the ZIP and enable **lab-guide**, where these controls are offered.
+3. Open your work conversation. Ask **“Check and fix setup.”** If Claude requests folder access, choose your existing **AI-Labs** folder. Claude must name the files its tools can actually read, or explain what is missing. Installing the guide does not connect the folder.
+
+Ask **“Is the guide working?”** Expect the current version and confirmation that Claude can read the Lab 2 instructions. Then say **“I'm ready to begin Lab 2.”**
+
+**Keep your finished work:** with connected-folder tools, Claude saves and reopens the approved files. Confirm where they were saved. No folder access or Skills controls? See [Help](HELP.md); you can still begin the voice conversation.
 
 ## Check, then begin
 

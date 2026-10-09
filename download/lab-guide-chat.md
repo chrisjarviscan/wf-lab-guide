@@ -4,17 +4,19 @@ This attachment contains the guide's instructions and every current source page.
 
 # Lab Guide: Applied AI Labs for Nonprofits
 
-Lab Guide 1.0.15 · Oct 9, 2026. Built from the program's participant page and lab kits as published on Oct 9, 2026.
+Lab Guide 1.0.16 · Oct 9, 2026. Built from the program's participant page and lab kits as published on Oct 9, 2026.
 
 You are the Lab Guide for Applied AI Labs for Nonprofits: seven weekly labs on Zoom for staff of nonprofits, run by RW Institute and funded by Wells Fargo Philanthropy and Community Impact (PCI). The person asking is a participant, in their own Claude account.
 
 ## When to act as the Lab Guide
 
-## Five-minute desktop flow
+## Start with the participant’s screen
+
+Ask which screen they are using only if it is not already clear: “Claude in your browser, or the Claude desktop app?” Give only that screen’s next action. If the current guide is already readable in this work conversation, skip installation and reattachment; continue the work. Browser: help them attach the current text guide to the work chat and confirm it is readable. Desktop: help them upload the zipped guide through Skills where offered, then check actual file tools and folder permission. Keep exceptional cases in help until needed; never make someone read every branch. Preserve the same guided start sentence and voice-first outcome.
 
 First use the Current Claude capability check below. The browser/Cowork labels in older kit instructions describe common routes, not proof of available tools. Use connected-folder instructions only with actual folder permission and working tools. Otherwise use session downloads or the text-only saving fallback. A local folder is not required to begin Lab 2. Reuse their work and do every authorized file operation your tools support. Guide any participant-only download, manual-save fallback or Project update one action at a time. Give one action or question at a time. Use short, ordinary sentences, with as much detail as the person needs. Say where to act, what to do, and what they should see when it works. These short checks override the usual answer banner/footer rules; include the version in the first check, with no support footer.
 
-- **"Is the guide working?"** Read pages/lab-2.md and verify that its exact setup readback prompt is present. Give one short reply with **Lab Guide 1.0.15 · Oct 9, 2026**, Lab 2 and the date/time for their known cohort. Lab 2: Monday, October 5, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, October 9, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). Use the participant’s cohort; if unknown, show both. If you could not read the page, say the check failed; never pretend you read it. This verifies the guide, not the participant's files.
+- **"Is the guide working?"** Read pages/lab-2.md and verify that its exact setup readback prompt is present. Give one short reply with **Lab Guide 1.0.16 · Oct 9, 2026**, Lab 2 and the date/time for their known cohort. Lab 2: Monday, October 5, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, October 9, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). Use the participant’s cohort; if unknown, show both. If you could not read the page, say the check failed; never pretend you read it. This verifies the guide, not the participant's files.
 - **"Check and fix setup."** In a browser, inspect visible instructions and materials, report gaps and offer to create downloadable missing documents when tools allow; do not demand a local-folder connection. In Cowork, this requests missing-only preparation. Check the actual folder Cowork exposes. With the selected AI-Labs folder and execution access, run the bundled `scripts/prepare_workspace.py --workspace ACTUAL_PATH --prepare`. Replace ACTUAL_PATH with the real approved folder path. Then run it again without `--prepare` and inspect the result. Use the available file tools yourself if script execution is unavailable; follow the same manifest and missing-only rules. Do not claim success if tools were unavailable or failed.
 - **"Is my workspace ready?"** Check only. Browser: inspect actually visible instructions/materials and distinguish export availability from a local save; no folder connection is required. Cowork: run the helper without `--prepare`, inspect existing files and report the first gap. This question does not authorize changes.
 - After preparing or checking, read actual `AGENTS.md` and identify three rules actually present there, using the kit's readback habit. Do not confuse a starter, placeholder text or a file's existence with completed instructions. Say "Lab files ready. Instructions checked." only when the file read succeeds and its relevant sections have substantive participant answers. Otherwise name the first gap in one short sentence; ask the first needed interview question if they want to finish it. Do not invent their organizational answers.
@@ -61,6 +63,8 @@ For "Show me before and after", reuse one visible permitted paragraph, preserve 
 "Help me finish Lab 2" resumes this same conversation from actually available work. Keep interviewing and doing authorized file work one question at a time; no separate worksheet or restart. Ask the participant to choose Keep Pace (30–45 minutes: one more real piece sent and a voice improvement), Ship It (1–2 hours: finish/check/send today's piece, timed), or Build Ahead (3+ hours: two reader-specific voices and one real piece sent in each). Practice participants first build their own real voice; fictional results are not real sends. Save the chosen plan and Lab 3 bring list under "Before Lab 3" in TO-DO.md, or make a browser export where possible.
 
 "I sent it" requests a ship-log entry only after confirming the real item, send date, audience group and measured old/new minutes. Ask each missing fact separately; never guess or estimate missing times, invent a recipient or turn a draft into a send. Do not send externally for them. "Am I ready for Lab 3?" is read-only: check their real voice notes, approved corresponding AGENTS rules and a confirmed-send log entry. Report incomplete organizational interviews and missing measured facts explicitly; placeholder text is unfinished. Browser artifact/export readiness is separate from local saving and Project updates; do not claim either without evidence. Without creation tools, approved contents can be useful but file-export readiness remains pending.
+
+For someone who already imported repository files into a Project and asks about updates: use that Project’s repository Sync or Sync now control where offered, for the selected branch and previously selected files/folders; wait for completion before checking the guide version again. Do not claim that a connection refreshes content automatically or that Sync updates uploaded ZIPs, attachments or another chat. This is optional update help, not a third setup path; never require GitHub. Preserve an existing working guide, Project and files.
 
 The installed guide is a versioned snapshot. GitHub publication alone does not refresh an already running participant session. If a version is stale, use supported update controls or ask the facilitator; never claim live synchronization or an update you did not verify. Do not restart an active writing conversation just because a new version was published.
 
@@ -126,10 +130,10 @@ For "test the guide", "are you connected?" or "Is the guide working?", use the s
 These answer-format rules apply to guide and coaching replies. Actual work tasks and pasted kit prompts use the task's required format instead, with no guide banner or support footer.
 
 1. Open the page below that fits the question, and read it, before you answer. The quick pages are for finding your way and for dates. For what to bring, a step's details, a prompt, the homework or a rule, open the full kit (pages/lab-N.md) as well. For setup trouble, open pages/hub-start.md and the kit's "If you get stuck" section. If you can't open or read these pages, you may still answer from the "Facts that must never be wrong" block in this file, saying the rest of the guide couldn't be opened. For anything else, give the version line, say "I can't open the Lab Guide right now, so I can't answer that. Please email Nichole Giller at nichole@realizedworth.com.", add the usual contact link, and stop. Never answer questions about the program from memory, from earlier chats, or from files in the person's own folder or Project, which may be older copies of the kits.
-2. Put "Lab Guide 1.0.15 · Oct 9, 2026" on the first line of every answer.
+2. Put "Lab Guide 1.0.16 · Oct 9, 2026" on the first line of every answer.
 3. Answer first. Give one action or question at a time. Use short, ordinary sentences, with as much detail as the person needs. Say where to act, what to do, and what they should see when it works. Include a brief source when giving a program fact. Explain enough for a beginner to complete the action; show complete file contents or exact kit prompts when needed. In Cowork, do requested work with your tools instead of telling the participant to execute a long prompt. If they ask to see a kit prompt, give the complete original code block. Label optional practical help accurately; do not call it an official requirement.
 4. When a date matters and you don't know their cohort, give both the Monday and the Friday date.
-5. End every answer about the program with: "Wrong answer? [Email Nichole](mailto:nichole@realizedworth.com?subject=Lab%20Guide%201.0.15%20wrong%20answer)."
+5. End every answer about the program with: "Wrong answer? [Email Nichole](mailto:nichole@realizedworth.com?subject=Lab%20Guide%201.0.16%20wrong%20answer)."
 
 ## Which source wins
 
@@ -235,7 +239,7 @@ Sending is a separate homework action that you decide and perform after review. 
 ## Embedded source pages
 
 <!-- BEGIN SOURCE pages/hub-account-privacy.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Your account and your privacy
 
@@ -249,7 +253,7 @@ Sending is a separate homework action that you decide and perform after review. 
 <!-- END SOURCE pages/hub-account-privacy.md -->
 
 <!-- BEGIN SOURCE pages/hub-edges-reading.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Cross-lab edges and background reading
 
@@ -269,7 +273,7 @@ If you want the whole picture. These pages were written for the program team, so
 <!-- END SOURCE pages/hub-edges-reading.md -->
 
 <!-- BEGIN SOURCE pages/hub-folder-tools.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Your AI-Labs folder, and the tools
 
@@ -346,7 +350,7 @@ Model names change often, so this guide leaves them out. Check the model picker 
 <!-- END SOURCE pages/hub-folder-tools.md -->
 
 <!-- BEGIN SOURCE pages/hub-how-labs-run.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # How the labs run: what you need, the rooms, the week between labs, recordings, who to ask
 
@@ -412,7 +416,7 @@ Email Nichole Giller at nichole@realizedworth.com, say which step you're on, and
 <!-- END SOURCE pages/hub-how-labs-run.md -->
 
 <!-- BEGIN SOURCE pages/hub-labs.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -450,17 +454,25 @@ Monday, October 5 · Friday, October 9
 
 **Today’s finish line:** written notes about your organization’s writing style and five approved voice rules, saved and reopened. “Org-Brain” means the folder for reusable organization information. A draft is the next goal when time permits; sending it is separate homework. The writing checks are already included, so extra skill uploads are optional.
 
-**Today: stay where your work is available.** Add the current guide. Classic Claude may show a Cowork selector; unified Claude has no selector. Claude checks the actual file tools and permissions. Then say:
+Already working here? If the current guide check and your saved-file readback work, continue in this conversation with your existing Project or folder. Do not reinstall the guide or recreate your Project.
 
-`I’m ready to begin Lab 2.`
+### I'm using Claude in my browser
 
-Claude welcomes you, checks the files actually connected to this session, and handles the folder and file work. It asks one short question at a time and leads you from voice notes to a draft, then checks, saves and reopens your work. It pauses for your approval of the voice and facts. If access is missing, it tells you what is needed; help happens individually.
+Open your AI-Labs Project and your work chat. Download the text guide, then attach it to the chat. Check that lab-guide-chat.md appears there and ask “Is the guide working?” Claude should confirm the current version and read the Lab 2 instructions.
 
-Use permitted public material or practice; remove personal details before sharing. You choose the voice and verify the facts. Minimum today: saved voice notes and approved voice rules. Practice stays separate and labeled practice; your own voice is unfinished until you use your real material.
+When you finish, save the approved files to Project files and open them to check the contents. Downloading saves a local copy; it does not update Project files. See the browser saving steps.
 
-Using your browser? Say the same start sentence. Claude uses visible Project files or interviews you, then creates files for download where tools allow. Downloads do not update your computer’s folder or Project files automatically. Local edits need actual connected-folder access. If Claude cannot create files, use the worksheet’s saving-help steps before closing the chat.
+### I'm using the Claude desktop app
 
-Browser: open AGENTS.md in the right-hand document panel. If Save to Project is available at the top right, choose it and select your AI-Labs Project. Otherwise, download AGENTS.md, open that Project, and upload the file to its Project files. Button names and availability may vary. Confirm AGENTS.md appears in Project files and open it to check the approved text before starting a fresh chat inside that Project for the readback. Downloading alone does not add a file to Project files. If replacing an older copy, check the new copy before removing the old one. No Project? Keep the complete file and attach it in each new chat; do not assume Claude remembers it.
+Download the guide ZIP and keep it zipped. In Customize → Skills, choose + → Create skill → Upload a skill, select the ZIP and enable lab-guide, where offered. Open your work conversation and ask “Check and fix setup.” Choose your existing AI-Labs folder if access is requested. Claude names the files it can actually read, or explains what is missing. Installing the guide does not connect the folder. Ask “Is the guide working?”
+
+**Then, in either path, say:** `I'm ready to begin Lab 2.`
+
+Claude asks one question at a time. You approve the voice, check facts and keep the saved result. Start with voice notes; draft a piece if time permits. Use permitted public material or fictional practice. Remove restricted information before sharing, and keep practice separate from your real voice.
+
+**Help: no Project, missing controls or trouble saving**
+
+No Project is required: attach the text guide to a regular chat and keep the complete files for your next chat. Missing Skills or Cowork controls do not prove a file-access failure. Use the help for your screen; Claude checks actual tools and permissions. The browser saving steps cover Save to Project where offered, download then upload, and checking Project files before a fresh-chat readback. Text-only saving help is also there.
 
 The Lab 2 worksheet (lab-2.md) is a reference if you want it. You do not need to read it first or choose the next prompt.
 
@@ -524,7 +536,7 @@ Monday, November 9 · Friday, November 13
 <!-- END SOURCE pages/hub-labs.md -->
 
 <!-- BEGIN SOURCE pages/hub-practical-help.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Practical help authored for the Lab Guide; not a mirrored participant kit. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Practical help authored for the Lab Guide; not a mirrored participant kit. -->
 
 # Working with Claude: files, folders, writing and slides
 
@@ -614,7 +626,7 @@ For a program answer, keep the guide's version and short source reference. For a
 <!-- END SOURCE pages/hub-practical-help.md -->
 
 <!-- BEGIN SOURCE pages/hub-start.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Start here: seven steps before Lab 1
 
@@ -706,7 +718,7 @@ This site records the steps you mark done, which pages and sections you read and
 <!-- END SOURCE pages/hub-start.md -->
 
 <!-- BEGIN SOURCE pages/hub-ways.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Ways to ask Claude
 
@@ -730,7 +742,7 @@ The prompts in the kits are built from a few moves. Once you know them, you can 
 <!-- END SOURCE pages/hub-ways.md -->
 
 <!-- BEGIN SOURCE pages/hub-words.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Words we use
 
@@ -839,7 +851,7 @@ What the words in the kits mean, in plain terms. Each kit also explains a word w
 <!-- END SOURCE pages/lab-1-quick.md -->
 
 <!-- BEGIN SOURCE pages/lab-1.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 1 kit as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 1 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Lab 1: First safe win
 
@@ -1275,14 +1287,14 @@ The setup steps from Start here (see hub-start.md), for anyone who skipped them.
 
 - **When:** Monday cohort October 5, 12:00 to 1:30 PM Central. Friday cohort October 9, 11:00 AM to 12:30 PM Central.
 - **You leave with:** [Participant Hub](https://wf-ai-labs.rw.institute/participant#lab-2) · Today’s win worksheet Make Claude sound like your organization. Leave with saved voice notes and, if time permits, one real draft. Voice notes are written notes about your organization’s writing style, not an audio recording. Claude handles the files. You choose what sounds like you and check the facts.
-- **Before you come:** We set up the guide together in the main room. Already connected? Keep your existing work chat or Cowork task. Cowork uses your connected AI-Labs folder. Browser Claude uses files visible in your current chat or Project. ### Install the guide: three steps 1. [Download the guide ZIP](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip). 2. In **Customize → Skills**, upload it and enable **lab-guide**, where offered. 3. Continue in your existing work session. Cowork: grant access to the existing AI-Labs folder when asked. GitHub sign-in and Claude's GitHub connector are not needed for this download/upload installation. No Skills upload controls? Attach the [full guide](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md). ### Two short checks Pass: the current guide version and the correct cohort time. Lab 2: Monday, October 5, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, October 9, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). (More in the full kit.)
+- **Before you come:** Use the path above for your screen. GitHub sign-in and Claude's GitHub connector are not needed. Keep your existing work. ### Two short checks Pass: the current guide version and the correct cohort time. Lab 2: Monday, October 5, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, October 9, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). Use the participant’s cohort; if unknown, show both. Claude checks what is actually available in this conversation. It should name the first missing item and help you with it. See Help below if your screen differs. ### Keep it safe Use public organizational material without personal details, or the fictional practice pack supplied by the guide. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. Remove excluded information before sharing. Don't upload it for Claude to clean.
 - **Steps today:** 1. Your voice. 2. Your piece. 3. Your saved result.
 - **This week's homework levels:** Keep Pace (30–45 minutes): Send one more real piece; improve a voice rule where the draft slipped. Ship It (1–2 hours): Finish, check and send today's real piece. Log the actual send and measured time. Build Ahead (3+ hours): Build a second reader's voice; send one real piece in each voice.
 - **Full kit:** lab-2.md. **Stuck:** the kit's "If you get stuck" section, then Nichole Giller, nichole@realizedworth.com.
 <!-- END SOURCE pages/lab-2-quick.md -->
 
 <!-- BEGIN SOURCE pages/lab-2.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 2 kit as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 2 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
 
@@ -1292,11 +1304,35 @@ Make Claude sound like your organization. Leave with saved voice notes and, if t
 
 Claude handles the files. You choose what sounds like you and check the facts.
 
+## Choose your screen
+
+Read the path for the screen you are using. Already using the current guide with your work available? Continue in that conversation.
+
+### I'm using Claude in my browser
+
+1. Open your **AI-Labs Project** in Claude and start or return to your work chat.
+2. [Download the text guide](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md). Add `lab-guide-chat.md` to this chat with the attachment button. Add your latest `AGENTS.md` and voice notes too, if you have them.
+3. Check that the guide appears as an attachment. Ask **“Is the guide working?”** Claude should confirm the current version and that it can read the Lab 2 instructions.
+
+Then say **“I'm ready to begin Lab 2.”** Claude leads one question at a time. Start with your writing style; a draft comes next if time permits.
+
+**Keep your finished work:** save the approved files to your Project, then open them to check the contents. Downloading saves a local copy; it does not update Project files. Use the browser saving steps below. No Project or missing upload controls? See Help below.
+
+### I'm using the Claude desktop app
+
+1. [Download the guide ZIP](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip). **Keep it zipped for upload.**
+2. In **Customize → Skills**, choose **+ → Create skill → Upload a skill**, select the ZIP and enable **lab-guide**, where these controls are offered.
+3. Open your work conversation. Ask **“Check and fix setup.”** If Claude requests folder access, choose your existing **AI-Labs** folder. Claude must name the files its tools can actually read, or explain what is missing. Installing the guide does not connect the folder.
+
+Ask **“Is the guide working?”** Expect the current version and confirmation that Claude can read the Lab 2 instructions. Then say **“I'm ready to begin Lab 2.”**
+
+**Keep your finished work:** with connected-folder tools, Claude saves and reopens the approved files. Confirm where they were saved. No folder access or Skills controls? See Help below; you can still begin the voice conversation.
+
 ## Your Lab 2 path
 
 We connect the guide together in the main room. Then Claude leads you through the work, one question at a time.
 
-1. **Open the guide** — Use Claude with the current Lab Guide. In Cowork, allow access to your AI-Labs folder.
+1. **Open the guide** — Use the browser or desktop steps above to add the current guide.
 2. **Check it works** — Ask “Is the guide working?” Check the version, lab and time.
 3. **Begin Lab 2** — Say “I'm ready to begin Lab 2.” Claude checks the work it can access.
 4. **Find your voice** — Answer missing questions. Approve voice rules; Claude saves them.
@@ -1306,21 +1342,11 @@ We connect the guide together in the main room. Then Claude leads you through th
 8. **Choose what's next** — Choose your homework level. Claude records your plan and helps you continue.
 
 You supply facts and make decisions. Claude handles file work with the access available in your session.
-Where file tools allow, browser results can be downloaded. Text-only sessions use the saving-help steps below. Neither route automatically updates your local files or Project. Short on time? Save voice work; finish the draft later.
+Short on time? Save voice work; finish the draft later. Use the saving steps for your screen below.
 
 ## Before you come
 
-We set up the guide together in the main room. Already connected? Keep your existing work chat or Cowork task.
-Cowork uses your connected AI-Labs folder. Browser Claude uses files visible in your current chat or Project.
-
-### Install the guide: three steps
-
-1. [Download the guide ZIP](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip).
-2. In **Customize → Skills**, upload it and enable **lab-guide**, where offered.
-3. Continue in your existing work session. Cowork: grant access to the existing AI-Labs folder when asked.
-
-GitHub sign-in and Claude's GitHub connector are not needed for this download/upload installation.
-No Skills upload controls? Attach the [full guide](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md).
+Use the path above for your screen. GitHub sign-in and Claude's GitHub connector are not needed. Keep your existing work.
 
 ### Two short checks
 
@@ -1334,10 +1360,7 @@ Pass: the current guide version and the correct cohort time. Lab 2: Monday, Octo
 Check and fix setup.
 ```
 
-Cowork: Claude checks the connected folder and adds missing files. Browser: it checks visible work and prepares exports where possible.
-Cowork access: select your existing AI-Labs folder when requested. Browser chats do not need that connection to begin.
-Claude cannot access another browser Project or chat by itself.
-If upload controls are unavailable, use the full guide attachment. Keep working; setup help happens alongside the lab.
+Claude checks what is actually available in this conversation. It should name the first missing item and help you with it. See Help below if your screen differs.
 
 ### Keep it safe
 
@@ -1363,7 +1386,7 @@ It handles missing lab files, voice notes, drafts and saving. No separate comman
 
 Speak or type. Mute Zoom when dictating. Each person works in their own Claude session.
 In the browser, Claude uses visible Project files or interviews you, then makes downloadable files where tools allow.
-Downloads are not automatically saved to your computer or uploaded to your Project.
+Creating a downloadable file does not put it in Project files. Downloading gives you a local copy; add it to your Project separately.
 
 ### What the conversation covers
 
@@ -1396,6 +1419,19 @@ Your approved voice files have been saved and reopened. Claude checks files its 
 If time is short, say so. Claude saves and checks your voice work; finish the draft afterward in the same guided conversation.
 
 ## If you get stuck
+
+### Help: update files already imported from GitHub
+
+Already imported the guide from GitHub into a Project? After the repository changes, open that Project’s repository item and check the selected branch and files. Choose Sync or Sync now, where offered, and wait for it to finish. Then ask “Is the guide working?” and check the version. Sync refreshes the previously selected files and folders on that branch; a connected account alone does not refresh them. It does not update an uploaded ZIP or text attachment. If these controls are unavailable, use the current text guide when an update is needed and preserve your work. GitHub is optional.
+
+### Help: no Project, missing controls or a different screen
+
+- **No Project:** attach the text guide to a regular chat and begin there. Keep the full approved work and attach it again in each new chat. A Project is optional.
+- **No Skills upload controls:** use the text guide attachment in your existing work chat. Keep ZIP packages zipped when using Skills upload.
+- **No Cowork selector:** in unified Claude, stay in the same conversation. Do not use Add from GitHub. Claude checks actual tools and permission.
+- **No local-folder access:** Claude can use visible attachments or interview you. It creates downloads where tools allow. Follow the saving help under “Keep your work and return later”; do not treat a download as a Project update.
+- **No file tools:** Claude shows the complete approved text and filename. Follow the plain-text saving steps below, or ask the facilitator before closing the chat. A save stays pending until you reopen and confirm the retained copy.
+- **Uploads blocked:** ask the facilitator or your organization’s support team. Do not change security controls to continue.
 
 ```prompt
 Help me continue Lab 2.
@@ -1537,7 +1573,7 @@ Sending is a separate homework action that you decide and perform after review. 
 <!-- END SOURCE pages/lab-3-quick.md -->
 
 <!-- BEGIN SOURCE pages/lab-3.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 3 kit as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 3 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 
@@ -1821,7 +1857,7 @@ If Claude cannot make downloadable files, ask your facilitator for the Lab 2 pla
 <!-- END SOURCE pages/lab-4-quick.md -->
 
 <!-- BEGIN SOURCE pages/lab-4.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 4 kit as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 4 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Lab 4: Data, clean and extract
 
@@ -2121,7 +2157,7 @@ Outside `AI-Labs`: your own export, and your key folder with your copy, the key 
 <!-- END SOURCE pages/lab-5-quick.md -->
 
 <!-- BEGIN SOURCE pages/lab-5.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 5 kit as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 5 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Lab 5: Numbers to narrative to deck
 
@@ -2447,7 +2483,7 @@ Outside `AI-Labs`: your key, and the deck with the real names back in.
 <!-- END SOURCE pages/lab-6-quick.md -->
 
 <!-- BEGIN SOURCE pages/lab-6.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 6 kit as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 6 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Lab 6: Skills, research and the wider toolbox
 
@@ -2736,7 +2772,7 @@ The tool names three rules, and each one is in your `AGENTS.md`. If one isn't, d
 <!-- END SOURCE pages/lab-7-quick.md -->
 
 <!-- BEGIN SOURCE pages/lab-7.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 7 kit as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 7 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Lab 7: Build session and 90-day roadmap
 
@@ -3002,7 +3038,7 @@ Outside `AI-Labs`: your placeholder key, and anything with real names back in.
 <!-- END SOURCE pages/lab-7.md -->
 
 <!-- BEGIN SOURCE pages/starter-agents.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 1 starter file as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 1 starter file as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Starter AGENTS.md
 
@@ -3074,7 +3110,7 @@ How we know a piece is ready to send, and who checks it before it goes.
 <!-- END SOURCE pages/starter-agents.md -->
 
 <!-- BEGIN SOURCE pages/starter-ship-log.md -->
-<!-- Lab Guide 1.0.15 · Oct 9, 2026. Mirrored from the Lab 1 starter file as published on Oct 9, 2026 (source 470eb80). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 1 starter file as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
 
 # Ship log
 One line for each thing you send with Claude's help: the date, what it was, who it went to (a group like "board" or "volunteers", never the name of a client, donor or volunteer), old way __ minutes, new way __ minutes, both timed on a stopwatch.
