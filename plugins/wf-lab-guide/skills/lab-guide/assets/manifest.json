@@ -1,17 +1,17 @@
 {
-  "source_commit": "52280d0",
+  "source_commit": "4e5919d",
   "files": [
     {
       "asset": "assets/KIT-Lab1-First-Safe-Win.md",
       "destination": "Kits/KIT-Lab1-First-Safe-Win.md",
       "source": "04-Participant Kits/Lab 1/KIT-Lab1-First-Safe-Win.md",
-      "sha256": "836c8f3b8577452f8f2f332b3eb2a82f84e91a792a558509e0df422355047f29"
+      "sha256": "1646b74015cc4f3716e82611292920ff6638f1b7e36ea6e1e78c8525ac4831cf"
     },
     {
       "asset": "assets/KIT-Lab2-Writing-Org-Brain.md",
       "destination": "Kits/KIT-Lab2-Writing-Org-Brain.md",
       "source": "04-Participant Kits/Lab 2/KIT-Lab2-Writing-Org-Brain.md",
-      "sha256": "f2f6ade8e84fbf52bd0f03f3b7939487c67cf98037272224f8ba19f0d4528d77"
+      "sha256": "236c8b0ef61c699f2a947bd380802645dc0d74486f3152fb8c8c50a7a831e7d4"
     },
     {
       "asset": "assets/STARTER-AGENTS.md",

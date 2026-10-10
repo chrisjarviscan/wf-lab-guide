@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 2 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the Lab 2 kit as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
 
@@ -6,7 +6,7 @@
 
 Make Claude sound like your organization. Leave with saved voice notes and, if time permits, one real draft. Voice notes are written notes about your organization’s writing style, not an audio recording.
 
-Claude handles the files. You choose what sounds like you and check the facts.
+Claude handles files when its tools can; otherwise it provides complete files for you to save. You choose what sounds like you and check the facts.
 
 ## Choose your screen
 
@@ -32,6 +32,26 @@ Ask **“Is the guide working?”** Expect the current version and confirmation 
 
 **Keep your finished work:** with connected-folder tools, Claude saves and reopens the approved files. Confirm where they were saved. No folder access or Skills controls? See Help below; you can still begin the voice conversation.
 
+## Save and continue on your screen
+
+### Browser — keep a usable copy
+
+Keep AGENTS.md, voice-notes.md and any approved draft. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. For the practice route, use `practice-AGENTS.md` and `practice-voice-notes.md` as attachment names and use those names in browser prompts. Never replace your real AGENTS.md or voice notes with a practice file. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
+
+Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
+
+In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
+
+### Desktop — save and reopen
+
+Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
+
+**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
+
+**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
+
+**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
+
 ## Your Lab 2 path
 
 We connect the guide together in the main room. Then Claude leads you through the work, one question at a time.
@@ -39,7 +59,7 @@ We connect the guide together in the main room. Then Claude leads you through th
 1. **Open the guide** — Use the browser or desktop steps above to add the current guide.
 2. **Check it works** — Ask “Is the guide working?” Check the version, lab and time.
 3. **Begin Lab 2** — Say “I'm ready to begin Lab 2.” Claude checks the work it can access.
-4. **Find your voice** — Answer missing questions. Approve voice rules; Claude saves them.
+4. **Find your voice** — Answer missing questions. Approve voice rules; save and check them using your screen’s steps.
 5. **Draft your piece** — Give the job, reader and facts. Claude writes in your approved voice.
 6. **Optional: try writing skills** — Both checks are already included. Download and upload the separate skills where offered. Ask “Show me before and after.”
 7. **Check and save** — Judge the writing and verify facts. Approve; Claude saves and reopens the result.
@@ -228,7 +248,7 @@ Without file creation, show approved complete contents and use the plain-text sa
 For a requested fresh-session check, read these saved files again. The exact setup readback prompt remains:
 
 ```prompt
-Read AGENTS.md first. What did I ask you to follow in this folder? Name the three rules that matter most.
+Read the current AGENTS.md that you can access. Use that file, not memory. What did I ask you to follow? Name the three rules that matter most.
 ```
 
 Each returned rule must actually appear in the file. A fresh-session check remains pending until that session runs it.

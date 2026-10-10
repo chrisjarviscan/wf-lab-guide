@@ -1,6 +1,22 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the participant page as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # Start here: seven steps before Lab 1
+
+## Start here: prepare for Lab 1
+
+### Browser — use files in your chat
+
+Use your existing AI-Labs Project if you have one. Add the kit and permitted inputs to Project files, or attach them to the current chat. A file downloaded to your computer is not yet available to Claude.
+
+No Project? Attach the latest files to each new chat. Keep complete copies of the results. Save to Project where offered, or download then upload; open the saved copy before removing an older one.
+
+### Desktop — connect your AI-Labs folder
+
+Use your existing folder. In a session with folder tools, choose AI-Labs itself. Save kits in Kits and permitted work files in the named folders. Ask Claude to read an actual file before assuming access works.
+
+With folder tools, Claude can save and reopen approved work. Without them, use the attachment and saving steps in the browser card. If browser folder tools are available and approved, the same connected-folder steps apply.
+
+**Already working?** Keep your current Project, folder and chat. Do not reinstall or recreate them. Both routes follow the same learning steps and privacy rules. Add or check the optional Lab Guide.
 
 All seven steps take about 45 minutes, plus any time your IT team needs. The Monday cohort starts September 28 and the Friday cohort on October 2. Tap Done as you finish each step.
 
@@ -11,11 +27,21 @@ All seven steps take about 45 minutes, plus any time your IT team needs. The Mon
 
 3. **RSVP and test Zoom**. Use the RSVP link in Nichole Giller's welcome email to put your seven sessions, with the Zoom link, on your calendar. Then open Zoom on the computer you'll use and check that your sound works and you can share your screen. This takes about 5 minutes.
 
-4. **Get Claude Pro and the desktop app**. This takes about 15 minutes, plus any time IT needs. If your organization already gives you a Claude seat, use that. Otherwise, sign up at [claude.ai](https://claude.ai) with your own email and choose Pro, monthly rather than annual. Each of you gets your own account, and it stays yours. Wells Fargo covers the cost for six months, and Rachel Bruce from RW Institute emails you about how the payment reaches you. **If you'd rather wait for that first payment before you enter a card, that's fine: come to Lab 1 anyway and use a free Claude account in your browser for the day. Sign up free at claude.ai (signing in with Google is quickest) and upgrade that same account to Pro when you're ready.** Then install the Claude desktop app from claude.ai/download and sign in. If IT won't allow the install, use Claude in your browser.
+4. **Get your own Claude account**. This takes about 15 minutes, plus any time IT needs. If your organization already gives you a Claude seat, use that. Otherwise, sign up at [claude.ai](https://claude.ai) with your own email and choose Pro, monthly rather than annual. Each of you gets your own account, and it stays yours. Wells Fargo covers the cost for six months, and Rachel Bruce from RW Institute emails you about how the payment reaches you. **If you'd rather wait for that first payment before you enter a card, that's fine: come to Lab 1 anyway and use a free Claude account in your browser for the day. Sign up free at claude.ai (signing in with Google is quickest) and upgrade that same account to Pro when you're ready.** For the desktop route, install the app from claude.ai/download if your organization permits it. For the browser route, continue at claude.ai.
 
-5. **Make one folder, then save three files into it**. This takes about 4 minutes. Make an empty folder called `AI-Labs`, spelled with the hyphen. Each of you makes your own, because you each write your own files in Lab 1. Use Documents, not the Desktop folder: in testing, Cowork couldn't open one on a Desktop synced to OneDrive. If it can't open the folder wherever you put it, use Claude in your browser for the lab. Then click each file below. It saves to your computer, usually in Downloads. Drag all three into `AI-Labs`. Files: The Lab 1 kit (lab-1.md) · The practice email thread · The interview prompt. You don't open or use any of them before the lab. The kit is the step-by-step for Lab 1. The practice email thread is a set of made-up emails from a fictional nonprofit, for anyone who doesn't bring writing of their own. The interview prompt is what Claude uses in Lab 1 to learn about your organization. Lab 1 needs only these three, plus the ship log if you use Claude in your browser. The Lab 1 card further down links to the same files.
+5. **Make the Lab 1 files available**.
 
-6. **Paste two prompts into Cowork**. This takes about 4 minutes. Open Cowork, the part of the Claude desktop app that works on a folder on your computer, and choose `AI-Labs` as the folder Claude works in. Choose AI-Labs itself, not Documents or a folder inside it, so Claude works only in AI-Labs. Paste prompt 1, wait for Claude to finish, then paste prompt 2. If Claude asks for your OK before it changes anything, give it.
+### Browser — upload or attach
+
+Download the three files below. Reuse your AI-Labs Project, or create one if offered, then upload the files to Project files. Without a Project, attach all three to your work chat. Keep the exact filenames; AGENTS.md must not get an extra prefix.
+
+### Desktop — use your folder
+
+Use your existing AI-Labs folder, or make one in Documents if this is your first lab. Download the three files below into that folder. Connect AI-Labs itself in a work session with folder tools.
+
+Files: The Lab 1 kit (lab-1.md) · The practice email thread · The interview prompt. You don't open or use any of them before the lab. The kit is the step-by-step for Lab 1. The practice email thread is a set of made-up emails from a fictional nonprofit, for anyone who doesn't bring writing of their own. The interview prompt is what Claude uses in Lab 1 to learn about your organization. Lab 1 needs only these three, plus the ship log if you use Claude in your browser. The Lab 1 card further down links to the same files.
+
+6. **Desktop with folder tools: paste the two setup prompts**. This takes about 4 minutes. Open Cowork, the part of the Claude desktop app that works on a folder on your computer, and choose `AI-Labs` as the folder Claude works in. Choose AI-Labs itself, not Documents or a folder inside it, so Claude works only in AI-Labs. Paste prompt 1, wait for Claude to finish, then paste prompt 2. If Claude asks for your OK before it changes anything, give it.
 
 **Prompt 1**
 
@@ -64,11 +90,11 @@ Then move these files into Kits if they're anywhere in AI-Labs outside Kits: KIT
 
 Claude’s last line says “Your Lab 1 files and to-do list are ready.” If it ends with “Missing:” instead, save the file it names into AI-Labs and paste prompt 2 again.
 
-**Using Claude in your browser instead**
+### Browser — use a file check instead
 
-The prompts need Cowork. In the browser, including a free account, skip steps 6 and 7: in Lab 1, step 4 has you make a Project called `AI-Labs`, which takes the place of the folders. Tap Done on both.
+Skip the folder-creation prompts. Ask Claude to name the three Lab 1 files it can read in Project files or the current attachments. If any is missing, attach it and ask again. Mark this step done only after that check works.
 
-7. **Run the ready check**. This takes a minute. In the same Cowork session, paste the ready check. It looks at your folder and changes nothing. In the browser, there's no ready check yet: tap Done, and you'll set up your Project in Lab 1, step 4.
+7. **Check the files on your screen**. This takes a minute. In the same Cowork session, paste the ready check. It looks at your folder and changes nothing. In the browser, ask Claude to name the kit, practice thread and STARTER-AGENTS.md it can read. Check those names yourself; mark Done only when all three are available. No Project is required.
 
 **Ready check**
 

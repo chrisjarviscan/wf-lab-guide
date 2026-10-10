@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the participant page as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -11,6 +11,14 @@ Each lab has a kit. Every build runs on your own material or a practice file, an
 One small piece of real writing, checked and ready to send, plus your AI-Labs folder and an AGENTS.md file that Claude writes by interviewing you.
 
 Monday, September 28 · Friday, October 2
+
+#### Browser — Lab 1
+
+Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+
+#### Desktop — Lab 1
+
+Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
 
 **Before the session:** if you did Start here (see hub-start.md), your Lab 1 files are already in your AI-Labs folder and there's nothing more to set up. This card is what happens in the room. If you saved the Lab 1 kit file on or before September 28, save it once more on Cowork, because it was updated, and drag it into Kits, choosing Replace. If it saves with "(1)" in the name, rename it first.
 
@@ -26,13 +34,21 @@ Save the Lab 1 kit as a file: KIT-Lab1-First-Safe-Win.md (lab-1.md)
 
 **Starter AGENTS.md**: The interview prompt Claude uses to write your AGENTS.md in the session, and the six empty headings.
 
-**Starter ship log**: For the browser route only: save it into Outputs as ship-log.md before the lab. In Cowork, prompt 1 makes it for you.
+**Starter ship log**: Browser: save a copy named ship-log.md, then add it to Project files or attach it to your chat. Outputs is an optional local download folder. In Cowork, prompt 1 makes it for you.
 
 ### Lab 2: Writing and the org brain
 
 Save written notes about your organization's writing style. Then draft one useful piece, or make a table matching a funder's requirements to supporting evidence and any gaps.
 
 Monday, October 5 · Friday, October 9
+
+#### Browser — Lab 2
+
+Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+
+#### Desktop — Lab 2
+
+Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
 
 **Today’s finish line:** written notes about your organization’s writing style and five approved voice rules, saved and reopened. “Org-Brain” means the folder for reusable organization information. A draft is the next goal when time permits; sending it is separate homework. The writing checks are already included, so extra skill uploads are optional.
 
@@ -68,6 +84,14 @@ One report section taken through draft, critique and revision, and a saved secon
 
 Monday, October 12 · Friday, October 16
 
+#### Browser — Lab 3
+
+Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+
+#### Desktop — Lab 3
+
+Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
+
 **Lab 3 kit**: Draft, critique and revise one report section, from your own reporting input or the practice mess pack. (lab-3.md)
 
 **Practice file: the mess pack**: A fictional nonprofit's meeting notes, partial sheet and emails for a board update. Save it into Kits, whichever material you choose.
@@ -78,9 +102,17 @@ A spreadsheet cleaned by Claude, your own recurring one or the practice sheet, w
 
 Monday, October 19 · Friday, October 23
 
+#### Browser — Lab 4
+
+Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+
+#### Desktop — Lab 4
+
+Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
+
 **Lab 4 kit**: Step by step: a copy of your sheet with its headers checked, your placeholder key, a clean on 10 rows first, your own count and your cleanup recipe. (lab-4.md)
 
-**Practice file: messy grants sheet**: A fictional funder's grants export with the kind of mess a real export has. Save it in AI-Labs/Kits; the steps are the same as for your own sheet.
+**Practice file: messy grants sheet**: A fictional funder's grants export with the kind of mess a real export has. Desktop: save it in AI-Labs/Kits. Browser: attach it to your chat or add it to Project files. The learning steps are the same.
 
 **Practice placeholder key (save it outside AI-Labs, never in Kits)**: Matches each placeholder, like ORG-01, to a fictional organization's name in the practice sheet. Keys never go near Claude, so save this one in a folder outside your AI-Labs folder, even though it's practice.
 
@@ -89,6 +121,14 @@ Monday, October 19 · Friday, October 23
 Checked insights, a checked narrative and a slide outline for an upcoming meeting, yours or the practice set's, plus a slide deck (.pptx) started with Claude and finished at home if needed.
 
 Monday, October 26 · Friday, October 30
+
+#### Browser — Lab 5
+
+Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+
+#### Desktop — Lab 5
+
+Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
 
 **Lab 5 kit**: Numbers to insights to a checked narrative to a slide outline to a deck, each checked before the next, with your own numbers or the practice set. (lab-5.md)
 
@@ -102,6 +142,14 @@ Your second chair saved as a skill and run on a real draft, and a one-page summa
 
 Monday, November 2 · Friday, November 6
 
+#### Browser — Lab 6
+
+Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+
+#### Desktop — Lab 6
+
+Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
+
 **Lab 6 kit**: Saving your second chair as a skill, running Research and checking it at the source, step by step. The map of other AI tools is at the end. (lab-6.md)
 
 **Practice file: grants sheet, cleaned (from Lab 5)**: The numbers behind the practice narrative you wrote in Lab 5, for running your skill on it. Save it into Kits if it isn't there already, whichever draft you pick.
@@ -113,5 +161,13 @@ Monday, November 2 · Friday, November 6
 A written workflow a colleague could run without you, timed before and after and shown to your room, and a plan for the next 90 days.
 
 Monday, November 9 · Friday, November 13
+
+#### Browser — Lab 7
+
+Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+
+#### Desktop — Lab 7
+
+Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
 
 **Lab 7 kit**: Writing your workflow down, checking it, and your 90-day plan. The workflow can be your own or the one you ran on the Lab 4 and 5 practice files; both take the same steps. (lab-7.md)

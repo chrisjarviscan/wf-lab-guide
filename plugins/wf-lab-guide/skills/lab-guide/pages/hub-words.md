@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the participant page as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # Words we use
 
@@ -80,7 +80,7 @@ What the words in the kits mean, in plain terms. Each kit also explains a word w
 
 **Speaker notes**: The notes under a slide that the presenter sees and the room doesn't. The Lab 5 slide outline puts each slide's numbers there.
 
-**Start fresh**: Open a new Cowork session on your AI-Labs folder itself, or in the browser a new chat inside your AI-Labs Project, so Claude works only from your saved files and none of the earlier conversation. Short chats also use less of your usage limit. The kits use it from Lab 1 on.
+**Start fresh**: Open a new Cowork session on your AI-Labs folder itself, or in the browser a new chat inside your AI-Labs Project, then ask Claude to use only the named saved files. For a cold-read test, turn Memory off for that chat where offered and verify quotations; a new chat alone does not disable memory. Short chats also use less of your usage limit. The kits use it from Lab 1 on.
 
 **Tool map**: The short, dated section at the end of the Lab 6 kit that says which AI tools can work from your folder. Before you use another tool on your folder's work, give it `AGENTS.md` alone and run the readback test. If it can't name three rules that are in your file, don't use it on that work yet.
 

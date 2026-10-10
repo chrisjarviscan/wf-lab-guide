@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the participant page as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the participant page as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # Your AI-Labs folder, and the tools
 
@@ -45,7 +45,7 @@ The ship log is one line for each thing you finish and send: the date, what it w
 
 **Starter AGENTS.md**: The interview prompt and the six empty headings. Save it in your Kits folder. In Lab 1, Claude uses it to interview you and saves your finished AGENTS.md at the top of AI-Labs.
 
-**Starter ship log**: For the browser route only: save it into Outputs as ship-log.md before Lab 1. In Cowork, prompt 1 in the Lab 1 kit makes the ship log for you.
+**Starter ship log**: Browser: keep it as ship-log.md in Project files or attach it to your chat; a local Outputs folder is optional. In Cowork, prompt 1 in the Lab 1 kit makes the ship log for you.
 
 ## Current tools, September 2026
 
@@ -53,7 +53,7 @@ Checked September 23, 2026
 
 AI tools change from month to month, and names may change while the program runs. The kits name models by their role, such as "the default model," so they stay accurate. This box holds the current names and details, and we update it when something changes.
 
-**Where you work**: The Claude desktop app, in Cowork. Cowork works on a folder on your computer and reads and writes the files in it, and it comes with paid plans. If IT blocks the install, Claude in your browser covers every lab: you upload files to a Project instead.
+**Where you work**: Claude in your browser or desktop app. Check the tools actually offered. With connected-folder tools, work in AI-Labs. Otherwise use Project files or attach files to each work chat; a Project is optional.
 
 **Effort**: A setting that runs from Low to Max. Lower effort stretches your usage.
 

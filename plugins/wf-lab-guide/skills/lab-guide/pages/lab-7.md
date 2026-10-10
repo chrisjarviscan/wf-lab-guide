@@ -1,35 +1,71 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 7 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the Lab 7 kit as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # Lab 7: Build session and 90-day roadmap
 
 You'll leave with your workflow written down so a colleague could run it without you, timed before and after, and a plan for the next 90 days. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
 
+## Choose your screen for Lab 7
+
+**Already started?** Keep your existing Project, chat or AI-Labs folder. Do not recreate it or reinstall a working guide. The learning steps below are shared; only file access, saving and restarting differ. Check the tools actually available: if your browser session has approved folder tools, use the connected-folder instructions. If your desktop chat has no folder tools, use the attachment instructions.
+
+### Browser — open and attach
+
+Open your AI-Labs Project and work chat, if you have one. Make these files available: AGENTS.md, the recipes and skill used in your workflow, one recent output, and ship-log.md. Add files to **Project files** for use across chats, or attach them to this chat. Ask Claude to name what it can actually read before starting.
+
+**No Project?** Use a regular chat. Attach the same permitted files. Keep complete copies of the results yourself. Every time a step says “start fresh,” open a new chat and attach the latest files that step names. A previous chat's attachments are not a substitute. If attachments are unavailable, paste the complete permitted text with each filename above it; never paste a confidential original or key.
+
+### Desktop — connect your folder
+
+Open a work session with folder tools (Cowork where offered) and choose your existing **AI-Labs** folder itself. Put this lab's kit and practice files in **Kits**. Use only permitted material. Ask Claude to name files it can actually read. A desktop chat without folder access follows the browser file steps; installing a skill alone does not connect a folder.
+
+## Save and continue on your screen
+
+### Browser — keep a usable copy
+
+Keep your workflow document, 90-day-plan.md, AGENTS.md and ship-log.md. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
+
+Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
+
+In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
+
+### Desktop — save and reopen
+
+Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
+
+**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
+
+**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
+
+**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
+
 ## Before you come
 
-If your ready check at the end of Lab 6 said you're ready for Lab 7, your folder is set. Before this lab, add these:
+If your ready check at the end of Lab 6 said you're ready for Lab 7, your saved work is ready. Use the screen instructions above to make these files available:
 
-- Save this kit into `AI-Labs/Kits`. Click the link and the file saves, usually in Downloads; then drag it into `Kits`. Claude works only in the folder you chose, so this move is by hand.
+- **Desktop:** save this kit in `AI-Labs/Kits`. **Browser:** add this kit to Project files or attach it to your work chat.
   - this kit, `KIT-Lab7-Build-Roadmap.md`
 - Your workflow's pieces gathered in `Workflows` (the recipes and skill it uses, and one recent output), and your ship log with its old-way and new-way minutes.
 
   - More: if `Workflows` is still empty, run the gather prompt under "This week" in the Lab 6 kit (lab-6.md); it's quick. If you're still choosing between two workflows, pick the one that answers this question: what did you do yesterday that took more than 30 minutes and you've done before?
 - Your workflow can come from your own work or from the Lab 4 and 5 practice files (a quarterly grants summary); both take the same steps today. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine.
-- Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
+- Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
 
   ```prompt
-  Read AGENTS.md first. What did I ask you to follow in this folder? Name the three rules that matter most.
+  Read the current AGENTS.md that you can access. Use that file, not memory. What did I ask you to follow? Name the three rules that matter most.
   ```
 
   ```done
   Claude names three rules, and each one is in your `AGENTS.md`.
   ```
 
-  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the only place the answer can come from is `AGENTS.md`.
+  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the answer must be checked against `AGENTS.md`; a fresh chat alone does not prove memory is off.
   - If it doesn't work: if Claude can't find `AGENTS.md`, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project) and try again. If you missed Lab 6, its kit is on the participant page (see hub-labs.md). Come anyway, and to sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
 ## Why this matters
 
 In the first lab you each named a task you'd hand off tomorrow. Today you find out whether you can. On the other end is the colleague who covers when you're away, or whoever takes your chair next. A workflow that lives only in your head leaves when you do; written down, it stays with your organization.
+
+**Before a new chat:** save and verify the latest workflow document and ship log. For the interview, also provide the recipes, skill and recent output it uses. For the cold read in step 2, provide only the named workflow document and ask for quotations from it. For step 3, provide the document and ship-log.md. Without a Project, attach those files again. At the end, open your retained workflow, AGENTS.md and 90-day-plan.md and confirm the agreed changes are there.
 
 ## Today, step by step
 
@@ -45,7 +81,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    - More: a small workflow you run often counts in full. If Claude is still asking at about 10 minutes, say "done"; step 3 fills the gaps. On the practice files, answer as if the grants summary were yours.
    - If it doesn't work: if Claude says `Workflows` is empty or missing, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project). If you did, run the gather prompt under "This week" in the Lab 6 kit (lab-6.md), then send the brief again.
    - Browser: in a new chat inside your AI-Labs Project, upload the files from `Workflows` and `Outputs/ship-log.md`, then paste the brief. Claude can't save into your folder, so copy the finished document into a plain text file named as in your brief, like `volunteer-hours-report.md`, save it in `Workflows`, and upload it to your Project.
-2. **Get a cold read (5 minutes).** A reader who has never done the work finds what you left out. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this with your document's file name in the blank. Claude will read only your document, change nothing, list each question a newcomer would need answered, then name the clearest step.
+2. **Get a cold read (5 minutes).** A reader who has never done the work finds what you left out. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste this with your document's file name in the blank. Claude will read only your document, change nothing, list each question a newcomer would need answered, then name the clearest step.
 
    ```prompt
    Read only Workflows/___.md, and don't change any file. Read it as a colleague who has never done this work and has to run it next month from this document alone. Go through it step by step and list every question you would have to ask before you could run it, one line each, naming the heading or step it comes from. Then name the one step that is clearest. End your reply with one line on its own: "Gaps found:" and how many you found.
@@ -58,7 +94,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    - Why this way: your colleague will have only the document, and a fresh session that reads only that file meets it the way they would, without the chat that wrote it. Claude finds the questions and you decide which are real gaps, because deciding what a newcomer needs is the judgment you're practicing. It uses "start fresh from your files" and "end with one clear line". The same read tests a handover note before leave.
    - More: a real gap is a question only you could answer. Skip any that everyone at your organization already knows. If the list is long, keep the first five.
    - Browser: paste the same prompt with "the workflow document in this Project, ___" in place of "Workflows/___.md", and put its file name in the blank.
-3. **Fix the gaps (6 minutes).** A step with no tool stops a colleague too. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project). Fill in your file name and the gaps you kept from step 2. Claude will read both files and ask about each gap one at a time until you say "done", then change only those lines, mark estimates and tell you what it changed.
+3. **Fix the gaps (6 minutes).** A step with no tool stops a colleague too. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached). Fill in your file name and the gaps you kept from step 2. Claude will read both files and ask about each gap one at a time until you say "done", then change only those lines, mark estimates and tell you what it changed.
 
    ```prompt
    Read Workflows/___.md and Outputs/ship-log.md, and don't change anything yet. Our cold read found these gaps: ___. Also find every step that doesn't name its tool (by hand counts as one) and every time that isn't in the ship log. Ask me about each gap, step and time, one question at a time. If I say "done" early, mark what's left "not answered yet". Then change only those lines in the document and mark any time I didn't measure on a stopwatch as an estimate. Last, write out the whole file in your reply so I can check it.
@@ -71,7 +107,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    - Why this way: starting fresh means Claude works from the saved document and the ship log, the pages a colleague would have, and one question at a time keeps it from filling a gap with a guess that sounds right. It uses "start fresh from your files", "ask me, don't guess" and "change only what I name". The same moves check a volunteer orientation guide against the program calendar, or a budget narrative against the budget sheet.
    - More: steps with no AI in them still name their tool, even "spreadsheet" or "by hand". If your workflow uses placeholders, putting real names back in is a step of its own. The new way runs from start to sent, every check included. On the practice files, an old-way time is an estimate.
    - If it doesn't work: if Claude says it changed the file but its reply doesn't hold the whole file, send "Write out the whole file in your reply." and check it there.
-   - Browser: upload your current `ship-log.md` to the Project, delete any older copy, and paste the same prompt. Claude can't save into your folder, so open your copy in Notepad or TextEdit and replace everything in it with the file from Claude's reply. Then upload the new file and delete the old one from the Project's files.
+   - Browser: upload your current `ship-log.md` to the Project, open and verify that new copy before removing the older one, and paste the same prompt. Claude can't save into your folder, so open your copy in Notepad or TextEdit and replace everything in it with the file from Claude's reply. Then upload the new file and open and verify the new Project copy before removing the older one.
 
    Then start your 90-day plan.
 4. **Show your workflow to the room (about 18 minutes).** Other people's workflows may give you your next one. You each have 90 seconds, reading from your document, on five points, a sentence each: what it does, what it replaced, your old-way and new-way minutes (start to sent), what surprised you, and what it can't do. Then the person who went just before you asks one question: what they'd need to know to run it from your document alone. While others talk, post one thing you'd borrow in the room's Zoom chat.
@@ -87,7 +123,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    ```
 
    - Why this way: it uses "only after I say yes" from Ways to ask Claude (see hub-ways.md), so nothing changes in the file Claude reads first until you've read the new lines.
-   - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and delete the old one from the Project's files.
+   - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and open and verify the new Project copy before removing the older one.
 
 ## Your brief to Claude
 
@@ -235,6 +271,8 @@ Your workflow brief fits any recurring job someone else may one day pick up. Cha
 | **The monthly newsletter** | Add two past issues, with any donor, volunteer or client names cut, and name who reads it before it goes out. |
 
 ## What's in your folder now
+
+**Desktop:** this is the folder layout. **Browser:** keep the same named files in Project files or as copies to attach to your next chat. Local download folders are optional and do not connect to Claude.
 
 ```
 AI-Labs/

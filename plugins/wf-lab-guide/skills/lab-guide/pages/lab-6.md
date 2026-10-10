@@ -1,32 +1,66 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 6 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the Lab 6 kit as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # Lab 6: Skills, research and the wider toolbox
 
 You'll leave with your second chair saved as a skill and run on a real draft, and a checked one-page research summary. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
 
+## Choose your screen for Lab 6
+
+**Already started?** Keep your existing Project, chat or AI-Labs folder. Do not recreate it or reinstall a working guide. The learning steps below are shared; only file access, saving and restarting differ. Check the tools actually available: if your browser session has approved folder tools, use the connected-folder instructions. If your desktop chat has no folder tools, use the attachment instructions.
+
+### Browser — open and attach
+
+Open your AI-Labs Project and work chat, if you have one. Make these files available: AGENTS.md, second-chair.md, your draft and its permitted sources, and research-brief.md. Add files to **Project files** for use across chats, or attach them to this chat. Ask Claude to name what it can actually read before starting.
+
+**No Project?** Use a regular chat. Attach the same permitted files. Keep complete copies of the results yourself. Every time a step says “start fresh,” open a new chat and attach the latest files that step names. A previous chat's attachments are not a substitute. If attachments are unavailable, paste the complete permitted text with each filename above it; never paste a confidential original or key.
+
+### Desktop — connect your folder
+
+Open a work session with folder tools (Cowork where offered) and choose your existing **AI-Labs** folder itself. Put this lab's kit and practice files in **Kits**. Use only permitted material. Ask Claude to name files it can actually read. A desktop chat without folder access follows the browser file steps; installing a skill alone does not connect a folder.
+
+## Save and continue on your screen
+
+### Browser — keep a usable copy
+
+Keep your second-chair skill, checked research summary, workflow source files, AGENTS.md and ship-log.md. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
+
+Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
+
+In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
+
+### Desktop — save and reopen
+
+Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
+
+**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
+
+**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
+
+**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
+
 ## Before you come
 
-If your ready check at the end of Lab 5 said you're ready for Lab 6, your folder is set. Before this lab, add these:
+If your ready check at the end of Lab 5 said you're ready for Lab 6, your saved work is ready. Use the screen instructions above to make these files available:
 
-- Save the Lab 6 files into `AI-Labs/Kits`, whichever draft you pick. Click each link and the file saves, usually in Downloads; then drag it into `Kits`. Claude works only in the folder you chose, so this move is by hand.
+- **Desktop:** save the Lab 6 files into `AI-Labs/Kits`. **Browser:** download these files and add them to Project files or attach them to your work chat:
   - this kit, `KIT-Lab6-Agents-Toolbox.md`
   - the Lab 5 practice set, if it isn't there already: `MOCK-Benevity-Export-CLEANED-Reference.csv` and `MOCK-Program-Context.md`
 - Choose your draft. Both take the same steps today.
   - Your own: a draft about to ship and the files it came from (your Lab 5 narrative counts). Save any not yet in `AI-Labs` into `Working`. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet comes only as prepared in Lab 4: red and notes columns deleted, placeholders in, the key outside `AI-Labs`.
   - The practice set: the narrative you wrote from it in Lab 5, `Outputs/narrative.md`, and the set's two files. Without one, any draft in `Outputs` works, with the files it came from.
 - Your research brief, with all four parts, in `Working/research-brief.md`. You each run Research today, so colleagues who wrote one brief each save a copy. If you have none, write a rough one in the four parts under "Your brief to Claude", on a question you'd act on this month, and save it there.
-- Code execution and file creation still on in Claude's settings, as in Lab 5. It's an account setting, so check it by hand.
-- Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
+- If offered, use file creation as in Lab 5. Otherwise save complete text using the browser saving steps above. A skill can be followed from its attached text; installing it is optional.
+- Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
 
   ```prompt
-  Read AGENTS.md first. What did I ask you to follow in this folder? Name the three rules that matter most.
+  Read the current AGENTS.md that you can access. Use that file, not memory. What did I ask you to follow? Name the three rules that matter most.
   ```
 
   ```done
   Claude names three rules, and each one is in your `AGENTS.md`.
   ```
 
-  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the only place the answer can come from is `AGENTS.md`.
+  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the answer must be checked against `AGENTS.md`; a fresh chat alone does not prove memory is off.
   - If it doesn't work: if Claude can't find `AGENTS.md`, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project) and try again. If you missed Lab 5, its kit is on the participant page (see hub-labs.md). Come anyway, and to sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
 ## Why this matters
@@ -37,10 +71,10 @@ A research report reads as if it knows, and it can end up in a grant proposal un
 
 In your breakout room, each of you works on your own computer, with your own Claude, and makes your own files, your colleague included, so nobody needs to share a screen.
 
-1. **Launch Research.** It runs while you build the skill, so start it first. Open `Working/research-brief.md`, copy it all, and in a new regular chat (not a Cowork session) click the + button, choose Research and paste it. Its place and name on your screen may differ. Answer any question it asks, type "launched" in the Zoom chat, and check back during step 2.
+1. **Launch Research.** It runs while you build the skill, so start it first. Open `Working/research-brief.md`, copy it all, and open a new conversation and use Research if your screen offers it, then paste the brief. Classic and unified Claude show different controls; do not look for a Chat/Cowork selector if your screen has none. Answer any question it asks, type "launched" in the Zoom chat, and check back during step 2.
 
    - More: run it once today, because Research can use up your limits faster.
-   - If it doesn't work: if you can't find Research, check it's a regular chat, then ask your room's facilitator. If the report comes late, or Research stops before it lands, steps 5 and 6 become this week's Ship It. After a stop, launch it again at home, the same way.
+   - If it doesn't work: if you cannot find Research, ask your room’s facilitator which tools your account offers. If Research is unavailable, use sources you can open yourself and give Claude only permitted excerpts with their URLs and dates; check claims at those sources. If the report comes late, or Research stops before it lands, steps 5 and 6 become this week's Ship It. After a stop, launch it again at home, the same way.
 2. **Turn your second chair into a skill.** A skill gives Claude the same questions for every draft. In a Cowork session on `AI-Labs` itself, paste this. Type your answers, or dictate them with Zoom muted. Claude will save your recipe as `Skills/second-chair/SKILL.md`, ask what your board and funders push on until you say "done", then add your answers and show you the file.
 
    ```prompt
@@ -52,8 +86,8 @@ In your breakout room, each of you works on your own computer, with your own Cla
    ```
 
    - Why this way: Claude writes the skill's name and a line on when to use it, and the interview adds the questions your board really asks. It uses "ask me, don't guess" and "show me so I can check". It works the same way for a grant checklist, or your finance lead's budget questions.
-   - Browser: paste the same prompt in a new chat inside your AI-Labs Project, with `second-chair.md` uploaded. Save the result as a plain text file named `SKILL.md` (Notepad: "Save as type: All files"; TextEdit: Format, then Make Plain Text) in `AI-Labs/Skills/second-chair`, making both folders, and upload it to your Project.
-3. **Run it on your draft.** A fresh session reads your draft cold, as your board will. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and fill in your draft and the files it came from; on the practice set, `Outputs/narrative.md`, then `Kits/MOCK-Benevity-Export-CLEANED-Reference.csv` and `Kits/MOCK-Program-Context.md`. Claude will read your skill, follow it on your draft and give you its top three findings.
+   - Browser: paste the same prompt in a new chat inside your AI-Labs Project, with `second-chair.md` uploaded. Keep the installable local file as `Skills/second-chair/SKILL.md` if you want that folder layout. For Project files or chat attachments, save a copy named `second-chair-SKILL.md` so it cannot be confused with another skill. Use that exact attachment name in the prompts below. This lets Claude read the instructions; it does not install or enable a skill. Installation is optional and uses Skills controls where offered.
+3. **Run it on your draft.** A fresh session reads your draft cold, as your board will. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and fill in your draft and the files it came from; on the practice set, `Outputs/narrative.md`, then `Kits/MOCK-Benevity-Export-CLEANED-Reference.csv` and `Kits/MOCK-Program-Context.md`. Claude will read your skill, follow it on your draft and give you its top three findings.
 
    ```prompt
    Read Skills/second-chair/SKILL.md and follow it to review ___. The files it came from are ___. Give me your top three findings, each with the line it's about and the file that would settle it. Don't change anything.
@@ -66,8 +100,8 @@ In your breakout room, each of you works on your own computer, with your own Cla
    - Why this way: pointing Claude at the file runs the same instructions every time, whether or not the skill is added to Claude's settings. It uses "start fresh from your files". It suits a budget-narrative check each quarter, or a program page review before it goes live.
    - More: you can also add the skill in Claude's settings; the facilitator shows where, and the wording on your screen may differ. If you can't add it, this prompt still works.
 
-     - If it doesn't work: if Claude says it can't find the skill, check that you opened `AI-Labs` itself and that `Skills/second-chair/SKILL.md` is there (in the browser, that `SKILL.md` is uploaded to your Project), then try again.
-   - Browser: upload the draft and its files to your Project if they aren't there, then paste the same prompt.
+     - If it doesn't work: if Claude says it can't find the skill, check that you opened `AI-Labs` itself and that `Skills/second-chair/SKILL.md` is there (in the browser, that `second-chair-SKILL.md` is available in Project files or attached to this chat), then try again.
+   - Browser: make the draft, its sources and `second-chair-SKILL.md` available in Project files or this chat. Replace `Skills/second-chair/SKILL.md` in the prompt with `second-chair-SKILL.md`, then send it. Reading that attachment does not install a skill.
 4. **Settle the top three findings.** A skill repeats whatever its file gets wrong, so supervise every run: read each one before anything goes out. Settle each finding by hand, because the judgment is what you're practicing: fix it, reject it with a reason, or open the file it names and check.
 5. **Check three claims at the source.** A claim you repeat carries your name. When the report lands, pick three you'd repeat. Open each one's source, find the passage and note its date; cut any claim the passage doesn't back or that's out of date. Check by hand, because a check on Claude's work has to come from somewhere other than Claude. Then write your missing-voices line: whose voices are missing, and who you'd ask, as a group, never a person.
    - More: a missing-voices line might read "None of these sources ask older adults themselves; we'd ask the seniors in our wellness program."
@@ -94,7 +128,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    ```
 
    - Why this way: steps you've just seen work make a better skill than one designed on a blank page, and saved instructions stay the same, where retyped ones change a little each time. It uses "check where you are first" and "show me so I can check". Try it on how you built this year's grant report, or an event recap for your board.
-   - Browser: paste the prompt from "save what we just did" onward, leaving out the folder check. Save the result as plain text, as in step 2, named `SKILL.md`, in a new folder in `Skills` named for the job. Make a copy named for the job, like `grant-report-SKILL.md`, and upload the copy to your Project, so it isn't mixed up with your second chair's `SKILL.md`.
+   - Browser: paste the prompt from "save what we just did" onward, leaving out the folder check. Save the result as plain text, as in step 2, named `SKILL.md`, in a new folder in `Skills` named for the job. Make a copy named for the job, like `grant-report-SKILL.md`, and upload the copy to your Project, so it isn't mixed up with your `second-chair-SKILL.md`.
 8. **Get an outside read of your skill (5 minutes).** A reader your skill doesn't imagine asks what your board doesn't. Start fresh as in step 3 and paste this with your step 3 draft in the blank. Claude will read both as a program officer at a new funder, change nothing, and name one question your skill never asks.
 
    ```prompt
@@ -106,7 +140,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    ```
 
    - Why this way: a fresh session reads only your skill and the draft, so it shows what your skill leaves out, as another board's worries would. You decide if the question belongs, because only you know what your funders ask. It uses "start fresh from your files" and "end with one clear line". The same read works on a grant checklist before a deadline, or a volunteer orientation script.
-   - Browser: in a new chat inside your AI-Labs Project, paste the same prompt with "SKILL.md in this Project" in place of "Skills/second-chair/SKILL.md", and the draft's file name in the blank.
+   - Browser: in a new chat inside your AI-Labs Project, paste the same prompt with "second-chair-SKILL.md in Project files or attached to this chat" in place of "Skills/second-chair/SKILL.md", and the draft's file name in the blank.
    - More: if your board or funders would ask it, ask Claude in a Cowork session to add the question to `Skills/second-chair/SKILL.md` and change nothing else, today or after the lab (in the browser, add it by hand and upload the file again).
    - **Room:** near the end of room time, your facilitator calls a round: each of you reads your missing question aloud, 20 seconds each. Not there yet? Read a question from your skill, or pass.
 9. **Save what you learned (2 minutes).** Every lab ends this way, so your folder gets a little better each week. Paste this in the chat where you did most of today's fixing. If you already started fresh in step 8, that chat can't see the earlier fixes, so add a line after the prompt saying what you changed today. Claude will suggest up to three lines for `AGENTS.md` from today's fixes and wait for your yes on each one.
@@ -120,7 +154,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    ```
 
    - Why this way: it uses "only after I say yes" from Ways to ask Claude (see hub-ways.md), so nothing changes in the file Claude reads first until you've read the new lines.
-   - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and delete the old one from the Project's files.
+   - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and open and verify the new Project copy before removing the older one.
 
 ## Your brief to Claude
 
@@ -240,6 +274,8 @@ The recipe-to-skill prompt in step 2 fits any recipe, and the summary prompt in 
 | **A peer program's evaluation**, before you copy its model | Make the summary prompt's last line who took part in the study and who didn't. |
 
 ## What's in your folder now
+
+**Desktop:** this is the folder layout. **Browser:** keep the same named files in Project files or as copies to attach to your next chat. Local download folders are optional and do not connect to Claude.
 
 ```
 AI-Labs/

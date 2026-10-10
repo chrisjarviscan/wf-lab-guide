@@ -1,14 +1,48 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 5 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the Lab 5 kit as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # Lab 5: Numbers to narrative to deck
 
 You'll leave with checked insights, a checked narrative and a slide outline for an upcoming meeting, yours or the practice set's, plus a slide deck (.pptx) started with Claude and finished at home if needed. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
 
+## Choose your screen for Lab 5
+
+**Already started?** Keep your existing Project, chat or AI-Labs folder. Do not recreate it or reinstall a working guide. The learning steps below are shared; only file access, saving and restarting differ. Check the tools actually available: if your browser session has approved folder tools, use the connected-folder instructions. If your desktop chat has no folder tools, use the attachment instructions.
+
+### Browser — open and attach
+
+Open your AI-Labs Project and work chat, if you have one. Make these files available: AGENTS.md, the cleaned sheet with placeholders still in, and the context file (or both practice files). Add files to **Project files** for use across chats, or attach them to this chat. Ask Claude to name what it can actually read before starting.
+
+**No Project?** Use a regular chat. Attach the same permitted files. Keep complete copies of the results yourself. Every time a step says “start fresh,” open a new chat and attach the latest files that step names. A previous chat's attachments are not a substitute. If attachments are unavailable, paste the complete permitted text with each filename above it; never paste a confidential original or key.
+
+### Desktop — connect your folder
+
+Open a work session with folder tools (Cowork where offered) and choose your existing **AI-Labs** folder itself. Put this lab's kit and practice files in **Kits**. Use only permitted material. Ask Claude to name files it can actually read. A desktop chat without folder access follows the browser file steps; installing a skill alone does not connect a folder.
+
+## Save and continue on your screen
+
+### Browser — keep a usable copy
+
+Keep context.md, the checked narrative, slide outline, deck if created, numbers-to-deck.md, AGENTS.md and ship-log.md. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
+
+Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
+
+In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
+
+### Desktop — save and reopen
+
+Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
+
+**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
+
+**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
+
+**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
+
 ## Before you come
 
-If your ready check at the end of Lab 4 said you're ready for Lab 5, your folder is set. Before this lab, add these:
+If your ready check at the end of Lab 4 said you're ready for Lab 5, your saved work is ready. Use the screen instructions above to make these files available:
 
-- Save the Lab 5 files into `AI-Labs/Kits`, whichever material you choose. Claude works only in the folder you chose, so this move is by hand.
+- **Desktop:** save the Lab 5 files into `AI-Labs/Kits`. **Browser:** download these files and add them to Project files or attach them to your work chat:
   - this kit, `KIT-Lab5-Numbers-Narrative-Deck.md`
   - the practice sheet, `MOCK-Benevity-Export-CLEANED-Reference.csv`
   - the practice context file, `MOCK-Program-Context.md`
@@ -21,33 +55,47 @@ If your ready check at the end of Lab 4 said you're ready for Lab 5, your folder
   - If each row is one person or one visit, turn it into counts first, or use the practice sheet. Health, substance-use and immigration services always do this.
   - Organization names get placeholders in the form `ORG-01`. No other placeholder format is used.
   - Keep programs, sites, dates, counts and amounts. If you're unsure about a column, delete it.
-- Switch on code execution and file creation in Claude's settings, so Claude can make the .pptx; the setting's name may differ slightly. You do this by hand because it's an account setting.
+- If offered, enable code execution and file creation so Claude can make a `.pptx`. If not, keep the checked slide outline and build the deck in your permitted slide app. Plain text renamed `.pptx` is not a deck.
 
   - If it doesn't work: if you can't find it, come anyway, and the facilitator in your room can show you where it is.
-- Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
+- Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
 
   ```prompt
-  Read AGENTS.md first. What did I ask you to follow in this folder? Name the three rules that matter most.
+  Read the current AGENTS.md that you can access. Use that file, not memory. What did I ask you to follow? Name the three rules that matter most.
   ```
 
   ```done
   Claude names three rules, and each one is in your `AGENTS.md`.
   ```
 
-  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the only place the answer can come from is `AGENTS.md`.
+  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the answer must be checked against `AGENTS.md`; a fresh chat alone does not prove memory is off.
   - If it doesn't work: if Claude can't find `AGENTS.md`, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project) and try again. If you missed Lab 4, its kit is on the participant page (see hub-labs.md). Come anyway, and to sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
 ## Why this matters
 
 Numbers change things for a nonprofit when they reach the people who decide, usually a board or a funder's committee. You get a short slot, and someone there will check your math. Most decks start in the slide tool, where whatever fits on a slide becomes the story. Today runs the other way round: the numbers, then a story you've checked, then the slides.
 
+## Files to carry into each new chat
+
+Use Project files that you have opened and checked, or attach these files again without a Project. Use the latest approved version, not a draft from an earlier chat.
+
+| Next task | Make these files available first |
+|---|---|
+| Review the narrative (step 5) | AGENTS.md, second-chair.md, insights.md, narrative.md, context.md and the permitted source sheet |
+| Make the outline (step 7) | The checked, revised narrative.md; the prompt uses only that file |
+| Finish the recipe (step 8) | The current numbers-to-deck.md and the exact outline brief |
+| Build the deck (step 9) | The checked slide-outline.md |
+| Rehearse the skeptic (step 10) | context.md and the named outline slide or narrative paragraph |
+
+After each change, retain the full updated file before starting the next chat. In a Project, confirm the updated copy is in Project files; without one, attach that copy to the next chat.
+
 ## Today, step by step
 
 In your breakout room, each of you works on your own computer, with your own Claude, and makes your own files, your colleague included, so nobody needs to share a screen. Start a stopwatch; on your own numbers, keep timing at home until the deck goes out.
 
-- Browser: upload the files each prompt names to your AI-Labs Project and paste the prompt in a chat there. When Claude shows or offers a file, save it under the name and folder the prompt gives (Lab 1's Notepad and TextEdit tips apply), upload it, and delete any older copy from the Project's files.
+- Browser: upload the files each prompt names to your AI-Labs Project and paste the prompt in a chat there. When Claude shows or offers a file, save it under the name and folder the prompt gives (Lab 1's Notepad and TextEdit tips apply), upload it, and open and verify the new Project copy before removing an older one.
 
-1. **Write the context file (5 minutes).** It holds what the numbers can't show. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project).
+1. **Write the context file (5 minutes).** It holds what the numbers can't show. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached).
    - Your own numbers: paste this, answer by role, never by name, and say "done" to finish.
    - Practice set: read `Kits/MOCK-Program-Context.md`, then go to step 2.
 
@@ -81,10 +129,10 @@ In your breakout room, each of you works on your own computer, with your own Cla
 3. **Check two insights against the sheet (4 minutes).** You check by hand, because a check on Claude has to come from somewhere other than Claude. In your spreadsheet app, check the row count and total, then add up the rows behind the two insights that matter most. If a number is off, tell Claude what you got.
 
    - More: for "$352,500 (all 2025 rows)", filter Award Date to 2025, select the Amount cells, and read their sum at the bottom of the window; a =SUM formula would also add the rows the filter hides. A whole-column count includes the header row, so it's one more than Claude's.
-4. **Write the narrative, then save it (7 minutes).** The narrative is the story the meeting will hear. Send your answers to Your brief to Claude in the same chat; your context file already names the meeting and the slot, so a line or two per part is enough. When every number in the narrative is one of the insights, rows named, paste this. Claude will check the folder, save the insights and narrative in `Outputs` and both briefs as a recipe, replacing any earlier ones, then list the folder.
+4. **Write the narrative, then save it (7 minutes).** The narrative is the story the meeting will hear. Send your answers to Your brief to Claude in the same chat; your context file already names the meeting and the slot, so a line or two per part is enough. When every number in the narrative is one of the insights, rows named, paste this. Claude will check the folder, save the insights and narrative in `Outputs` and both briefs as a recipe, asking before replacing earlier ones, then list the folder.
 
    ```prompt
-   First check the folder I chose to work in. If it isn't called AI-Labs, don't change anything. Just tell me its name. If it is, save the insights as Outputs/insights.md and the narrative as Outputs/narrative.md, word for word. Then save the insights prompt and the narrative brief I sent in this chat, word for word and in that order, as Recipes/numbers-to-deck.md, under the heading "Part 1: insights and narrative". Replace any earlier version of these three files. Then list everything in the folder so I can check it.
+   First check the folder I chose to work in. If it isn't called AI-Labs, don't change anything. Just tell me its name. If it is, save the insights as Outputs/insights.md and the narrative as Outputs/narrative.md, word for word. Then save the insights prompt and the narrative brief I sent in this chat, word for word and in that order, as Recipes/numbers-to-deck.md, under the heading "Part 1: insights and narrative". If one of these files already exists, show me the proposed replacement and wait for my approval before overwriting it. Then list everything in the folder so I can check it.
    ```
 
    ```done
@@ -93,7 +141,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
 
    - Why this way: one paste saves three files where the next chats look for them, and the list shows they landed. It uses "check where you are first", "word for word" and "show me so I can check". The same move keeps an approved grant narrative, or a finished job posting, beside the brief that wrote it.
    - Browser: ask Claude for the insights and the narrative in full, and save them as `insights.md` and `narrative.md` in `Outputs`. Save your step 2 prompt as you sent it, then your brief, as `numbers-to-deck.md` in `Recipes`, under "Part 1: insights and narrative".
-5. **Run your second chair as the meeting's skeptic (5 minutes).** A fresh chat reads the narrative as your meeting will. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this, with step 2's files in the blanks. Claude will read your second chair, check the narrative against both files, list its findings, and wait for you to name the fixes.
+5. **Run your second chair as the meeting's skeptic (5 minutes).** A fresh chat reads the narrative as your meeting will. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste this, with step 2's files in the blanks. Claude will read your second chair, check the narrative against both files, list its findings, and wait for you to name the fixes.
 
    ```prompt
    Read Recipes/second-chair.md and use it on Outputs/narrative.md, reading as the most skeptical person in the meeting the narrative is for. Check every number against the files it came from: ___ and ___. Don't change any file yet. When I've settled your findings, I'll name the ones to fix; change only those in Outputs/narrative.md, then show me the file so I can check it.
@@ -106,7 +154,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    - Why this way: the chat that wrote the narrative has seen every choice along the way; a fresh one reads only the page. It uses "start fresh from your files" and "change only what I name". The same move checks a budget justification against the budget sheet, or a website impact page against last year's outcomes.
    - If it doesn't work: if Claude can't find `Recipes/second-chair.md`, ask it what's in `Recipes` and put that file's name in the prompt.
 6. **Settle the top three findings (3 minutes).** A finding can be wrong too. Take the three that matter most and, for each, fix it, reject it with a reason, or check the source. You settle them by hand, because the judgment is what you're practicing. Then name the fixes in step 5's chat, like "Fix 1 and 3. Leave 2: the context file explains it."
-7. **Make the slide outline (4 minutes).** The outline is the deck in words, made from the checked narrative alone, so a number from anywhere else stands out. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this. Claude will read only `Outputs/narrative.md`, save a slide outline as `Outputs/slide-outline.md`, and show it to you.
+7. **Make the slide outline (4 minutes).** The outline is the deck in words, made from the checked narrative alone, so a number from anywhere else stands out. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste this. Claude will read only `Outputs/narrative.md`, save a slide outline as `Outputs/slide-outline.md`, and show it to you.
 
    ```prompt
    Read Outputs/narrative.md and use no other file. Make a slide outline for the meeting it was written for: one idea per slide, a title on each slide that states a claim, the numbers for each slide in its speaker notes, and three charts at most, labeled by program area, place or year, never by organization. Use no number that isn't in the narrative, and keep every placeholder as it is. Save it as Outputs/slide-outline.md and show it to me so I can check it.
@@ -144,9 +192,11 @@ In your breakout room, each of you works on your own computer, with your own Cla
    Claude's last line is the deck's file name. Open it from `Outputs` and find every number on its slides, charts included, in the narrative. If there's no file, see "If it doesn't work".
    ```
 
-   - Why this way: the deck comes only from the saved outline, so the prompt works in any chat, today or at home, and the last line tells you it saved, however long the build took. It uses "start fresh from your files" and "end with one clear line". Both fit a handout (.docx) made from a program summary, or a site-visit sheet (.pdf) from an approved program plan.
-   - If it doesn't work: if Claude couldn't make the file, switch on the setting from "Before you come". Then, or if the chat closed before the file name showed, start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this prompt again.
-10. **Face the meeting's skeptic on one slide (5 minutes).** A reader who wasn't in your chats asks what your meeting will. Leave the deck building, start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this with your context file, then a slide like "slide 3 of the outline" (no outline yet: "the narrative's main paragraph"). Claude will play the person in your meeting most likely to doubt you, change nothing, and end with the question you'd least like to hear.
+   - Why this way: the deck comes only from the saved outline, so the prompt works in any chat, today or at home, and the filename tells you which file to look for; only opening and checking the actual file confirms it is usable. It uses "start fresh from your files" and "end with one clear line". Both fit a handout (.docx) made from a program summary, or a site-visit sheet (.pdf) from an approved program plan.
+   - If it doesn't work: if Claude could not make a real `.pptx`, retain slide-outline.md and mark the deck pending. Ask your facilitator for help or build it in your permitted slide app; do not mark the deck complete. Then, or if the chat closed before the file name showed, start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste this prompt again.
+**Deck completion check:** download and open the actual `.pptx` in your slide app. Check every slide, chart and speaker note against the approved outline. A filename in chat is not proof of a working deck.
+
+10. **Face the meeting's skeptic on one slide (5 minutes).** A reader who wasn't in your chats asks what your meeting will. Leave the deck building, start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste this with your context file, then a slide like "slide 3 of the outline" (no outline yet: "the narrative's main paragraph"). Claude will play the person in your meeting most likely to doubt you, change nothing, and end with the question you'd least like to hear.
 
     ```prompt
     Read the context file ___, Outputs/narrative.md, and Outputs/slide-outline.md if it's there. Don't change any file. Play the person in that meeting most likely to doubt us. Look only at ___ and ask me the one question about it I'd least like to hear there. Then say in one or two lines whether the narrative answers it, and quote the line if it does. End your reply with one line on its own: "Question:" followed by the question.
@@ -170,7 +220,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
     ```
 
     - Why this way: it uses "only after I say yes" from Ways to ask Claude (see hub-ways.md), so nothing changes in the file Claude reads first until you've read the new lines.
-    - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and delete the old one from the Project's files.
+    - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and open and verify the new Project copy before removing the older one.
 
 ## Your brief to Claude
 
@@ -292,6 +342,8 @@ Your `numbers-to-deck.md` recipe fits other jobs where numbers go to people who 
 | **A county contract report**, counts only | Put the contract's targets in the context file, and ask for one line per target. |
 
 ## What's in your folder now
+
+**Desktop:** this is the folder layout. **Browser:** keep the same named files in Project files or as copies to attach to your next chat. Local download folders are optional and do not connect to Claude.
 
 ```
 AI-Labs/

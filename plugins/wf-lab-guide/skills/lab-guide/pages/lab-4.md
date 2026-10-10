@@ -1,14 +1,48 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 4 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the Lab 4 kit as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # Lab 4: Data, clean and extract
 
 You'll leave with a spreadsheet cleaned by Claude, a change log you checked, the organization names back in, and a cleanup recipe. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
 
+## Choose your screen for Lab 4
+
+**Already started?** Keep your existing Project, chat or AI-Labs folder. Do not recreate it or reinstall a working guide. The learning steps below are shared; only file access, saving and restarting differ. Check the tools actually available: if your browser session has approved folder tools, use the connected-folder instructions. If your desktop chat has no folder tools, use the attachment instructions.
+
+### Browser — open and attach
+
+Open your AI-Labs Project and work chat, if you have one. Make these files available: AGENTS.md and the kit; add only the checked, swapped CSV after step 3. Never attach the original export, the key or the sheet with names restored. Add files to **Project files** for use across chats, or attach them to this chat. Ask Claude to name what it can actually read before starting.
+
+**No Project?** Use a regular chat. Attach the same permitted files. Keep complete copies of the results yourself. Every time a step says “start fresh,” open a new chat and attach the latest files that step names. A previous chat's attachments are not a substitute. If attachments are unavailable, paste the complete permitted text with each filename above it; never paste a confidential original or key.
+
+### Desktop — connect your folder
+
+Open a work session with folder tools (Cowork where offered) and choose your existing **AI-Labs** folder itself. Put this lab's kit and practice files in **Kits**. Use only permitted material. Ask Claude to name files it can actually read. A desktop chat without folder access follows the browser file steps; installing a skill alone does not connect a folder.
+
+## Save and continue on your screen
+
+### Browser — keep a usable copy
+
+Keep the cleaned CSV with placeholders still in, its change log, your cleanup recipe, AGENTS.md and ship-log.md. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
+
+Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
+
+In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
+
+### Desktop — save and reopen
+
+Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
+
+**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
+
+**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
+
+**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
+
 ## Before you come
 
-If your ready check at the end of Lab 3 said you're ready for Lab 4, your folder is set. Before this lab, add these:
+If your ready check at the end of Lab 3 said you're ready for Lab 4, your saved work is ready. Use the screen instructions above to make these files available:
 
-- Save the Lab 4 files into `AI-Labs/Kits`, whichever material you choose. Claude works only in the folder you chose, so this move is by hand.
+- **Desktop:** save the Lab 4 files into `AI-Labs/Kits`. **Browser:** download these files and add them to Project files or attach them to your work chat:
   - this kit, `KIT-Lab4-Data-Clean-Extract.md`
   - the practice sheet, `MOCK-Benevity-Export-Messy.csv`
 - Save the practice key, `MOCK-Placeholder-Key.csv`, in a folder you choose outside `AI-Labs`, where your organization keeps confidential records, never in `Kits`. That's your key folder, for your own key too. Keys never go near Claude, so you move them by hand.
@@ -35,7 +69,7 @@ If your ready check at the end of Lab 3 said you're ready for Lab 4, your folder
 
   - Why this way: Claude reads every file name, even in folders you'd skip, and the fixed last line answers at a glance; moving a key stays by hand because the key never goes near Claude. It uses "end with one clear line". The same check finds any file with "draft" in its name before a board packet goes out.
   - If it doesn't work: if Claude can't find your folder, check that you opened `AI-Labs` itself. If it names a file that isn't a key, like `key-messages.md`, rename that file without "key". If you missed Lab 3, its kit is on the participant page (see hub-labs.md). Come anyway, and to sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
-  - Browser: look through your `AI-Labs` folder yourself for any file with "key" in its name, and move it out. Delete any key from your Project's files too.
+  - Browser: look through your `AI-Labs` folder yourself for any file with "key" in its name, and move it out. Check Project files and current attachments too. If a key was uploaded, stop, remove it, and tell your facilitator; deleting it does not undo the exposure.
 
 ## Why this matters
 
@@ -45,7 +79,7 @@ Your board and funder reports start from the spreadsheet you rebuild every month
 
 In your breakout room, each of you works on your own computer, with your own Claude, copy and key, your colleague included. If your facilitator asks to see your screen, never show your key folder. Time steps 1 to 7 on a stopwatch.
 
-1. **Save a copy and check your headings.** Save a copy in your key folder, so the original stays untouched. Delete any red or notes column, and change any heading that names an organization to its `ORG-01` placeholder. Then open a new chat in Claude and check your headings, the top row only. Save your copy into `Working` only once Claude says "Headings clean." You delete columns by hand because the data has to be safe before anything goes near Claude, and the headings are the only part of your sheet Claude sees in this step.
+1. **Save a copy and check your headings.** Save a copy in your key folder, so the original stays untouched. Delete any red or notes column, and change any heading that names an organization to its `ORG-01` placeholder. Then open a new chat in Claude and check your headings, the top row only. Keep this copy outside `AI-Labs` and out of all Claude uploads. “Headings clean” checks only the top row; it does not make the sheet safe. Do not move or upload the sheet until step 3 is complete. You delete columns by hand because the data has to be safe before anything goes near Claude, and the headings are the only part of your sheet Claude sees in this step.
    - Your own sheet: keep one month, about 50 rows.
    - Practice sheet: copy `Kits/MOCK-Benevity-Export-Messy.csv` into `Working`. It holds no personal data, so skip the heading check.
    - More: about 50 rows is few enough to check every change; keep the month your system total covers. If that month runs well past 50 rows, keep all of it, or keep 50 and skip the system-total check in step 7, since that total covers rows you cut. To copy only the top row, click the row number 1 so nothing else is selected, and never paste a row below it. Start your key next, in step 2.
@@ -70,10 +104,10 @@ In your breakout room, each of you works on your own computer, with your own Cla
    - Practice sheet: use `MOCK-Placeholder-Key.csv`.
    - More: every other column is green and stays as it is. To list each name once, copy the yellow column into the key's "Name in the sheet" column and delete the repeats; keep every spelling, since each gets its own row. "Swap back to" holds the spelling you want in the finished sheet. If your sheet names no organizations, skip the key and the swap, and still count in step 3. Next month, open this key again and give only new organizations the next free number, so each placeholder keeps meaning the same organization and your recipe's rules still fit.
 
-   3. **Swap the names, then count.** You swap and count by hand, because the key never goes near Claude and a check on Claude can't come from Claude. In your copy's yellow columns, find and replace each name with its placeholder, ticking the whole-cell option. Filter each yellow column: any value but a bare placeholder is a missed name, so add it to the key and swap it. Save the copy in `Working` as a `.csv`, like `volunteer-hours-swapped.csv` (practice: `grants-swapped.csv`). Write down its data row count (last row number minus 1) and the total of the column you report on (practice: Amount). Then type "saved" in the Zoom chat so your facilitator can see who needs a hand.
+   3. **Swap the names, then count.** You swap and count by hand, because the key never goes near Claude and a check on Claude can't come from Claude. In your copy's yellow columns, find and replace each name with its placeholder, ticking the whole-cell option. Filter each yellow column: any value but a bare placeholder is a missed name, so add it to the key and swap it. Check the whole copy by hand: no personal or notes columns, no person-level rows, and every organization name replaced. Only after that check, save the de-identified copy in `Working` on desktop, or upload it in the browser, as a `.csv`, like `volunteer-hours-swapped.csv` (practice: `grants-swapped.csv`). Write down its data row count (last row number minus 1) and the total of the column you report on (practice: Amount). Then type "saved" in the Zoom chat so your facilitator can see who needs a hand.
    - More: the whole-cell option is often called "Match entire cell contents". Add any amount typed as words into your total. Saving as a `.csv` can change how dates look or drop leading zeros from ID numbers, so compare a few cells with the original before you blame Claude for a change.
 
-   4. **Run your brief on 10 rows.** Ten rows are few enough to check by eye, so a missing rule shows up early. Write your brief from "Your brief to Claude", whose must-have lines ask for a change log: each change, with its row and reason. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste it.
+   4. **Run your brief on 10 rows.** Ten rows are few enough to check by eye, so a missing rule shows up early. Write your brief from "Your brief to Claude", whose must-have lines ask for a change log: each change, with its row and reason. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste it.
 
    ```done
    Claude saves the cleaned sheet and change log in `Outputs`, shows the log for the first 10 rows and waits for your yes. A reply of only a row number means a name got through: see below.
@@ -81,7 +115,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
 
    - Why this way: a bare "clean this up" leaves no record of what changed. The change log lets you check each change now, and next month, if you tweak the recipe and forget you did, it shows which change moved your numbers. It uses "only after I say yes", so nothing past row 11 changes until you've checked. The same move fits renaming a folder of grant reports or program flyers.
    - If it doesn't work: if Claude asks about a blank, answer it and add your answer to the brief. If it replied with only a row number, delete that chat and anything it saved in `Outputs` (in the browser, the uploaded file too). Open the swapped file from `Working` and find the name in that row. Give an organization its placeholder (and add that spelling to your key) or delete a person's name, then check the rest of its column. Save it and start fresh. Tell your facilitator; at home, email Nichole Giller at nichole@realizedworth.com.
-   - Browser: before you paste, upload the swapped file to your Project and switch on code execution and file creation in Claude's settings, so Claude can hand you files. Save them in `Outputs` under the names your must-have lines give (an .xlsx saved as a .csv), and paste a log shown as text into a plain text file with its name. Next month, delete last month's swapped file from the Project's files before you upload the new one.
+   - Browser: before you paste, upload the swapped file to your Project and use file creation if your account offers it. Download the files under the names your brief gives. For CSV, use the spreadsheet app’s Save As or Export CSV command; do not just rename an .xlsx file. Keep local copies in `Outputs` if helpful, and paste a log shown as text into a plain text file with its name. Next month, delete last month's swapped file from the Project's files before you upload the new one.
 5. **Check every change in those 10 rows.** Catching a wrong change now costs one new rule. Check each judgment call against the swapped file. Look at each date that could read two ways, like 3/4/2025, and confirm blanks stayed blank. You check by hand because a check on Claude can't come from Claude.
    - More: a judgment call is a change Claude decided for one row, like a filled blank; a format rule changes a whole column the same way, like taking the $ signs out of Amount.
    - If it doesn't work: if a change is wrong, add a rule to your brief, placeholders only, and run step 4 again.
@@ -113,7 +147,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
 
    - Why this way: next month, a saved brief runs rules you've already checked, and you skip writing it again. It uses "word for word", so every rule you added today survives. The same move keeps the brief behind a monthly board dashboard or a quarterly grant report.
    - Browser: save the Notepad or TextEdit file you wrote the brief in as a plain text file named for the sheet, like `volunteer-hours-cleanup.md`, in `Recipes` (Windows Notepad: choose "Save as type: All files"; Mac TextEdit: choose Format, then Make Plain Text). Then upload it to your Project.
-9. **Get an outside read of your recipe (5 minutes).** Next month's session will read only your recipe. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this with your sheet's short name in both blanks. Claude will read your recipe and change log, change nothing, and quote each rule that reads two ways, each call with no rule, then the rule most worth keeping.
+9. **Get an outside read of your recipe (5 minutes).** Next month's session will read only your recipe. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste this with your sheet's short name in both blanks. Claude will read your recipe and change log, change nothing, and quote each rule that reads two ways, each call with no rule, then the rule most worth keeping.
 
    ```prompt
    Read Recipes/___-cleanup.md and Outputs/___-change-log.md. Don't change any file, and don't open any file with "key" in its name. Read the recipe as someone who will run it next month on a new export and wasn't here today. Quote every rule that could be read two ways, and every judgment call in the change log that no rule in the recipe covers, and say why in one line each. If any line names an organization or a person instead of a placeholder like ORG-01, give only its line number, never the name. Then quote the one rule most worth keeping. End your reply with one line on its own: "Rules to check:" and how many you found.
@@ -126,7 +160,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    - Why this way: the chat that wrote your recipe knows what you meant, so its rules look clear to it. A fresh session reads only the recipe and the log, as next month's will, and a call Claude made once with no rule can go the other way next time. You decide each one by hand, because which rules fit your sheet is a judgment call. It uses "start fresh from your files" and "end with one clear line". The same read works on any procedure a colleague will follow without you.
    - More: open your recipe in `Recipes` with Notepad or TextEdit, make each change, placeholders only, and save. If Claude quotes none, you're done; if it quotes many, start with the first three. If the room runs out of time, do this after the lab.
    - If it doesn't work: if Claude gives a line number in place of a name, your recipe names someone. Open it, put the placeholder in place of an organization or delete a person's name, save it, and tell your facilitator.
-   - Browser: upload today's change log to your Project if it isn't there yet. Then, in a new chat inside your AI-Labs Project, paste the same prompt with "the cleanup recipe and change log in this Project" in place of "Recipes/___-cleanup.md and Outputs/___-change-log.md". After you change the recipe, upload the new file and delete the old one from the Project's files.
+   - Browser: upload today's change log to your Project if it isn't there yet. Then, in a new chat inside your AI-Labs Project, paste the same prompt with "the cleanup recipe and change log in this Project" in place of "Recipes/___-cleanup.md and Outputs/___-change-log.md". After you change the recipe, upload the new file and open and verify the new Project copy before removing the older one.
    - **Room:** near the end of room time, your facilitator calls a round: each of you reads aloud one rule from your recipe, placeholders only, 20 seconds each. Not there yet? Read one limit from your brief, or pass. Hear a rule that fits your sheet? Note it and add it by hand after the lab.
 10. **Save what you learned (2 minutes).** Every lab ends this way, so your folder gets a little better each week. Paste this in the chat where you did most of today's fixing. If you ran step 4 more than once, that chat can't see the earlier fixes, so add a line after the prompt saying what you changed today. Claude will suggest up to three lines for `AGENTS.md` from today's fixes and wait for your yes on each one.
 
@@ -139,7 +173,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
     ```
 
     - Why this way: it uses "only after I say yes" from Ways to ask Claude (see hub-ways.md), so nothing changes in the file Claude reads first until you've read the new lines.
-    - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and delete the old one from the Project's files.
+    - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and open and verify the new Project copy before removing the older one.
 
 ## Your brief to Claude
 
@@ -266,6 +300,8 @@ Your cleanup recipe fits any sheet you clean on a schedule; change your answers 
 
 ## What's in your folder now
 
+**Desktop:** this is the folder layout. **Browser:** keep the same named files in Project files or as copies to attach to your next chat. Local download folders are optional and do not connect to Claude.
+
 ```
 AI-Labs/
   AGENTS.md
@@ -283,4 +319,4 @@ AI-Labs/
     ship-log.md
 ```
 
-Outside `AI-Labs`: your own export, and your key folder with your copy, the key and the re-identified sheet. On the practice route, today's files start with `grants-`.
+Outside every Claude-accessible folder, Project and chat attachment: your own export, the preparation copy, the placeholder key and the sheet with real names restored. Keep these in your permitted private storage, never in a folder Claude can read. On the practice route, today's files start with `grants-`.

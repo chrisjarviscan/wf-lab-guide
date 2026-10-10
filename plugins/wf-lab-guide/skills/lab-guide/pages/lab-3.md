@@ -1,36 +1,72 @@
-<!-- Lab Guide 1.0.16 · Oct 9, 2026. Mirrored from the Lab 3 kit as published on Oct 9, 2026 (source 52280d0). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.17 · Oct 10, 2026. Mirrored from the Lab 3 kit as published on Oct 10, 2026 (source 4e5919d). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 
 You'll leave with a report section taken through draft, critique and revision, and a saved second chair that reads drafts the way your most skeptical board member would. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
 
+## Choose your screen for Lab 3
+
+**Already started?** Keep your existing Project, chat or AI-Labs folder. Do not recreate it or reinstall a working guide. The learning steps below are shared; only file access, saving and restarting differ. Check the tools actually available: if your browser session has approved folder tools, use the connected-folder instructions. If your desktop chat has no folder tools, use the attachment instructions.
+
+### Browser — open and attach
+
+Open your AI-Labs Project and work chat, if you have one. Make these files available: AGENTS.md, your writing brief, the reporting input or practice mess pack, and the draft when you start the review. Add files to **Project files** for use across chats, or attach them to this chat. Ask Claude to name what it can actually read before starting.
+
+**No Project?** Use a regular chat. Attach the same permitted files. Keep complete copies of the results yourself. Every time a step says “start fresh,” open a new chat and attach the latest files that step names. A previous chat's attachments are not a substitute. If attachments are unavailable, paste the complete permitted text with each filename above it; never paste a confidential original or key.
+
+### Desktop — connect your folder
+
+Open a work session with folder tools (Cowork where offered) and choose your existing **AI-Labs** folder itself. Put this lab's kit and practice files in **Kits**. Use only permitted material. Ask Claude to name files it can actually read. A desktop chat without folder access follows the browser file steps; installing a skill alone does not connect a folder.
+
+## Save and continue on your screen
+
+### Browser — keep a usable copy
+
+Keep the revised report, second-chair.md, AGENTS.md and ship-log.md. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
+
+Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
+
+In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
+
+### Desktop — save and reopen
+
+Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
+
+**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
+
+**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
+
+**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
+
 ## Before you come
 
-If your ready check at the end of Lab 2 said you're ready for Lab 3, your folder is set. Before this lab, add these:
+If your ready check at the end of Lab 2 said you're ready for Lab 3, your saved work is ready. Use the screen instructions above to make these files available:
 
-- Save the Lab 3 files into `AI-Labs/Kits`, whichever material you choose: click each link, then drag the file from Downloads into `Kits`. Claude works only in the folder you chose, so this move is by hand.
+- **Desktop:** save the Lab 3 files into `AI-Labs/Kits`. **Browser:** download these files and add them to Project files or attach them to your work chat:
   - this kit, `KIT-Lab3-Reporting-Adversarial-Pass.md`
   - the practice mess pack, `MOCK-Mess-Pack.md`
 
   - Choose your material. Both take the same steps today.
   - Your own: one messy real reporting input, the kind your next report actually starts from (meeting notes, emails, a partial sheet), plus the name of the report and who reads it. Aggregate numbers and staff notes only, with no rows about individual clients. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. Before the lab, copy it by hand into a plain text file in `Working`, leaving out what that rule keeps out, because Claude can read anything in `AI-Labs`.
   - The practice mess pack: a fictional nonprofit's meeting notes, partial sheet and emails for a board update, already in `Kits`.
-- Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
+- Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
 
   ```prompt
-  Read AGENTS.md first. What did I ask you to follow in this folder? Name the three rules that matter most.
+  Read the current AGENTS.md that you can access. Use that file, not memory. What did I ask you to follow? Name the three rules that matter most.
   ```
 
   ```done
   Claude names three rules, and each one is in your `AGENTS.md`.
   ```
 
-  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the only place the answer can come from is `AGENTS.md`.
+  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the answer must be checked against `AGENTS.md`; a fresh chat alone does not prove memory is off.
   - If it doesn't work: if Claude can't find `AGENTS.md`, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project) and try again. If you missed Lab 2, its kit is on the participant page (see hub-labs.md). Come anyway, and to sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
 ## Why this matters
 
 A board decides where money and attention go from the picture your report gives it. A smooth page from Claude is easy to trust, down to the sentence nobody can source. The board member who asks the awkward question is on your side, and your second chair asks it first.
+
+**Before each fresh review:** make the latest AGENTS.md, draft, source files and second-chair.md (once created) available. With no Project, attach them again. Ask Claude to name these files before reviewing. Save each revision before opening the next chat.
 
 ## Today, step by step
 
@@ -53,7 +89,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    - Why this way: one opening is easy to nod through, and three side by side make you compare, which is how you find what the board should hear first. It uses "show me so I can check", so nothing gets built on an opening you haven't chosen. The same ask helps with a newsletter headline, or the first line of a recruitment post.
    - If it doesn't work: if you have no brief in `Recipes`, use the one under "Your brief to Claude" in `Kits/KIT-Lab1-First-Safe-Win.md`, changed the same way. If Claude writes the whole section before you pick, pick an opening anyway and ask it to redo the rest from that opening.
    - Browser: upload your input file, or the mess pack, to your AI-Labs Project, and paste your brief and this prompt in a new chat inside it. Copy the finished section into a plain text file in `Outputs`, named for the job, like `board-report-draft.md`, then upload it to your Project.
-2. **Run your second chair (6 minutes).** A fresh chat doesn't carry the drafting conversation, so it reads the page as your board member will. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and send your answers to Your brief to Claude as one message. You write it by hand, because only you know your board.
+2. **Run your second chair (6 minutes).** A fresh chat doesn't carry the drafting conversation, so it reads the page as your board member will. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and send your answers to Your brief to Claude as one message. You write it by hand, because only you know your board.
 
    ```done
    Claude replies with numbered findings, each quoting a sentence from your draft. Any finding can be wrong.
@@ -89,7 +125,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
      Claude shows `Recipes/second-chair.md` with a rule added that covers your finding, and the rest of the file as it was.
      ```
    - Why this way: one paste makes the edit, and Claude shows the whole recipe with the new rule beside the old ones, so you can spot two that clash. It uses "change only what I name" and "show me so I can check". The same move adds a question to a grant template after a funder asks it twice, or a phrase to your never-say list.
-   - Browser: add the line to `second-chair.md` yourself in Notepad or TextEdit, then upload the new file to your Project and delete the old one from the Project's files.
+   - Browser: add the line to `second-chair.md` yourself in Notepad or TextEdit, then upload the new file to your Project and open and verify the new Project copy before removing the older one.
 5. **Revise the draft (2 minutes).** A new file keeps the draft for comparison. In the same chat, paste this with the fixes you noted in step 3, plus "delete the Check before sending list" if the draft has one. Claude will make only those changes, save the revised draft as a new file in `Outputs`, and show you what changed.
 
    ```prompt
@@ -102,7 +138,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
 
    - Why this way: a bare "fix it" invites a rewrite, and then every line needs checking again. Naming the fixes keeps the change small. It uses "change only what I name" and "show me so I can check". The same move applies a finance lead's notes to a budget narrative, or a board chair's edits to a policy.
    - Browser: paste the same prompt, then copy the revision into a plain text file named for the job, like `board-report-revised.md`, save it in `Outputs` and upload it to your Project.
-6. **Get an outside read of your second chair (5 minutes).** Your second chair reads as one skeptic, so a different reader may ask what it never does. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project) and paste this with your revision's file name in the blank, or your draft's if you haven't revised. Claude will read both as a program officer, change nothing, quote up to three questions your second chair doesn't check for, and name the one that matters most.
+6. **Get an outside read of your second chair (5 minutes).** Your second chair reads as one skeptic, so a different reader may ask what it never does. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste this with your revision's file name in the blank, or your draft's if you haven't revised. Claude will read both as a program officer, change nothing, quote up to three questions your second chair doesn't check for, and name the one that matters most.
 
    ```prompt
    Read Recipes/second-chair.md and the draft in Outputs, ___. Don't change any file. My second chair reads as one skeptic. Read the draft as a different one: a program officer at a foundation that funds work like ours, who has never met us. If my second chair already reads as a funder, read as our board treasurer instead. List up to three questions this reader would ask that my second chair doesn't tell you to check for, each quoting the sentence in the draft that raises it. Then say in one line which question matters most. End your reply with one line on its own: "Questions my second chair misses:" and how many you found.
@@ -127,7 +163,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
    ```
 
    - Why this way: it uses "only after I say yes" from Ways to ask Claude (see hub-ways.md), so nothing changes in the file Claude reads first until you've read the new lines.
-   - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and delete the old one from the Project's files.
+   - Browser: paste the same prompt, then add the lines you agree with to `AGENTS.md` in Notepad or TextEdit. Upload the new `AGENTS.md` and open and verify the new Project copy before removing the older one.
 
 ## Your brief to Claude
 
@@ -247,6 +283,8 @@ Your second chair fits anything a skeptic will check. Run it as the line under Y
 | **A program page** on your website | Make the skeptic a local reporter, and add the program files every number should trace to. |
 
 ## What's in your folder now
+
+**Desktop:** this is the folder layout. **Browser:** keep the same named files in Project files or as copies to attach to your next chat. Local download folders are optional and do not connect to Claude.
 
 ```
 AI-Labs/
