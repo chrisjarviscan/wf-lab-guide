@@ -1,99 +1,108 @@
-<!-- Lab Guide 1.0.21 · Oct 12, 2026. Mirrored from the Lab 3 kit as published on Oct 12, 2026 (source cf9b7c5). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.22 · Oct 12, 2026. Mirrored from the Lab 3 kit as published on Oct 12, 2026 (source ebbe004). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 
 You'll leave with a report section taken through draft, critique and revision, and a saved second chair that reads drafts the way your most skeptical board member would. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
 
-## Choose your screen for Lab 3
+## Start here
 
-**Already started?** Keep your existing Project, chat or AI-Labs folder. Do not recreate it or reinstall a working guide. The learning steps below are shared; only file access, saving and restarting differ. Check the tools actually available: if your browser session has approved folder tools, use the connected-folder instructions. If your desktop chat has no folder tools, use the attachment instructions.
+Welcome. Open Claude where your lab work lives. Find your line below, do that one thing, then type the two phrases. From there Claude leads: it explains each step, why it matters, and where it fits in the seven weeks. Your facilitator is in the room for anything Claude can't answer.
 
-### Browser — open and attach
+- **Browser, and your AI-Labs Project offers Add from GitHub:** open Project files, choose **Add from GitHub**, enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select only these four files under `plugins/wf-lab-guide/skills/lab-guide/`: `SKILL.md`, `pages/lab-3.md`, `assets/KIT-Lab3-Reporting-Adversarial-Pass.md`, `assets/MOCK-Mess-Pack.md`. Your own work stays in Project files.
+- **Browser, no GitHub:** download [lab-guide-chat.md](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md) and attach it to your work chat with the paperclip. It already contains this kit and the practice pack.
+- **Desktop app:** download [lab-guide.zip](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip) and keep it zipped. In **Customize → Skills**, choose **+ → Create skill → Upload a skill**, select the ZIP and enable **lab-guide**. Open a work session on your existing **AI-Labs** folder.
+- **Already have the current guide?** Go straight to the phrases.
 
-Open your AI-Labs Project and work chat, if you have one. Make these files available: AGENTS.md, your writing brief, the reporting input or practice mess pack, and the draft when you start the review. Add files to **Project files** for use across chats, or attach them to this chat. Ask Claude to name what it can actually read before starting.
+Type:
 
-**No Project?** Use a regular chat. Attach the same permitted files. Keep complete copies of the results yourself. Every time a step says “start fresh,” open a new chat and attach the latest files that step names. A previous chat's attachments are not a substitute. If attachments are unavailable, paste the complete permitted text with each filename above it; never paste a confidential original or key.
+```prompt
+Check my Lab 3 access.
+```
 
-### Desktop — connect your folder
+```done
+Claude gives its guide version, quotes this kit, and quotes your reporting input or the practice mess pack. If it only lists filenames, say: "Quote a line from each."
+```
 
-Open a work session with folder tools (Cowork where offered) and choose your existing **AI-Labs** folder itself. Put this lab's kit and practice files in **Kits**. Use only permitted material. Ask Claude to name files it can actually read. A desktop chat without folder access follows the browser file steps; installing a skill alone does not connect a folder.
+Then type:
 
-## Save and continue on your screen
+```prompt
+I'm ready to begin Lab 3.
+```
 
-### Browser — keep a usable copy
-
-Keep the revised report, second-chair.md, AGENTS.md and ship-log.md. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
-
-Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
-
-In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
-
-### Desktop — save and reopen
-
-Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
-
-**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
-
-**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
-
-**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
-
-## Begin with the guide
-
-Use the guide in your work conversation. GitHub sign-in or a GitHub connection is not required. An installed guide and access to your own files are two separate checks.
-
-Ask **“Check my Lab 3 access.”** Claude should give its guide version, read this Lab 3 kit, and name one instruction from it. Then it should name each work file it can actually read and quote a short permitted line from each. Compare those lines with the files yourself. A list of filenames, an account connection or “I’m ready” alone is not a pass.
-
-When those checks pass, say **“I'm ready to begin Lab 3.”** The guide follows the seven steps below, one question or action at a time. You choose the opening, describe the skeptical reader and decide which findings deserve changes. You do not need to copy every worksheet prompt. The full prompts remain below for anyone working without the guide.
-
-**Current guide has no Lab 3 start mode?** Attach this kit and say: “Read this Lab 3 kit, including How Claude runs Lab 3. Guide me one question at a time. Check actual file access before starting, keep the fresh-review file handoffs, and never claim a save without checking the file.” Ask it to quote one instruction before continuing. If it cannot read the kit, open the worksheet and ask your facilitator to guide it; do not rely on the short start phrase alone.
-
-## Files for each handoff
-
-Use your actual filenames for your own work. These exact names describe the practice rehearsal and the examples below.
-
-| When | Files Claude must read | What you check |
-|---|---|---|
-| Begin | `KIT-Lab3-Reporting-Adversarial-Pass.md`, `AGENTS.md` if completed, `MOCK-Mess-Pack.md` (or permitted reporting input), your writing brief if available | Claude quotes the kit and the available input; missing files are named honestly. Voice notes can help but do not replace the source input. |
-| Start the second-chair review | `AGENTS.md` if available, `board-report-draft.md`, `MOCK-Mess-Pack.md` or every actual source used | The new chat can quote both the draft and source. A draft alone is not ready for a factual review. You supply the skeptical reader's role and concerns. |
-| After you approve changes | `second-chair.md` and `board-report-revised.md`, with original draft and sources retained | Open both saved files. The recipe keeps your actual instructions and agreed rule; the revision contains only agreed fixes. |
-| Outside read / resume | Current `AGENTS.md` if available, `second-chair.md`, the named current draft or revision, and its source files | The new chat names the versions it read and quotes the relevant lines. Use the revision when it exists; do not silently use the older draft. |
-
-On desktop these live in `Kits/`, `Recipes/` and `Outputs/` as the steps specify. In a browser Project, verify the current copies in Project files. Without a Project, attach those same files to each new chat. Keep the guide or this kit available in the review chat too. A downloaded file is not automatically available in either place.
-
-**Missing Lab 1 or 2 work?** Come anyway. Do not invent completed AGENTS.md or voice notes. Use the fictional mess pack and answer the brief questions one at a time. Keep a missing profile marked unfinished; it does not stop practicing draft, critique and revision. If you use fictional voice rules, keep them in `practice-AGENTS.md`, separate from your real organization's AGENTS.md. Never mark practice as a real report sent.
+Answer one question at a time, watch Claude work, and ask "why?" whenever you want. Claude does the file work its tools allow and tells you the one thing it needs from you.
 
 ## Before you come
 
-A Lab 2 ready check records earlier progress; run today's file-access check before relying on it. Use the screen instructions above to make these files available:
+- **Bring, if you have it:** one messy real reporting input (meeting notes, emails, a partial sheet) copied by hand into a plain text file, plus the name of the report and who reads it. Aggregate numbers and staff notes only. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine.
+- **No input?** Claude uses the practice mess pack already in the guide. Missing Lab 1 or 2 work? Come anyway; Claude works around it and keeps practice separate from your real files.
+- **Stuck?** Tell Claude what you see and ask what to do next. Then your facilitator. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
 
-- **Desktop:** save the Lab 3 files into `AI-Labs/Kits`. **Browser:** if your guide already includes them (added from GitHub, the text attachment or the installed ZIP), ask Claude to quote a line from each and skip this; otherwise download these files and add them to Project files or attach them to your work chat:
-  - this kit, `KIT-Lab3-Reporting-Adversarial-Pass.md`
-  - the practice mess pack, `MOCK-Mess-Pack.md`
+## This week
 
-  - Choose your material. Both take the same steps today.
-  - Your own: one messy real reporting input, the kind your next report actually starts from (meeting notes, emails, a partial sheet), plus the name of the report and who reads it. Aggregate numbers and staff notes only, with no rows about individual clients. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. Before the lab, copy it by hand into a plain text file in `Working`, leaving out what that rule keeps out, because Claude can read anything in `AI-Labs`.
-  - The practice mess pack: a fictional nonprofit's meeting notes, partial sheet and emails for a board update, already in `Kits`.
-- Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
+Choose one level. You and your colleague can choose different ones, and you can switch levels any week.
 
-  ```prompt
-  Read the current AGENTS.md that you can access. Use that file, not memory. What did I ask you to follow? Name the three rules that matter most.
-  ```
+| Level | Time | What you do | What you'll have |
+|---|---|---|---|
+| **Keep Pace** | 30 to 45 min | Run your second chair on something due, settle its top three, and send it | One piece sent, checked first |
+| **Ship It** | 1 to 2 hours | Take a real report section through draft, second chair and revision, and send it, timed | A section sent, and a timed number |
+| **Build Ahead** | 3 hours or more | Ship It, then test your second chair on two past reports, names taken out, adding a rule for each miss | A report sent, and a sharper second chair |
 
-  ```done
-  Claude names three rules, and each one is in your `AGENTS.md`.
-  ```
+Write your plan in the Zoom chat before you leave: When ___ happens this week, I will ___. For example: When a report is due, I will run my second chair first.
 
-  - Why this way: it uses "start fresh from your files" from Ways to ask Claude (see hub-ways.md), so the answer must be checked against `AGENTS.md`; a fresh chat alone does not prove memory is off.
-  - If it doesn't work: if Claude can't find `AGENTS.md`, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project) and try again. If you missed Lab 2, its kit is on the participant page (see hub-labs.md). Come anyway, and to sort it out sooner, email Nichole Giller at nichole@realizedworth.com with the step you're on.
+Before you leave, add the week to your to-do list. In Cowork, paste this with your level filled in. Claude will add your homework and the Lab 4 bring list to `TO-DO.md` as unticked items and change nothing else.
 
-## Why this matters
+```prompt
+My homework level this week is ___. Add it and the Lab 4 bring list from Kits/KIT-Lab3-Reporting-Adversarial-Pass.md to TO-DO.md, as unticked items under a heading "Before Lab 4". Don't change anything else.
+```
 
-A board decides where money and attention go from the picture your report gives it. A smooth page from Claude is easy to trust, down to the sentence nobody can source. The board member who asks the awkward question is on your side, and your second chair asks it first.
+```done
+`TO-DO.md` has a heading "Before Lab 4" with your homework and the bring list under it.
+```
 
-**Before each fresh review:** make the latest AGENTS.md, draft, source files and second-chair.md (once created) available. With no Project, attach them again. Ask Claude to name these files before reviewing. Save each revision before opening the next chat.
+- Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains this week's items and keeps everything else as you left it.
+- Browser: write "Before Lab 4", your level and the bring list on your to-do list (in `TO-DO.md` if you have one).
+
+Bring to Lab 4: your recurring spreadsheet, the one you rebuild or clean every month or quarter (attendance, volunteer hours, a grants tracker), with the tab you work in exported as a `.csv` file. Unhide every column before you export, because hidden columns still export. Or choose the practice sheet in the Lab 4 kit; the steps are the same.
+
+The everyday rule still holds. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet adds a stricter rule:
+
+- Delete every column that names or identifies a person, staff included: names, addresses, phones, emails, birth dates, ID numbers. These are the red columns.
+- Delete notes and comments columns too. Names hide in them, and a header can't show you what's in the cells.
+- If each row is one person or one visit, turn it into counts first, or use the practice sheet. Health, substance-use and immigration services always do this.
+- Organization names can stay for now. In Lab 4 they get placeholders in the form `ORG-01`, and no other placeholder format is used.
+- Keep programs, sites, dates, counts and amounts. If you're unsure about a column, delete it.
+- Note one total for those rows from your own system, and save the file outside your workspace folder.
+
+You delete the columns and export by hand, in your spreadsheet, because the data has to be safe before it goes near Claude.
+
+Ship log: one line in `Outputs/ship-log.md` for everything you send, with old-way and new-way stopwatch minutes. For who it went to, give a group like "donors" or "board", never a person's name. In Cowork, paste this when something goes out; in the browser, add the line by hand. Claude will ask you what it was, the date, who it went to and both stopwatch times, then add one line to the log.
+
+```prompt
+Add a line to Outputs/ship-log.md for the item we just sent. Ask me what it was, the date, who it went to (a group like "board", never a person's name), and my old-way and new-way stopwatch minutes. Don't guess any of them.
+```
+
+```done
+Claude asked you what it was, the date, who it went to and both times, then added one line to `Outputs/ship-log.md`.
+```
+
+- Why this way: it uses "ask me, don't guess" from Ways to ask Claude (see hub-ways.md), so every number in your log is one you measured.
+
+When your homework is done, check you're ready for Lab 4. The check can't see your Lab 4 spreadsheet, so tick that off your to-do list yourself. In Cowork, paste this. Claude will look through your folder without changing anything and end with one line: ready, or the first thing still missing.
+
+```prompt
+Check my AI-Labs folder, and don't change anything. Look for Recipes/second-chair.md, and at least one entry in Outputs/ship-log.md below the line that starts "One line for each thing you send". Keep your reply short, and end it with exactly one of these lines: "Ready for Lab 4." or "Not yet:" followed by the first missing item and the one step that fixes it.
+```
+
+```done
+Claude's last line says "Ready for Lab 4."
+```
+
+- Why this way: it uses "end with one clear line" from Ways to ask Claude (see hub-ways.md), so the last line tells you at a glance whether you're set.
+- Browser: check by hand that `Recipes/second-chair.md` is there and `ship-log.md` has a line for something you sent. Then tap Done.
 
 ## Today, step by step
+
+*You do not need to read this during the lab. The guide runs these steps for you and explains each one as it goes. They are here for anyone working without the guide, and so you can see the exact prompts Claude uses.*
 
 In your breakout room, each of you works on your own computer, with your own Claude, and makes your own files, your colleague included, so nobody needs to share a screen. On your own input, start a stopwatch at step 1 and stop it when the revised section is ready to send. For old-way minutes, use the time you brought to Lab 2 if it was for this report, or time one section the old way this week.
 
@@ -215,88 +224,6 @@ Use the lines that apply to what you're sending.
 - [ ] Read aloud, it sounds like your organization, with nothing from your never-say list.
 - [ ] Your second chair has read it in a fresh chat, and you've settled its top three findings. (new this week)
 
-## If you get stuck
-
-The table covers drafts that come out wrong. For anything else, ask Claude first. In Cowork, paste this and fill in the two blanks:
-
-```prompt
-Read Kits/KIT-Lab3-Reporting-Adversarial-Pass.md. I'm on this step: ___. Here's what I see: ___. What should I do next? Answer in three short steps.
-```
-
-In the browser, paste the step from this page instead of the file name. If Claude's answer doesn't get you moving, ask your room's facilitator. Between labs, email Nichole Giller at nichole@realizedworth.com with the step you're on.
-
-| What you see | What to try |
-|---|---|
-| **Wrong output:** a rewritten draft | Start your second chair with "Find problems. Don't rewrite." |
-| **Generic output:** findings that fit any report | Describe the skeptic by role, and ask for the sentence behind each finding. |
-| **Missing context:** "no source" for a sourced number | Name every source file in the brief, and ask Claude which files it read. |
-| **Tone mismatch:** reads like a press release | Ask Claude to follow "How we sound" in `AGENTS.md`. |
-| **Factual error:** a claim nobody gave it | Ask where each claim comes from, and cut what has no source. |
-| **Structural drift:** an essay, not a list | Ask for "a numbered list, one finding per line." |
-
-## This week
-
-Choose one level. You and your colleague can choose different ones, and you can switch levels any week.
-
-| Level | Time | What you do | What you'll have |
-|---|---|---|---|
-| **Keep Pace** | 30 to 45 min | Run your second chair on something due, settle its top three, and send it | One piece sent, checked first |
-| **Ship It** | 1 to 2 hours | Take a real report section through draft, second chair and revision, and send it, timed | A section sent, and a timed number |
-| **Build Ahead** | 3 hours or more | Ship It, then test your second chair on two past reports, names taken out, adding a rule for each miss | A report sent, and a sharper second chair |
-
-Write your plan in the Zoom chat before you leave: When ___ happens this week, I will ___. For example: When a report is due, I will run my second chair first.
-
-Before you leave, add the week to your to-do list. In Cowork, paste this with your level filled in. Claude will add your homework and the Lab 4 bring list to `TO-DO.md` as unticked items and change nothing else.
-
-```prompt
-My homework level this week is ___. Add it and the Lab 4 bring list from Kits/KIT-Lab3-Reporting-Adversarial-Pass.md to TO-DO.md, as unticked items under a heading "Before Lab 4". Don't change anything else.
-```
-
-```done
-`TO-DO.md` has a heading "Before Lab 4" with your homework and the bring list under it.
-```
-
-- Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains this week's items and keeps everything else as you left it.
-- Browser: write "Before Lab 4", your level and the bring list on your to-do list (in `TO-DO.md` if you have one).
-
-Bring to Lab 4: your recurring spreadsheet, the one you rebuild or clean every month or quarter (attendance, volunteer hours, a grants tracker), with the tab you work in exported as a `.csv` file. Unhide every column before you export, because hidden columns still export. Or choose the practice sheet in the Lab 4 kit; the steps are the same.
-
-The everyday rule still holds. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet adds a stricter rule:
-
-- Delete every column that names or identifies a person, staff included: names, addresses, phones, emails, birth dates, ID numbers. These are the red columns.
-- Delete notes and comments columns too. Names hide in them, and a header can't show you what's in the cells.
-- If each row is one person or one visit, turn it into counts first, or use the practice sheet. Health, substance-use and immigration services always do this.
-- Organization names can stay for now. In Lab 4 they get placeholders in the form `ORG-01`, and no other placeholder format is used.
-- Keep programs, sites, dates, counts and amounts. If you're unsure about a column, delete it.
-- Note one total for those rows from your own system, and save the file outside your workspace folder.
-
-You delete the columns and export by hand, in your spreadsheet, because the data has to be safe before it goes near Claude.
-
-Ship log: one line in `Outputs/ship-log.md` for everything you send, with old-way and new-way stopwatch minutes. For who it went to, give a group like "donors" or "board", never a person's name. In Cowork, paste this when something goes out; in the browser, add the line by hand. Claude will ask you what it was, the date, who it went to and both stopwatch times, then add one line to the log.
-
-```prompt
-Add a line to Outputs/ship-log.md for the item we just sent. Ask me what it was, the date, who it went to (a group like "board", never a person's name), and my old-way and new-way stopwatch minutes. Don't guess any of them.
-```
-
-```done
-Claude asked you what it was, the date, who it went to and both times, then added one line to `Outputs/ship-log.md`.
-```
-
-- Why this way: it uses "ask me, don't guess" from Ways to ask Claude (see hub-ways.md), so every number in your log is one you measured.
-
-When your homework is done, check you're ready for Lab 4. The check can't see your Lab 4 spreadsheet, so tick that off your to-do list yourself. In Cowork, paste this. Claude will look through your folder without changing anything and end with one line: ready, or the first thing still missing.
-
-```prompt
-Check my AI-Labs folder, and don't change anything. Look for Recipes/second-chair.md, and at least one entry in Outputs/ship-log.md below the line that starts "One line for each thing you send". Keep your reply short, and end it with exactly one of these lines: "Ready for Lab 4." or "Not yet:" followed by the first missing item and the one step that fixes it.
-```
-
-```done
-Claude's last line says "Ready for Lab 4."
-```
-
-- Why this way: it uses "end with one clear line" from Ways to ask Claude (see hub-ways.md), so the last line tells you at a glance whether you're set.
-- Browser: check by hand that `Recipes/second-chair.md` is there and `ship-log.md` has a line for something you sent. Then tap Done.
-
 ## Use it again
 
 Your second chair fits anything a skeptic will check. Run it as the line under Your brief to Claude says, and name the new skeptic and files in that message, so `Recipes/second-chair.md` stays your board's.
@@ -307,32 +234,9 @@ Your second chair fits anything a skeptic will check. Run it as the line under Y
 | **A donor appeal** before mailing | Make the skeptic a longtime donor, and add your last annual report for them to check claims against. |
 | **A program page** on your website | Make the skeptic a local reporter, and add the program files every number should trace to. |
 
-## What's in your folder now
-
-**Desktop:** this is the folder layout. **Browser:** keep the same named files in Project files or as copies to attach to your next chat. Local download folders are optional and do not connect to Claude.
-
-```
-AI-Labs/
-  AGENTS.md
-  TO-DO.md         "Before Lab 4" added
-  Kits/            this kit and the mess pack (new)
-  Working/         your input, if used (new)
-  Org-Brain/
-  Recipes/
-    second-chair.md  your second chair (new)
-  Outputs/         the draft and the revision (new)
-    ship-log.md
-```
-
-Outside `AI-Labs`: your Lab 4 `.csv`, red and notes columns deleted, and one total from your own system.
-
-## Coming from Lab 2 without a Project
-
-You can attend Lab 3 even if Lab 2 homework is unfinished. In each new chat, attach the current guide or this kit, your latest AGENTS.md and written voice notes, plus the source input or practice mess pack. For review stages, also attach the draft and second-chair recipe used in that stage. Where this kit says to start inside your Project, you may instead start a new chat with those current files attached. Compare the readback with the actual attached file; a new chat alone does not prove memory is off. Use the app’s Memory control where offered for an independent review.
-
-If Claude cannot make downloadable files, ask your facilitator for the Lab 2 plain-text saving steps before closing the chat. Do not claim the work is saved until you can reopen your retained copy. A Project is optional; a usable copy of the current work is essential.
-
 ## How Claude runs Lab 3
+
+**Teach as you go.** The participant does not read this kit; you do. Before each action, say in one or two plain sentences what you are about to do, why it matters for a board-ready report, and where it sits in the seven weeks (Lab 1: a first safe win and your instructions file; Lab 2: your organization's voice; Lab 3: a second chair that reads like your most skeptical board member; later labs reuse that recipe on data, decks and workflows). Then do it, show the result, and ask for the one decision or answer you need. Keep the explanation short; the action and its result are the lesson. Use the route the participant is actually on: a connected AI-Labs folder, Project files, or attachments in this chat. Never ask them to download or re-attach this kit or the practice pack when you can already read them.
 
 This section is for the guide. Read this kit before acting. “Check my Lab 3 access” is read-only: report the guide version, read the current kit and quote one instruction, then check the actual available input files with short permitted quotations. Do not create, edit, install or connect anything during that check. Never quote restricted material; stop and ask the participant to remove it if found. A successful guide read does not prove participant-file access.
 
