@@ -9,7 +9,7 @@ Welcome. Open Claude where your lab work lives. Find your line below, do that on
 - **Browser, and your AI-Labs Project offers Add from GitHub:** open Project files, choose **Add from GitHub**, enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select only these four files under `plugins/wf-lab-guide/skills/lab-guide/`: `SKILL.md`, `pages/lab-3.md`, `assets/KIT-Lab3-Reporting-Adversarial-Pass.md`, `assets/MOCK-Mess-Pack.md`. Your own work stays in Project files.
 - **Browser, no GitHub:** download [lab-guide-chat.md](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md) and attach it to your work chat with the paperclip. It already contains this kit and the practice pack.
 - **Desktop app:** download [lab-guide.zip](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip) and keep it zipped. In **Customize → Skills**, choose **+ → Create skill → Upload a skill**, select the ZIP and enable **lab-guide**. Open a work session on your existing **AI-Labs** folder.
-- **Already have the current guide?** Go straight to the phrases.
+- **Already have the guide?** Go straight to the phrases. If the first line of Claude's answer says your guide is older than the published one, do your line above once more (GitHub: open the repository item in Project files and choose Sync), then type the phrase again. An older copy still runs today's lab.
 
 Type:
 
