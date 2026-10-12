@@ -576,14 +576,15 @@ def deterministic_zip(src_dir, zip_path, arc_root):
                     z.writestr(info, fh.read())
 
 
-def chat_bundle(skill, pages_dir, practice_pack, writing_skills):
+def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills):
     """One readable attachment for accounts without an installable skill."""
     guide = re.sub(r"^---\n.*?\n---\n", "", skill, count=1, flags=re.S).lstrip()
     intro = ("# Lab Guide — chat attachment\n\n"
              "This attachment contains the guide's instructions and every current source page. "
-             "Use it in your current Claude work chat or Project for questions and guided Lab 2 work. "
+             "Use it in your current Claude work chat or Project for questions and guided Lab 2 or Lab 3 work. "
              "Reuse permitted files already available there; no new chat is required to begin. "
-             "The fictional Lab 2 practice pack is included below, so practice needs no other upload. "
+             "The fictional Lab 2 practice pack and the fictional Lab 3 mess pack are included below, "
+             "so practice needs no other upload; the Lab 3 kit is the embedded pages/lab-3.md. "
              "This attachment does not install a local-folder helper or grant computer access. When the instructions "
              "say to open or read a pages/ file, read the matching Embedded source page below. "
              "If you cannot read this attachment or its matching page, follow the guide's "
@@ -600,6 +601,13 @@ def chat_bundle(skill, pages_dir, practice_pack, writing_skills):
                     "\n<!-- BEGIN ASSET assets/MOCK-OrgBrain-Starter-Pack.md -->\n"
                     + practice_pack.rstrip()
                     + "\n<!-- END ASSET assets/MOCK-OrgBrain-Starter-Pack.md -->\n")
+    sections.append("\n## Bundled Lab 3 practice material\n"
+                    "Read this matching embedded asset when the Lab 3 kit names MOCK-Mess-Pack.md or Kits/MOCK-Mess-Pack.md. "
+                    "Its organization, people, numbers and emails are fictional. Never use them as real organizational facts. "
+                    "The Lab 3 kit itself is the embedded pages/lab-3.md above; do not ask for either file to be downloaded again.\n"
+                    "\n<!-- BEGIN ASSET assets/MOCK-Mess-Pack.md -->\n"
+                    + mess_pack.rstrip()
+                    + "\n<!-- END ASSET assets/MOCK-Mess-Pack.md -->\n")
     for name, contents in writing_skills.items():
         rel = f"assets/writing-skills/{name}/SKILL.md"
         sections.append(f"\n<!-- BEGIN ASSET {rel} -->\n" + contents.rstrip()
@@ -768,7 +776,8 @@ def main():
         deterministic_zip(os.path.join(PLUGIN, "skills", name),
                           os.path.join(DOWNLOAD, f"{name}.zip"), name)
     write(os.path.join(DOWNLOAD, "lab-guide-chat.md"),
-          chat_bundle(skill, PAGES, asset_contents["MOCK-OrgBrain-Starter-Pack.md"], writing_skills))
+          chat_bundle(skill, PAGES, asset_contents["MOCK-OrgBrain-Starter-Pack.md"],
+                      asset_contents["MOCK-Mess-Pack.md"], writing_skills))
 
     pj = json.load(open(os.path.join(BUILD, "plugin.template.json")))
     pj["version"] = version

@@ -273,6 +273,18 @@ class Artifacts(unittest.TestCase):
         self.assertEqual(bundle.count(start), 1)
         practice = bundle.split(start, 1)[1].split(end, 1)[0]
         self.assertEqual(practice, (SKILL / "assets/MOCK-OrgBrain-Starter-Pack.md").read_text().rstrip())
+        # Lab 3: one attachment must carry the fictional mess pack too, so a
+        # participant without GitHub uploads one complete guide.
+        start = "<!-- BEGIN ASSET assets/MOCK-Mess-Pack.md -->\n"
+        end = "\n<!-- END ASSET assets/MOCK-Mess-Pack.md -->"
+        self.assertEqual(bundle.count(start), 1)
+        mess = bundle.split(start, 1)[1].split(end, 1)[0]
+        self.assertEqual(mess, (SKILL / "assets/MOCK-Mess-Pack.md").read_text().rstrip())
+        self.assertIn("do not ask for either file to be downloaded again", bundle)
+        self.assertNotIn("Do not use Add from GitHub", (SKILL / "SKILL.md").read_text())
+        for rel in ("README.md", "START-HERE.md"):
+            self.assertNotIn("Do not use Add from GitHub", (ROOT / rel).read_text(), rel)
+            self.assertIn("Add from GitHub", (ROOT / rel).read_text(), rel)
 
     def test_kit_prompts_match_published_source_word_for_word(self):
         if SOURCE is None:

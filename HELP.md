@@ -4,12 +4,14 @@
 
 Already have the current guide? Continue in the chat or Project with the permitted files actually visible there.
 
-First time? Attach this one file to your own Claude work chat or Project:
+First time, with Add from GitHub in your Project? Add `chrisjarviscan/wf-lab-guide` (branch `main`) and select only `plugins/wf-lab-guide/skills/lab-guide/SKILL.md`, `pages/lab-3.md`, `assets/KIT-Lab3-Reporting-Adversarial-Pass.md` and `assets/MOCK-Mess-Pack.md` under that same folder. Your own work stays in Project files. Claude then has the kit and practice pack and must not ask you to download them again.
+
+First time, without Add from GitHub? Attach this one file to your own Claude work chat or Project:
 
 [Full guide attachment](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md)
 
 If the link opens as text, use your browser's Save Page As to save `lab-guide-chat.md`, then attach the file.
-The attachment supports guide questions and the guided Lab 2 conversation. It does not install the local workspace helper.
+The attachment supports guide questions and the guided Lab 2 and Lab 3 conversations, and already contains the Lab 3 kit and fictional mess pack. It does not install the local workspace helper.
 No Project is required. Say “I'm ready to begin Lab 2.” Claude can use visible files, interview you or use practice.
 
 With file tools, Claude creates artifacts and reopens their contents before offering downloads.
@@ -97,7 +99,7 @@ Before stopping, ask: “Help me pause here.” Claude supplies a short resume n
 
 To return in a new chat, attach the current guide, your latest `AGENTS.md`, `Org-Brain/voice-notes.md`, and any draft or next-step note. Ask: “Read these files and help me continue Lab 2 from the first unfinished step.” Claude must read what is actually attached before claiming progress. No Project is required.
 
-For Lab 3, add its kit and your permitted reporting input or fictional mess pack to the new conversation. If you use a Project, update its copies explicitly; if you do not, attach the same files in each fresh review chat. Run the readback check against the actual attached AGENTS.md. A new chat alone does not prove memory is off; turn Memory off where offered for the independent check, and compare each quoted rule with the file.
+For Lab 3, add your permitted reporting input to the new conversation. The kit and the fictional mess pack are already inside the connected or attached guide; add them separately only if Claude says it cannot read them. If you use a Project, update its copies explicitly; if you do not, attach the same files in each fresh review chat. Run the readback check against the actual attached AGENTS.md. A new chat alone does not prove memory is off; turn Memory off where offered for the independent check, and compare each quoted rule with the file.
 
 If the guide cannot be installed or attached, attach the Lab 2 Markdown kit linked from the participant hub and say: “Read this kit, including How Claude runs these steps. Guide me through Lab 2 one question at a time. Check your actual file tools, ask before saving voice changes, and never send anything for me.” Confirm Claude can read the kit before beginning. If attachments are blocked, ask the facilitator to guide the exercise; the short start phrase alone does not contain the lab instructions.
 

@@ -10,9 +10,20 @@ Read the path for the screen you are using. Already using the current guide with
 
 ### I'm using Claude in my browser
 
+**Connect the guide from GitHub (one path, no downloads).** In your **AI-Labs Project**, open Project files and choose **Add from GitHub**, where offered. Enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these four files only:
+
+- `plugins/wf-lab-guide/skills/lab-guide/SKILL.md` (the guide's instructions)
+- `plugins/wf-lab-guide/skills/lab-guide/pages/lab-3.md` (the Lab 3 page)
+- `plugins/wf-lab-guide/skills/lab-guide/assets/KIT-Lab3-Reporting-Adversarial-Pass.md` (the Lab 3 kit)
+- `plugins/wf-lab-guide/skills/lab-guide/assets/MOCK-Mess-Pack.md` (the fictional practice pack)
+
+Your own work (`AGENTS.md`, drafts, voice notes, `second-chair.md`) stays in your Project files or chat attachments, never in GitHub. Once Claude can read those four files in your Project, it has the kit and the practice pack already; it must not ask you to download them again. After the repository changes, use the Project's **Sync** control; see [Help](HELP.md).
+
+**No Add from GitHub?** Use the one-file attachment instead:
+
 1. Open your **AI-Labs Project** in Claude and start or return to your work chat.
-2. [Download the text guide](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md). Add `lab-guide-chat.md` to this chat with the attachment button. Add the Lab 3 kit and your permitted reporting input or fictional practice pack. Add your latest `AGENTS.md` if available; missing earlier work does not prevent practice.
-3. Check that the guide appears as an attachment. Tell Claude you are working on Lab 3. Ask **“Is the guide working?”**, then **“Check my Lab 3 access.”** Claude should confirm the current version and quote the Lab 3 kit and actual input it can read. Check those quotations yourself.
+2. [Download the text guide](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md). Add `lab-guide-chat.md` to this chat with the attachment button. It already contains the Lab 3 kit and the fictional practice pack, so no second download is needed for practice. Add your permitted reporting input if you are using your own. Add your latest `AGENTS.md` if available; missing earlier work does not prevent practice.
+3. Check that the guide appears as an attachment or in Project files. Tell Claude you are working on Lab 3. Ask **“Is the guide working?”**, then **“Check my Lab 3 access.”** Claude should confirm the current version and quote the Lab 3 kit and actual input it can read. Check those quotations yourself.
 
 Then say **“I'm ready to begin Lab 3.”** Claude leads one question or action at a time. Choose an opening, review the draft against its sources, approve changes and keep a checked revision.
 
@@ -53,4 +64,4 @@ Browser downloads do not automatically update local or Project files.
 [More help](HELP.md) · [Today’s win: Lab 3 kit](plugins/wf-lab-guide/skills/lab-guide/pages/lab-3.md)
 Writing checks are built in. [Optional skill downloads](SKILLS.md).
 
-No Cowork selector? In unified Claude, continue in the same conversation. Do not use Add from GitHub. For help retaining work without file tools, use the kit’s “Keep your work and return later” steps.
+No Cowork selector? In unified Claude, continue in the same conversation. The GitHub-connected Project path above, the text attachment and the ZIP upload all carry the same guide; use whichever your account offers. For help retaining work without file tools, use the kit’s “Keep your work and return later” steps.
