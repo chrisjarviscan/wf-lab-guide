@@ -1,11 +1,11 @@
 {
-  "source_commit": "53b2706",
+  "source_commit": "cf9b7c5",
   "files": [
     {
       "asset": "assets/KIT-Lab3-Reporting-Adversarial-Pass.md",
       "destination": "Kits/KIT-Lab3-Reporting-Adversarial-Pass.md",
       "source": "04-Participant Kits/Lab 3/KIT-Lab3-Reporting-Adversarial-Pass.md",
-      "sha256": "14633cbbd0a5138df8ed751d16522ad4df78a375bd90cf0b8d3e29f0f825e49e"
+      "sha256": "d9dad1442b9fedc939fd8bc6a47a0406f088c77fcbdbdad36e40dfce03f13df3"
     },
     {
       "asset": "assets/MOCK-Mess-Pack.md",
@@ -23,7 +23,7 @@
       "asset": "assets/KIT-Lab2-Writing-Org-Brain.md",
       "destination": "Kits/KIT-Lab2-Writing-Org-Brain.md",
       "source": "04-Participant Kits/Lab 2/KIT-Lab2-Writing-Org-Brain.md",
-      "sha256": "236c8b0ef61c699f2a947bd380802645dc0d74486f3152fb8c8c50a7a831e7d4"
+      "sha256": "08b7183a0e9441d755f6a055615ba39007eb816d552a68ddf72fe6dc9877edd2"
     },
     {
       "asset": "assets/STARTER-AGENTS.md",

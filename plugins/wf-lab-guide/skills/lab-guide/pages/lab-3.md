@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.20 · Oct 12, 2026. Mirrored from the Lab 3 kit as published on Oct 12, 2026 (source 53b2706). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.21 · Oct 12, 2026. Mirrored from the Lab 3 kit as published on Oct 12, 2026 (source cf9b7c5). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 
@@ -67,7 +67,7 @@ On desktop these live in `Kits/`, `Recipes/` and `Outputs/` as the steps specify
 
 A Lab 2 ready check records earlier progress; run today's file-access check before relying on it. Use the screen instructions above to make these files available:
 
-- **Desktop:** save the Lab 3 files into `AI-Labs/Kits`. **Browser:** download these files and add them to Project files or attach them to your work chat:
+- **Desktop:** save the Lab 3 files into `AI-Labs/Kits`. **Browser:** if your guide already includes them (added from GitHub, the text attachment or the installed ZIP), ask Claude to quote a line from each and skip this; otherwise download these files and add them to Project files or attach them to your work chat:
   - this kit, `KIT-Lab3-Reporting-Adversarial-Pass.md`
   - the practice mess pack, `MOCK-Mess-Pack.md`
 

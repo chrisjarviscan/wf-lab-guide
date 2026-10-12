@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.20 · Oct 12, 2026. Mirrored from the Lab 2 kit as published on Oct 12, 2026 (source 53b2706). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.21 · Oct 12, 2026. Mirrored from the Lab 2 kit as published on Oct 12, 2026 (source cf9b7c5). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
 
@@ -152,7 +152,7 @@ Already imported the guide from GitHub into a Project? After the repository chan
 
 - **No Project:** attach the text guide to a regular chat and begin there. Keep the full approved work and attach it again in each new chat. A Project is optional.
 - **No Skills upload controls:** use the text guide attachment in your existing work chat. Keep ZIP packages zipped when using Skills upload.
-- **No Cowork selector:** in unified Claude, stay in the same conversation. Do not use Add from GitHub. Claude checks actual tools and permission.
+- **No Cowork selector:** in unified Claude, stay in the same conversation. A Project with the guide added from GitHub, the text attachment and the ZIP upload all carry the same guide. Claude checks actual tools and permission.
 - **No local-folder access:** Claude can use visible attachments or interview you. It creates downloads where tools allow. Follow the saving help under “Keep your work and return later”; do not treat a download as a Project update.
 - **No file tools:** Claude shows the complete approved text and filename. Follow the plain-text saving steps below, or ask the facilitator before closing the chat. A save stays pending until you reopen and confirm the retained copy.
 - **Uploads blocked:** ask the facilitator or your organization’s support team. Do not change security controls to continue.
