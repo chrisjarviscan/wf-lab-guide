@@ -57,7 +57,7 @@ class CopyPrompts(HTMLParser):
 
 def artifact_hashes():
     paths = [p for p in SKILL.rglob("*") if p.is_file()] + list((ROOT / "download").glob("*"))
-    paths += [ROOT / "README.md", ROOT / "plugins/wf-lab-guide/.claude-plugin/plugin.json"]
+    paths += [ROOT / "README.md", ROOT / "START-HERE.md", ROOT / "plugins/wf-lab-guide/.claude-plugin/plugin.json"]
     return {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
             for p in sorted(paths) if p.is_file()}
 
@@ -68,12 +68,30 @@ class Artifacts(unittest.TestCase):
         for rel in ("README.md", "START-HERE.md", "FACILITATOR-RUN-THROUGH.md"):
             text = (ROOT / rel).read_text()
             self.assertIn("Friday", text, rel)
-            self.assertIn("October 9", text, rel)
+            self.assertIn("October 16" if rel in ("README.md", "START-HERE.md") else "October 9", text, rel)
+            if rel in ("README.md", "START-HERE.md"):
+                primary = text.split("## Returning to an earlier lab?")[0]
+                self.assertIn("Check my Lab 3 access.", primary, rel)
+                self.assertIn("ready to begin Lab 3", primary, rel)
+                self.assertNotIn("ready to begin Lab 2", primary, rel)
+                self.assertIn("October 12", primary, rel)
             for question in questions:
                 self.assertIn(question, text, rel)
                 self.assertIn(len(question.split()), (4, 5))
             self.assertNotIn("Show me the exact Lab 2 setup readback prompt", text)
             self.assertNotIn("From the participant page's Lab 2 card, save these", text)
+        self.assertEqual((ROOT / "README.md").read_bytes(), (ROOT / "START-HERE.md").read_bytes())
+        if SOURCE:
+            hub = (SOURCE / "RWI-WellsFargo-Participant-Hub-08-11-2026.html").read_text()
+            first_cta = re.search(r'<a class="hero-start" href="([^"]+)">([^<]+)</a>', hub)
+            self.assertIsNotNone(first_cta)
+            self.assertIn("Lab%203/KIT-Lab3-", first_cta[1])
+            self.assertEqual(first_cta[2], "Today’s win: Lab 3 worksheet")
+            self.assertIn("Check my Lab 3 access.", hub.split('<div class="controls">')[0])
+            install = (SOURCE / "tools/lab-guide-page.template.html").read_text()
+            primary = install.split('<details><summary>Return to Lab 2 or an earlier lab</summary>')[0]
+            self.assertIn("ready to begin Lab 3", primary)
+            self.assertNotIn("ready to begin Lab 2", primary)
         skill = (SKILL / "SKILL.md").read_text()
         for phrase in (*questions, "Is my workspace ready?"):
             self.assertIn(phrase, skill)

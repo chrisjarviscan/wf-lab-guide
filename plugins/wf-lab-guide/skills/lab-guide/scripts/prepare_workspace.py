@@ -64,11 +64,26 @@ def run(workspace, prepare=False):
                 created.append(label)
         else:
             missing.append(label)
+    # Bundled material readiness is not profile completion or account access.
+    lab3_names = ("KIT-Lab3-Reporting-Adversarial-Pass.md", "MOCK-Mess-Pack.md")
+    expected = {target.name: content for target, content in assets}
+    lab3_missing, lab3_stale = [], []
+    for name in lab3_names:
+        path = root / "Kits" / name
+        if name not in expected or not path.is_file():
+            lab3_missing.append("Kits/" + name)
+        elif path.read_bytes() != expected[name]:
+            lab3_stale.append("Kits/" + name)
     profile_text = profile.read_text(encoding="utf-8") if profile.is_file() else ""
     profile_status = "missing" if not profile_text.strip() else "needs answers" if re.search(
         r"to fill in", profile_text, re.I) else "present; rules need readback"
     return {"created": created, "preserved": existing, "missing": missing,
             "instructions": profile_status, "lab_files_ready": not missing,
+            "readiness_scope": "Bundled files only; not participant-account access or completed lab work.",
+            "lab3_materials_ready": not lab3_missing and not lab3_stale,
+            "lab3_missing": lab3_missing, "lab3_preserved_different": lab3_stale,
+            "lab3_next": "Read the current Lab 3 kit and actual reporting input; quote permitted lines to verify access."
+                if not lab3_missing and not lab3_stale else "Use the current guide's bundled Lab 3 materials or obtain approval to replace the named older copies; preserve existing work.",
             "next": "Read saved AGENTS.md and verify three rules." if profile_status.startswith("present")
             else "Continue the organization interview; do not invent answers."}
 

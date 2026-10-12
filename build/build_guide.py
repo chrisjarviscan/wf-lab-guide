@@ -661,6 +661,8 @@ def main():
     # Bundle participant materials so Cowork can prepare a workspace without
     # asking anyone to find, download or move kit files.
     asset_sources = {
+        "KIT-Lab3-Reporting-Adversarial-Pass.md": "04-Participant Kits/Lab 3/KIT-Lab3-Reporting-Adversarial-Pass.md",
+        "MOCK-Mess-Pack.md": "04-Participant Kits/Lab 3/MOCK-Mess-Pack.md",
         "KIT-Lab1-First-Safe-Win.md": "04-Participant Kits/Lab 1/KIT-Lab1-First-Safe-Win.md",
         "KIT-Lab2-Writing-Org-Brain.md": "04-Participant Kits/Lab 2/KIT-Lab2-Writing-Org-Brain.md",
         "STARTER-AGENTS.md": "04-Participant Kits/Lab 1/STARTER-AGENTS.md",
@@ -787,6 +789,10 @@ def main():
 
     rd = open(os.path.join(BUILD, "README.template.md"), encoding="utf-8").read()
     write(os.path.join(ROOT, "README.md"),
+          rd.replace("{{STAMP}}", stamp).replace("{{PUBLISHED}}", nice_date(published)))
+
+    # Keep both participant entry documents generated from the same source.
+    write(os.path.join(ROOT, "START-HERE.md"),
           rd.replace("{{STAMP}}", stamp).replace("{{PUBLISHED}}", nice_date(published)))
 
     manifest = {"version": version, "built": built.isoformat(), "source_commit": commit,

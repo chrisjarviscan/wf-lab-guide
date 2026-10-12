@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.18 · Oct 10, 2026. Mirrored from the Lab 3 kit as published on Oct 10, 2026 (source 0bbf13b). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.19 · Oct 12, 2026. Mirrored from the Lab 3 kit as published on Oct 12, 2026 (source abc778c). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 
@@ -38,9 +38,34 @@ Claude saves approved work in the named folders only when its tools have access.
 
 **Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
 
+## Begin with the guide
+
+Use the guide in your work conversation. GitHub sign-in or a GitHub connection is not required. An installed guide and access to your own files are two separate checks.
+
+Ask **“Check my Lab 3 access.”** Claude should give its guide version, read this Lab 3 kit, and name one instruction from it. Then it should name each work file it can actually read and quote a short permitted line from each. Compare those lines with the files yourself. A list of filenames, an account connection or “I’m ready” alone is not a pass.
+
+When those checks pass, say **“I'm ready to begin Lab 3.”** The guide follows the seven steps below, one question or action at a time. You choose the opening, describe the skeptical reader and decide which findings deserve changes. You do not need to copy every worksheet prompt. The full prompts remain below for anyone working without the guide.
+
+**Current guide has no Lab 3 start mode?** Attach this kit and say: “Read this Lab 3 kit, including How Claude runs Lab 3. Guide me one question at a time. Check actual file access before starting, keep the fresh-review file handoffs, and never claim a save without checking the file.” Ask it to quote one instruction before continuing. If it cannot read the kit, open the worksheet and ask your facilitator to guide it; do not rely on the short start phrase alone.
+
+## Files for each handoff
+
+Use your actual filenames for your own work. These exact names describe the practice rehearsal and the examples below.
+
+| When | Files Claude must read | What you check |
+|---|---|---|
+| Begin | `KIT-Lab3-Reporting-Adversarial-Pass.md`, `AGENTS.md` if completed, `MOCK-Mess-Pack.md` (or permitted reporting input), your writing brief if available | Claude quotes the kit and the available input; missing files are named honestly. Voice notes can help but do not replace the source input. |
+| Start the second-chair review | `AGENTS.md` if available, `board-report-draft.md`, `MOCK-Mess-Pack.md` or every actual source used | The new chat can quote both the draft and source. A draft alone is not ready for a factual review. You supply the skeptical reader's role and concerns. |
+| After you approve changes | `second-chair.md` and `board-report-revised.md`, with original draft and sources retained | Open both saved files. The recipe keeps your actual instructions and agreed rule; the revision contains only agreed fixes. |
+| Outside read / resume | Current `AGENTS.md` if available, `second-chair.md`, the named current draft or revision, and its source files | The new chat names the versions it read and quotes the relevant lines. Use the revision when it exists; do not silently use the older draft. |
+
+On desktop these live in `Kits/`, `Recipes/` and `Outputs/` as the steps specify. In a browser Project, verify the current copies in Project files. Without a Project, attach those same files to each new chat. Keep the guide or this kit available in the review chat too. A downloaded file is not automatically available in either place.
+
+**Missing Lab 1 or 2 work?** Come anyway. Do not invent completed AGENTS.md or voice notes. Use the fictional mess pack and answer the brief questions one at a time. Keep a missing profile marked unfinished; it does not stop practicing draft, critique and revision. If you use fictional voice rules, keep them in `practice-AGENTS.md`, separate from your real organization's AGENTS.md. Never mark practice as a real report sent.
+
 ## Before you come
 
-If your ready check at the end of Lab 2 said you're ready for Lab 3, your saved work is ready. Use the screen instructions above to make these files available:
+A Lab 2 ready check records earlier progress; run today's file-access check before relying on it. Use the screen instructions above to make these files available:
 
 - **Desktop:** save the Lab 3 files into `AI-Labs/Kits`. **Browser:** download these files and add them to Project files or attach them to your work chat:
   - this kit, `KIT-Lab3-Reporting-Adversarial-Pass.md`
@@ -89,13 +114,13 @@ In your breakout room, each of you works on your own computer, with your own Cla
    - Why this way: one opening is easy to nod through, and three side by side make you compare, which is how you find what the board should hear first. It uses "show me so I can check", so nothing gets built on an opening you haven't chosen. The same ask helps with a newsletter headline, or the first line of a recruitment post.
    - If it doesn't work: if you have no brief in `Recipes`, use the one under "Your brief to Claude" in `Kits/KIT-Lab1-First-Safe-Win.md`, changed the same way. If Claude writes the whole section before you pick, pick an opening anyway and ask it to redo the rest from that opening.
    - Browser: upload your input file, or the mess pack, to your AI-Labs Project, and paste your brief and this prompt in a new chat inside it. Copy the finished section into a plain text file in `Outputs`, named for the job, like `board-report-draft.md`, then upload it to your Project.
-2. **Run your second chair (6 minutes).** A fresh chat doesn't carry the drafting conversation, so it reads the page as your board member will. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and send your answers to Your brief to Claude as one message. You write it by hand, because only you know your board.
+2. **Run your second chair (6 minutes).** Use a fresh chat for another reader's perspective, with Memory off where offered and only the named files as evidence. A new chat alone does not prove isolation. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and send your answers to Your brief to Claude as one message. You write it by hand, because only you know your board.
 
    ```done
    Claude replies with numbered findings, each quoting a sentence from your draft. Any finding can be wrong.
    ```
 
-   - Why this way: the chat that wrote the draft already knows what every line was meant to say, and your board member won't. A fresh chat has only the page and its files, and your own answers tell it which skeptic to be. It uses "start fresh from your files". The same move gives a staff memo a cold read before it goes out, or checks an event plan against the budget it has to fit.
+   - Why this way: the chat that wrote the draft already knows what every line was meant to say, and your board member won't. The review must use the named page and source files; verify its quotations. Your answers tell it which skeptic to be. It uses "start fresh from your files". The same move gives a staff memo a cold read before it goes out, or checks an event plan against the budget it has to fit.
    - If it doesn't work: if Claude can't find the draft, name the file from step 1, like `Outputs/board-report-draft.md`, and check that the session is on `AI-Labs` itself.
    - Browser: check that the draft and your input file (or the mess pack) are in your Project's files, then start the new chat inside it.
 3. **Settle the top three (5 minutes).** Pick the three findings that matter most and settle each: fix it (note the fix for step 5), reject it with a reason, or open the file it names and check. Settle any "Check before sending" items at the end of the draft the same way. You settle them by hand, because that judgment is what you're practicing.
@@ -306,3 +331,17 @@ Outside `AI-Labs`: your Lab 4 `.csv`, red and notes columns deleted, and one tot
 You can attend Lab 3 even if Lab 2 homework is unfinished. In each new chat, attach the current guide or this kit, your latest AGENTS.md and written voice notes, plus the source input or practice mess pack. For review stages, also attach the draft and second-chair recipe used in that stage. Where this kit says to start inside your Project, you may instead start a new chat with those current files attached. Compare the readback with the actual attached file; a new chat alone does not prove memory is off. Use the app’s Memory control where offered for an independent review.
 
 If Claude cannot make downloadable files, ask your facilitator for the Lab 2 plain-text saving steps before closing the chat. Do not claim the work is saved until you can reopen your retained copy. A Project is optional; a usable copy of the current work is essential.
+
+## How Claude runs Lab 3
+
+This section is for the guide. Read this kit before acting. “Check my Lab 3 access” is read-only: report the guide version, read the current kit and quote one instruction, then check the actual available input files with short permitted quotations. Do not create, edit, install or connect anything during that check. Never quote restricted material; stop and ask the participant to remove it if found. A successful guide read does not prove participant-file access.
+
+“I'm ready to begin Lab 3” and natural equivalents start the guided session. Reuse existing work and follow the seven numbered learning steps in order; resume at the first unfinished one when there is evidence. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy prompts that you can execute. Do not show the complete seven-step checklist unless asked. Preserve every safety limit and approval gate in the original prompts.
+
+1. Read the available instructions and reporting input. If the writing brief is missing, ask its goal, reader and limits separately. Use the bundled fictional mess pack only when accessible; otherwise help attach the linked pack. Show three openings A, B and C and wait for the participant's choice before drafting. Save the draft with tools or provide the complete named file for manual saving. Verify it before the next handoff.
+2. Prepare a short fresh-chat handoff naming the guide/kit, current draft, every source and available AGENTS.md. Tell the participant where to open the next chat and which files to attach or check in Project files. A new session with the same connected folder can read them there. Ask the skeptical-reader brief questions one at a time in that review chat. Do not review facts until both draft and sources can actually be read. Report findings without rewriting.
+3. Help the participant settle the top three findings: fix, reject with a reason, or check the named source. Wait for those human decisions. Never treat your own findings as established facts.
+4. Save the exact second-chair brief as `Recipes/second-chair.md` (browser filename `second-chair.md`), then ask which confirmed finding should become a standing rule. Add only the agreed rule and show the complete recipe. Do not overwrite an existing recipe without approval. Browser saving is pending until the participant opens the retained copy and confirms its contents; verify Project replacement before removing an older copy.
+5. Revise only the agreed fixes and keep the original draft. Save as `Outputs/board-report-revised.md` in the practice example, or the actual job's named revision. Browser filename: `board-report-revised.md`. Show the changes and reopen the saved revision, or guide its manual-save/open check.
+6. Preserve the kit's outside-read step in a fresh chat. Supply the current recipe, named draft or revision, sources and available AGENTS.md. Verify access again. Apply the alternative-reader prompt from step 6, without claiming a memory-isolated review unless that was established. The participant chooses any recipe changes.
+7. Suggest at most three AGENTS.md lines from confirmed fixes and wait for approval of each. Keep missing profile sections unfinished. Reopen approved saved work. Before stopping, name saved files, where they are, any pending saves and the next action. Do not call a draft a send or fabricate a ship-log entry. If interrupted, retain full unsaved contents as well as a resume note; a summary cannot replace the actual files.
