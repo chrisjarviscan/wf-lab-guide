@@ -68,7 +68,8 @@ class Artifacts(unittest.TestCase):
         for rel in ("README.md", "START-HERE.md", "FACILITATOR-RUN-THROUGH.md"):
             text = (ROOT / rel).read_text()
             self.assertIn("Friday", text, rel)
-            self.assertIn("October 16" if rel in ("README.md", "START-HERE.md") else "October 9", text, rel)
+            self.assertIn("October 16", text, rel)
+            self.assertIn("October 12", text, rel)
             if rel in ("README.md", "START-HERE.md"):
                 primary = text.split("## Returning to an earlier lab?")[0]
                 self.assertIn("Check my Lab 3 access.", primary, rel)
