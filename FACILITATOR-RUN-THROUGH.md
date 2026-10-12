@@ -22,6 +22,8 @@ Three routes carry the same guide. Pick the one the participant’s screen offer
 
 Pass: [current README version](README.md), Lab 3, today's time above. This checks the guide, not private-file access.
 
+**Older version in the first line?** The guide now compares itself with the published release and names the one update action; if it could not, say it yourself: GitHub Project: open the repository item in Project files and choose **Sync**. Attachment: download and attach `lab-guide-chat.md` again. Desktop: download `lab-guide.zip` again and upload it in Customize → Skills, replacing the old one. An older copy still runs today's lab, so update only if it takes under a minute; otherwise continue.
+
 > Check my Lab 3 access.
 
 Pass: a quotation from the Lab 3 kit and short quotations from the actual files Claude can read (their reporting input or the mess pack, `AGENTS.md` if they have one). A filename list, an account connection or “I’m ready” alone is not a pass. Missing Lab 1 or 2 work is not a blocker; the mess pack and a partial profile are enough.
