@@ -419,6 +419,12 @@ def trim_overview(md):
 # -------------------------------------------------------------- kits
 
 def clean_kit(md, cfg):
+    # A comment on its own line, followed by a line that starts at the margin,
+    # goes with its whole line. Otherwise its indentation would be left in front
+    # of the next heading or list item and hide it.
+    own_line = re.compile(r"(?m)^[ \t]*<!--[^\n]*?-->[ \t]*\n(?:[ \t]*\n)*(?=\S)")
+    while own_line.search(md):          # repeat: comments can sit one above another
+        md = own_line.sub("", md)
     md = re.sub(r"<!--.*?-->\s*\n?", "", md, flags=re.S)
     anchors = cfg["hub_anchor_pages"]
 
@@ -507,7 +513,8 @@ def quick_facts(n, title, md, facts):
     elif week:
         prose = "\n".join(ln for ln in week.splitlines() if not ln.lstrip().startswith("|"))
         lines.append(f"- **This week:** {squeeze(prose, 300)}")
-    lines.append(f"- **Full kit:** lab-{n}.md. **Stuck:** the kit's \"If you get stuck\" section, "
+    lines.append(f"- **Full kit:** lab-{n}.md. **Start:** \"Check my Lab {n} access.\", then \"I'm ready to begin Lab {n}.\" "
+                 f"**Stuck:** tell Claude what you see, then your facilitator, "
                  f"then {facts['contact_name']}, {facts['contact_email']}.")
     text = "\n".join(lines) + "\n"
     budget = 3072
@@ -554,7 +561,7 @@ def check_facts(facts, hub_text, timeline_text, kit_texts):
 
 def write(path, text):
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as fh:
+    with open(path, "w", encoding="utf-8", newline="") as fh:
         fh.write(text)
 
 
@@ -576,15 +583,17 @@ def deterministic_zip(src_dir, zip_path, arc_root):
                     z.writestr(info, fh.read())
 
 
-def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills):
+def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills, more_practice=None):
     """One readable attachment for accounts without an installable skill."""
     guide = re.sub(r"^---\n.*?\n---\n", "", skill, count=1, flags=re.S).lstrip()
     intro = ("# Lab Guide — chat attachment\n\n"
              "This attachment contains the guide's instructions and every current source page. "
-             "Use it in your current Claude work chat or Project for questions and guided Lab 2 or Lab 3 work. "
+             "Use it in your current Claude work chat or Project for questions and guided work in any of the seven labs. "
              "Reuse permitted files already available there; no new chat is required to begin. "
              "The fictional Lab 2 practice pack and the fictional Lab 3 mess pack are included below, "
              "so practice needs no other upload; the Lab 3 kit is the embedded pages/lab-3.md. "
+             "Every other lab's kit is its embedded pages/lab-N.md, and the fictional practice files for "
+             "Labs 1, 4, 5 and 6 are included below as well. "
              "This attachment does not install a local-folder helper or grant computer access. When the instructions "
              "say to open or read a pages/ file, read the matching Embedded source page below. "
              "If you cannot read this attachment or its matching page, follow the guide's "
@@ -608,6 +617,16 @@ def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills):
                     "\n<!-- BEGIN ASSET assets/MOCK-Mess-Pack.md -->\n"
                     + mess_pack.rstrip()
                     + "\n<!-- END ASSET assets/MOCK-Mess-Pack.md -->\n")
+    if more_practice:
+        sections.append("\n## Bundled practice material for Labs 1, 4, 5 and 6\n"
+                        "Read the matching embedded asset when a kit names one of these files, in Kits/ or by name. "
+                        "Every organization, person, number and email in them is fictional. Never use them as real "
+                        "organizational facts, and do not ask for any of them to be downloaded again. A participant "
+                        "who needs one on their own computer for a by-hand step saves it from that lab's page. "
+                        "No placeholder key is included: a key never goes near Claude.\n")
+        for name, contents in more_practice.items():
+            sections.append(f"\n<!-- BEGIN ASSET assets/{name} -->\n" + contents.rstrip()
+                            + f"\n<!-- END ASSET assets/{name} -->\n")
     for name, contents in writing_skills.items():
         rel = f"assets/writing-skills/{name}/SKILL.md"
         sections.append(f"\n<!-- BEGIN ASSET {rel} -->\n" + contents.rstrip()
@@ -677,11 +696,24 @@ def main():
         "STARTER-Ship-Log.md": "04-Participant Kits/Lab 1/STARTER-Ship-Log.md",
         "MOCK-Program-Update-Email-Thread.txt": "04-Participant Kits/Lab 1/MOCK-Program-Update-Email-Thread.txt",
         "MOCK-OrgBrain-Starter-Pack.md": "04-Participant Kits/Lab 2/MOCK-OrgBrain-Starter-Pack.md",
+        # Labs 4 to 7: every lab starts from the same short page, so the guide
+        # carries each kit and its fictional practice files. The Lab 4 practice
+        # placeholder key is deliberately absent: a key never goes near Claude.
+        "KIT-Lab4-Data-Clean-Extract.md": "04-Participant Kits/Lab 4/KIT-Lab4-Data-Clean-Extract.md",
+        "MOCK-Benevity-Export-Messy.csv": "04-Participant Kits/Lab 4/MOCK-Benevity-Export-Messy.csv",
+        "KIT-Lab5-Numbers-Narrative-Deck.md": "04-Participant Kits/Lab 5/KIT-Lab5-Numbers-Narrative-Deck.md",
+        "MOCK-Benevity-Export-CLEANED-Reference.csv": "04-Participant Kits/Lab 5/MOCK-Benevity-Export-CLEANED-Reference.csv",
+        "MOCK-Program-Context.md": "04-Participant Kits/Lab 5/MOCK-Program-Context.md",
+        "KIT-Lab6-Agents-Toolbox.md": "04-Participant Kits/Lab 6/KIT-Lab6-Agents-Toolbox.md",
+        "KIT-Lab7-Build-Roadmap.md": "04-Participant Kits/Lab 7/KIT-Lab7-Build-Roadmap.md",
     }
+    if any("key" in name.lower() for name in asset_sources):
+        die("a placeholder key must never be bundled with the guide")
     asset_contents = {}
     for name, relative in asset_sources.items():
         refuse_internal(cfg, relative)
-        asset_contents[name] = open(os.path.join(src, relative), encoding="utf-8").read()
+        # newline="" keeps a CSV's own line endings, so the bundled bytes match the source
+        asset_contents[name] = open(os.path.join(src, relative), encoding="utf-8", newline="").read()
     check_facts(facts, norm(hub_html), norm(timeline_html), kit_texts)
     if args.bump:
         write(vfile, version + "\n")
@@ -777,7 +809,10 @@ def main():
                           os.path.join(DOWNLOAD, f"{name}.zip"), name)
     write(os.path.join(DOWNLOAD, "lab-guide-chat.md"),
           chat_bundle(skill, PAGES, asset_contents["MOCK-OrgBrain-Starter-Pack.md"],
-                      asset_contents["MOCK-Mess-Pack.md"], writing_skills))
+                      asset_contents["MOCK-Mess-Pack.md"], writing_skills,
+                      {name: asset_contents[name] for name in (
+                          "MOCK-Program-Update-Email-Thread.txt", "MOCK-Benevity-Export-Messy.csv",
+                          "MOCK-Benevity-Export-CLEANED-Reference.csv", "MOCK-Program-Context.md")}))
 
     pj = json.load(open(os.path.join(BUILD, "plugin.template.json")))
     pj["version"] = version

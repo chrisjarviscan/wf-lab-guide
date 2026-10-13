@@ -52,7 +52,7 @@ Optional setup help: **Check and fix setup.**
 
 ## Returning to an earlier lab?
 
-Keep your existing work. For Lab 2, say **“I'm ready to begin Lab 2.”** For Lab 1, open its kit. Earlier labs remain available in the guide.
+Keep your existing work. Every lab starts the same way, with its own number: for Lab 2, say **“Check my Lab 2 access.”**, then **“I'm ready to begin Lab 2.”** All seven labs are in the guide.
 
 ## No Skills upload controls?
 

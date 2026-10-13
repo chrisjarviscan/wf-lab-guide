@@ -11,7 +11,7 @@ First time, without Add from GitHub? Attach this one file to your own Claude wor
 [Full guide attachment](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md)
 
 If the link opens as text, use your browser's Save Page As to save `lab-guide-chat.md`, then attach the file.
-The attachment supports guide questions and the guided Lab 2 and Lab 3 conversations, and already contains the Lab 3 kit and fictional mess pack. It does not install the local workspace helper.
+The attachment supports guide questions and the guided conversation for each of the seven labs, and already contains every kit and its fictional practice files, the Lab 3 kit and mess pack included. It does not install the local workspace helper.
 No Project is required. Say “I'm ready to begin Lab 2.” Claude can use visible files, interview you or use practice.
 
 With file tools, Claude creates artifacts and reopens their contents before offering downloads.

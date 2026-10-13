@@ -177,7 +177,9 @@ def main():
             for email in re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}", line):
                 # This public practice thread uses the reserved example.org
                 # domain. Permit its fictional senders only in that asset.
-                practice_thread = rel.endswith("assets/MOCK-Program-Update-Email-Thread.txt")
+                # The one-file chat attachment embeds that same asset for Lab 1.
+                practice_thread = rel.endswith(("assets/MOCK-Program-Update-Email-Thread.txt",
+                                                "download/lab-guide-chat.md"))
                 if practice_thread and email.lower().endswith("@brightpath.example.org"):
                     continue
                 if email.lower() not in ALLOWED_EMAILS:
