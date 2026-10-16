@@ -22,7 +22,7 @@ Three routes carry the same guide. Pick the one the participant’s screen offer
 
 Pass: [current README version](README.md), Lab 3, today's time above. This checks the guide, not private-file access.
 
-**Older version in the first line?** The guide now compares itself with the published release and names the one update action; if it could not, say it yourself: GitHub Project: open the repository item in Project files and choose **Sync**. Attachment: download and attach `lab-guide-chat.md` again. Desktop: download `lab-guide.zip` again and upload it in Customize → Skills, replacing the old one. An older copy still runs today's lab, so update only if it takes under a minute; otherwise continue.
+**Older version in the first line?** After "Check my Lab 3 access", the guide compares itself with the published release and names the one update action; if it could not, say it yourself: GitHub Project: open the repository item in Project files and choose **Sync**. Attachment: download and attach `lab-guide-chat.md` again. Desktop: download `lab-guide.zip` again and upload it in Customize → Skills, replacing the old one. An older copy still runs today's lab, so update only if it takes under a minute; otherwise continue.
 
 > Check my Lab 3 access.
 
@@ -35,6 +35,7 @@ Pass: a quotation from the Lab 3 kit and short quotations from the actual files 
 “Answer one question at a time. Claude handles the files; you choose the opening, describe the skeptical reader and decide which findings deserve changes.”
 
 Claude leads: three openings and a choice → draft saved → fresh second-chair review with draft and sources → your decisions → `second-chair.md` saved → approved revision → outside read → lessons. No worksheet reading or separate stage commands required.
+Ten minutes left in the room: **We have ten minutes left. Save where I am and tell me what's left.** Claude saves the furthest point (revision or draft), never settles findings for them, and lists the rest as this week's work. Finished early: turn the revised section into a private one-page document or a few slides, from that section only, and run the ship check.
 Optional setup help: **Check and fix setup.** Help individuals; continue the existing agenda at five minutes.
 
 Before every fresh review, the draft and its sources must be available in that chat. A new chat is not a memory reset; turn Memory off where offered for the independent read. Downloads do not automatically update local or Project files.

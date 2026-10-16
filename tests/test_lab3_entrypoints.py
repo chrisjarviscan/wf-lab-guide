@@ -31,6 +31,8 @@ class Lab3Entrypoints(unittest.TestCase):
         self.assertIn('pages/lab-3.md', readme)
 
     def test_hub_primary_cta_and_start_panel(self):
+        if SOURCE is None:
+            self.skipTest('--source required for hub entrypoint checks')
         hub = (SOURCE / 'RWI-WellsFargo-Participant-Hub-08-11-2026.html').read_text()
         cta = re.search(r'<a class="hero-start" href="([^"]+)">([^<]+)</a>', hub)
         self.assertIsNotNone(cta)
@@ -44,6 +46,8 @@ class Lab3Entrypoints(unittest.TestCase):
         self.assertIn('KIT-Lab2-Writing-Org-Brain.html', hub)
 
     def test_install_template_primary_mode_and_earlier_route(self):
+        if SOURCE is None:
+            self.skipTest('--source required for hub entrypoint checks')
         page = (SOURCE / 'tools/lab-guide-page.template.html').read_text()
         primary = page.split('<details><summary>Return to Lab 2 or an earlier lab</summary>')[0]
         self.assertIn('Check my Lab 3 access.', primary)

@@ -507,7 +507,9 @@ def quick_facts(n, title, md, facts):
     elif week:
         prose = "\n".join(ln for ln in week.splitlines() if not ln.lstrip().startswith("|"))
         lines.append(f"- **This week:** {squeeze(prose, 300)}")
-    lines.append(f"- **Full kit:** lab-{n}.md. **Stuck:** the kit's \"If you get stuck\" section, "
+    stuck_where = ("the kit's \"If you get stuck\" section" if section(md, "If you get stuck")
+                   else "the Stuck line in the kit's \"Before you come\"")
+    lines.append(f"- **Full kit:** lab-{n}.md. **Stuck:** {stuck_where}, "
                  f"then {facts['contact_name']}, {facts['contact_email']}.")
     text = "\n".join(lines) + "\n"
     budget = 3072
@@ -609,7 +611,7 @@ def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills):
                     + mess_pack.rstrip()
                     + "\n<!-- END ASSET assets/MOCK-Mess-Pack.md -->\n")
     for name, contents in writing_skills.items():
-        rel = f"assets/writing-skills/{name}/SKILL.md"
+        rel = f"assets/writing-skills/{name}.md"
         sections.append(f"\n<!-- BEGIN ASSET {rel} -->\n" + contents.rstrip()
                         + f"\n<!-- END ASSET {rel} -->\n")
     return "".join(sections)
@@ -771,7 +773,7 @@ def main():
         contents = data.decode("utf-8")
         writing_skills[name] = contents
         write(os.path.join(PLUGIN, "skills", name, "SKILL.md"), contents)
-        write(os.path.join(SKILL, "assets", "writing-skills", name, "SKILL.md"), contents)
+        write(os.path.join(SKILL, "assets", "writing-skills", f"{name}.md"), contents)
         write(os.path.join(DOWNLOAD, f"{name}.md"), contents)
         deterministic_zip(os.path.join(PLUGIN, "skills", name),
                           os.path.join(DOWNLOAD, f"{name}.zip"), name)

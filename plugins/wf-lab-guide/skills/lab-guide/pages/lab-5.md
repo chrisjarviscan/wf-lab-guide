@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.24 · Oct 12, 2026. Mirrored from the Lab 5 kit as published on Oct 12, 2026 (source d720b7f). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.25 · Oct 16, 2026. Mirrored from the Lab 5 kit as published on Oct 16, 2026 (source 5e85018). Do not edit: rebuild instead. -->
 
 # Lab 5: Numbers to narrative to deck
 

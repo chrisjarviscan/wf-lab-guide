@@ -207,6 +207,14 @@ class Artifacts(unittest.TestCase):
             for source in scenario["sources"]:
                 self.assertTrue((SKILL / "pages" / source).is_file(), source)
 
+    def test_quick_pages_point_only_to_sections_that_exist(self):
+        # Lab 3 has no "If you get stuck" section; its quick page must not send people there.
+        for n in range(1, 8):
+            quick = (SKILL / "pages" / f"lab-{n}-quick.md").read_text()
+            kit = (SKILL / "pages" / f"lab-{n}.md").read_text()
+            if '"If you get stuck" section' in quick:
+                self.assertRegex(kit, r"(?m)^#+ .*If you get stuck|\*\*If you get stuck", f"lab-{n}")
+
     def test_every_zip_member_matches_plugin_bytes(self):
         expected = {"lab-guide/" + p.relative_to(SKILL).as_posix(): p.read_bytes()
                     for p in SKILL.rglob("*") if p.is_file() and not p.name.startswith(".")
@@ -214,6 +222,8 @@ class Artifacts(unittest.TestCase):
         with zipfile.ZipFile(ROOT / "download/lab-guide.zip") as z:
             self.assertEqual(sorted(z.namelist()), sorted(expected))
             self.assertEqual(len(z.namelist()), len(set(z.namelist())))
+            # Claude's skill upload accepts one skill per ZIP (Lab 3 Monday, Oct 12).
+            self.assertEqual([m for m in z.namelist() if m.endswith("/SKILL.md")], ["lab-guide/SKILL.md"])
             for member, data in expected.items():
                 self.assertEqual(z.read(member), data, member)
                 self.assertEqual(z.getinfo(member).date_time, (2026, 1, 1, 0, 0, 0))
@@ -229,13 +239,13 @@ class Artifacts(unittest.TestCase):
             source = (ROOT / "build/writing-skills" / name / "SKILL.md").read_bytes()
             self.assertEqual(hashlib.sha256(source).hexdigest(), item["sha256"])
             for path in (SKILL.parent / name / "SKILL.md",
-                         SKILL / "assets/writing-skills" / name / "SKILL.md",
+                         SKILL / "assets/writing-skills" / f"{name}.md",
                          ROOT / "download" / f"{name}.md"):
                 self.assertEqual(path.read_bytes(), source, str(path))
             with zipfile.ZipFile(ROOT / "download" / f"{name}.zip") as z:
                 self.assertEqual(z.namelist(), [f"{name}/SKILL.md"])
                 self.assertEqual(z.read(f"{name}/SKILL.md"), source)
-            rel = f"assets/writing-skills/{name}/SKILL.md"
+            rel = f"assets/writing-skills/{name}.md"
             start = f"<!-- BEGIN ASSET {rel} -->\n"
             end = f"\n<!-- END ASSET {rel} -->"
             self.assertEqual(bundle.count(start), 1)
