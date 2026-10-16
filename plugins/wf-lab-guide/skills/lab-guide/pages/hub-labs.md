@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.28 · Oct 16, 2026. Mirrored from the participant page as published on Oct 16, 2026 (source 0bc91c1). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.29 · Oct 16, 2026. Mirrored from the participant page as published on Oct 16, 2026 (source 18761b3). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -78,7 +78,7 @@ The Lab 2 worksheet (lab-2.md) is a reference if you want it. You do not need to
 
 **Practice file: org brain starter pack**: Documents from BrightPath, a fictional nonprofit: its mission, two writing samples, outcomes and a practice RFP. It takes the same steps as your own documents.
 
-**Lab 3 preflight:** in your work chat, ask “Check my Lab 3 access.” Check that Claude can read the guide or current kit and your actual input. Then say “I'm ready to begin Lab 3.” If the installed guide does not recognize that mode, attach the current Lab 3 kit and use its “Begin with the guide” instructions. Keep the draft *and its sources* available in every fresh review. GitHub connection is not required.
+**Lab 3 preflight:** in your work chat, ask “Check my Lab 3 access.” Check that Claude can read the guide or current kit and your actual input. Then say “I'm ready to begin Lab 3.” If the installed guide does not recognize that mode, open the Lab 3 page (lab-3.md) and follow its Start here; the current guide already contains the Lab 3 kit. Keep the draft *and its sources* available in every fresh review. GitHub connection is not required.
 
 ### Lab 3: Board-ready reporting and the second chair
 
