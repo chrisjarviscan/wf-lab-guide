@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.29 · Oct 16, 2026. Mirrored from the participant page as published on Oct 16, 2026 (source 18761b3). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.30 · Oct 16, 2026. Mirrored from the participant page as published on Oct 16, 2026 (source 49b3cab). Do not edit: rebuild instead. -->
 
 # Your account and your privacy
 

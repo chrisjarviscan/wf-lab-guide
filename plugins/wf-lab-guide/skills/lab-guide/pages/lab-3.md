@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.29 · Oct 16, 2026. Mirrored from the Lab 3 kit as published on Oct 16, 2026 (source 18761b3). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.30 · Oct 16, 2026. Mirrored from the Lab 3 kit as published on Oct 16, 2026 (source 49b3cab). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 
@@ -51,7 +51,7 @@ Choose one level. You and your colleague can choose different ones, and you can 
 | **Ship It** | 1 to 2 hours | Take a real report section through draft, second chair and revision, and send it, timed | A section sent, and a timed number |
 | **Build Ahead** | 3 hours or more | Ship It, then test your second chair on two past reports, names taken out, adding a rule for each miss | A report sent, and a sharper second chair |
 
-**Didn't finish in your room?** Start there. Type "I'm ready to begin Lab 3" and Claude picks up at your first unfinished step, including saving your second chair.
+**Start your homework with Claude.** Type "I'm ready to begin Lab 3" and it picks up where you stopped, including saving your second chair, then moves you on to this week's work.
 
 **Building for your whole organization?** At any level, give your second chair recipe to one colleague and have them run it on their own draft. The recipe holds no client details, so it's safe to share.
 
@@ -70,7 +70,7 @@ My homework level this week is ___. Add it, anything left from today's lab, and 
 - Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains this week's items and keeps everything else as you left it.
 - Browser: write "Before Lab 4", your level, anything left from today and the bring list on your to-do list (in `TO-DO.md` if you have one).
 
-Bring to Lab 4: one thing you made in Lab 3, your revised section or what you turned it into, ready to show for a minute at the start, with no client names in it. And your recurring spreadsheet, the one you rebuild or clean every month or quarter (attendance, volunteer hours, a grants tracker), with the tab you work in exported as a `.csv` file. Unhide every column before you export, because hidden columns still export. Or choose the practice sheet in the Lab 4 kit; the steps are the same.
+Bring to Lab 4: one thing you made in Lab 3 that you're proud of, your revised section or what you turned it into, ready to show for a minute in your breakout room, with no client names in it. And your recurring spreadsheet, the one you rebuild or clean every month or quarter (attendance, volunteer hours, a grants tracker), with the tab you work in exported as a `.csv` file. Unhide every column before you export, because hidden columns still export. Or choose the practice sheet in the Lab 4 kit; the steps are the same.
 
 The everyday rule still holds. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet adds a stricter rule:
 

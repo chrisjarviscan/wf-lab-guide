@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.29 · Oct 16, 2026. Practical help authored for the Lab Guide; not a mirrored participant kit. -->
+<!-- Lab Guide 1.0.30 · Oct 16, 2026. Practical help authored for the Lab Guide; not a mirrored participant kit. -->
 
 # Working with Claude: files, folders, writing and slides
 

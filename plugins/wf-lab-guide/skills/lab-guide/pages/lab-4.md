@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.29 · Oct 16, 2026. Mirrored from the Lab 4 kit as published on Oct 16, 2026 (source 18761b3). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.30 · Oct 16, 2026. Mirrored from the Lab 4 kit as published on Oct 16, 2026 (source 49b3cab). Do not edit: rebuild instead. -->
 
 # Lab 4: Data, clean and extract
 
@@ -46,6 +46,7 @@ If your ready check at the end of Lab 3 said you're ready for Lab 4, your saved 
   - this kit, `KIT-Lab4-Data-Clean-Extract.md`
   - the practice sheet, `MOCK-Benevity-Export-Messy.csv`
 - Save the practice key, `MOCK-Placeholder-Key.csv`, in a folder you choose outside `AI-Labs`, where your organization keeps confidential records, never in `Kits`. That's your key folder, for your own key too. Keys never go near Claude, so you move them by hand.
+- Bring one thing you made in Lab 3 that you're proud of, your revised section or what you turned it into. Your breakout room opens with a one-minute show-and-tell, with no client names in it.
 - Choose your material. Both take the same steps today.
   - Your own: your recurring spreadsheet's tab exported as a `.csv` file, every column unhidden, saved outside `AI-Labs`, plus one month's total from your system and how long cleaning it takes by hand.
   - The practice sheet: a fictional funder's grants export, already in `Kits`.
