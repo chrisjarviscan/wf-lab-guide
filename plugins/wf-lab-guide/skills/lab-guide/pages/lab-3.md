@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.30 · Oct 16, 2026. Mirrored from the Lab 3 kit as published on Oct 16, 2026 (source 49b3cab). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.31 · Oct 16, 2026. Mirrored from the Lab 3 kit as published on Oct 16, 2026 (source 2ef23bb). Do not edit: rebuild instead. -->
 
 # Lab 3: Board-ready reporting and the second chair
 
@@ -51,62 +51,30 @@ Choose one level. You and your colleague can choose different ones, and you can 
 | **Ship It** | 1 to 2 hours | Take a real report section through draft, second chair and revision, and send it, timed | A section sent, and a timed number |
 | **Build Ahead** | 3 hours or more | Ship It, then test your second chair on two past reports, names taken out, adding a rule for each miss | A report sent, and a sharper second chair |
 
-**Start your homework with Claude.** Type "I'm ready to begin Lab 3" and it picks up where you stopped, including saving your second chair, then moves you on to this week's work.
-
-**Building for your whole organization?** At any level, give your second chair recipe to one colleague and have them run it on their own draft. The recipe holds no client details, so it's safe to share.
-
 Write your plan in the Zoom chat before you leave: When ___ happens this week, I will ___. For example: When a report is due, I will run my second chair first.
 
-Before you leave, add the week to your to-do list. In Cowork, paste this with your level filled in. Claude will add your homework, anything left from today's lab and the Lab 4 bring list to `TO-DO.md` as unticked items and change nothing else.
+To do it, open your work chat and type:
 
 ```prompt
-My homework level this week is ___. Add it, anything left from today's lab, and the Lab 4 bring list from Kits/KIT-Lab3-Reporting-Adversarial-Pass.md to TO-DO.md, as unticked items under a heading "Before Lab 4". Don't change anything else.
+Start my Lab 3 homework.
 ```
 
-```done
-`TO-DO.md` has a heading "Before Lab 4" with your homework, anything left from today and the bring list under it.
-```
-
-- Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains this week's items and keeps everything else as you left it.
-- Browser: write "Before Lab 4", your level, anything left from today and the bring list on your to-do list (in `TO-DO.md` if you have one).
-
-Bring to Lab 4: one thing you made in Lab 3 that you're proud of, your revised section or what you turned it into, ready to show for a minute in your breakout room, with no client names in it. And your recurring spreadsheet, the one you rebuild or clean every month or quarter (attendance, volunteer hours, a grants tracker), with the tab you work in exported as a `.csv` file. Unhide every column before you export, because hidden columns still export. Or choose the practice sheet in the Lab 4 kit; the steps are the same.
-
-The everyday rule still holds. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet adds a stricter rule:
-
-- Delete every column that names or identifies a person, staff included: names, addresses, phones, emails, birth dates, ID numbers. These are the red columns.
-- Delete notes and comments columns too. Names hide in them, and a header can't show you what's in the cells.
-- If each row is one person or one visit, turn it into counts first, or use the practice sheet. Health, substance-use and immigration services always do this.
-- Organization names can stay for now. In Lab 4 they get placeholders in the form `ORG-01`, and no other placeholder format is used.
-- Keep programs, sites, dates, counts and amounts. If you're unsure about a column, delete it.
-- Note one total for those rows from your own system, and save the file outside your workspace folder.
-
-You delete the columns and export by hand, in your spreadsheet, because the data has to be safe before it goes near Claude.
-
-Ship log: one line in `Outputs/ship-log.md` for everything you send, with old-way and new-way stopwatch minutes. For who it went to, give a group like "donors" or "board", never a person's name. In Cowork, paste this when something goes out; in the browser, add the line by hand. Claude will ask you what it was, the date, who it went to and both stopwatch times, then add one line to the log.
-
-```prompt
-Add a line to Outputs/ship-log.md for the item we just sent. Ask me what it was, the date, who it went to (a group like "board", never a person's name), and my old-way and new-way stopwatch minutes. Don't guess any of them.
-```
-
-```done
-Claude asked you what it was, the date, who it went to and both times, then added one line to `Outputs/ship-log.md`.
-```
-
-- Why this way: it uses "ask me, don't guess" from Ways to ask Claude (see hub-ways.md), so every number in your log is one you measured.
-
-When your homework is done, check you're ready for Lab 4. The check can't see your Lab 4 spreadsheet, so tick that off your to-do list yourself. In Cowork, paste this. Claude will look through your folder without changing anything and end with one line: ready, or the first thing still missing.
-
-```prompt
-Check my AI-Labs folder, and don't change anything. Look for Recipes/second-chair.md, and at least one entry in Outputs/ship-log.md below the line that starts "One line for each thing you send". Keep your reply short, and end it with exactly one of these lines: "Ready for Lab 4." or "Not yet:" followed by the first missing item and the one step that fixes it.
-```
+Claude picks up wherever you stopped in the lab, including saving your second chair, asks your level and adds the week to your to-do list. Time your work with a stopwatch, and note how long it took the old way. Each time something goes out, come back and say "I just sent ___." When you're done, say "Check I'm ready for Lab 4."
 
 ```done
 Claude's last line says "Ready for Lab 4."
 ```
 
-- Why this way: it uses "end with one clear line" from Ways to ask Claude (see hub-ways.md), so the last line tells you at a glance whether you're set.
-- Browser: check by hand that `Recipes/second-chair.md` is there and `ship-log.md` has a line for something you sent. Then tap Done.
+**Building for your whole organization?** At any level, give your second chair recipe to one colleague and have them run it on their own draft. The recipe holds no client details, so it's safe to share.
+
+Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details.
+
+**Bring to Lab 4:**
+
+- One thing you made in Lab 3 that you're proud of, your revised section or what you turned it into, ready to show for a minute in your breakout room, with no client names in it.
+- Your recurring spreadsheet, the one you rebuild every month or quarter (attendance, volunteer hours, a grants tracker), with the tab you work in exported as a `.csv` file. Or choose the practice sheet in the Lab 4 kit; the steps are the same.
+
+**Do this part yourself, in your spreadsheet, before anything goes near Claude.** Delete every column that names or identifies a person, staff included (names, addresses, phones, emails, birth dates, ID numbers; these are the red columns), and every notes or comments column, because names hide in them. Unhide every column before you export, because hidden columns still export. If each row is one person or one visit, turn it into counts first, or use the practice sheet; health, substance-use and immigration services always do this. Keep programs, sites, dates, counts and amounts, and if you're unsure about a column, delete it. Organization names can stay for now; in Lab 4 they get placeholders in the form `ORG-01`, and no other format. Note one month's total from your own system and how long cleaning the sheet takes you by hand, and save the file outside your AI-Labs folder.
 
 ## Today, step by step
 
@@ -248,7 +216,7 @@ Your second chair fits anything a skeptic will check. Run it as the line under Y
 
 This section is for the guide. Read this kit before acting. “Check my Lab 3 access” is read-only: report the guide version, read the current kit and quote one instruction, then check the actual available input files with short permitted quotations. Do not create, edit, install or connect anything during that check. Never quote restricted material; stop and ask the participant to remove it if found. A successful guide read does not prove participant-file access.
 
-“I'm ready to begin Lab 3” and natural equivalents start the guided session. If the participant says time is short, that counts as asking for what's left and is the only exception to the step order. Finish the decision in hand. If the participant has settled findings, revise with only those (step 5) and save and reopen the revision, or guide its manual save. If none are settled, keep the saved draft and say plainly that no revision was made; never review or settle findings yourself to save time. Then list what's left (saving the second chair, the outside read and anything unfinished) as this week's work with a resume note, and offer to add it to TO-DO.md under "Before Lab 4". Whenever a step moves between chats, say which chat it happens in and, when that chat cannot read the saved files, give one complete block to paste there. The block carries only the file handoff, never answers to the skeptic brief. Never just say "go back". Reuse existing work and follow the seven numbered learning steps in order; resume at the first unfinished one when there is evidence. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy prompts that you can execute. Do not show the complete seven-step checklist unless asked. Preserve every safety limit and approval gate in the original prompts.
+“I'm ready to begin Lab 3” and natural equivalents start the guided session. If the participant says time is short, that counts as asking for what's left and is the only exception to the step order. Finish the decision in hand. If the participant has settled findings, revise with only those (step 5) and save and reopen the revision, or guide its manual save. If none are settled, keep the saved draft and say plainly that no revision was made; never review or settle findings yourself to save time. Then list what's left (saving the second chair, the outside read and anything unfinished) as this week's work with a resume note, and offer to add it to TO-DO.md under "Before Lab 4". "Start my Lab 3 homework" and natural equivalents start the homework, taught the same way as the lab. First resume any unfinished lab step, in order; saving the second chair comes before anything else. Then ask the participant's level (Keep Pace, Ship It or Build Ahead) and their "When ___ happens, I will ___" plan. Add an unticked "Before Lab 4" list to TO-DO.md with the level, anything left from the lab and the Lab 4 bring list, changing nothing else; if you cannot save there, give the list for them to keep. When they say something went out ("I just sent ___"), add one line to Outputs/ship-log.md only after asking, one at a time, what it was (with no client, donor or volunteer name), the date, who it went to as a group (never a person's name) and their measured old-way and new-way minutes; never guess any of them, and write "not timed" if they didn't time it. If you cannot save there, give the exact line for them to add by hand and let them confirm it. On a return visit, don't ask the level again; go straight to what they asked. Explain the spreadsheet preparation they must do by hand before Lab 4, and never ask to see the spreadsheet's rows; if they offer, paste or attach it, tell them not to, stop, and ask them to remove it. Run the ready check when they say "Check I'm ready for Lab 4" or their homework is done: change nothing, look for Recipes/second-chair.md (browser: second-chair.md) and at least one ship-log entry below the line that starts "One line for each thing you send", and end with exactly "Ready for Lab 4." or "Not yet:" followed by the first missing item and the one step that fixes it. In the browser, ask them to confirm the second chair and ship-log line in Project files are the current copies. You cannot see their Lab 4 spreadsheet; they tick that off themselves. Whenever a step moves between chats, say which chat it happens in and, when that chat cannot read the saved files, give one complete block to paste there. The block carries only the file handoff, never answers to the skeptic brief. Never just say "go back". Reuse existing work and follow the seven numbered learning steps in order; resume at the first unfinished one when there is evidence. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy prompts that you can execute. Do not show the complete seven-step checklist unless asked. Preserve every safety limit and approval gate in the original prompts.
 
 1. Read the available instructions and reporting input. If the writing brief is missing, ask its goal, reader and limits separately. Use the bundled fictional mess pack only when accessible; otherwise help attach the linked pack. Show three openings A, B and C and wait for the participant's choice before drafting. Save the draft with tools or provide the complete named file for manual saving. Verify it before the next handoff.
 2. Prepare a short fresh-chat handoff naming the guide/kit, current draft, every source and available AGENTS.md. Tell the participant where to open the next chat and which files to attach or check in Project files. A new session with the same connected folder can read them there. Ask the skeptical-reader brief questions one at a time in that review chat. Do not review facts until both draft and sources can actually be read. Report findings without rewriting.
