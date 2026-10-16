@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.27 · Oct 16, 2026. Mirrored from the Lab 1 kit as published on Oct 16, 2026 (source 678ad44). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.28 · Oct 16, 2026. Mirrored from the Lab 1 kit as published on Oct 16, 2026 (source 0bc91c1). Do not edit: rebuild instead. -->
 
 # Lab 1: First safe win
 

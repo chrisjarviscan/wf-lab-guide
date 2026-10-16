@@ -1,6 +1,6 @@
 # Lab Guide
 
-**Lab Guide 1.0.27 · Oct 16, 2026**
+**Lab Guide 1.0.28 · Oct 16, 2026**
 
 Already have the current guide? Skip installation. Stay where your existing work files are accessible.
 
