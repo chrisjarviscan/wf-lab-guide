@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.25 · Oct 16, 2026. Mirrored from the participant page as published on Oct 16, 2026 (source 5e85018). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.26 · Oct 16, 2026. Mirrored from the participant page as published on Oct 16, 2026 (source d1b375b). Do not edit: rebuild instead. -->
 
 # Your AI-Labs folder, and the tools
 

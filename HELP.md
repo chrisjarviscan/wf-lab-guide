@@ -4,7 +4,7 @@
 
 Already have the current guide? Continue in the chat or Project with the permitted files actually visible there.
 
-First time, with Add from GitHub in your Project? Add `chrisjarviscan/wf-lab-guide` (branch `main`) and select only `plugins/wf-lab-guide/skills/lab-guide/SKILL.md`, `pages/lab-3.md`, `assets/KIT-Lab3-Reporting-Adversarial-Pass.md` and `assets/MOCK-Mess-Pack.md` under that same folder. Your own work stays in Project files. Claude then has the kit and practice pack and must not ask you to download them again.
+First time, with Add from GitHub in your Project? Add `chrisjarviscan/wf-lab-guide` (branch `main`) and select only `plugins/wf-lab-guide/skills/lab-guide/SKILL.md`, `pages/lab-3.md`, `assets/KIT-Lab3-Reporting-Adversarial-Pass.md`, `assets/MOCK-Mess-Pack.md`, `assets/writing-skills/ai-syntax-avoidance.md` and `assets/writing-skills/ai-syntax-avoidance-extended.md` under that same folder. Your own work stays in Project files. Claude then has the kit and practice pack and must not ask you to download them again.
 
 First time, without Add from GitHub? Attach this one file to your own Claude work chat or Project:
 

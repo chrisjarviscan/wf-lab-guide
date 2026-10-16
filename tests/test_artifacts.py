@@ -207,6 +207,17 @@ class Artifacts(unittest.TestCase):
             for source in scenario["sources"]:
                 self.assertTrue((SKILL / "pages" / source).is_file(), source)
 
+    def test_hub_mirror_accepts_this_build(self):
+        # The hub's mirror refused 1.0.25 at first because its ZIP check expected the old layout.
+        if SOURCE is None:
+            self.skipTest("--source required to run the hub mirror's ZIP check")
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("mirror", SOURCE / "tools/mirror-lab-guide.py")
+        mirror = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mirror)
+        version = (ROOT / "build/VERSION").read_text().strip()
+        mirror.check_guide_zip((ROOT / "download/lab-guide.zip").read_bytes(), version)
+
     def test_quick_pages_point_only_to_sections_that_exist(self):
         # Lab 3 has no "If you get stuck" section; its quick page must not send people there.
         for n in range(1, 8):

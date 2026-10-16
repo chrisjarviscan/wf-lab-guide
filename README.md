@@ -1,6 +1,6 @@
 # Lab Guide
 
-**Lab Guide 1.0.25 · Oct 16, 2026**
+**Lab Guide 1.0.26 · Oct 16, 2026**
 
 Already have the current guide? Skip installation. Stay where your existing work files are accessible.
 
@@ -10,14 +10,16 @@ Read the path for the screen you are using. Already using the current guide with
 
 ### I'm using Claude in my browser
 
-**Connect the guide from GitHub (one path, no downloads).** In your **AI-Labs Project**, open Project files and choose **Add from GitHub**, where offered. Enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these four files only:
+**Connect the guide from GitHub (one path, no downloads).** In your **AI-Labs Project**, open Project files and choose **Add from GitHub**, where offered. Enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these six files only:
 
 - `plugins/wf-lab-guide/skills/lab-guide/SKILL.md` (the guide's instructions)
 - `plugins/wf-lab-guide/skills/lab-guide/pages/lab-3.md` (the Lab 3 page)
 - `plugins/wf-lab-guide/skills/lab-guide/assets/KIT-Lab3-Reporting-Adversarial-Pass.md` (the Lab 3 kit)
 - `plugins/wf-lab-guide/skills/lab-guide/assets/MOCK-Mess-Pack.md` (the fictional practice pack)
+- `plugins/wf-lab-guide/skills/lab-guide/assets/writing-skills/ai-syntax-avoidance.md` (the writing check)
+- `plugins/wf-lab-guide/skills/lab-guide/assets/writing-skills/ai-syntax-avoidance-extended.md` (the extended writing review)
 
-Your own work (`AGENTS.md`, drafts, voice notes, `second-chair.md`) stays in your Project files or chat attachments, never in GitHub. Once Claude can read those four files in your Project, it has the kit and the practice pack already; it must not ask you to download them again. After the repository changes, use the Project's **Sync** control; see [Help](HELP.md).
+Your own work (`AGENTS.md`, drafts, voice notes, `second-chair.md`) stays in your Project files or chat attachments, never in GitHub. Once Claude can read those six files in your Project, it has the kit and the practice pack already; it must not ask you to download them again. After the repository changes, use the Project's **Sync** control; see [Help](HELP.md).
 
 **No Add from GitHub?** Use the one-file attachment instead:
 

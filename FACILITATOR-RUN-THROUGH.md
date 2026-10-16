@@ -8,7 +8,7 @@ Lab 3: Monday, October 12, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central)
 
 Three routes carry the same guide. Pick the one the participant’s screen offers; do not switch a working route.
 
-1. **Browser, Project with Add from GitHub:** “In your AI-Labs Project, choose Add from GitHub, enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select only the four Lab 3 files: `SKILL.md`, `pages/lab-3.md`, `assets/KIT-Lab3-Reporting-Adversarial-Pass.md` and `assets/MOCK-Mess-Pack.md`, all under `plugins/wf-lab-guide/skills/lab-guide/`. Your own work stays in Project files.”
+1. **Browser, Project with Add from GitHub:** “In your AI-Labs Project, choose Add from GitHub, enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select only the six Lab 3 files: `SKILL.md`, `pages/lab-3.md`, `assets/KIT-Lab3-Reporting-Adversarial-Pass.md`, `assets/MOCK-Mess-Pack.md`, `assets/writing-skills/ai-syntax-avoidance.md` and `assets/writing-skills/ai-syntax-avoidance-extended.md`, all under `plugins/wf-lab-guide/skills/lab-guide/`. Your own work stays in Project files.”
 2. **Browser, no GitHub:** “Attach one guide file in your own Claude work chat or Project. It already contains the Lab 3 kit and the practice pack.”
    [Full guide attachment](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md)
 3. **Desktop app:** “Download the guide ZIP. In Claude’s Skills controls, upload it and enable lab-guide, where offered. Then grant the work session access to your existing AI-Labs folder; the guide alone does not grant file access.”
