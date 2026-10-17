@@ -1,5 +1,5 @@
 {
-  "source_commit": "2ef23bb",
+  "source_commit": "3698f8b",
   "files": [
     {
       "asset": "assets/KIT-Lab3-Reporting-Adversarial-Pass.md",
@@ -12,6 +12,12 @@
       "destination": "Kits/MOCK-Mess-Pack.md",
       "source": "04-Participant Kits/Lab 3/MOCK-Mess-Pack.md",
       "sha256": "1065644dca319cfd020704de34f898d4c498c89487785db3f03925ccfefd0c05"
+    },
+    {
+      "asset": "assets/KIT-Lab4-Data-Clean-Extract.md",
+      "destination": "Kits/KIT-Lab4-Data-Clean-Extract.md",
+      "source": "04-Participant Kits/Lab 4/KIT-Lab4-Data-Clean-Extract.md",
+      "sha256": "8152be4b470886ad048676d864b71eded019696b59f1141f9361c003b46e0140"
     },
     {
       "asset": "assets/KIT-Lab1-First-Safe-Win.md",

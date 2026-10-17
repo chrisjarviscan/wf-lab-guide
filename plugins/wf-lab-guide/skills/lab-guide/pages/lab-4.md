@@ -1,51 +1,62 @@
-<!-- Lab Guide 1.0.31 · Oct 16, 2026. Mirrored from the Lab 4 kit as published on Oct 16, 2026 (source 2ef23bb). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.32 · Oct 17, 2026. Mirrored from the Lab 4 kit as published on Oct 17, 2026 (source 3698f8b). Do not edit: rebuild instead. -->
 
 # Lab 4: Data, clean and extract
 
 You'll leave with a spreadsheet cleaned by Claude, a change log you checked, the organization names back in, and a cleanup recipe. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
 
-## Choose your screen for Lab 4
+## Start here
 
-**Already started?** Keep your existing Project, chat or AI-Labs folder. Do not recreate it or reinstall a working guide. The learning steps below are shared; only file access, saving and restarting differ. Check the tools actually available: if your browser session has approved folder tools, use the connected-folder instructions. If your desktop chat has no folder tools, use the attachment instructions.
+Welcome. Today you clean one spreadsheet with Claude, check every change it made, and keep the recipe for next month. A few steps happen by hand, before anything goes near Claude, and Claude tells you which ones as you go. Your facilitator is in the room for anything Claude can't answer.
 
-### Browser — open and attach
+**Before the lab, by hand.** These keep people's names and your key away from Claude, so you do them yourself.
 
-Open your AI-Labs Project and work chat, if you have one. Make these files available: AGENTS.md and the kit; add only the checked, swapped CSV after step 3. Never attach the original export, the key or the sheet with names restored. Add files to **Project files** for use across chats, or attach them to this chat. Ask Claude to name what it can actually read before starting.
+- **Practice sheet:** save `MOCK-Benevity-Export-Messy.csv` in `AI-Labs/Kits` (in the browser, keep it on your computer), and the practice key, `MOCK-Placeholder-Key.csv`, in a folder outside `AI-Labs` that you never connect, upload or attach to Claude. That folder is your key folder.
+- **Your own sheet:** export the tab you rebuild every month as a `.csv`, every column unhidden, and save it outside `AI-Labs`. Note one month's total from your system. The rules for what stays out are in Before you come.
+- **Show-and-tell:** bring one thing from Lab 3 you're proud of. Your room opens with a one-minute show-and-tell, with no client names.
 
-**No Project?** Use a regular chat. Attach the same permitted files. Keep complete copies of the results yourself. Every time a step says “start fresh,” open a new chat and attach the latest files that step names. A previous chat's attachments are not a substitute. If attachments are unavailable, paste the complete permitted text with each filename above it; never paste a confidential original or key.
+**Then set up the guide.** Find your line, do that one thing, then type the two phrases.
 
-### Desktop — connect your folder
+- **Browser, and your AI-Labs Project offers Add from GitHub:** open Project files, choose **Add from GitHub**, enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these files under `plugins/wf-lab-guide/skills/lab-guide/`: `SKILL.md`, `pages/lab-4.md`, `assets/KIT-Lab4-Data-Clean-Extract.md`, `assets/writing-skills/ai-syntax-avoidance.md`, `assets/writing-skills/ai-syntax-avoidance-extended.md`. Added it before? Open the repository item, choose **Sync**, and add the two Lab 4 files. Never add your key or your original export to the Project.
+- **Browser, no GitHub:** download [lab-guide-chat.md](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md) and upload it once to your AI-Labs Project files, or attach it to your work chat with the paperclip. It already contains this kit. Type the phrases inside your AI-Labs Project, where Claude finds your files faster.
+- **Desktop app:** download [lab-guide.zip](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip) and keep it zipped. In **Customize → Skills**, choose **+**, then **Upload a skill** (on some screens it sits under **Create skill**), select the ZIP and enable **lab-guide**. Uploading it again replaces an older copy. Open a work session on your existing **AI-Labs** folder.
+- **Already have the guide?** Go straight to the phrases. If Claude says your guide is older than the published one, do your line above once more, then type the phrase again. An older copy still runs today's lab.
 
-Open a work session with folder tools (Cowork where offered) and choose your existing **AI-Labs** folder itself. Put this lab's kit and practice files in **Kits**. Use only permitted material. Ask Claude to name files it can actually read. A desktop chat without folder access follows the browser file steps; installing a skill alone does not connect a folder.
+**Pick a model that thinks.** In the model menu, choose Sonnet or Opus, not Haiku. Haiku is fast, but it rushes careful work like checking a sheet.
 
-## Save and continue on your screen
+Type:
 
-### Browser — keep a usable copy
+```prompt
+Check my Lab 4 access.
+```
 
-Keep the cleaned CSV with placeholders still in, its change log, your cleanup recipe, AGENTS.md and ship-log.md. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
+```done
+Claude gives its guide version, quotes this kit and names the Lab 4 files it can see. It never opens a file with "key" in its name. If it sees one, move that file out by hand.
+```
 
-Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
+Then type:
 
-In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
+```prompt
+I'm ready to begin Lab 4.
+```
 
-### Desktop — save and reopen
+Answer one question at a time. When Claude says a step is by hand, do it in your spreadsheet and tell Claude when it's done. When Claude asks, type "saved" or "done" in the Zoom chat, so your facilitator can see where you are.
 
-Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
+**Claude saying too much?** Type "Shorter, please. One step at a time."
 
-**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
+**Already clean sheets with Claude every month?** Say so when you begin. Claude keeps every by-hand and safety step and moves you faster through the rest.
 
-**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
+**New today, or missed a lab?** Come anyway and tell Claude when you begin. It keeps today's work going and saves the catch-up for this week. Setup is on the participant page (see hub-start.md).
 
-**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
+**Short on time in your room?** Type "We have ten minutes left. Save where I am and tell me what's left." Claude saves your cleanup recipe first if you've run it, and lists what's left for this week.
+
+**Finished early?** Ask Claude to turn your cleaned sheet into a simple chart, placeholders still in. Keep it private, and check every number against your reconciled totals before anyone sees it.
 
 ## Before you come
 
-If your ready check at the end of Lab 3 said you're ready for Lab 4, your saved work is ready. Use the screen instructions above to make these files available:
+If your ready check at the end of Lab 3 said you're ready for Lab 4, your saved work is ready. The guide already carries this kit; these are the parts you handle yourself:
 
-- **Desktop:** save the Lab 4 files into `AI-Labs/Kits`. **Browser:** download these files and add them to Project files or attach them to your work chat:
-  - this kit, `KIT-Lab4-Data-Clean-Extract.md`
-  - the practice sheet, `MOCK-Benevity-Export-Messy.csv`
-- Save the practice key, `MOCK-Placeholder-Key.csv`, in a folder you choose outside `AI-Labs`, where your organization keeps confidential records, never in `Kits`. That's your key folder, for your own key too. Keys never go near Claude, so you move them by hand.
+- **Desktop:** save the practice sheet, `MOCK-Benevity-Export-Messy.csv`, in `AI-Labs/Kits`. **Browser:** keep it on your computer for steps 1 to 3; only the swapped copy goes to Claude. Working without the guide? Save this kit too, `KIT-Lab4-Data-Clean-Extract.md`.
+- Save the practice key, `MOCK-Placeholder-Key.csv`, in a folder you choose outside `AI-Labs`, where your organization keeps confidential records, never in `Kits`, and never connected, uploaded or attached to Claude. That's your key folder, for your own key too. Keys never go near Claude, so you move them by hand.
 - Bring one thing you made in Lab 3 that you're proud of, your revised section or what you turned it into. Your breakout room opens with a one-minute show-and-tell, with no client names in it.
 - Choose your material. Both take the same steps today.
   - Your own: your recurring spreadsheet's tab exported as a `.csv` file, every column unhidden, saved outside `AI-Labs`, plus one month's total from your system and how long cleaning it takes by hand.
@@ -245,49 +256,25 @@ Choose one level. You and your colleague can choose different ones, and you can 
 | **Ship It** | 1 to 2 hours | Keep Pace on a bigger sheet, timed against your by-hand minutes | A timed sheet sent |
 | **Build Ahead** | 3 hours or more | Ship It, plus a recipe for a second sheet, and send that one too | Two sheets sent |
 
-If you used the practice sheet today, answer the brief's questions for your own sheet first.
-
 Write your plan in the Zoom chat before you leave: When ___ happens this week, I will ___. For example: When next month's export lands, I will swap the names and run my recipe, 10 rows first.
 
-Before you leave, add the week to your to-do list. In Cowork, paste this with your level filled in. Claude will add your homework and the Lab 5 bring list to `TO-DO.md` as unticked items and change nothing else.
+To do it, open your work chat and type:
 
 ```prompt
-My homework level this week is ___. Add it and the Lab 5 bring list from Kits/KIT-Lab4-Data-Clean-Extract.md to TO-DO.md, as unticked items under a heading "Before Lab 5". Don't change anything else.
+Start my Lab 4 homework.
 ```
 
-```done
-`TO-DO.md` has a heading "Before Lab 5" with your homework and the bring list under it.
-```
-
-- Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains this week's items and keeps everything else as you left it.
-- Browser: add "Before Lab 5", your level and the bring list to `TO-DO.md` yourself.
-
-Bring to Lab 5: the meeting your next deck is for (who will be in the room, what they're deciding, and when), and the numbers for it: today's cleaned sheet with its placeholders still in, or another sheet prepared the same way. Or choose the practice set in the Lab 5 kit, written for a funder's quarterly committee; the steps are the same.
-
-Ship log: one line in `Outputs/ship-log.md` for everything you send, with old-way and new-way stopwatch minutes. For who it went to, give a group like "donors" or "board", never a person's name. In Cowork, paste this when something goes out; in the browser, add the line by hand. Claude will ask you what it was, the date, who it went to and both stopwatch times, then add one line to the log.
-
-```prompt
-Add a line to Outputs/ship-log.md for the item we just sent. Ask me what it was, the date, who it went to (a group like "board", never a person's name), and my old-way and new-way stopwatch minutes. Don't guess any of them.
-```
-
-```done
-Claude asked you what it was, the date, who it went to and both times, then added one line to `Outputs/ship-log.md`.
-```
-
-- Why this way: it uses "ask me, don't guess" from Ways to ask Claude (see hub-ways.md), so every number in your log is one you measured.
-
-When your homework is done, check you're ready for Lab 5. In Cowork, paste this. Claude will look through your folder without changing anything or opening any key file, and end with one line: ready, or the first thing missing or misplaced.
-
-```prompt
-Check my AI-Labs folder, and don't change anything. Look for a recipe in Recipes whose name ends in -cleanup.md, a change log in Outputs whose name ends in -change-log.md, and at least one entry in Outputs/ship-log.md below the line that starts "One line for each thing you send". Also look at the name of every file in every folder: any with "key" anywhere in its name, in capitals or not, is misplaced, and you don't open it. Keep your reply short, and end it with exactly one of these lines: "Ready for Lab 5." or "Not yet:" followed by the first missing or misplaced item and the one step that fixes it.
-```
+Claude picks up wherever you stopped in the lab, including saving your cleanup recipe, asks your level and adds the week to your to-do list. If you used the practice sheet today, it helps you write the brief for your own sheet first. Time your work with a stopwatch, and note your by-hand minutes. Each time something goes out, come back and say "I just sent ___"; for who it went to, give a group like "board", never a person's name. When you're done, say "Check I'm ready for Lab 5."
 
 ```done
 Claude's last line says "Ready for Lab 5." If it names a file with "key" in its name, move that file out of `AI-Labs` by hand, then check again.
 ```
 
-- Why this way: it uses "end with one clear line" from Ways to ask Claude (see hub-ways.md), so the last line tells you at a glance whether you're set.
-- Browser: check by hand for the recipe, the change log and a ship-log line, and move out any file with "key" in its name. Then tap Done.
+**Do these parts yourself, as in the lab.** On your own sheet, steps 1 to 3 and step 7 stay by hand: delete the red and notes columns, make your key, swap the names and count before anything goes near Claude, then reconcile and put the names back in a copy in your key folder. Claude sees only your top row for the heading check (in the browser, in a new chat outside your Project) and then your checked, swapped copy. In the browser, Claude gives you each file or line instead of saving it; save it in `AI-Labs` and upload it to your Project yourself. Never attach, paste or upload your key, the original export or the sheet with names back in; if one goes in by mistake, stop, remove it and tell your facilitator.
+
+Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details.
+
+**Bring to Lab 5:** the meeting your next deck is for (who will be in the room, what they're deciding, and when), and the numbers for it: today's cleaned sheet with its placeholders still in, or another sheet prepared the same way. Or choose the practice set in the Lab 5 kit, written for a funder's quarterly committee; the steps are the same.
 
 ## Use it again
 
@@ -321,3 +308,36 @@ AI-Labs/
 ```
 
 Outside every Claude-accessible folder, Project and chat attachment: your own export, the preparation copy, the placeholder key and the sheet with real names restored. Keep these in your permitted private storage, never in a folder Claude can read. On the practice route, today's files start with `grants-`.
+
+## How Claude runs Lab 4
+
+**Teach as you go.** The participant does not read this kit; you do. Before each action, say in one or two plain sentences what you are about to do, why it matters for a sheet a board or funder will rely on, and where it sits in the seven weeks (Lab 1: a first safe win and the instructions file; Lab 2: the organization's voice; Lab 3: a second chair that reads like the most skeptical board member; Lab 4: a cleanup recipe with a change log you check; later labs turn clean numbers into a deck, then into reusable workflows). Then do it, show the result, and ask for the one decision or answer you need. Answer "why?" whenever asked. Use the route the participant is actually on: a connected AI-Labs folder, Project files, or attachments in this chat. Never ask them to download or re-attach this kit when you can already read it.
+
+**Keep it short.** Keep every reply to a few short lines: one action or one question, and its result. Offer more detail only when asked. "Shorter, please" means shorter from then on. When there are many items (changes, rules, findings), give the count and the top three, and let the participant choose which to take first; only the checks the steps require (every judgment call in the first 10 rows) are not optional.
+
+**At the start, once.** Ask them to glance at the model menu: Sonnet or Opus suits this lab, Haiku rushes it. If they say they already clean sheets with Claude, keep every by-hand and safety step, skip explanations they don't need, and after step 8 offer Build Ahead's second sheet. If they are new or missed earlier labs, say that doesn't stop today; continue with what exists, keep practice separate from real files, keep a partial AGENTS.md marked unfinished, and save catch-up for this week. If the room is doing its show-and-tell, wait for the facilitator.
+
+**Checkpoints in the room.** Rooms are often quiet, so the facilitator watches the Zoom chat. When step 3's swapped copy is saved, ask them to type "saved" in the Zoom chat. When step 7 reconciles, ask them to type "done". One line each time.
+
+“Check my Lab 4 access” is read-only. Give the guide version line and run the version check in SKILL.md. Quote one instruction from this kit. Then list, by name only, the Lab 4 files you can actually see: the practice sheet, a swapped copy, a cleanup recipe, a change log, AGENTS.md. Open and quote no spreadsheet rows during the check. Never open a file with "key" in its name. Judge by file name only and never open a file to decide; if a name suggests a key, an original export or a sheet with names restored ("key", "original", "export", "restored"), or you are unsure, ask the participant. If one is in AI-Labs, Project files or this chat, say so in one line: they move it out by hand, and in a Project they remove it and tell the facilitator, because deleting it does not undo the exposure. Change nothing.
+
+“I'm ready to begin Lab 4” and natural equivalents start the guided session. Follow the ten numbered steps in order, resuming at the first unfinished one when the files show it. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy a prompt you can run. Do not show the full step list unless asked. Preserve every safety limit and approval gate in the original prompts.
+
+1. Ask whether they are using their own sheet or the practice sheet. Give the spreadsheet rule in two or three sentences: red columns (anything that names or identifies a person, staff included) and notes columns are deleted, person-level rows become counts first, organization names become `ORG-01` placeholders. Step 1's copy and deletions are by hand: explain them and wait for "done". The heading check runs in a new chat, as step 1 says (browser: outside the Project): give them step 1's prompt to paste there with the top row only, and ask for its last line. Practice sheet: skip the heading check. The practice sheet's names are fictional, the one exception to the placeholder rule: it may sit in Kits, but they still copy and swap it by hand (browser: on their computer) into `grants-swapped.csv`, and you run the cleanup only on the swapped copy.
+2. Step 2 is by hand. Explain the key's three columns and the numbering, one sentence each, and wait. Practice: they use `MOCK-Placeholder-Key.csv` in their key folder.
+3. Step 3 is by hand. Explain the whole-cell swap, the filter check and the whole-sheet check, then wait. They write down the row count and total for themselves; you do not need them. Once the swapped copy is saved in `Working` (browser: uploaded once to AI-Labs Project files, the copy step 4 uses, so it is not uploaded twice), ask them to type "saved" in the Zoom chat.
+4. Help them answer the four brief questions one at a time, placeholders only, then add the must-have lines from "Your brief to Claude" word for word. Practice answers are in the kit. Step 4 starts fresh: say where to open the new chat and which files it needs (the swapped copy and AGENTS.md; browser without a Project: attach those and `lab-guide-chat.md`), and give one complete block to paste there. Steps 5 to 8 continue in that chat. Run 10 rows, show the change log and wait.
+5. Step 5 is theirs. Explain judgment call versus format rule in one sentence. For each wrong change, help word one rule, placeholders only, and run step 4 again.
+6. On their yes, clean the rest with step 6's prompt and show the log or its new lines.
+7. Step 7 is by hand: they count, total and match each difference to a log line, then swap the names back in a copy in their key folder. Never total or reconcile for them; a check on Claude can't come from Claude. When it reconciles, ask them to type "done" in the Zoom chat.
+8. In the step 4 chat, save the brief word for word as the `-cleanup.md` recipe in `Recipes` (browser: the plain text file they upload), then reopen it. If that chat is gone, ask them to paste the brief from their Notepad or TextEdit copy; never rebuild it from memory.
+9. Run the outside read in a fresh chat with step 9's prompt (browser without a Project: attach the recipe, the change log and `lab-guide-chat.md`). They decide each rule.
+10. Suggest at most three AGENTS.md lines from confirmed fixes and wait for a yes on each.
+
+Before calling the sheet done, ask the ship checklist from the kit as questions, one at a time. At the end, give the three homework levels from "This week", their plan line, the phrase "Start my Lab 4 homework." and what to bring to Lab 5. Saving: with tools, save and reopen; in the browser, say "Ready to download", remind them a CSV must be exported as CSV, not renamed, and that only the checked, swapped copy and the files Claude made go into the Project; without tools, give the plain-text save and mark it pending. If time is short, finish the decision in hand, save the recipe first if the brief has run, then list what's left as this week's work and offer to add it to TO-DO.md under "Before Lab 5".
+
+**Homework.** "Start my Lab 4 homework" and natural equivalents start the homework. First resume any unfinished lab step, in order; saving the cleanup recipe (step 8) comes before anything else, then the outside read (step 9) and the AGENTS.md lines (step 10). Then ask the participant's level (Keep Pace, Ship It or Build Ahead) and their "When ___ happens, I will ___" plan. Add an unticked "Before Lab 5" list to TO-DO.md with the level, anything left from the lab and the Lab 5 bring list, changing nothing else; if you cannot save there, give the list for them to add to TO-DO.md by hand. If they used the practice sheet in the lab, help them answer the four brief questions for their own sheet, one at a time, naming organizations only by placeholder, and add the must-have lines from "Your brief to Claude" word for word. Step 1's deletions and steps 2, 3 and 7 are by hand: explain what each one asks, one at a time, and wait for the participant to say it is done; never do, check or count them for the participant. Your only part before step 4 is the step 1 heading check, run with its prompt on the pasted top row only; in the browser it happens in a new chat outside the Project. Never ask to see the original export, the key or the sheet with names restored, or any row before the step 3 check is done. If they offer, paste or attach any of these, tell them not to, stop, and ask them to remove it; in a Project, tell them to remove the file and tell the facilitator, because deleting it does not undo the exposure. Never open, move or delete a file with "key" in its name. Run their cleanup only from the checked, swapped copy, as steps 4 to 6 say: 10 rows first, show the change log, and do the rest only after their yes. If a cell looks like a person's name, save nothing and give only its row number.
+
+When they say something went out ("I just sent ___"), add one line to Outputs/ship-log.md only after asking, one at a time, what it was (with no client, donor or volunteer name), the date, who it went to as a group (never a person's name) and their measured old-way and new-way minutes; never guess any of them, and write "not timed" if they didn't time it. If you cannot save there, give the exact line for them to add by hand and let them confirm it. On a return visit, don't ask the level again; go straight to what they asked.
+
+Run the ready check when they say "Check I'm ready for Lab 5" or their homework is done: change nothing and open no file with "key" in its name. Look for a recipe in Recipes whose name ends in -cleanup.md, a change log in Outputs whose name ends in -change-log.md, and at least one ship-log entry below the line that starts "One line for each thing you send". Look at the name of every file in every folder: any with "key" anywhere in its name, in capitals or not, is misplaced. Keep your reply short, and end it with exactly "Ready for Lab 5." or "Not yet:" followed by the first missing or misplaced item and the one step that fixes it; a misplaced key is moved out of AI-Labs by the participant, by hand. In the browser, ask them to confirm the recipe, change log and ship-log line in Project files are the current copies, that no file with "key" in its name is in Project files or attached, and that none is in their AI-Labs folder; if one is, they move it out by hand. You cannot see their Lab 5 meeting or numbers; they tick those off themselves. Whenever a step moves between chats, say which chat it happens in and, when that chat cannot read the saved files, give one complete block to paste there; never just say "go back". A step the kit marks "start fresh" runs in a new chat, never in this one. A step that names its chat ("in the same chat", "the chat where you ran the brief") runs there; if that chat is gone, ask the participant to paste what the step needs from their saved files or their Notepad or TextEdit copy, and never rebuild it from memory. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy prompts that you can execute. Preserve every safety limit and approval gate in the original prompts.
