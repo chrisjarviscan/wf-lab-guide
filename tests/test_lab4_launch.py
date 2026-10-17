@@ -30,9 +30,22 @@ class Lab4Launch(unittest.TestCase):
         self.assertIn('assets/KIT-Lab4-Data-Clean-Extract.md', names)
         for name in names:
             self.assertNotIn('Key', name)
-            self.assertNotIn('Benevity', name)
+            self.assertNotIn('Messy', name)
+            self.assertFalse(name.split('/')[-1].startswith(('FACIL', 'MOCK-Benevity')), name)
         chat = (ROOT / 'download/lab-guide-chat.md').read_text()
         self.assertNotIn('BEGIN ASSET assets/MOCK-Placeholder-Key', chat)
+
+
+    def test_labs_5_to_7_have_guided_sessions(self):
+        skill = (SKILL / 'SKILL.md').read_text()
+        for n in (5, 6, 7):
+            page = (SKILL / f'pages/lab-{n}.md').read_text()
+            self.assertIn('## Start here', page)
+            self.assertIn(f'## How Claude runs Lab {n}', page)
+            self.assertIn(f'Check my Lab {n} access.', page)
+            self.assertIn(f"I'm ready to begin Lab {n}.", page)
+            self.assertNotIn(f'## Choose your screen for Lab {n}', page)
+        self.assertIn('Labs 4 to 7 guided work', skill)
 
 
 if __name__ == '__main__':

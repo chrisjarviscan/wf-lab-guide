@@ -578,15 +578,15 @@ def deterministic_zip(src_dir, zip_path, arc_root):
                     z.writestr(info, fh.read())
 
 
-def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills):
+def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills, lab5_practice=None):
     """One readable attachment for accounts without an installable skill."""
     guide = re.sub(r"^---\n.*?\n---\n", "", skill, count=1, flags=re.S).lstrip()
     intro = ("# Lab Guide — chat attachment\n\n"
              "This attachment contains the guide's instructions and every current source page. "
-             "Use it in your current Claude work chat or Project for questions and guided Lab 2, Lab 3 or Lab 4 work. "
+             "Use it in your current Claude work chat or Project for questions and guided work in Labs 2 to 7. "
              "Reuse permitted files already available there; no new chat is required to begin. "
              "The fictional Lab 2 practice pack and the fictional Lab 3 mess pack are included below, "
-             "so practice needs no other upload; the Lab 3 kit is the embedded pages/lab-3.md and the Lab 4 kit is pages/lab-4.md. The Lab 4 practice sheet and key are deliberately not included: participants save them by hand, and the key never goes near Claude. "
+             "so practice needs no other upload; the Lab 3 kit is the embedded pages/lab-3.md and the Lab 4 to 7 kits are pages/lab-4.md to pages/lab-7.md. The Lab 5 practice set is not included: participants save it from the Lab 5 page. The Lab 4 practice sheet and key are deliberately not included: participants save them by hand, and the key never goes near Claude. "
              "This attachment does not install a local-folder helper or grant computer access. When the instructions "
              "say to open or read a pages/ file, read the matching Embedded source page below. "
              "If you cannot read this attachment or its matching page, follow the guide's "
@@ -610,6 +610,12 @@ def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills):
                     "\n<!-- BEGIN ASSET assets/MOCK-Mess-Pack.md -->\n"
                     + mess_pack.rstrip()
                     + "\n<!-- END ASSET assets/MOCK-Mess-Pack.md -->\n")
+    if lab5_practice:
+        sections.append("\n## Bundled Lab 5 practice material\n"
+                        "Read these matching embedded assets when the Lab 5 kit names them, with or without Kits/. "
+                        "They are fictional and already use placeholders like ORG-01. Never use them as real organizational facts.\n")
+        for name, contents in lab5_practice.items():
+            sections.append(f"\n<!-- BEGIN ASSET assets/{name} -->\n" + contents.rstrip() + f"\n<!-- END ASSET assets/{name} -->\n")
     for name, contents in writing_skills.items():
         rel = f"assets/writing-skills/{name}.md"
         sections.append(f"\n<!-- BEGIN ASSET {rel} -->\n" + contents.rstrip()
@@ -674,6 +680,9 @@ def main():
         "KIT-Lab3-Reporting-Adversarial-Pass.md": "04-Participant Kits/Lab 3/KIT-Lab3-Reporting-Adversarial-Pass.md",
         "MOCK-Mess-Pack.md": "04-Participant Kits/Lab 3/MOCK-Mess-Pack.md",
         "KIT-Lab4-Data-Clean-Extract.md": "04-Participant Kits/Lab 4/KIT-Lab4-Data-Clean-Extract.md",
+        "KIT-Lab5-Numbers-Narrative-Deck.md": "04-Participant Kits/Lab 5/KIT-Lab5-Numbers-Narrative-Deck.md",
+        "KIT-Lab6-Agents-Toolbox.md": "04-Participant Kits/Lab 6/KIT-Lab6-Agents-Toolbox.md",
+        "KIT-Lab7-Build-Roadmap.md": "04-Participant Kits/Lab 7/KIT-Lab7-Build-Roadmap.md",
         "KIT-Lab1-First-Safe-Win.md": "04-Participant Kits/Lab 1/KIT-Lab1-First-Safe-Win.md",
         "KIT-Lab2-Writing-Org-Brain.md": "04-Participant Kits/Lab 2/KIT-Lab2-Writing-Org-Brain.md",
         "STARTER-AGENTS.md": "04-Participant Kits/Lab 1/STARTER-AGENTS.md",
