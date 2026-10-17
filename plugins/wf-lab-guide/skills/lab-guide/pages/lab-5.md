@@ -1,46 +1,62 @@
-<!-- Lab Guide 1.0.32 · Oct 17, 2026. Mirrored from the Lab 5 kit as published on Oct 17, 2026 (source 3698f8b). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.33 · Oct 17, 2026. Mirrored from the Lab 5 kit as published on Oct 17, 2026 (source 7861a9f). Do not edit: rebuild instead. -->
 
 # Lab 5: Numbers to narrative to deck
 
 You'll leave with checked insights, a checked narrative and a slide outline for an upcoming meeting, yours or the practice set's, plus a slide deck (.pptx) started with Claude and finished at home if needed. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
 
-## Choose your screen for Lab 5
+## Start here
 
-**Already started?** Keep your existing Project, chat or AI-Labs folder. Do not recreate it or reinstall a working guide. The learning steps below are shared; only file access, saving and restarting differ. Check the tools actually available: if your browser session has approved folder tools, use the connected-folder instructions. If your desktop chat has no folder tools, use the attachment instructions.
+Welcome. Today you turn checked numbers into a narrative, a slide outline and a deck for a real meeting, or for the practice committee. You check the numbers yourself, by hand, and Claude tells you when. Claude leads from here, one question at a time. Your facilitator is in the room for anything Claude can't answer.
 
-### Browser — open and attach
+**Bring:**
 
-Open your AI-Labs Project and work chat, if you have one. Make these files available: AGENTS.md, the cleaned sheet with placeholders still in, and the context file (or both practice files). Add files to **Project files** for use across chats, or attach them to this chat. Ask Claude to name what it can actually read before starting.
+- **Your own numbers:** your Lab 4 cleaned sheet with its placeholders still in, or another sheet prepared the same way, by hand, before it goes near Claude. Know the meeting your next deck is for: who will be in the room, what they're deciding, and when.
+- **Or the practice set:** a fictional funder's grants sheet and context file. Save `MOCK-Benevity-Export-CLEANED-Reference.csv` and `MOCK-Program-Context.md` in `AI-Labs/Kits` (in the browser, add them to Project files).
+- **Your spreadsheet app**, open, for the by-hand checks in step 3.
+- **Slides:** if your account offers code execution and file creation, turn them on so Claude can make a `.pptx`. Can't find it? Come anyway, and your facilitator can show you.
 
-**No Project?** Use a regular chat. Attach the same permitted files. Keep complete copies of the results yourself. Every time a step says “start fresh,” open a new chat and attach the latest files that step names. A previous chat's attachments are not a substitute. If attachments are unavailable, paste the complete permitted text with each filename above it; never paste a confidential original or key.
+Your key and anything with real names stay outside `AI-Labs`, never connected, uploaded or attached to Claude.
 
-### Desktop — connect your folder
+**Then set up the guide.** Find your line, do that one thing, then type the two phrases.
 
-Open a work session with folder tools (Cowork where offered) and choose your existing **AI-Labs** folder itself. Put this lab's kit and practice files in **Kits**. Use only permitted material. Ask Claude to name files it can actually read. A desktop chat without folder access follows the browser file steps; installing a skill alone does not connect a folder.
+- **Browser, and your AI-Labs Project offers Add from GitHub:** open Project files, choose **Add from GitHub**, enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these files under `plugins/wf-lab-guide/skills/lab-guide/`: `SKILL.md`, `pages/lab-5.md`, `assets/KIT-Lab5-Numbers-Narrative-Deck.md`, `assets/writing-skills/ai-syntax-avoidance.md`, `assets/writing-skills/ai-syntax-avoidance-extended.md`. Added it before? Open the repository item, choose **Sync**, and add the two Lab 5 files. Never add your key or a file with real names to the Project.
+- **Browser, no GitHub:** download [lab-guide-chat.md](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md) and upload it once to your AI-Labs Project files, or attach it to your work chat with the paperclip. It already contains this kit. Type the phrases inside your AI-Labs Project, where Claude finds your files faster.
+- **Desktop app:** download [lab-guide.zip](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip) and keep it zipped. In **Customize → Skills**, choose **+**, then **Upload a skill** (on some screens it sits under **Create skill**), select the ZIP and enable **lab-guide**. Uploading it again replaces an older copy. Open a work session on your existing **AI-Labs** folder.
+- **Already have the guide?** Go straight to the phrases. If Claude says your guide is older than the published one, do your line above once more, then type the phrase again. An older copy still runs today's lab.
 
-## Save and continue on your screen
+**Pick a model that thinks.** In the model menu, choose Sonnet or Opus, not Haiku. Haiku is fast, but it rushes careful work like checking every number against its rows.
 
-### Browser — keep a usable copy
+Type:
 
-Keep context.md, the checked narrative, slide outline, deck if created, numbers-to-deck.md, AGENTS.md and ship-log.md. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
+```prompt
+Check my Lab 5 access.
+```
 
-Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
+```done
+Claude gives its guide version, quotes this kit and names the Lab 5 files it can see, like AGENTS.md, second-chair.md and your cleaned sheet or the practice files. It never opens a file with "key" in its name. If it sees one, move that file out by hand.
+```
 
-In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
+Then type:
 
-### Desktop — save and reopen
+```prompt
+I'm ready to begin Lab 5.
+```
 
-Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
+Answer one question at a time. When Claude says a step is by hand, do it in your spreadsheet app and tell Claude when it's done. When Claude asks, type "counted", "saved" or "done" in the Zoom chat, so your facilitator can see where you are.
 
-**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
+**Claude saying too much?** Type "Shorter, please. One step at a time."
 
-**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
+**Already build decks with Claude?** Say so when you begin. Claude keeps every by-hand check and safety step and moves you faster through the rest.
 
-**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
+**New today, or missed a lab?** Come anyway and tell Claude when you begin. The practice set works without your Lab 4 sheet, and Claude saves the catch-up for this week. Setup is on the participant page (see hub-start.md).
+
+**Short on time in your room?** Type "We have ten minutes left. Save where I am and tell me what's left." Claude saves your narrative and recipe first if you've written them, marks the deck pending, and lists what's left for this week.
+
+**Finished early?** Run step 10 again on a second slide. Claude asks the question you'd least like to hear about it, and you note whether the narrative answers it.
 
 ## Before you come
 
-If your ready check at the end of Lab 4 said you're ready for Lab 5, your saved work is ready. Use the screen instructions above to make these files available:
+If your ready check at the end of Lab 4 said you're ready for Lab 5, your saved work is ready. The guide already carries this kit; these are the parts you handle yourself:
 
 - **Desktop:** save the Lab 5 files into `AI-Labs/Kits`. **Browser:** download these files and add them to Project files or attach them to your work chat:
   - this kit, `KIT-Lab5-Numbers-Narrative-Deck.md`
@@ -48,7 +64,7 @@ If your ready check at the end of Lab 4 said you're ready for Lab 5, your saved 
   - the practice context file, `MOCK-Program-Context.md`
 - Choose your material. Both take the same steps today.
   - Your own: the meeting your next deck is for (who will be in the room, what they're deciding, and when), and the numbers for it: your Lab 4 cleaned sheet with its placeholders still in, or another sheet prepared the same way.
-  - The practice set: a fictional funder's grants sheet and context file, for its quarterly committee, already in `Kits`.
+  - The practice set: a fictional funder's grants sheet and context file, for its quarterly committee, saved in `Kits` (browser: Project files). Its organization names are fictional, the one exception to the placeholder rule.
 - Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet adds a stricter rule:
   - Delete every column that names or identifies a person, staff included: names, addresses, phones, emails, birth dates, ID numbers. These are the red columns.
   - Delete notes and comments columns too. Names hide in them, and a header can't show you what's in the cells.
@@ -97,7 +113,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
 
 1. **Write the context file (5 minutes).** It holds what the numbers can't show. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached).
    - Your own numbers: paste this, answer by role, never by name, and say "done" to finish.
-   - Practice set: read `Kits/MOCK-Program-Context.md`, then go to step 2.
+   - Practice set: read `Kits/MOCK-Program-Context.md` (browser: the copy in Project files), then go to step 2.
 
    Claude will interview you, then save and show you `Working/context.md`.
 
@@ -274,62 +290,30 @@ Choose one level. You and your colleague can choose different ones, and you can 
 | **Ship It** | 1 to 2 hours | Keep Pace, then present it, or send it ahead with the narrative as the pre-read (names back in too), timed | A deck used for a real decision, and a timed ship-log line |
 | **Build Ahead** | 3 hours or more | Ship It, then send a second deck made with your recipe | Two decks sent from one recipe |
 
-When your deck is finished, put the real names back by hand, from your key, in a copy outside `AI-Labs`, because the key never goes near Claude. Then read every slide, note and chart for any placeholder that find and replace missed.
-
 If you used the practice set, add half an hour for steps 1 to 9 on your own numbers, prepared as "Before you come" says.
 
 Write your plan in the Zoom chat before you leave: When ___ happens this week, I will ___. For example: When next week's board agenda arrives, I will finish the deck from my outline.
 
-Before you leave, add the week to your to-do list. In Cowork, paste this with your level filled in. Claude will add your homework and the Lab 6 bring list to `TO-DO.md` as unticked items and change nothing else.
+To do it, open your work chat and type:
 
 ```prompt
-My homework level this week is ___. Add it and the Lab 6 bring list from Kits/KIT-Lab5-Numbers-Narrative-Deck.md to TO-DO.md, as unticked items under a heading "Before Lab 6". Don't change anything else.
+Start my Lab 5 homework.
 ```
 
-```done
-`TO-DO.md` has a heading "Before Lab 6" with your homework and the bring list under it.
-```
-
-- Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains this week's items and keeps everything else as you left it.
-
-Bring to Lab 6: a draft that's about to ship and the files it came from (today's narrative counts), and a research brief. Pick one real question your organization needs answered, the kind you'd act on this month. Write the brief in the four parts, ask for a date on every source and a list of what it couldn't find, and save it as `Working/research-brief.md`. You'll each run Research on your own brief, so if you and your colleague share a question, each save a copy of the brief in your own folder.
-
-In Cowork, paste this with your brief below it. Claude will check it names no client, donor or volunteer, save it word for word as `Working/research-brief.md`, and show it, without acting on it.
-
-```prompt
-Save the research brief below, word for word, as Working/research-brief.md. If it names any client, donor or volunteer, save nothing and tell me which name to take out. Don't act on the brief or start any research. Then show me the file so I can check it.
-```
-
-```done
-Claude shows `Working/research-brief.md` with your brief as you wrote it, and has started no research. If it names someone to take out, take them out of your brief and paste again.
-```
-
-- Why this way: pasted alone, a brief reads as a request to start. It uses "word for word" and "show me so I can check", like step 4. The same save-without-acting move keeps a grant outline, a board question list or next week's volunteer email ready for later without Claude running ahead.
-- Browser: save your brief as plain text in `Working`, named `research-brief.md`, and upload it to your Project.
-
-Ship log: one line in `Outputs/ship-log.md` for everything you send, with old-way and new-way stopwatch minutes. For who it went to, give a group like "donors" or "board", never a person's name. In Cowork, paste this when something goes out; in the browser, add the line by hand. Claude will ask you what it was, the date, who it went to and both stopwatch times, then add one line to the log.
-
-```prompt
-Add a line to Outputs/ship-log.md for the item we just sent. Ask me what it was, the date, who it went to (a group like "board", never a person's name), and my old-way and new-way stopwatch minutes. Don't guess any of them.
-```
-
-```done
-Claude asked you what it was, the date, who it went to and both times, then added one line to `Outputs/ship-log.md`.
-```
-
-- Why this way: it uses "ask me, don't guess" from Ways to ask Claude (see hub-ways.md), so every number in your log is one you measured.
-
-When your homework is done, check you're ready for Lab 6. In Cowork, paste this. Claude will look through your folder without changing anything and end with one line: ready, or the first thing still missing.
-
-```prompt
-Check my AI-Labs folder, and don't change anything. Look for Working/research-brief.md with all four parts of a brief in it (the goal and why it matters, the files to use, what done looks like, the limits), Recipes/second-chair.md, and at least one entry in Outputs/ship-log.md below the line that starts "One line for each thing you send". Also look at the name of every file in every folder: any with "key" anywhere in its name, in capitals or not, is misplaced, and you don't open it. Keep your reply short, and end it with exactly one of these lines: "Ready for Lab 6." or "Not yet:" followed by the first missing or misplaced item and the one step that fixes it.
-```
+Claude picks up wherever you stopped in the lab, including finishing your recipe and the deck, asks your level and adds the week to your to-do list. It also asks you the four parts of your research brief for Lab 6 and saves your answers without starting any research. In the browser, Claude gives you each file or line instead of saving it; save it in `AI-Labs` and upload it to your Project yourself. Time your work with a stopwatch, and note how long it took the old way. Each time something goes out, come back and say "I just sent ___"; for who it went to, give a group like "board", never a person's name. When you're done, say "Check I'm ready for Lab 6."
 
 ```done
 Claude's last line says "Ready for Lab 6." If it names a file with "key" in its name, move that file out of `AI-Labs` by hand, then check again.
 ```
 
-- Why this way: it uses "end with one clear line" from Ways to ask Claude (see hub-ways.md), so the last line tells you at a glance whether you're set.
+**Do this part yourself.** When your deck is finished, put the real names back by hand, from your key, in a copy outside `AI-Labs`, because the key never goes near Claude. Then read every slide, note and chart for any placeholder that find and replace missed. Open the actual `.pptx` and check it before you send it; a file name in the chat is not a finished deck.
+
+Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details.
+
+**Bring to Lab 6:**
+
+- A draft that's about to ship and the files it came from (today's narrative counts).
+- A research brief for one real question your organization needs answered, the kind you'd act on this month, with no client, donor or volunteer named in it, saved as `Working/research-brief.md`. You'll each run Research on your own brief, so if you and your colleague share a question, each save a copy in your own folder.
 
 ## Use it again
 
@@ -362,3 +346,39 @@ AI-Labs/
 ```
 
 Outside `AI-Labs`: your key, and the deck with the real names back in.
+
+## How Claude runs Lab 5
+
+**Teach as you go.** The participant does not read this kit; you do. Before each action, say in one or two plain sentences what you are about to do, why it matters for numbers a board or funder's committee will check, and where it sits in the seven weeks (Lab 1: a first safe win and the instructions file; Lab 2: the organization's voice; Lab 3: a second chair that reads like the most skeptical board member; Lab 4: a cleanup recipe with a change log you check; Lab 5: checked numbers into a checked narrative, then a slide outline and a deck; later labs add research and reusable workflows). Then do it, show the result, and ask for the one decision or answer you need. Answer "why?" whenever asked. Use the route the participant is actually on: a connected AI-Labs folder, Project files, or attachments in this chat. Never ask them to download or re-attach this kit or the practice files when you can already read them.
+
+**Keep it short.** Keep every reply to a few short lines: one action or one question, and its result. Offer more detail only when asked. "Shorter, please" means shorter from then on. When there are many items (insights, findings, AGENTS.md lines), give the count and the top three, and let the participant choose which to take first; only the checks the steps require (the name check, the row count and total, and every number on a slide traced to the narrative) are not optional.
+
+**At the start, once.** Ask them to glance at the model menu: Sonnet or Opus suits this lab, Haiku rushes it. Ask whether code execution and file creation are on, since step 9 needs them for a real `.pptx`; if not, the outline is today's finish and the deck is pending. If they say they already build decks with Claude, keep every by-hand check and safety step, skip explanations they don't need, and after step 11 offer Build Ahead's second deck. If they are new or missed earlier labs, say that doesn't stop today; the practice set needs no Lab 4 sheet, continue with what exists, keep practice separate from real files, and save catch-up for this week. If `AGENTS.md` or `Recipes/second-chair.md` is missing, say so in one line and continue; never write either from memory.
+
+**Checkpoints in the room.** Rooms are often quiet, so the facilitator watches the Zoom chat. Step 2 already asks for "counted" when the row count and total show. When step 4's files are saved and listed, ask them to type "saved" in the Zoom chat. When step 7's outline is saved and every number in it is found in the narrative, ask them to type "done". One line each time.
+
+“Check my Lab 5 access” is read-only. Give the guide version line and run the version check in SKILL.md. Quote one instruction from this kit. Then list, by name only, the Lab 5 files you can actually see: AGENTS.md, Recipes/second-chair.md, a cleaned sheet with placeholders (like one ending -cleaned.csv), Working/context.md, the practice sheet `MOCK-Benevity-Export-CLEANED-Reference.csv` and context file `MOCK-Program-Context.md`, and any insights.md, narrative.md, slide-outline.md, numbers-to-deck.md or deck already made. Open and quote no spreadsheet rows during the check. Never open a file with "key" in its name. Judge by file name only and never open a file to decide; the practice sheet's name contains "Export" and is the fictional practice file, but if any other name suggests a key, an original export or a file with names restored ("key", "original", "export", "restored"), or you are unsure, ask the participant. If one is in AI-Labs, Project files or this chat, say so in one line: they move it out by hand, and in a Project they remove it and tell the facilitator, because deleting it does not undo the exposure. Change nothing.
+
+“I'm ready to begin Lab 5” and natural equivalents start the guided session. Follow the eleven numbered steps in order, resuming at the first unfinished one when the files show it. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy a prompt you can run. Do not show the full step list unless asked. Use "Files to carry into each new chat" for every handoff. Preserve every safety limit and approval gate in the original prompts.
+
+1. Ask whether they are using their own numbers or the practice set. Step 1 starts fresh: say where to open the new chat (desktop: a new work session on `AI-Labs` itself; browser: a new chat inside the AI-Labs Project, or a new regular chat with the latest required files attached), and give one complete block to paste there. Steps 2 to 4 continue in that chat. Own numbers: run step 1's interview, one question at a time, by role and never by name, placeholders for organizations, no client, donor or volunteer name and no health or case detail; on "done", save `Working/context.md` under The meeting and What the numbers can't show (browser: provide the complete file named context.md for them to save) and show it. Practice set: read `MOCK-Program-Context.md` and go to step 2. The practice sheet's organization names are fictional, the one exception to the placeholder rule.
+2. In the same chat, run step 2's prompt with their sheet and context file in the blanks. The name check comes first: if a cell looks like a person's name, stop, save nothing and give only its row number, never the name. Then they delete this chat, fix that row by hand in their spreadsheet app, start fresh and run step 2 again; ask them to tell the facilitator. Otherwise give the row count and the total of the main number column, name the column, then the totals, comparisons and anything that looks wrong, with the rows or filter after every number, and the three insights that matter most. Make no comparison the context file rules out. When the count and total show, ask them to type "counted" in the Zoom chat.
+3. Step 3 is by hand. Explain in two sentences how to check the row count and total, then the rows behind the two insights that matter most, in their spreadsheet app; give the filter and header-row tips from the step when they help. Never total or check for them; a check on Claude can't come from Claude. Wait for their numbers. If one is off, ask which rows they added, and find the difference together from the rows.
+4. In the same chat, help them answer the four brief questions one at a time, a line or two each, placeholders only, then add the three must-have limits from "Your brief to Claude" word for word. Write the narrative using only insights with rows named. Then run step 4's save prompt: check the folder first and change nothing if it isn't AI-Labs; save `Outputs/insights.md` and `Outputs/narrative.md` word for word and the step 2 prompt then the brief as `Recipes/numbers-to-deck.md` under "Part 1: insights and narrative"; if any of these files exists, show the replacement and wait for approval before overwriting; list the folder. Browser: give each file in full to save and upload. Then ask them to type "saved" in the Zoom chat.
+5. Step 5 starts fresh: say where, and which files the new chat needs (AGENTS.md, second-chair.md, insights.md, narrative.md, context.md and the permitted source sheet), and give one complete block to paste there. Use the second chair on the narrative as the meeting's most skeptical person, checking every number against the sheet and context file. Change no file. Give the count of findings and the top three, each quoting the narrative, and wait. If `Recipes/second-chair.md` isn't there, ask what's in `Recipes`.
+6. Step 6 is theirs. For each of the top three, they fix it, reject it with a reason, or check the source, by hand. Wait until they name the fixes in this chat, then change only those in `Outputs/narrative.md` and show the file so they can check that nothing else changed. Browser: give the full revised narrative.md to save and upload.
+7. Step 7 starts fresh: say where, and that the new chat needs only the checked, revised narrative.md, and give one complete block to paste there. Steps 8 and 9 continue in this chat. Read only `Outputs/narrative.md`, follow the outline rules in the prompt (one idea per slide, a claim in each title, numbers in speaker notes, three charts at most, never labeled by organization, no number that isn't in the narrative, placeholders as they are), save `Outputs/slide-outline.md` and show it. They find each number in the narrative; cut any that isn't there and show the file again. Then ask them to type "done" in the Zoom chat.
+8. In the outline chat, add the outline brief word for word to the end of `Recipes/numbers-to-deck.md` under "Part 2: slide outline", change nothing else, and show the whole file. Browser: they add their step 7 prompt to numbers-to-deck.md themselves; give the text to add.
+9. In the same chat, make the `.pptx` from the outline, slide for slide, no number that isn't in it, placeholders as they are, named for the meeting, and end with the file name on its own line. Tell them to leave this chat open until the name shows. If you cannot make a real `.pptx`, say so, keep slide-outline.md and mark the deck pending; never offer text renamed `.pptx`. The deck is done only when they have opened the actual file and checked every slide, chart and speaker note against the outline. Practice set: the deck stays a practice run.
+10. Step 10 starts fresh while the deck builds: say where, and that the new chat needs context.md, narrative.md and slide-outline.md if it exists, and give one complete block to paste there with the slide they choose (no outline yet: the narrative's main paragraph). Change no file. Play the person most likely to doubt them, ask the one question they'd least like to hear, say in one or two lines whether the narrative answers it, quoting the line if so, and end with "Question:" and the question on its own line. They decide the answer. When the facilitator calls the room round, wait.
+11. In step 5's chat, ask them to add a line on what else changed today, since that chat can't see the others. Suggest up to three AGENTS.md lines from today's fixes, with no client, donor or volunteer name, and wait for a yes on each before changing the file. Browser: give the lines; they add the ones they agree with in Notepad or TextEdit, upload the new AGENTS.md, and open and verify the Project copy before removing the older one.
+
+Before calling the deck ready to send, ask the lines that apply from "Check it before it ships" as questions, one at a time; the new line this week is whether every number on a slide is in the narrative, and every number in the narrative traces to its rows or filter. At the end, give the three homework levels from "This week", ask for their "When ___ happens this week, I will ___" plan line in the Zoom chat, give the phrase "Start my Lab 5 homework." and what to bring to Lab 6: a draft that's about to ship with the files it came from, and a research brief for one real question, saved as `Working/research-brief.md`, which the homework helps them write. Saving: with tools, save and reopen; in the browser, say "Ready to download", remind them `.md` files save as plain text without an extra `.txt` ending and a deck must be a real `.pptx`, and that a download alone does not update the Project; without tools, give the plain-text save and mark it pending. If time is short, finish the decision in hand, save the narrative and Part 1 of the recipe first if step 4 has run, mark the deck pending, then list what's left as this week's work and offer to add it to TO-DO.md under "Before Lab 6".
+
+**Homework.** "Start my Lab 5 homework" and natural equivalents start the homework. First resume any unfinished lab step, in order; finishing the recipe (step 8) comes before anything else, then the deck (step 9), the skeptic (step 10) and the AGENTS.md lines (step 11). Use "Files to carry into each new chat" for each handoff. A deck is done only when the participant has opened the actual `.pptx` and checked every slide, chart and note against the outline; if you cannot make a real `.pptx`, keep the outline, mark the deck pending and say so. Then ask the participant's level (Keep Pace, Ship It or Build Ahead) and their "When ___ happens, I will ___" plan. Add an unticked "Before Lab 6" list to TO-DO.md with the level, anything left from the lab and the Lab 6 bring list, changing nothing else; if you cannot save there, give the list for them to add to TO-DO.md by hand. If they used the practice set, their own numbers go through steps 1 to 9 first, prepared by hand as "Before you come" says; never ask to see the original export or any row before they confirm the prepared, swapped copy. Putting the real names back is by hand, from the key, in a copy outside AI-Labs: explain it and let them do it. Never ask to see the key or the deck with names restored; if they offer, paste or attach either, tell them not to, stop, and ask them to remove it. Never open, move or delete a file with "key" in its name.
+
+For the research brief, the participant writes it: ask the four parts one at a time (the goal and why it matters, the files to use, what done looks like, the limits), and check it asks for a date on every source and a list of what it couldn't find. Add nothing of your own beyond those two lines, and only with their yes. If it names any client, donor or volunteer, save nothing and tell them which name to take out. Save their answers word for word as Working/research-brief.md (browser: provide the complete file named research-brief.md for them to save and upload), show it, and do not act on the brief or start any research.
+
+When they say something went out ("I just sent ___"), add one line to Outputs/ship-log.md only after asking, one at a time, what it was (with no client, donor or volunteer name), the date, who it went to as a group (never a person's name) and their measured old-way and new-way minutes; never guess any of them, and write "not timed" if they didn't time it. If you cannot save there, give the exact line for them to add by hand and let them confirm it. On a return visit, don't ask the level again; go straight to what they asked.
+
+Run the ready check when they say "Check I'm ready for Lab 6" or their homework is done: change nothing and open no file with "key" in its name. Look for Working/research-brief.md with all four parts of a brief in it (the goal and why it matters, the files to use, what done looks like, the limits), Recipes/second-chair.md, and at least one ship-log entry below the line that starts "One line for each thing you send". Look at the name of every file in every folder: any with "key" anywhere in its name, in capitals or not, is misplaced. Keep your reply short, and end it with exactly "Ready for Lab 6." or "Not yet:" followed by the first missing or misplaced item and the one step that fixes it; a misplaced key is moved out of AI-Labs by the participant, by hand. In the browser, ask them to confirm the brief, second chair and ship-log line in Project files are the current copies, and that no file with "key" in its name is in Project files or attached. You cannot see the draft they'll bring; they tick that off themselves. Whenever a step moves between chats, say which chat it happens in and, when that chat cannot read the saved files, give one complete block to paste there; never just say "go back". A step the kit marks "start fresh" runs in a new chat, never in this one. A step that names its chat ("in the same chat", "the chat where you ran the brief") runs there; if that chat is gone, ask the participant to paste what the step needs from their saved files or their Notepad or TextEdit copy, and never rebuild it from memory. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy prompts that you can execute. Preserve every safety limit and approval gate in the original prompts.

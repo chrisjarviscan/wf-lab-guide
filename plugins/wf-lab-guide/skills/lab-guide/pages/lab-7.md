@@ -1,52 +1,65 @@
-<!-- Lab Guide 1.0.32 · Oct 17, 2026. Mirrored from the Lab 7 kit as published on Oct 17, 2026 (source 3698f8b). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.33 · Oct 17, 2026. Mirrored from the Lab 7 kit as published on Oct 17, 2026 (source 7861a9f). Do not edit: rebuild instead. -->
 
 # Lab 7: Build session and 90-day roadmap
 
 You'll leave with your workflow written down so a colleague could run it without you, timed before and after, and a plan for the next 90 days. If a word is new to you, it's in Words we use (see hub-words.md). The moves behind every prompt are in Ways to ask Claude (see hub-ways.md).
 
-## Choose your screen for Lab 7
+## Start here
 
-**Already started?** Keep your existing Project, chat or AI-Labs folder. Do not recreate it or reinstall a working guide. The learning steps below are shared; only file access, saving and restarting differ. Check the tools actually available: if your browser session has approved folder tools, use the connected-folder instructions. If your desktop chat has no folder tools, use the attachment instructions.
+Welcome to the last lab. Today you write down one workflow so a colleague could run it without you, have a fresh chat read it cold, fix the gaps, and show it to your room. You leave with a plan for the next 90 days. Claude walks you through each step, and your facilitator is in the room for anything Claude can't answer.
 
-### Browser — open and attach
+**Bring:**
 
-Open your AI-Labs Project and work chat, if you have one. Make these files available: AGENTS.md, the recipes and skill used in your workflow, one recent output, and ship-log.md. Add files to **Project files** for use across chats, or attach them to this chat. Ask Claude to name what it can actually read before starting.
+- **Your workflow's pieces,** gathered in `Workflows`: the recipes and skill it uses, and one recent output, placeholders still in, never a copy with real names back in. If `Workflows` is still empty, type "Start my Lab 6 homework." and Claude gathers them with you. It's quick.
+- **Your ship log,** with its old-way and new-way minutes.
+- **Still choosing?** Pick the workflow that answers this: what did you do yesterday that took more than 30 minutes and you've done before? The Lab 4 and 5 practice files (a quarterly grants summary) work too, with the same steps.
 
-**No Project?** Use a regular chat. Attach the same permitted files. Keep complete copies of the results yourself. Every time a step says “start fresh,” open a new chat and attach the latest files that step names. A previous chat's attachments are not a substitute. If attachments are unavailable, paste the complete permitted text with each filename above it; never paste a confidential original or key.
+**Then set up the guide.** Find your line, do that one thing, then type the two phrases.
 
-### Desktop — connect your folder
+- **Browser, and your AI-Labs Project offers Add from GitHub:** open Project files, choose **Add from GitHub**, enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these files under `plugins/wf-lab-guide/skills/lab-guide/`: `SKILL.md`, `pages/lab-7.md`, `assets/KIT-Lab7-Build-Roadmap.md`, `assets/writing-skills/ai-syntax-avoidance.md`, `assets/writing-skills/ai-syntax-avoidance-extended.md`. Added it before? Open the repository item, choose **Sync**, and add the two Lab 7 files. Your own work stays in Project files.
+- **Browser, no GitHub:** download [lab-guide-chat.md](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md) and upload it once to your AI-Labs Project files, or attach it to your work chat with the paperclip. It already contains this kit. Type the phrases inside your AI-Labs Project, where Claude finds your files faster.
+- **Desktop app:** download [lab-guide.zip](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip) and keep it zipped. In **Customize → Skills**, choose **+**, then **Upload a skill** (on some screens it sits under **Create skill**), select the ZIP and enable **lab-guide**. Uploading it again replaces an older copy. Open a work session on your existing **AI-Labs** folder.
+- **Already have the guide?** Go straight to the phrases. If Claude says your guide is older than the published one, do your line above once more, then type the phrase again. An older copy still runs today's lab.
 
-Open a work session with folder tools (Cowork where offered) and choose your existing **AI-Labs** folder itself. Put this lab's kit and practice files in **Kits**. Use only permitted material. Ask Claude to name files it can actually read. A desktop chat without folder access follows the browser file steps; installing a skill alone does not connect a folder.
+**Pick a model that thinks.** In the model menu, choose Sonnet or Opus, not Haiku. Haiku is fast, but it rushes careful work like a cold read.
 
-## Save and continue on your screen
+Type:
 
-### Browser — keep a usable copy
+```prompt
+Check my Lab 7 access.
+```
 
-Keep your workflow document, 90-day-plan.md, AGENTS.md and ship-log.md. When a prompt names a path such as `Outputs/report.md`, use the filename `report.md` for the attachment; the folder name tells desktop users where it belongs. Local folders such as Outputs, Recipes and Workflows are optional organization for your downloads. Claude cannot read them just because you saved there.
+```done
+Claude gives its guide version, quotes this kit and names the Lab 7 files it can see: AGENTS.md, what's in Workflows and ship-log.md. It never opens a file with "key" in its name. If it sees one, move that file out by hand.
+```
 
-Ask for each complete file as a separate download. If no download is available, ask for its full contents in a separate text block headed with the filename. Save `.md` files as plain text, without an extra `.txt` ending. A spreadsheet needs a real CSV or spreadsheet file; renaming `.xlsx` to `.csv` does not convert it.
+Then type:
 
-In a Project, use **Save to Project** in the document panel if offered, or download then upload the approved file to Project files. Open the saved copy and check its contents before removing an older copy. A download alone does not update the Project. Without a Project, keep the latest files and attach them to the next chat. Before an intentional fresh-chat check, save first, then ask the new chat to read the files and quote a line you can check.
+```prompt
+I'm ready to begin Lab 7.
+```
 
-### Desktop — save and reopen
+Answer one question at a time. When Claude says a step starts fresh, open the new chat it names. When Claude asks, type "saved" or "done" in the Zoom chat, so your facilitator can see where you are.
 
-Claude saves approved work in the named folders only when its tools have access. Ask it to reopen the saved files and check them. Do not overwrite an earlier draft or existing instructions without your approval. When a step says “start fresh,” open a new work session on the same AI-Labs folder and read the saved files. If saving is unavailable, use the browser saving steps alongside this card.
+**Claude saying too much?** Type "Shorter, please. One step at a time."
 
-**Interrupted?** Keep your current chat. Note the lab, step, latest filenames and next action. Resume there when possible; if you must start another chat, make those files available using your screen's steps above. Never count a promise to save as a saved file.
+**Already write down workflows with Claude?** Say so when you begin. Claude keeps every fresh-chat, saving and yes-before-changing step and moves you faster through the rest.
 
-**A fresh chat is not a memory reset.** For a cold-read test, turn off Memory for that chat where offered before sending the first message. Ask Claude to use only the named files and verify its quotations against them. If you cannot isolate memory, treat the result as another review, not proof of an independent cold read.
+**New today, or missed a lab?** Come anyway and tell Claude when you begin. You can document the practice grants summary today and write your own this week. Setup is on the participant page (see hub-start.md).
 
-**Browser wording for the shared prompts:** keep the learning request and safety limits. Replace a computer path with the attached filename. Replace “save in [folder]” with “provide the complete file named [filename] for me to save.” If you have no Project, “in this Project” means “attached to this chat.” Tell Claude which route you are using; it must not claim a folder write without file tools.
+**Short on time in your room?** Type "We have ten minutes left. Save where I am and tell me what's left." Claude saves your workflow document first, and lists what's left for this week.
+
+**Finished early?** Start your 90-day plan under "This week": which workflow you'll run each month, which tool, and why that tool.
 
 ## Before you come
 
-If your ready check at the end of Lab 6 said you're ready for Lab 7, your saved work is ready. Use the screen instructions above to make these files available:
+If your ready check at the end of Lab 6 said you're ready for Lab 7, your saved work is ready. The guide already carries this kit; these are the parts you handle yourself:
 
 - **Desktop:** save this kit in `AI-Labs/Kits`. **Browser:** add this kit to Project files or attach it to your work chat.
   - this kit, `KIT-Lab7-Build-Roadmap.md`
-- Your workflow's pieces gathered in `Workflows` (the recipes and skill it uses, and one recent output), and your ship log with its old-way and new-way minutes.
+- Your workflow's pieces gathered in `Workflows` (the recipes and skill it uses, and one recent output, placeholders still in, never a copy with real names back in), and your ship log with its old-way and new-way minutes.
 
-  - More: if `Workflows` is still empty, run the gather prompt under "This week" in the Lab 6 kit (lab-6.md); it's quick. If you're still choosing between two workflows, pick the one that answers this question: what did you do yesterday that took more than 30 minutes and you've done before?
+  - More: if `Workflows` is still empty, type "Start my Lab 6 homework." and Claude gathers them with you; it's quick. If you're still choosing between two workflows, pick the one that answers this question: what did you do yesterday that took more than 30 minutes and you've done before?
 - Your workflow can come from your own work or from the Lab 4 and 5 practice files (a quarterly grants summary); both take the same steps today. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine.
 - Setup check: start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste the readback test. Claude will read `AGENTS.md` and name the three rules in it that matter most.
 
@@ -79,7 +92,7 @@ In your breakout room, each of you works on your own computer, with your own Cla
 
    - Why this way: the four parts are bare because your next brief won't come from a kit. Claude drafts from the files, so you supply only what isn't written anywhere. The interview uses "ask me, don't guess". The same move fits a budget note, where the sheet shows the numbers and only you know why a line moved, or a handover note before parental leave.
    - More: a small workflow you run often counts in full. If Claude is still asking at about 10 minutes, say "done"; step 3 fills the gaps. On the practice files, answer as if the grants summary were yours.
-   - If it doesn't work: if Claude says `Workflows` is empty or missing, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project). If you did, run the gather prompt under "This week" in the Lab 6 kit (lab-6.md), then send the brief again.
+   - If it doesn't work: if Claude says `Workflows` is empty or missing, check that you opened `AI-Labs` itself (in the browser, that the chat is inside your AI-Labs Project). If you did, type "Start my Lab 6 homework." and Claude gathers them with you, then send the brief again.
    - Browser: in a new chat inside your AI-Labs Project, upload the files from `Workflows` and `Outputs/ship-log.md`, then paste the brief. Claude can't save into your folder, so copy the finished document into a plain text file named as in your brief, like `volunteer-hours-report.md`, save it in `Workflows`, and upload it to your Project.
 2. **Get a cold read (5 minutes).** A reader who has never done the work finds what you left out. Start fresh (in the desktop app, a new Cowork session on `AI-Labs` itself; in the browser, a new chat inside your AI-Labs Project, or a new regular chat with the latest required files attached) and paste this with your document's file name in the blank. Claude will read only your document, change nothing, list each question a newcomer would need answered, then name the clearest step.
 
@@ -199,66 +212,29 @@ Two questions:
 - What result will tell you it worked? Something you can see, like a grant funded or hours back in your week.
 - When will you look at that result and feed it back into the workflow?
 
-In Cowork, paste this; say "leave it blank" for anything you haven't decided. Claude will read the plan in this kit, ask for each part one question at a time, then save and show you `Workflows/90-day-plan.md`.
-
-```prompt
-Make Workflows/90-day-plan.md from the plan under "This week" in Kits/KIT-Lab7-Build-Roadmap.md: the table for months 1 to 3 and the two questions under it. Ask me for each part, one question at a time, and don't fill in anything I haven't told you. Then show me the file so I can check it.
-```
-
-```done
-Claude shows `Workflows/90-day-plan.md` with month 1 filled in from your answers, and nothing you didn't say.
-```
-
-- Why this way: a table is fiddly to type into a chat box, and answering one question at a time makes you decide each part. It uses "ask me, don't guess" and "show me so I can check". The same moves set up a volunteer recruitment calendar for the season, or the grants you'll apply for over the next two quarters.
-- Browser: copy the table and the two questions into a plain text file named `90-day-plan.md`, fill them in, save it in `Workflows`, and upload it to your Project.
-
 Write one line in the Zoom chat before you leave: When ___ happens, I will ___. Make the first blank the moment your workflow starts. For example: When the monthly export lands, I will run the workflow with a stopwatch going.
 
 Try the workflow alone for a few weeks before you share it, so the first version colleagues see is one you trust. The buttons below track that first real run.
 
-Before you leave, put month 1 on your to-do list. In Cowork, paste this. Claude will add month 1 of your plan and a day-30 check to `TO-DO.md` as unticked items and change nothing else.
+To do it, open your work chat and type:
 
 ```prompt
-Add month 1 of Workflows/90-day-plan.md and a day-30 check of the plan to TO-DO.md, as unticked items under a heading "After the labs". Don't change anything else.
+Start my Lab 7 homework.
 ```
 
-```done
-`TO-DO.md` has a heading "After the labs" with month 1 and the day-30 check under it.
-```
-
-- Why this way: it uses "change only what I name" from Ways to ask Claude (see hub-ways.md), so your list gains the plan and keeps everything else as you left it.
-- Browser: add the same heading and two items to `TO-DO.md` in Notepad or TextEdit.
-
-Put a day-30 reminder in your calendar by hand, because Claude works only in the folder you chose. On day 30, check month 1 against your ship log and adjust months 2 and 3.
-
-Ship log: one line in `Outputs/ship-log.md` for everything you send, with old-way and new-way stopwatch minutes. For who it went to, give a group like "donors" or "board", never a person's name. In Cowork, paste this when something goes out; in the browser, add the line by hand. Claude will ask you what it was, the date, who it went to and both stopwatch times, then add one line to the log.
-
-```prompt
-Add a line to Outputs/ship-log.md for the item we just sent. Ask me what it was, the date, who it went to (a group like "board", never a person's name), and my old-way and new-way stopwatch minutes. Don't guess any of them.
-```
-
-```done
-Claude asked you what it was, the date, who it went to and both times, then added one line to `Outputs/ship-log.md`.
-```
-
-- Why this way: it uses "ask me, don't guess" from Ways to ask Claude (see hub-ways.md), so every number in your log is one you measured.
-
-There's no Lab 8. If anything breaks after the last lab, email Nichole Giller at nichole@realizedworth.com. Wells Fargo covers your Claude Pro account for six months, which runs past the last lab. When the six months end, nothing happens to the account: it stays yours and keeps charging your card monthly, so you decide whether to keep paying.
-
-The leadership showcase is a separate session after Thanksgiving, in December or January, for a few standout projects. RW Institute will tell you if your work is invited.
-
-When your plan is saved, check the folder is ready for you to run the workflow on your own. In Cowork, paste this. Claude will look through your folder without changing anything and end with one line: ready, or the first thing still missing.
-
-```prompt
-Check my AI-Labs folder, and don't change anything. Look for a workflow document in Workflows with these headings: When it runs; Who runs it; What it needs from this folder; What stays out, and where the placeholder key lives; Steps, with the tool for each; Checks before it ships; Time: old way and new way; What breaks it; Who checks that it ran, and how; What it can't do. Also look for Workflows/90-day-plan.md with month 1 filled in, and at least one entry in Outputs/ship-log.md below the line that starts "One line for each thing you send". Keep your reply short, and end it with exactly one of these lines: "Ready to run it on your own." or "Not yet:" followed by the first missing item and the one step that fixes it.
-```
+Claude picks up wherever you stopped in the lab, then asks you for each part of your 90-day plan, one question at a time, and saves it as `Workflows/90-day-plan.md` with only what you told it. Say "leave it blank" for anything you haven't decided. It adds month 1 and a day-30 check to your to-do list. In the browser, Claude gives you each file or line instead of saving it; save it in `AI-Labs` and upload it to your Project yourself. Time each run with a stopwatch. Each time something goes out, come back and say "I just sent ___"; for who it went to, give a group like "board", never a person's name. When your plan is saved, say "Check I'm ready to run it on my own."
 
 ```done
 Claude's last line says "Ready to run it on your own."
 ```
 
-- Why this way: it uses "end with one clear line" from Ways to ask Claude (see hub-ways.md), so the last line tells you at a glance whether you're set.
-- Browser: check by hand that your folder has the three things this prompt looks for.
+**Do this part yourself.** Put a day-30 reminder in your calendar by hand, because Claude works only in the folder you chose. On day 30, check month 1 against your ship log and adjust months 2 and 3.
+
+Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details.
+
+There's no Lab 8. If anything breaks after the last lab, email Nichole Giller at nichole@realizedworth.com. Wells Fargo covers your Claude Pro account for six months, which runs past the last lab. When the six months end, nothing happens to the account: it stays yours and keeps charging your card monthly, so you decide whether to keep paying.
+
+The leadership showcase is a separate session after Thanksgiving, in December or January, for a few standout projects. RW Institute will tell you if your work is invited.
 
 ## Use it again
 
@@ -299,3 +275,31 @@ AI-Labs/
 ```
 
 Outside `AI-Labs`: your placeholder key, and anything with real names back in.
+
+## How Claude runs Lab 7
+
+**Teach as you go.** The participant does not read this kit; you do. Before each action, say in one or two plain sentences what you are about to do, why it matters for a colleague who has to run this workflow without them, and where it sits in the seven weeks (Lab 1: a first safe win and the instructions file; Lab 2: the organization's voice; Lab 3: a second chair that reads like the most skeptical board member; Lab 4: a cleanup recipe with a change log you check; Lab 5: checked numbers into a narrative and a deck; Lab 6: the second chair as a skill, and research checked at the source; Lab 7, the last lab: one workflow written down so a colleague could run it, and a 90-day plan). Then do it, show the result, and ask for the one decision or answer you need. Answer "why?" whenever asked. Use the route the participant is actually on: a connected AI-Labs folder, Project files, or attachments in this chat. Never ask them to download or re-attach this kit when you can already read it.
+
+**Keep it short.** Keep every reply to a few short lines: one action or one question, and its result. Offer more detail only when asked. "Shorter, please" means shorter from then on. When there are many items (interview questions, cold-read gaps, suggested lines), give the count and the top three, and let the participant choose which to take first. They decide which cold-read questions are real gaps; never push them through every one.
+
+**At the start, once.** Ask them to glance at the model menu: Sonnet or Opus suits this lab, Haiku rushes it. If they say they already write down workflows with Claude, keep every fresh-chat, saving and approval step, skip explanations they don't need, and move faster through the rest. If they are new or missed earlier labs, say that doesn't stop today: if `Workflows` is empty, run the Lab 6 homework gather with them ("Start my Lab 6 homework."), or let them document the Lab 4 and 5 practice files (a quarterly grants summary), answering as if it were theirs. Keep practice separate from real files, and save catch-up for this week.
+
+**Checkpoints in the room.** Rooms are often quiet, so the facilitator watches the Zoom chat. When step 1's workflow document is saved, ask them to type "saved" in the Zoom chat. When step 3's changes are checked in their file, ask them to type "done". One line each time.
+
+“Check my Lab 7 access” is read-only. Give the guide version line and run the version check in SKILL.md. Quote one instruction from this kit. Then list, by name only, the Lab 7 files you can actually see: AGENTS.md, the recipes, skill and recent output in Workflows, ship-log.md, and any workflow document or 90-day-plan.md. Open and quote nothing from them during the check. Never open a file with "key" in its name. Judge by file name only and never open a file to decide; if a name suggests a key, an original export or a file with real names back in ("key", "original", "export", "restored"), or you are unsure, ask the participant. If one is in AI-Labs, Project files or this chat, say so in one line: they move it out by hand, and in a Project they remove it and tell the facilitator, because deleting it does not undo the exposure. Change nothing.
+
+“I'm ready to begin Lab 7” and natural equivalents start the guided session. Follow the five numbered steps in order, resuming at the first unfinished one when the files show it. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy a prompt you can run. Do not show the full step list unless asked. Preserve every safety limit and approval gate in the original prompts. Clients, donors, volunteers and anyone served never go into Claude, and neither do health or case details.
+
+1. Step 1 runs in this session (desktop: a Cowork session on `AI-Labs` itself; browser: a chat inside the AI-Labs Project with the files from `Workflows` and `Outputs/ship-log.md` uploaded). Help them answer the four brief parts one at a time (goal, files, what done looks like, limits) and the file name, then add the rest of "Your brief to Claude" word for word, the ten headings included, with the limit "only steps you've actually run". Practice examples are in the kit. Read `Workflows`, then ask one question at a time about what the files don't show. Name people by role or staff name, leave out health and case details, and record only where the key lives. At about 10 minutes, suggest they say "done"; step 3 fills the gaps. On "done", save the document as `Workflows/___.md` and write it out in your reply; never overwrite an earlier draft without their yes. Browser: provide the complete file for them to save as plain text in `Workflows` and upload to the Project. Reopen it and check all ten headings have something under them. Then ask them to type "saved" in the Zoom chat.
+2. Step 2 starts fresh: a new Cowork session on `AI-Labs` itself, or a new chat inside the Project, or a new regular chat with only the workflow document attached. Tell them to turn off Memory for that chat where offered; if they can't, the result counts as another review, not a cold read. Give one complete block to paste there: step 2's prompt with their file name filled in (browser: "the workflow document in this Project, ___"). That chat reads only the document and changes nothing. Its last line says "Gaps found:" and a number. They mark the real gaps, the questions only they could answer; if the list is long, they keep the first five.
+3. Step 3 starts fresh again, in another new chat with the document and `Outputs/ship-log.md`. Give one complete block to paste there: step 3's prompt with their file name and the gaps they kept. That chat changes nothing until the questions are answered, asks one at a time, marks what's left "not answered yet", changes only those lines, marks any time not measured on a stopwatch as an estimate, and writes out the whole file. If the reply doesn't hold the whole file, they send "Write out the whole file in your reply." Browser: they upload the current `ship-log.md` first, replace their copy in Notepad or TextEdit with the file from the reply, upload it, and open and verify the new Project copy before removing the older one. When they've checked their file, ask them to type "done" in the Zoom chat. Then point them to the 90-day plan under "This week".
+4. Step 4 happens in the room, not with you. Each person has 90 seconds, reading from their document, on five points: what it does, what it replaced, old-way and new-way minutes (start to sent), what surprised them, and what it can't do. The facilitator sets the order. Nobody shares a screen. An unfinished document still counts. Wait until they come back, and remind them to post one thing they'd borrow in the Zoom chat.
+5. Step 5 runs in the step 3 chat. Give step 5's prompt; if they corrected you in step 1, they add a line saying what. Suggest at most three AGENTS.md lines from today's fixes, with no client, donor or volunteer name, and change AGENTS.md only after a yes on each. Browser: they add the agreed lines in Notepad or TextEdit, upload the new `AGENTS.md`, and open and verify the new Project copy before removing the older one.
+
+Before calling the workflow done, ask the ship checklist from the kit as questions, one at a time, using the lines that apply; the new one is whether a colleague could run it from the document alone. At the end, give the 90-day plan from "This week" (months 1 to 3: workflow, which tool, why that tool, and the two questions under it), ask for their "When ___ happens, I will ___" line to post in the Zoom chat before they leave, give the phrase "Start my Lab 7 homework.", and remind them to put the day-30 reminder in their own calendar by hand. There's no Lab 8; if anything breaks later, they email Nichole Giller at nichole@realizedworth.com. Saving: with tools, save and reopen; in the browser, say "Ready to download", remind them to save `.md` files as plain text without an extra `.txt` ending, and to open and verify the new Project copy before removing an older one; without tools, give the plain-text save and mark it pending. Never count a promise to save as a saved file. If time is short, finish the decision in hand, save the workflow document first, then list what's left as this week's work and offer to add it to TO-DO.md under "After the labs".
+
+**Homework.** "Start my Lab 7 homework" and natural equivalents start the homework. First resume any unfinished lab step, in order; the workflow document (step 1) comes before anything else, then the cold read (step 2), fixing the gaps (step 3) and the AGENTS.md lines (step 5). The room show-and-tell (step 4) happens only in the lab. Then make Workflows/90-day-plan.md from the plan under "This week": the table for months 1 to 3 (workflow, which tool, why that tool) and the two questions under it. Ask for each part, one question at a time; fill in nothing they haven't told you, and leave blank anything they say to leave blank. Save it and show the file for them to check; in the browser, provide the complete file named 90-day-plan.md for them to save in Workflows and upload. Then add month 1 of the plan and a day-30 check to TO-DO.md as unticked items under a heading "After the labs", changing nothing else; if you cannot save there, give the items for them to add to TO-DO.md by hand. Remind them to put the day-30 reminder in their own calendar; you cannot do that for them. Never open, move or delete a file with "key" in its name.
+
+When they say something went out ("I just sent ___"), add one line to Outputs/ship-log.md only after asking, one at a time, what it was (with no client, donor or volunteer name), the date, who it went to as a group (never a person's name) and their measured old-way and new-way minutes; never guess any of them, and write "not timed" if they didn't time it. If you cannot save there, give the exact line for them to add by hand and let them confirm it. On a return visit, go straight to what they asked.
+
+Run the ready check when they say "Check I'm ready to run it on my own" or their plan is saved: change nothing. Look for a workflow document in Workflows with these headings: When it runs; Who runs it; What it needs from this folder; What stays out, and where the placeholder key lives; Steps, with the tool for each; Checks before it ships; Time: old way and new way; What breaks it; Who checks that it ran, and how; What it can't do. Also look for Workflows/90-day-plan.md with month 1 filled in, and at least one ship-log entry below the line that starts "One line for each thing you send". Keep your reply short, and end it with exactly "Ready to run it on your own." or "Not yet:" followed by the first missing item and the one step that fixes it. In the browser, ask them to confirm these are the current copies in Project files. Whenever a step moves between chats, say which chat it happens in and, when that chat cannot read the saved files, give one complete block to paste there; never just say "go back". A step the kit marks "start fresh" runs in a new chat, never in this one. A step that names its chat ("in the same chat", "the chat where you ran the brief") runs there; if that chat is gone, ask the participant to paste what the step needs from their saved files or their Notepad or TextEdit copy, and never rebuild it from memory. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy prompts that you can execute. Preserve every safety limit and approval gate in the original prompts.
