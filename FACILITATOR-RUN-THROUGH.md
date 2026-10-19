@@ -22,6 +22,8 @@ The Lab 4 practice sheet and placeholder key are not in the guide. Participants 
 
 Pass: the first line says the [current README version](README.md) (1.0.35 or later runs Lab 4), Claude quotes a line from the Lab 4 kit, and it lists the Lab 4 files it can see by name only. Names alone are correct here: the check never opens data files, and never a file with "key" in its name. Check that yourself. A version line alone is not a pass.
 
+Not sure the guide is loaded at all? Ask **“Is the guide working?”** first.
+
 **Older version in the first line?** On 1.0.34 or older, update before the begin phrase. GitHub Project: open the repository item in Project files and choose **Sync**. Attachment: download and attach `lab-guide-chat.md` again. Desktop: download `lab-guide.zip` again and upload it in Customize → Skills, replacing the old one.
 
 ## Minutes 3–5: begin

@@ -78,8 +78,11 @@ class Artifacts(unittest.TestCase):
                 self.assertIn("October 23", primary, rel)
                 self.assertIn("ready to begin Lab 3", text.split("## Returning to an earlier lab?")[1], rel)
             else:
-                self.assertIn("October 16", text, rel)
-                self.assertIn("October 12", text, rel)
+                # The facilitator run-through covers the current lab (Lab 4 from Oct 19).
+                self.assertIn("Check my Lab 4 access.", text, rel)
+                self.assertIn("October 19", text, rel)
+                self.assertIn("October 23", text, rel)
+                self.assertIn("swapped file in `Working`", text, rel)
             for question in questions:
                 self.assertIn(question, text, rel)
                 self.assertIn(len(question.split()), (4, 5))

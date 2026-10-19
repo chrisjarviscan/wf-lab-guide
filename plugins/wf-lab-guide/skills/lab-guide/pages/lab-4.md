@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.36 · Oct 19, 2026. Mirrored from the Lab 4 kit as published on Oct 19, 2026 (source 2c88aa6). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.37 · Oct 19, 2026. Mirrored from the Lab 4 kit as published on Oct 19, 2026 (source babdc82). Do not edit: rebuild instead. -->
 
 # Lab 4: Data, clean and extract
 
@@ -206,7 +206,7 @@ Copy these questions into Notepad or TextEdit and replace each with your own ans
 
 End with these must-have lines, word for word, with the short name your swapped file uses in both blanks, like volunteer-hours (practice: grants).
 
-> Before you save anything, read every cell. If any cell looks like a person's name, save nothing, and reply with only its row number, never the name. If any non-blank value in a placeholder column is not a bare placeholder like ORG-01, save nothing and reply with only those row numbers, counting the header as row 1.
+> Before you save anything, read every cell. If any cell looks like a person's name, save nothing, and reply with only its row number, counting the header as row 1, never the name. If any non-blank value in a placeholder column is not a bare placeholder like ORG-01, save nothing and reply with only those row numbers, counting the header as row 1.
 >
 > Save the cleaned sheet as Outputs/___-cleaned.csv, same columns in the same order, and the change log as Outputs/___-change-log.md. Don't change the file in Working, and don't open any file with "key" in its name.
 >
@@ -330,7 +330,7 @@ Outside every Claude-accessible folder, Project and chat attachment: your own ex
 6. On their yes, clean the rest with step 6's prompt and show the log or its new lines.
 7. Step 7 is by hand: they count, total and match each difference to a log line, then swap the names back in a copy in their key folder. Never total or reconcile for them; a check on Claude can't come from Claude. When it reconciles, ask them to type "done" in the Zoom chat.
 8. In the step 4 chat, save the brief word for word as the `-cleanup.md` recipe in `Recipes` (browser: the plain text file they upload), then reopen it. If that chat is gone, ask them to paste the brief from their Notepad or TextEdit copy; never rebuild it from memory.
-9. Run the outside read in a fresh chat with step 9's prompt (browser without a Project: attach the recipe, the change log and `lab-guide-chat.md`). They decide each rule.
+9. Run the outside read in a fresh chat with step 9's prompt (browser without a Project: attach the recipe and the change log only, never `lab-guide-chat.md`, so the read stays independent). They decide each rule.
 10. Suggest at most three AGENTS.md lines from confirmed fixes and wait for a yes on each.
 
 Before calling the sheet done, ask the ship checklist from the kit as questions, one at a time. At the end, give the three homework levels from "This week", their plan line, the phrase "Start my Lab 4 homework." and what to bring to Lab 5. Saving: with tools, save and reopen; in the browser, say "Ready to download", remind them a CSV must be exported as CSV, not renamed, and that only the checked, swapped copy and the files Claude made go into the Project; without tools, give the plain-text save and mark it pending. If time is short, finish the decision in hand, save the recipe first if the brief has run, then list what's left as this week's work and offer to add it to TO-DO.md under "Before Lab 5".
