@@ -19,5 +19,5 @@ Approved notes after each lab. Most are setup tips taken from the kits and the p
 - Give each reviewer one job. In the lab, Claude suggested that two reviewers with one job each work better than one combined pass, and that a long rewrite goes better section by section.
 - Your second chair is there to find problems, not to approve. If a review comes back as mostly praise, ask it again to look only for what is wrong, unsupported or missing a source.
 - Short on time in your room, or finished early? See Lab 3 kit, Start here.
-- For your own work outside the lab, you can set up folders the way you like, for example one for sources, one for drafts and one for final versions. Keep your AI-Labs folder as it is; later labs look for Recipes and Outputs.
+- For your own work outside the lab, you can set up folders the way you like, for example one for sources, one for drafts and one for final versions. Keep your AI-Labs folder as it is; later labs use its folders.
 - Want your writing rules used in new work? Ask Claude how to set that up, name the rules or files to keep using, and add "Ask me clarifying questions first." Sharing rules across your organization's Claude, and what Claude may connect to, is your organization's call.

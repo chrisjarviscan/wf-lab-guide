@@ -41,7 +41,7 @@
       "label": "Spreadsheets (Lab 4)",
       "source": "hub",
       "inline": true,
-      "text": "People's names never go into Claude, and organization names reach it only as placeholders like ORG-01."
+      "text": "People's names never go into Claude, and organization names reach it only as placeholders in the form ORG-01, and no other format."
     },
     {
       "id": "account",

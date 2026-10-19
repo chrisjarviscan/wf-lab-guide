@@ -1,16 +1,16 @@
-<!-- Lab Guide 1.0.33 · Oct 17, 2026. Mirrored from the participant page as published on Oct 17, 2026 (source 7861a9f). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.34 · Oct 17, 2026. Mirrored from the participant page as published on Oct 17, 2026 (source 3c2d5c8). Do not edit: rebuild instead. -->
 
 # Start here: seven steps before Lab 1
 
 ## Start here: prepare for Lab 1
 
-### Browser — use files in your chat
+### Browser: use files in your chat
 
 Use your existing AI-Labs Project if you have one. Add the kit and permitted inputs to Project files, or attach them to the current chat. A file downloaded to your computer is not yet available to Claude.
 
 No Project? Attach the latest files to each new chat. Keep complete copies of the results. Save to Project where offered, or download then upload; open the saved copy before removing an older one.
 
-### Desktop — connect your AI-Labs folder
+### Desktop: connect your AI-Labs folder
 
 Use your existing folder. In a session with folder tools, choose AI-Labs itself. Save kits in Kits and permitted work files in the named folders. Ask Claude to read an actual file before assuming access works.
 
@@ -31,11 +31,11 @@ All seven steps take about 45 minutes, plus any time your IT team needs. The Mon
 
 5. **Make the Lab 1 files available**.
 
-### Browser — upload or attach
+### Browser: upload or attach
 
 Download the three files below. Reuse your AI-Labs Project, or create one if offered, then upload the files to Project files. Without a Project, attach all three to your work chat. Keep the exact filenames; AGENTS.md must not get an extra prefix.
 
-### Desktop — use your folder
+### Desktop: use your folder
 
 Use your existing AI-Labs folder, or make one in Documents if this is your first lab. Download the three files below into that folder. Connect AI-Labs itself in a work session with folder tools.
 
@@ -90,7 +90,7 @@ Then move these files into Kits if they're anywhere in AI-Labs outside Kits: KIT
 
 Claude’s last line says “Your Lab 1 files and to-do list are ready.” If it ends with “Missing:” instead, save the file it names into AI-Labs and paste prompt 2 again.
 
-### Browser — use a file check instead
+### Browser: use a file check instead
 
 Skip the folder-creation prompts. Ask Claude to name the three Lab 1 files it can read in Project files or the current attachments. If any is missing, attach it and ask again. Mark this step done only after that check works.
 

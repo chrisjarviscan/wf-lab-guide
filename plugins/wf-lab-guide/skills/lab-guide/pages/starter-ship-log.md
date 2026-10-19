@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.33 · Oct 17, 2026. Mirrored from the Lab 1 starter file as published on Oct 17, 2026 (source 7861a9f). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.34 · Oct 17, 2026. Mirrored from the Lab 1 starter file as published on Oct 17, 2026 (source 3c2d5c8). Do not edit: rebuild instead. -->
 
 # Ship log
 One line for each thing you send with Claude's help: the date, what it was, who it went to (a group like "board" or "volunteers", never the name of a client, donor or volunteer), old way __ minutes, new way __ minutes, both timed on a stopwatch.

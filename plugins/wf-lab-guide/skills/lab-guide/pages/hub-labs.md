@@ -1,10 +1,10 @@
-<!-- Lab Guide 1.0.33 · Oct 17, 2026. Mirrored from the participant page as published on Oct 17, 2026 (source 7861a9f). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.34 · Oct 17, 2026. Mirrored from the participant page as published on Oct 17, 2026 (source 3c2d5c8). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
 ## The seven labs
 
-Each lab has a kit. Every build runs on your own material or a practice file, and both take the same steps. Before the session, save the kit and its practice files into your Kits folder, whether you'll use your own material or the practice file, so you can ask Claude about them. The one exception is the Lab 4 practice key, which stays outside your AI-Labs folder.
+Each lab has a kit. Every build runs on your own material or a practice file, and both take the same steps. From Lab 3 on, the Lab Guide already carries each kit, and each lab's page says which practice files to save. The Lab 4 practice key always stays outside your AI-Labs folder.
 
 ### Lab 1: First safe win
 
@@ -12,11 +12,11 @@ One small piece of real writing, checked and ready to send, plus your AI-Labs fo
 
 Monday, September 28 · Friday, October 2
 
-#### Browser — Lab 1
+#### Browser: Lab 1
 
 Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
 
-#### Desktop — Lab 1
+#### Desktop: Lab 1
 
 Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
 
@@ -42,11 +42,11 @@ Save written notes about your organization's writing style. Then draft one usefu
 
 Monday, October 5 · Friday, October 9
 
-#### Browser — Lab 2
+#### Browser: Lab 2
 
 Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
 
-#### Desktop — Lab 2
+#### Desktop: Lab 2
 
 Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
 
@@ -86,13 +86,13 @@ One report section taken through draft, critique and revision, and a saved secon
 
 Monday, October 12 · Friday, October 16
 
-#### Browser — Lab 3
+#### Browser: Lab 3
 
-Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+Open the Lab 3 page (lab-3.md), choose your screen and follow its one setup step. Then Claude leads.
 
-#### Desktop — Lab 3
+#### Desktop: Lab 3
 
-Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
+Open the Lab 3 page (lab-3.md), choose Desktop app and follow its one setup step. Keep using your AI-Labs folder.
 
 **Lab 3 kit**: Draft, critique and revise one report section, from your own reporting input or the practice mess pack. (lab-3.md)
 
@@ -100,21 +100,21 @@ Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm act
 
 ### Lab 4: Data, clean and extract
 
-A spreadsheet cleaned by Claude, your own recurring one or the practice sheet, with every change in a change log you've checked, the organization names back in, and a cleanup recipe for next month. People's names never go into Claude, and organization names reach it only as placeholders like ORG-01.
+A spreadsheet cleaned by Claude, your own recurring one or the practice sheet, with every change in a change log you've checked, the organization names back in, and a cleanup recipe for next month. People's names never go into Claude, and organization names reach it only as placeholders in the form ORG-01, and no other format.
 
 Monday, October 19 · Friday, October 23
 
-#### Browser — Lab 4
+#### Browser: Lab 4
 
-Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+Open the Lab 4 page (lab-4.md), choose your screen and follow its one setup step. Then Claude leads.
 
-#### Desktop — Lab 4
+#### Desktop: Lab 4
 
-Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
+Open the Lab 4 page (lab-4.md), choose Desktop app and follow its one setup step. Keep using your AI-Labs folder.
 
 **Lab 4 kit**: Step by step: a copy of your sheet with its headers checked, your placeholder key, a clean on 10 rows first, your own count and your cleanup recipe. (lab-4.md)
 
-**Practice file: messy grants sheet**: A fictional funder's grants export with the kind of mess a real export has. Desktop: save it in AI-Labs/Kits. Browser: attach it to your chat or add it to Project files. The learning steps are the same.
+**Practice file: messy grants sheet**: A fictional funder's grants export with the kind of mess a real export has. Desktop: save it in AI-Labs/Kits. Browser: keep it on your computer; only your swapped copy goes to Claude. The learning steps are the same.
 
 **Practice placeholder key (save it outside AI-Labs, never in Kits)**: Matches each placeholder, like ORG-01, to a fictional organization's name in the practice sheet. Keys never go near Claude, so save this one in a folder outside your AI-Labs folder, even though it's practice.
 
@@ -124,13 +124,13 @@ Checked insights, a checked narrative and a slide outline for an upcoming meetin
 
 Monday, October 26 · Friday, October 30
 
-#### Browser — Lab 5
+#### Browser: Lab 5
 
-Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+Open the Lab 5 page (lab-5.md), choose your screen and follow its one setup step. Then Claude leads.
 
-#### Desktop — Lab 5
+#### Desktop: Lab 5
 
-Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
+Open the Lab 5 page (lab-5.md), choose Desktop app and follow its one setup step. Keep using your AI-Labs folder.
 
 **Lab 5 kit**: Numbers to insights to a checked narrative to a slide outline to a deck, each checked before the next, with your own numbers or the practice set. (lab-5.md)
 
@@ -144,13 +144,13 @@ Your second chair saved as a skill and run on a real draft, and a one-page summa
 
 Monday, November 2 · Friday, November 6
 
-#### Browser — Lab 6
+#### Browser: Lab 6
 
-Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+Open the Lab 6 page (lab-6.md), choose your screen and follow its one setup step. Then Claude leads.
 
-#### Desktop — Lab 6
+#### Desktop: Lab 6
 
-Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
+Open the Lab 6 page (lab-6.md), choose Desktop app and follow its one setup step. Keep using your AI-Labs folder.
 
 **Lab 6 kit**: Saving your second chair as a skill, running Research and checking it at the source, step by step. The map of other AI tools is at the end. (lab-6.md)
 
@@ -164,12 +164,12 @@ A written workflow a colleague could run without you, timed before and after and
 
 Monday, November 9 · Friday, November 13
 
-#### Browser — Lab 7
+#### Browser: Lab 7
 
-Open the worksheet below. Its browser card names the files to upload or attach. Use Project files if available; otherwise attach the latest files to each new chat. Save and check each complete result before continuing.
+Open the Lab 7 page (lab-7.md), choose your screen and follow its one setup step. Then Claude leads.
 
-#### Desktop — Lab 7
+#### Desktop: Lab 7
 
-Use the same worksheet’s connected-folder steps. Reuse AI-Labs and confirm actual file access. Without folder tools, use the browser attachment steps.
+Open the Lab 7 page (lab-7.md), choose Desktop app and follow its one setup step. Keep using your AI-Labs folder.
 
 **Lab 7 kit**: Writing your workflow down, checking it, and your 90-day plan. The workflow can be your own or the one you ran on the Lab 4 and 5 practice files; both take the same steps. (lab-7.md)

@@ -578,7 +578,7 @@ def deterministic_zip(src_dir, zip_path, arc_root):
                     z.writestr(info, fh.read())
 
 
-def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills, lab5_practice=None):
+def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills):
     """One readable attachment for accounts without an installable skill."""
     guide = re.sub(r"^---\n.*?\n---\n", "", skill, count=1, flags=re.S).lstrip()
     intro = ("# Lab Guide — chat attachment\n\n"
@@ -610,12 +610,6 @@ def chat_bundle(skill, pages_dir, practice_pack, mess_pack, writing_skills, lab5
                     "\n<!-- BEGIN ASSET assets/MOCK-Mess-Pack.md -->\n"
                     + mess_pack.rstrip()
                     + "\n<!-- END ASSET assets/MOCK-Mess-Pack.md -->\n")
-    if lab5_practice:
-        sections.append("\n## Bundled Lab 5 practice material\n"
-                        "Read these matching embedded assets when the Lab 5 kit names them, with or without Kits/. "
-                        "They are fictional and already use placeholders like ORG-01. Never use them as real organizational facts.\n")
-        for name, contents in lab5_practice.items():
-            sections.append(f"\n<!-- BEGIN ASSET assets/{name} -->\n" + contents.rstrip() + f"\n<!-- END ASSET assets/{name} -->\n")
     for name, contents in writing_skills.items():
         rel = f"assets/writing-skills/{name}.md"
         sections.append(f"\n<!-- BEGIN ASSET {rel} -->\n" + contents.rstrip()

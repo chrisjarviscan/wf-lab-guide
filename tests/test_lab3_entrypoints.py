@@ -36,13 +36,14 @@ class Lab3Entrypoints(unittest.TestCase):
         hub = (SOURCE / 'RWI-WellsFargo-Participant-Hub-08-11-2026.html').read_text()
         cta = re.search(r'<a class="hero-start" href="([^"]+)">([^<]+)</a>', hub)
         self.assertIsNotNone(cta)
-        self.assertIn('Lab%203/KIT-Lab3-', cta[1])
-        self.assertEqual(cta[2], 'Today’s win: Lab 3 worksheet')
+        # The participant page leads with the current lab (Lab 4 from Oct 17).
+        self.assertIn('Lab%204/KIT-Lab4-', cta[1])
+        self.assertEqual(cta[2], 'Today’s win: Lab 4 page')
         hero = hub.split('<div class="controls">')[0]
-        self.assertIn('Check my Lab 3 access.', hero)
-        self.assertIn('ready to begin Lab 3', hero)
-        self.assertNotIn('ready to begin Lab 2', hero)
-        self.assertIn('If your guide does not recognize Lab 3', hero)
+        self.assertIn('Check my Lab 4 access.', hero)
+        self.assertIn('ready to begin Lab 4', hero)
+        self.assertNotIn('ready to begin Lab 3', hero)
+        self.assertIn("If your guide doesn't know Lab 4", hero)
         self.assertIn('KIT-Lab2-Writing-Org-Brain.html', hub)
 
     def test_install_template_primary_mode_and_earlier_route(self):

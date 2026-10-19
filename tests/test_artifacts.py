@@ -86,9 +86,10 @@ class Artifacts(unittest.TestCase):
             hub = (SOURCE / "RWI-WellsFargo-Participant-Hub-08-11-2026.html").read_text()
             first_cta = re.search(r'<a class="hero-start" href="([^"]+)">([^<]+)</a>', hub)
             self.assertIsNotNone(first_cta)
-            self.assertIn("Lab%203/KIT-Lab3-", first_cta[1])
-            self.assertEqual(first_cta[2], "Today’s win: Lab 3 worksheet")
-            self.assertIn("Check my Lab 3 access.", hub.split('<div class="controls">')[0])
+            # The participant page leads with the current lab (Lab 4 from Oct 17).
+            self.assertIn("Lab%204/KIT-Lab4-", first_cta[1])
+            self.assertEqual(first_cta[2], "Today’s win: Lab 4 page")
+            self.assertIn("Check my Lab 4 access.", hub.split('<div class="controls">')[0])
             install = (SOURCE / "tools/lab-guide-page.template.html").read_text()
             primary = install.split('<details><summary>Return to Lab 2 or an earlier lab</summary>')[0]
             self.assertIn("ready to begin Lab 3", primary)
@@ -217,6 +218,23 @@ class Artifacts(unittest.TestCase):
         spec.loader.exec_module(mirror)
         version = (ROOT / "build/VERSION").read_text().strip()
         mirror.check_guide_zip((ROOT / "download/lab-guide.zip").read_bytes(), version)
+
+    def test_bundles_hold_no_facilitator_files_or_practice_key_names(self):
+        # Answer keys and the Lab 4 practice key's organization names never ship to participants.
+        chat = (ROOT / "download/lab-guide-chat.md").read_text()
+        with zipfile.ZipFile(ROOT / "download/lab-guide.zip") as z:
+            names = z.namelist()
+            zip_text = "\n".join(z.read(m).decode("utf-8", "ignore") for m in names)
+        self.assertFalse([m for m in names if "FACILITATOR" in m.upper()])
+        self.assertNotIn("BEGIN ASSET assets/FACILITATOR", chat)
+        if SOURCE is None:
+            self.skipTest("--source required to read the practice key")
+        import csv
+        key = SOURCE / "04-Participant Kits/Lab 4/MOCK-Placeholder-Key.csv"
+        orgs = {row[1] for row in list(csv.reader(key.read_text().splitlines()))[1:] if len(row) > 1}
+        for org in orgs:
+            self.assertNotIn(org, chat, org)
+            self.assertNotIn(org, zip_text, org)
 
     def test_quick_pages_point_only_to_sections_that_exist(self):
         # Lab 3 has no "If you get stuck" section; its quick page must not send people there.
