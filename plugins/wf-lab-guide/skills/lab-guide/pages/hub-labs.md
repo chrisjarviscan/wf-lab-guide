@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.37 · Oct 19, 2026. Mirrored from the participant page as published on Oct 19, 2026 (source babdc82). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.38 · Oct 19, 2026. Mirrored from the participant page as published on Oct 19, 2026 (source d7f2f70). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
