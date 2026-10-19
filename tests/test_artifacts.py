@@ -68,14 +68,18 @@ class Artifacts(unittest.TestCase):
         for rel in ("README.md", "START-HERE.md", "FACILITATOR-RUN-THROUGH.md"):
             text = (ROOT / rel).read_text()
             self.assertIn("Friday", text, rel)
-            self.assertIn("October 16", text, rel)
-            self.assertIn("October 12", text, rel)
             if rel in ("README.md", "START-HERE.md"):
+                # The participant entry documents lead with the current lab (Lab 4 from Oct 19).
                 primary = text.split("## Returning to an earlier lab?")[0]
-                self.assertIn("Check my Lab 3 access.", primary, rel)
-                self.assertIn("ready to begin Lab 3", primary, rel)
-                self.assertNotIn("ready to begin Lab 2", primary, rel)
-                self.assertIn("October 12", primary, rel)
+                self.assertIn("Check my Lab 4 access.", primary, rel)
+                self.assertIn("ready to begin Lab 4", primary, rel)
+                self.assertNotIn("ready to begin Lab 3", primary, rel)
+                self.assertIn("October 19", primary, rel)
+                self.assertIn("October 23", primary, rel)
+                self.assertIn("ready to begin Lab 3", text.split("## Returning to an earlier lab?")[1], rel)
+            else:
+                self.assertIn("October 16", text, rel)
+                self.assertIn("October 12", text, rel)
             for question in questions:
                 self.assertIn(question, text, rel)
                 self.assertIn(len(question.split()), (4, 5))

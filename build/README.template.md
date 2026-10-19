@@ -49,7 +49,7 @@ Pass: current README version, a quotation from the Lab 4 kit and the Lab 4 files
 > I'm ready to begin Lab 4.
 
 Claude checks available work, asks one question at a time and handles authorized file work. Steps 1 to 3 and step 7 stay by hand. Save and reopen the cleanup recipe before claiming it is saved. Without file tools, use complete downloads or the manual-saving steps in Help; saving to your computer does not update Project files.
-Optional setup help: **Check and fix setup.**
+Optional setup help: **Is the guide working?** or **Check and fix setup.**
 
 ## Returning to an earlier lab?
 
