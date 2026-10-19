@@ -1,11 +1,11 @@
 {
-  "source_commit": "3c2d5c8",
+  "source_commit": "6bc4fd8",
   "files": [
     {
       "asset": "assets/KIT-Lab3-Reporting-Adversarial-Pass.md",
       "destination": "Kits/KIT-Lab3-Reporting-Adversarial-Pass.md",
       "source": "04-Participant Kits/Lab 3/KIT-Lab3-Reporting-Adversarial-Pass.md",
-      "sha256": "dbf2c29ee082ca51bab94276b0a15df7011c4394a5e511ef6a0154d9f0a75a1a"
+      "sha256": "7056ae68e65942f23efe997d5f61a185cb40b09d9ea06efcbb2124c7bc2de4ba"
     },
     {
       "asset": "assets/MOCK-Mess-Pack.md",
@@ -17,25 +17,25 @@
       "asset": "assets/KIT-Lab4-Data-Clean-Extract.md",
       "destination": "Kits/KIT-Lab4-Data-Clean-Extract.md",
       "source": "04-Participant Kits/Lab 4/KIT-Lab4-Data-Clean-Extract.md",
-      "sha256": "0d07b64fed9b53e2d342feaf405574223766e7794054a2ff312146645c51500d"
+      "sha256": "6dc7faa1848e884cc3c7a4de1961c5385670165510a12368f87611269197dcf2"
     },
     {
       "asset": "assets/KIT-Lab5-Numbers-Narrative-Deck.md",
       "destination": "Kits/KIT-Lab5-Numbers-Narrative-Deck.md",
       "source": "04-Participant Kits/Lab 5/KIT-Lab5-Numbers-Narrative-Deck.md",
-      "sha256": "09ded09d47ffba4afb1c10c4998fc25bd973f476716ed992e36cd4c954b66968"
+      "sha256": "a9248b081bc2a9ee4ff6b99ed612ffdfe073788897b5bb523b14c97792def3ea"
     },
     {
       "asset": "assets/KIT-Lab6-Agents-Toolbox.md",
       "destination": "Kits/KIT-Lab6-Agents-Toolbox.md",
       "source": "04-Participant Kits/Lab 6/KIT-Lab6-Agents-Toolbox.md",
-      "sha256": "165bdb6ca7765f0cc8f8ac78150d382d7471087276565776938858f748d346f3"
+      "sha256": "945350d501ad4575236cdc746d8408820316e086fadce3b818b0f6d2d07503b3"
     },
     {
       "asset": "assets/KIT-Lab7-Build-Roadmap.md",
       "destination": "Kits/KIT-Lab7-Build-Roadmap.md",
       "source": "04-Participant Kits/Lab 7/KIT-Lab7-Build-Roadmap.md",
-      "sha256": "1cf49670e956795086ddc3cd0b3a5c37297fc1156675e61864c433bc60fb4d32"
+      "sha256": "e804e39c60da22d8a6fe89357496b641e618c9b26d266dafe0dbfe6691f3617f"
     },
     {
       "asset": "assets/KIT-Lab1-First-Safe-Win.md",

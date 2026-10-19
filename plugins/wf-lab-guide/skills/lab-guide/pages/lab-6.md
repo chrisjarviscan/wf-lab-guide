@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.34 · Oct 17, 2026. Mirrored from the Lab 6 kit as published on Oct 17, 2026 (source 3c2d5c8). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.35 · Oct 19, 2026. Mirrored from the Lab 6 kit as published on Oct 19, 2026 (source 6bc4fd8). Do not edit: rebuild instead. -->
 
 # Lab 6: Skills, research and the wider toolbox
 
@@ -10,7 +10,7 @@ Welcome. Today you turn your second chair into a skill and run it on a real draf
 
 **Bring:**
 
-- **Your draft:** a draft about to ship and the files it came from (your Lab 5 placeholder narrative, `Outputs/narrative.md`, counts; never the copy with names back in). Save any not yet in `AI-Labs` into `Working`. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. A spreadsheet comes only as prepared in Lab 4: red and notes columns deleted, placeholders in, the key outside `AI-Labs`.
+- **Your draft:** a draft about to ship and the files it came from (your Lab 5 narrative counts as a draft: the placeholder copy, `Outputs/narrative.md`, never the copy with names back in). Save any not yet in `AI-Labs` into `Working`. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. A spreadsheet comes only as prepared in Lab 4: red and notes columns deleted, placeholders in, the key outside `AI-Labs`.
 - **Or the practice set:** your Lab 5 narrative, `Outputs/narrative.md`, and the set's two files in `Kits`. Missing them? Save `MOCK-Benevity-Export-CLEANED-Reference.csv` and `MOCK-Program-Context.md` into `Kits` (in the browser, add them to Project files).
 - **Your research brief:** all four parts, in `Working/research-brief.md`, on a question you'd act on this month. Colleagues who wrote one brief each save a copy, because you each run Research today.
 
@@ -19,7 +19,7 @@ Welcome. Today you turn your second chair into a skill and run it on a real draf
 - **Browser, and your AI-Labs Project offers Add from GitHub:** open Project files, choose **Add from GitHub**, enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these files under `plugins/wf-lab-guide/skills/lab-guide/`: `SKILL.md`, `pages/lab-6.md`, `assets/KIT-Lab6-Agents-Toolbox.md`, `assets/writing-skills/ai-syntax-avoidance.md`, `assets/writing-skills/ai-syntax-avoidance-extended.md`. Added it before? Open the repository item, choose **Sync**, and add the Lab 6 files. Your own work stays in Project files.
 - **Browser, no GitHub:** download [lab-guide-chat.md](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md) and upload it once to your AI-Labs Project files, or attach it to your work chat with the paperclip. It already contains this kit. Type the phrases inside your AI-Labs Project, where Claude finds your files faster.
 - **Desktop app:** download [lab-guide.zip](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip) and keep it zipped. In **Customize → Skills**, choose **+**, then **Upload a skill** (on some screens it sits under **Create skill**), select the ZIP and enable **lab-guide**. Uploading it again replaces an older copy. Open a work session on your existing **AI-Labs** folder.
-- **Already have the guide?** Go straight to the phrases. If Claude says your guide is older than the published one, do your line above once more, then type the phrase again. Lab 6 needs Lab Guide 1.0.33 or later; the first line of Claude's reply shows yours.
+- **Already have the guide?** Go straight to the phrases. If Claude says your guide is older than the published one, do your line above once more, then type the phrase again. Lab 6 needs Lab Guide 1.0.35 or later; the first line of Claude's reply shows yours.
 
 **Pick a model that thinks.** In the model menu, choose Sonnet or Opus, not Haiku. Haiku is fast, but it rushes careful work like a second chair's read of your draft.
 
@@ -49,7 +49,7 @@ Answer one question at a time. Claude has you launch Research first, because it 
 
 **Short on time in your room?** Type "We have ten minutes left. Save where I am and tell me what's left." Claude saves your skill first if you've built it, and lists what's left for this week. If your Research report hasn't landed, steps 5 and 6 become this week's Ship It.
 
-**Finished early?** Try the tool map: in a tool your organization allows, like ChatGPT, Gemini or Copilot, give it `AGENTS.md` alone and paste the readback test from Before you come. If it can't name three rules that are in your file, don't use it on your folder's work.
+**Finished early?** Try the tool map: in a tool your organization allows, like ChatGPT, Gemini or Copilot, give it `AGENTS.md` alone and ask Claude for the readback test to paste. If it can't name three rules that are in your file, don't use it on your folder's work.
 
 ## Before you come
 
@@ -59,7 +59,7 @@ If your ready check at the end of Lab 5 said you're ready for Lab 6, your saved 
   - the Lab 5 practice set, if it isn't there already: `MOCK-Benevity-Export-CLEANED-Reference.csv` and `MOCK-Program-Context.md`
 - Working without the guide? Save this kit too, `KIT-Lab6-Agents-Toolbox.md`.
 - Choose your draft. Both take the same steps today.
-  - Your own: a draft about to ship and the files it came from (your Lab 5 placeholder narrative, `Outputs/narrative.md`, counts; never the copy with names back in). Save any not yet in `AI-Labs` into `Working`. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet comes only as prepared in Lab 4: red and notes columns deleted, placeholders in, the key outside `AI-Labs`.
+  - Your own: a draft about to ship and the files it came from (your Lab 5 narrative counts as a draft: the placeholder copy, `Outputs/narrative.md`, never the copy with names back in). Save any not yet in `AI-Labs` into `Working`. Clients, donors, volunteers and anyone you serve never go into Claude or your AI-Labs folder, and neither do health or case details. Staff names in your everyday writing are fine. A spreadsheet comes only as prepared in Lab 4: red and notes columns deleted, placeholders in, the key outside `AI-Labs`.
   - The practice set: the narrative you wrote from it in Lab 5, `Outputs/narrative.md`, and the set's two files. Without one, any draft in `Outputs` works, with the files it came from.
 - Your research brief, with all four parts, in `Working/research-brief.md`. You each run Research today, so colleagues who wrote one brief each save a copy. If you have none, write a rough one in the four parts under "Your brief to Claude", on a question you'd act on this month, and save it there.
 - If offered, use file creation as in Lab 5. Otherwise save complete text as a plain text file (Windows Notepad: Save as type All files; Mac TextEdit: Format, then Make Plain Text). A skill can be followed from its attached text; installing it is optional.
@@ -302,7 +302,7 @@ The tool names three rules, and each one is in your `AGENTS.md`. If one isn't, d
 
 **Checkpoints in the room.** Rooms are often quiet, so the facilitator watches the Zoom chat. When Research is launched in step 1, ask them to type "launched". When step 2's skill file is saved and checked, ask them to type "saved" in the Zoom chat. When step 6's summary is saved, ask them to type "done". One line each time.
 
-“Check my Lab 6 access” is read-only. Give the guide version line and run the version check in SKILL.md. Quote one instruction from this kit. Then list, by name only, the Lab 6 files you can actually see: AGENTS.md, `second-chair.md`, `research-brief.md`, a draft in Outputs or Working, the practice set, and any `Skills/second-chair/SKILL.md` (browser: `second-chair-SKILL.md`). Open and quote no draft or spreadsheet rows during the check. Never open a file with "key" in its name. Judge by file name only and never open a file to decide; if a name suggests a key, an original export or a sheet with names restored ("key", "original", "export", "restored"), or you are unsure, ask the participant. The Lab 5 practice sheet `MOCK-Benevity-Export-CLEANED-Reference.csv` is the one exception: it is fictional practice material, not an export. If one is in AI-Labs, Project files or this chat, say so in one line: they move it out by hand, and in a Project they remove it and tell the facilitator, because deleting it does not undo the exposure. Change nothing.
+“Check my Lab 6 access” is read-only. Give the guide version line and run the version check in SKILL.md. Quote one instruction from this kit. Then list, by name only, the Lab 6 files you can actually see: AGENTS.md, `second-chair.md`, `research-brief.md`, a draft in Outputs or Working, the practice set, and any `Skills/second-chair/SKILL.md` (browser: `second-chair-SKILL.md`). Open and quote no draft or spreadsheet rows during the check. Never open a file with "key" in its name. Judge by file name only and never open a file to decide; if a name suggests a key, an original export or a sheet with names restored ("key", "original", "export", "restored"), or you are unsure, ask the participant. The practice sheets `MOCK-Benevity-Export-Messy.csv` and `MOCK-Benevity-Export-CLEANED-Reference.csv` are the exceptions: fictional practice material, not exports. If one is in AI-Labs, Project files or this chat, say so in one line: they move it out by hand, and in a Project they remove it and tell the facilitator, because deleting it does not undo the exposure. Change nothing.
 
 “I'm ready to begin Lab 6” and natural equivalents start the guided session. Follow the nine numbered steps in order, resuming at the first unfinished one when the files show it. Ask one question or give one necessary action at a time. Do authorized file work with available tools; do not make the participant copy a prompt you can run. Do not show the full step list unless asked. Preserve every safety limit and approval gate in the original prompts.
 

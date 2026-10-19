@@ -95,9 +95,11 @@ class Artifacts(unittest.TestCase):
             self.assertEqual(first_cta[2], "Today’s win: Lab 4 page")
             self.assertIn("Check my Lab 4 access.", hub.split('<div class="controls">')[0])
             install = (SOURCE / "tools/lab-guide-page.template.html").read_text()
-            primary = install.split('<details><summary>Return to Lab 2 or an earlier lab</summary>')[0]
-            self.assertIn("ready to begin Lab 3", primary)
-            self.assertNotIn("ready to begin Lab 2", primary)
+            # The install page leads with the current lab; earlier labs sit under the panel.
+            primary = install.split('<details><summary>Return to Lab 3, Lab 2 or an earlier lab</summary>')
+            self.assertEqual(len(primary), 2, "earlier-lab panel heading changed")
+            self.assertIn("ready to begin Lab 4", primary[0])
+            self.assertNotIn("ready to begin Lab 2", primary[0])
         skill = (SKILL / "SKILL.md").read_text()
         for phrase in (*questions, "Is my workspace ready?"):
             self.assertIn(phrase, skill)
