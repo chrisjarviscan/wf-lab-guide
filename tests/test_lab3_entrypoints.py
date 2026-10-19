@@ -18,17 +18,19 @@ class Lab3Entrypoints(unittest.TestCase):
             text = primary_text((ROOT / name).read_text())
             for heading in ("### I'm using Claude in my browser", "### I'm using the Claude desktop app"):
                 route = text.split(heading, 1)[1].split('\n##', 1)[0]
-                self.assertIn('Check my Lab 3 access.', route, name)
-                self.assertIn('ready to begin Lab 3', route, name)
-                self.assertNotIn('ready to begin Lab 2', route, name)
+                self.assertIn('Check my Lab 4 access.', route, name)
+                self.assertIn('ready to begin Lab 4', route, name)
+                self.assertNotIn('ready to begin Lab 3', route, name)
 
     def test_start_here_matches_readme_and_keeps_earlier_route(self):
         readme = (ROOT / 'README.md').read_text()
         self.assertEqual(readme, (ROOT / 'START-HERE.md').read_text())
-        self.assertIn('ready to begin Lab 2', readme.split('## Returning to an earlier lab?')[1])
-        self.assertIn('October 12', primary_text(readme))
-        self.assertIn('October 16', primary_text(readme))
-        self.assertIn('pages/lab-3.md', readme)
+        earlier = readme.split('## Returning to an earlier lab?')[1]
+        self.assertIn('ready to begin Lab 2', earlier)
+        self.assertIn('ready to begin Lab 3', earlier)
+        self.assertIn('October 19', primary_text(readme))
+        self.assertIn('October 23', primary_text(readme))
+        self.assertIn('pages/lab-4.md', readme)
 
     def test_hub_primary_cta_and_start_panel(self):
         if SOURCE is None:
@@ -50,15 +52,16 @@ class Lab3Entrypoints(unittest.TestCase):
         if SOURCE is None:
             self.skipTest('--source required for hub entrypoint checks')
         page = (SOURCE / 'tools/lab-guide-page.template.html').read_text()
-        primary = page.split('<details><summary>Return to Lab 2 or an earlier lab</summary>')[0]
-        self.assertIn('Check my Lab 3 access.', primary)
-        self.assertIn('ready to begin Lab 3', primary)
-        self.assertNotIn('ready to begin Lab 2', primary)
-        self.assertIn('October 12', primary)
-        self.assertIn('October 16', primary)
-        self.assertIn('data-copy="Check my Lab 3 access."', primary)
-        self.assertIn('ready to begin Lab 2', page[len(primary):])
-
+        primary = page.split('<details><summary>Return to Lab 3, Lab 2 or an earlier lab</summary>')[0]
+        self.assertIn('Check my Lab 4 access.', primary)
+        self.assertIn('ready to begin Lab 4', primary)
+        self.assertNotIn('ready to begin Lab 3', primary.split('var script=')[0])
+        self.assertIn('October 19', primary)
+        self.assertIn('October 23', primary)
+        self.assertIn('data-copy="Check my Lab 4 access."', primary)
+        earlier = page[len(primary):]
+        self.assertIn('ready to begin Lab 3', earlier)
+        self.assertIn('ready to begin Lab 2', earlier)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
