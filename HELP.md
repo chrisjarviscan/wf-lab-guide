@@ -4,15 +4,15 @@
 
 Already have the current guide? Continue in the chat or Project with the permitted files actually visible there.
 
-First time, with Add from GitHub in your Project? Add `chrisjarviscan/wf-lab-guide` (branch `main`) and select only `plugins/wf-lab-guide/skills/lab-guide/SKILL.md`, `pages/lab-3.md`, `assets/KIT-Lab3-Reporting-Adversarial-Pass.md`, `assets/MOCK-Mess-Pack.md`, `assets/writing-skills/ai-syntax-avoidance.md` and `assets/writing-skills/ai-syntax-avoidance-extended.md` under that same folder. Your own work stays in Project files. Claude then has the kit and practice pack and must not ask you to download them again.
+First time, with Add from GitHub in your Project? Add `chrisjarviscan/wf-lab-guide` (branch `main`) and select only the five Lab 4 files listed in the [README](README.md): `SKILL.md`, `pages/lab-4.md`, `assets/KIT-Lab4-Data-Clean-Extract.md`, `assets/writing-skills/ai-syntax-avoidance.md` and `assets/writing-skills/ai-syntax-avoidance-extended.md`, all under `plugins/wf-lab-guide/skills/lab-guide/`. The Lab 4 practice sheet and key are not in the guide: save them by hand from the Lab 4 page.
 
 First time, without Add from GitHub? Attach this one file to your own Claude work chat or Project:
 
 [Full guide attachment](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md)
 
 If the link opens as text, use your browser's Save Page As to save `lab-guide-chat.md`, then attach the file.
-The attachment supports guide questions and the guided Lab 2 and Lab 3 conversations, and already contains the Lab 3 kit and fictional mess pack. It does not install the local workspace helper.
-No Project is required. Say “I'm ready to begin Lab 2.” Claude can use visible files, interview you or use practice.
+The attachment supports guide questions and every guided lab, and already contains the kits for Labs 1 to 7. The Lab 4 practice sheet and key are not in it: save them by hand from the Lab 4 page. It does not install the local workspace helper.
+No Project is required. Ask “Check my Lab 4 access.”, then say “I'm ready to begin Lab 4.” Claude can use visible files or the practice route.
 
 With file tools, Claude creates artifacts and reopens their contents before offering downloads.
 Without file tools, use the plain-text saving steps under Keep your work and return later below. Until you reopen a saved copy, file work remains pending.
