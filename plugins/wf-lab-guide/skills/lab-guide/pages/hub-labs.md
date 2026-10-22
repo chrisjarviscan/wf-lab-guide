@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.38 · Oct 19, 2026. Mirrored from the participant page as published on Oct 19, 2026 (source d7f2f70). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.39 · Oct 22, 2026. Mirrored from the participant page as published on Oct 22, 2026 (source ae119a7). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -100,7 +100,7 @@ Open the Lab 3 page (lab-3.md), choose Desktop app and follow its one setup step
 
 ### Lab 4: Data, clean and extract
 
-A spreadsheet cleaned by Claude, your own recurring one or the practice sheet, with every change in a change log you've checked, the organization names back in, and a cleanup recipe for next month. People's names never go into Claude, and organization names reach it only as placeholders in the form ORG-01, and no other format.
+A spreadsheet cleaned by Claude (the practice sheet in the lab, your own recurring one this week), with every change in a change log you've checked, the organization names back in, and a cleanup recipe for next month. People's names never go into Claude, and organization names reach it only as placeholders in the form ORG-01, and no other format.
 
 Monday, October 19 · Friday, October 23
 
