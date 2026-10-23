@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.39 · Oct 22, 2026. Mirrored from the participant page as published on Oct 22, 2026 (source ae119a7). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.40 · Oct 23, 2026. Mirrored from the participant page as published on Oct 23, 2026 (source 2de19b1). Do not edit: rebuild instead. -->
 
 # Words we use
 
@@ -46,7 +46,7 @@ What the words in the kits mean, in plain terms. Each kit also explains a word w
 
 **Org brain**: Your `Org-Brain` folder: your mission, two writing samples and an outcomes summary if you have one (or a voice note transcript), and your voice notes, saved as plain text files that tell Claude how your organization sounds. Claude helps you build and save it in Lab 2 after you approve the voice notes. Claude uses these checked files when it drafts your piece.
 
-**Placeholder and placeholder key**: A placeholder is a stand-in such as `ORG-01` where an organization's real name would be, so the real name stays out of Claude. The placeholder key is the list that matches each placeholder to the real name. It never goes near Claude or in your AI-Labs folder, so every step that uses it happens by hand, in your spreadsheet. You'll use both in Lab 4.
+**Placeholder and placeholder key**: A placeholder is a stand-in such as `ORG-01` where an organization's real name would be, so the real name stays out of Claude. The placeholder key is the list that matches each placeholder to the real name. It never goes near Claude or in your AI-Labs folder. In Lab 4 the swap page makes the key and uses it on your own computer.
 
 **Project**: A named space in Claude where files you upload stay available to every chat you start inside it. If you use Claude in your browser, you upload your files to your AI-Labs Project and download what Claude makes.
 
@@ -58,17 +58,19 @@ What the words in the kits mean, in plain terms. Each kit also explains a word w
 
 **Recipe**: A brief you've saved to run again, kept as a file in your Recipes folder. You save your first one in Lab 1.
 
-**Reconcile**: Checking that your own row count and total, made in your spreadsheet before and after the clean, differ by exactly what the change log explains. The check comes from you, never from a total Claude gives you. You do it in Lab 4.
+**Reconcile**: Checking that your row count and total before and after the clean, which the swap page shows you, differ by exactly what the change log explains. The check comes from you, never from a total Claude gives you. You do it in Lab 4.
 
 **Red, yellow and green columns**: How Lab 4 sorts a spreadsheet's columns before anything goes to Claude. Red columns name or identify a person, staff included (names, addresses, phones, emails, birth dates, ID numbers), and you delete them, along with every notes or comments column. Yellow columns hold organization names, like partners, grantees or funders, and get placeholders such as ORG-01. Green columns are everything else, like programs, sites, dates, counts and amounts, and go in as they are. If you're unsure about a column, delete it.
 
-**Re-identify**: Putting the organization names back in place of the placeholders, by hand, with your placeholder key. In Lab 4 you do it in a copy of the cleaned sheet saved in your key folder, outside your AI-Labs folder.
+**Re-identify**: Putting the organization names back in place of the placeholders, using your placeholder key. In Lab 4 the swap page does it in Part 2, on your own computer, and the file with the names back stays outside your AI-Labs folder.
 
 **Research**: A Claude feature you run on a question of your own. It comes back with a report and its sources, which you then check. It comes with your Pro account and can use up your usage limit faster, so each person runs it once, in Lab 6.
 
 **RFP (request for proposals)**: A funder's published call for grant proposals, with its rules and deadline. A live RFP is one you're answering now. It's public, so it can go into your folder as it is.
 
 **Second chair**: Claude reading your draft the way your most skeptical board member would, before anyone else sees it. In Lab 3 you write the brief that asks for this reading and save it as a recipe. In Lab 6 you turn that recipe into a skill.
+
+**Swap page**: A page on this site that swaps the organization names in a spreadsheet for codes like `ORG-01` on your own computer, deletes columns that name people, saves your placeholder key, and later puts the names back. Claude never sees the names. You use it in Lab 4: open the swap page.
 
 **Ship log**: Your running list of what you finish and send with Claude's help, kept in `Outputs/ship-log.md`. Each line has the date, what it was, who it went to, and how many minutes it took the old way (without Claude) and the new way (with Claude, from start to sent, checks included), both timed on a stopwatch. Leave the old way blank if you never timed it.
 
