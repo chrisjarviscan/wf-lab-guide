@@ -4,15 +4,15 @@
 
 Already have the current guide? Continue in the chat or Project with the permitted files actually visible there.
 
-First time, with Add from GitHub in your Project? Add `chrisjarviscan/wf-lab-guide` (branch `main`) and select only the five Lab 4 files listed in the [README](README.md): `SKILL.md`, `pages/lab-4.md`, `assets/KIT-Lab4-Data-Clean-Extract.md`, `assets/writing-skills/ai-syntax-avoidance.md` and `assets/writing-skills/ai-syntax-avoidance-extended.md`, all under `plugins/wf-lab-guide/skills/lab-guide/`. The Lab 4 practice sheet and key are not in the guide: save them by hand from the Lab 4 page.
+First time, with Add from GitHub in your Project? Add `chrisjarviscan/wf-lab-guide` (branch `main`) and select only the five Lab 5 files listed in the [README](README.md): `SKILL.md`, `pages/lab-5.md`, `assets/KIT-Lab5-Numbers-Narrative-Deck.md`, `assets/writing-skills/ai-syntax-avoidance.md` and `assets/writing-skills/ai-syntax-avoidance-extended.md`, all under `plugins/wf-lab-guide/skills/lab-guide/`. For fictional practice, open your existing participant-site link, choose the Lab 5 card, and download `MOCK-Benevity-Export-CLEANED-Reference.csv` and `MOCK-Program-Context.md` from the live worksheet—not from the guide’s GitHub page. Make both files readable in your work chat; they are separate from the five guide files. Never add a placeholder key.
 
 First time, without Add from GitHub? Attach this one file to your own Claude work chat or Project:
 
 [Full guide attachment](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md)
 
 If the link opens as text, use your browser's Save Page As to save `lab-guide-chat.md`, then attach the file.
-The attachment supports guide questions and every guided lab, and already contains the kits for Labs 1 to 7. The Lab 4 practice sheet and key are not in it: save them by hand from the Lab 4 page. It does not install the local workspace helper.
-No Project is required. Ask “Check my Lab 4 access.”, then say “I'm ready to begin Lab 4.” Claude can use visible files or the practice route.
+The attachment supports guide questions and every guided lab, and already contains the kits for Labs 1 to 7. The two fictional practice files are separate; use the live worksheet download route above, never a placeholder key. It does not install the local workspace helper.
+No Project is required. Ask “Check my Lab 5 access.”, then say “I'm ready to begin Lab 5.” Claude can use visible files or the practice route.
 
 With file tools, Claude creates artifacts and reopens their contents before offering downloads.
 Without file tools, use the plain-text saving steps under Keep your work and return later below. Until you reopen a saved copy, file work remains pending.
@@ -78,6 +78,8 @@ Installed skills, plugins and attachments are snapshots. Update through supporte
 
 ## Keep your work and return later
 
+For Lab 5, save and reopen the approved narrative, slide outline or deck, and numbers-to-deck recipe. Keep the checked sources available for every fresh review. Missing `AGENTS.md` or a saved reviewer recipe stays explicitly pending; do not recreate approved work from memory. The examples below also preserve the earlier voice-work routes.
+
 ### Browser: save to your Project before the readback
 
 Open AGENTS.md in the right-hand document panel and read it. If Save to Project is available at the top right, select your AI-Labs Project. Otherwise download AGENTS.md, open that Project and upload it to Project files. Button names and availability may vary. Confirm AGENTS.md appears in Project files and open it to check the approved contents. Keep voice notes and drafts there too. Check the new copy before removing an older one.
@@ -101,11 +103,15 @@ To return in a new chat, attach the current guide, your latest `AGENTS.md`, `Org
 
 For Lab 3, add your permitted reporting input to the new conversation. The kit and the fictional mess pack are already inside the connected or attached guide; add them separately only if Claude says it cannot read them. If you use a Project, update its copies explicitly; if you do not, attach the same files in each fresh review chat. Run the readback check against the actual attached AGENTS.md. A new chat alone does not prove memory is off; turn Memory off where offered for the independent check, and compare each quoted rule with the file.
 
-If the guide cannot be installed or attached, attach the Lab 2 Markdown kit linked from the participant hub and say: “Read this kit, including How Claude runs these steps. Guide me through Lab 2 one question at a time. Check your actual file tools, ask before saving voice changes, and never send anything for me.” Confirm Claude can read the kit before beginning. If attachments are blocked, ask the facilitator to guide the exercise; the short start phrase alone does not contain the lab instructions.
+For the earlier Lab 2 voice exercise, if the guide cannot be installed or attached, attach the Lab 2 Markdown kit linked from the participant hub and say: “Read this kit, including How Claude runs these steps. Guide me through Lab 2 one question at a time. Check your actual file tools, ask before saving voice changes, and never send anything for me.” Confirm Claude can read the kit before beginning. If attachments are blocked, ask the facilitator to guide the exercise; the short start phrase alone does not contain the lab instructions.
+
+For Lab 5 without the guide, open the Lab 5 live worksheet from your existing participant-site link and attach its Lab 5 Markdown kit to a permitted chat. Ask: “Read this kit, including How Claude runs Lab 5. Quote one instruction so I can check you read it. Then guide me through Lab 5 one step at a time, checking actual source access and waiting for my decisions.” Add the two fictional practice files or permitted checked sources. If attachments are unavailable, use the live worksheet with your facilitator; the start phrase alone does not contain the instructions.
 
 ## What counts as finished
 
-The live lab’s minimum is your approved written voice notes and five approved “How we sound” rules saved and reopened. A partial AGENTS.md must still show unfinished interview sections. A real draft or RFP table is the next goal when time permits. Fictional practice is a rehearsal, not your organization’s completed voice work.
+For Lab 5, the minimum is a checked narrative, usable slide outline or deck, and saved/reopened reusable recipe. A real presentation file counts only when it exists and opens; an outline alone is not a PPTX. Preserve unfinished parts and the next action.
+
+For the earlier voice lab, the minimum is your approved written voice notes and five approved “How we sound” rules saved and reopened. A partial AGENTS.md must still show unfinished interview sections. A real draft or RFP table is the next goal when time permits. Fictional practice is a rehearsal, not your organization’s completed voice work.
 
 A file ready to download still needs the participant’s download/open check. A participant-confirmed local save is not a tool-verified local save. Report these separately and accurately.
 

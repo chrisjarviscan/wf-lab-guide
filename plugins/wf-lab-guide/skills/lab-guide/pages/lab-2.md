@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.40 · Oct 23, 2026. Mirrored from the Lab 2 kit as published on Oct 23, 2026 (source 2de19b1). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.41 · Oct 30, 2026. Mirrored from the Lab 2 kit as published on Oct 30, 2026 (source 9c336c2). Do not edit: rebuild instead. -->
 
 # Lab 2: Writing and the org brain
 

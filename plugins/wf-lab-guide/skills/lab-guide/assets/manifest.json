@@ -1,5 +1,5 @@
 {
-  "source_commit": "2de19b1",
+  "source_commit": "9c336c2",
   "files": [
     {
       "asset": "assets/KIT-Lab3-Reporting-Adversarial-Pass.md",
@@ -23,7 +23,7 @@
       "asset": "assets/KIT-Lab5-Numbers-Narrative-Deck.md",
       "destination": "Kits/KIT-Lab5-Numbers-Narrative-Deck.md",
       "source": "04-Participant Kits/Lab 5/KIT-Lab5-Numbers-Narrative-Deck.md",
-      "sha256": "a9248b081bc2a9ee4ff6b99ed612ffdfe073788897b5bb523b14c97792def3ea"
+      "sha256": "83b8d64774a35c41835dac0cfcf17b0a8dcef01916d7649a48b4d70b93c56673"
     },
     {
       "asset": "assets/KIT-Lab6-Agents-Toolbox.md",
