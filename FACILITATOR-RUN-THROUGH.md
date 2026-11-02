@@ -1,52 +1,57 @@
-# Seven-minute connection check, then one start
+# Lab 6 facilitator run-through
 
-Lab 5: Monday, October 26, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, October 30, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). Use the participant’s cohort; if unknown, show both.
+**Monday, November 2, 2026:** 1:00–2:30 PM Eastern / 18:00–19:30 UTC.
+**Friday, November 6, 2026:** noon–1:30 PM Eastern / 17:00–18:30 UTC.
+Use the participant's cohort. Friday coverage is a separate confirmation, not an assumed copy of Monday.
 
-## Minutes 0–2: keep their route
+## What is being checked
 
-“Already have the current guide? Stay where your work files are available.”
+The full result is a reusable reviewer saved as a portable skill, tested on a permitted draft **with all its source files**, findings settled by the human, plus a short summary containing only personally checked claims with a source/date for each and a missing-voices line.
 
-Three routes carry the same guide. Pick the one the participant’s screen offers; do not switch a working route.
+An honest partial checkpoint is a question, rough reviewer, one supervised source-grounded correction and saved next step. It is not Lab 6 complete, completed earlier homework, a Research run or shipped organizational output.
 
-1. **Browser, Project with Add from GitHub:** “In your AI-Labs Project, choose Add from GitHub, enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select only the five Lab 5 files: `SKILL.md`, `pages/lab-5.md`, `assets/KIT-Lab5-Numbers-Narrative-Deck.md`, `assets/writing-skills/ai-syntax-avoidance.md` and `assets/writing-skills/ai-syntax-avoidance-extended.md`, all under `plugins/wf-lab-guide/skills/lab-guide/`. Your own work stays in Project files.”
-2. **Browser, no GitHub:** “Upload one guide file once to your AI-Labs Project files, or attach it to your work chat. It already contains the Lab 5 kit. If Claude can't quote the kit in the access check, attach it to the chat instead.”
-   [Full guide attachment](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md)
-3. **Desktop app:** “Download the guide ZIP. In Claude’s Skills controls, upload it and enable lab-guide, where offered. Then grant the work session access to your existing AI-Labs folder; the guide alone does not grant file access.”
-   [Complete guide ZIP](https://wf-ai-labs.rw.institute/lab-guide/lab-guide.zip)
+## Before rooms: seven protected minutes
 
-For fictional practice, open your existing participant-site link, choose the Lab 5 card, and download `MOCK-Benevity-Export-CLEANED-Reference.csv` and `MOCK-Program-Context.md` from the live worksheet—not from the guide’s GitHub page. Make both files readable in your work chat; they are separate from the five guide files. Never add a placeholder key. A real original export or restored-name copy also stays outside AI-Labs, Projects and chats.
+Stay on the working, organization-approved route. GitHub and skill installation are optional. If no approved AI route exists, use the fictional files manually in a text editor and spreadsheet.
 
-## Minute 2–3: check
+1. Check the tool is allowed for the actual inputs. Tool access is not permission to upload organizational information. No original private export, identifier key, restored names, client/donor/volunteer/health information or unprepared real sheet enters any AI chat, Project or connected folder.
+2. Ask **“Check my Lab 6 access.”** Expect the current guide version, a quotation from the Lab 6 kit and file names only. A version line does not prove the work files are readable. Never open a key during this check.
+3. Verify the draft, reviewer and all allowed sources in the actual work chat. If no prior files exist, use the participant site's **Lab6-fictional-practice.zip**: new fictional draft plus unchanged published CSV and program context. Extract and personally open all three. It contains no facilitator answers.
+4. Identify the save route. With granted folder tools, save and actually reopen. Otherwise give complete text or a download; the human saves and reopens. In a Project, open and verify the new uploaded copy before retiring the old one.
 
-> Check my Lab 5 access.
+Optional diagnostics: **“Is the guide working?”** or **“Check and fix setup.”** Check working access before reinstalling. Use only controls actually offered by the account; never claim installation, sync or save was tested merely because a file downloaded.
 
-Pass: the first line says the [current README version](README.md) (1.0.41 includes these Lab 5 corrections), Claude quotes a line from the Lab 5 kit, and it lists the Lab 5 files it can see by name only. Names alone are correct here: the check never opens data files, and never a file with "key" in its name. Check that yourself. A version line alone is not a pass.
+## Demonstration and work
 
-Not sure the guide is loaded at all? Ask **“Is the guide working?”** first.
+- Use a genuine pre-run report only if it exists and its source passages and dates have been opened. If not, explicitly label the supplied fictional review demonstration. Do not narrate a Research run or recording that did not happen.
+- Give a fresh review chat the actual reviewer, draft and all sources. Ask for **up to three supported findings**, not three invented findings. The human opens the source and accepts, rejects or checks each finding.
+- Before Research, confirm permission and a public-only scope. Enabled connected tools may be used automatically. Add no new connectors. If public-only scope cannot be verified, use manually opened public sources and never imply Research ran.
+- For the summary, the participant chooses and checks every retained claim at the source, notes the date and whose voices are missing. The model may write from those checked claims only.
+- Never use a fresh chat to bypass a safety refusal. Use permitted fictional/manual work instead; preserve actual unfinished work and state what remains.
 
-**Older version in the first line?** If the guide is older than the current README version, update before the begin phrase. GitHub Project: open the repository item in Project files and choose **Sync**. Attachment: download and attach `lab-guide-chat.md` again. Desktop: download `lab-guide.zip` again and upload it in Customize → Skills, replacing the old one.
+The guide start is **“I'm ready to begin Lab 6.”** For expressly approved Copilot/other tools, use portable reviewer text and permitted files where supported, not Claude-specific menu instructions. Manual practice needs no account or skill installation.
 
-## Minutes 3–7: verify work files, then begin
+## 90-minute outline
 
-> I'm ready to begin Lab 5.
+| Elapsed | Work |
+|---|---|
+| 00–02 | Opening introduction and recording/privacy choice |
+| 02–22 | Lab 5 deck show-and-tell: checked claims, sources and the intended audience |
+| 22–29 | Protected access, permission and route checks |
+| 29–41 | Lab 6 overview and reviewer demonstration; approved public-only Research or manual-source setup |
+| 41–43 | Move to rooms |
+| 43–46 | Short room goals round |
+| 46–62 | Build/test reviewer and settle findings |
+| 62–72 | Personally checked sources and summary, or honest partial checkpoint |
+| 72–78 | Save/reopen and explicit next steps; outside read only when ready |
+| 78–80 | Return |
+| 80–87 | Debrief: what did you experience; was it what you expected? |
+| 87–90 | Next use and homework |
 
-“Answer one question at a time. Claude guides the work; you independently check the rows and totals, decide which review findings to accept, and approve revisions.”
+The tool map, installation and second skill are optional. They must not displace source checking or durable saving. Confirm host arrangements rather than assigning an absent person.
 
-Claude leads: readable inputs and brief → independent number checks → narrative → fresh review with sources → decisions → outline and deck → saved reusable recipe. Missing `AGENTS.md` does not prevent fictional practice: keep approved rules separately and mark that file update pending. Missing `second-chair.md` means a clearly labeled temporary review, not substitution of another recipe. The slide-outline brief becomes Part 2 of the numbers-to-deck recipe; preserve the existing approved Part 1, and do not reconstruct it from memory if missing.
+## End honestly
 
-Verify actual quotations from the kit and permitted work sources, not just a GitHub connection or filename list. Optional empty reporting templates and brand guidance control formatting only; they cannot supply facts. Never attach unredacted reports to supply a style example.
+Ask for the last human-checked step and actual saved location, or the exact pending save. The phrase **“Start my Lab 6 homework.”** resumes unfinished work. Practice stays practice; no fabricated send or time-saving log. The ready check must be supported by actual checked files, not filenames or Done taps alone.
 
-Ten minutes left in the room: **We have ten minutes left. Save where I am and tell me what's left.** Claude saves the furthest checked point and lists the rest as this week's work.
-Optional setup help: **Check and fix setup.** Protect seven setup/access-check minutes before breakouts within the existing 90-minute session. Shorten the brief and handle remaining questions in rooms or optional stay-after time; do not extend the session.
-
-Before every fresh review chat, make the current draft and every source it used readable there, plus available `AGENTS.md` and the reviewer recipe. Missing files stay explicitly pending. Save and reopen the approved recipe and narrative before claiming they are saved. Downloads do not automatically update local or Project files. Practice stays separate from real data.
-
-## Rehearse on actual Claude accounts
-
-Record each route passed, failed or untested. Package checks do not prove live installation or file access.
-Check all three routes: GitHub-connected Project, browser attachment without a Project, and Cowork folder access; verify writes and reopened contents.
-Use fictional material. Keep restricted details out. Check human approvals and one question at a time.
-
-Returning to an earlier lab? Its start phrase, such as **“I'm ready to begin Lab 4.”**, still works; keep existing work.
-
-[Participant start page](START-HERE.md) · [More help](HELP.md)
+This document describes rehearsal checks, not evidence of a live account test. Browser installation, sync, Research execution, model execution and organizational Copilot permissions must be verified in their real accounts; local packaging tests do not establish those outcomes.

@@ -734,7 +734,11 @@ def main():
 
     for n in range(1, 8):
         md = kits[n]
-        write(os.path.join(PAGES, f"lab-{n}.md"), header.replace("the participant page", f"the Lab {n} kit") + md)
+        # Preserve the mirrored kit and all prompts; add explicit navigation for
+        # practice files deliberately not copied into this participant guide.
+        route = (open(os.path.join(BUILD, "lab6-download-route.md"), encoding="utf-8").read().rstrip() + "\n\n"
+                 if n == 6 else "")
+        write(os.path.join(PAGES, f"lab-{n}.md"), header.replace("the participant page", f"the Lab {n} kit") + route + md)
         write(os.path.join(PAGES, f"lab-{n}-quick.md"), quick_facts(n, titles[n], md, facts))
 
     for page, rel in cfg["starters"].items():
@@ -753,6 +757,7 @@ def main():
         for n in range(1, 8))
     verbatim = "\n".join(f"- {f['label']}: {f['text']}" for f in facts["verbatim"] if f.get("inline"))
     tpl = open(os.path.join(BUILD, "SKILL.template.md"), encoding="utf-8").read()
+    tpl = tpl.replace("{{LAB6_DOWNLOAD_ROUTE}}", open(os.path.join(BUILD, "lab6-download-route.md"), encoding="utf-8").read().rstrip())
     skill = (tpl.replace("{{STAMP}}", stamp)
                 .replace("{{VERSION}}", version)
                 .replace("{{PUBLISHED}}", nice_date(published))

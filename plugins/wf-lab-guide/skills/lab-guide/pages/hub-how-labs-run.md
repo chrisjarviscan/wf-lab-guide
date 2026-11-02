@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.41 · Oct 30, 2026. Mirrored from the participant page as published on Oct 30, 2026 (source 9c336c2). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.42 · Nov 2, 2026. Mirrored from the participant page as published on Nov 2, 2026 (source cee641a). Do not edit: rebuild instead. -->
 
 # How the labs run: what you need, the rooms, the week between labs, recordings, who to ask
 
@@ -6,7 +6,7 @@ Seven weekly labs on Zoom, 90 minutes each, for two colleagues from each partici
 
 ### What you need
 
-You need your own Claude account and Zoom. Wells Fargo covers Claude Pro for six months. Choose the browser or desktop directions below. A connected AI-Labs folder is useful when your session has folder tools; browser participants can use Project files or chat attachments. You don't need access to your organization's systems or live data: every lab can run on a practice file, with the same steps as your own material.
+For the Claude route, you need your own permitted Claude account and Zoom. The approved-tool or manual route does not require Claude. Wells Fargo covers Claude Pro for six months. Choose the browser or desktop directions below. A connected AI-Labs folder is useful when your session has folder tools; browser participants can use Project files or chat attachments. You don't need access to your organization's systems or live data: every lab can run on a practice file, with the same steps as your own material.
 
 ### How a lab runs
 

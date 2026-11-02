@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.41 · Oct 30, 2026. Mirrored from the participant page as published on Oct 30, 2026 (source 9c336c2). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.42 · Nov 2, 2026. Mirrored from the participant page as published on Nov 2, 2026 (source cee641a). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
@@ -140,7 +140,7 @@ Open the Lab 5 page (lab-5.md), choose Desktop app and follow its one setup step
 
 ### Lab 6: Skills, research and the wider toolbox
 
-Your second chair saved as a skill and run on a real draft, and a one-page summary of a Claude Research report, with its claims checked at the source.
+A reusable reviewer tested on a permitted draft and its sources, plus a summary of personally checked public-source claims. Approved Research, manual sources or an honest partial practice checkpoint.
 
 Monday, November 2 · Friday, November 6
 
@@ -152,9 +152,11 @@ Open the Lab 6 page (lab-6.md), choose your screen and follow its one setup step
 
 Open the Lab 6 page (lab-6.md), choose Desktop app and follow its one setup step. Keep using your AI-Labs folder.
 
+Download the three-file fictional practice pack · Practice draft only. Use all three files for review. No prior homework, new account or skill installation required.
+
 **Lab 6 kit**: Saving your second chair as a skill, running Research and checking it at the source, step by step. The map of other AI tools is at the end. (lab-6.md)
 
-**Practice file: grants sheet, cleaned (from Lab 5)**: The numbers behind the practice narrative you wrote in Lab 5, for running your skill on it. Save it into Kits if it isn't there already, whichever draft you pick.
+**Practice file: grants sheet, cleaned (from Lab 5)**: The unchanged fictional source for your Lab 5 narrative or the new Lab 6 practice draft. Open it yourself to check the draft.
 
 **Practice file: context for the committee (from Lab 5)**: The context file that goes with those numbers. Save it into Kits if it isn't there already, whichever draft you pick.
 

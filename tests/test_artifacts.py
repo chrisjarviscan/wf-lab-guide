@@ -69,20 +69,20 @@ class Artifacts(unittest.TestCase):
             text = (ROOT / rel).read_text()
             self.assertIn("Friday", text, rel)
             if rel in ("README.md", "START-HERE.md"):
-                # The participant entry documents lead with the current lab (Lab 5 from Oct 26).
+                # The participant entry documents lead with the current lab (Lab 6 from Nov 2).
                 primary = text.split("## Returning to an earlier lab?")[0]
-                self.assertIn("Check my Lab 5 access.", primary, rel)
-                self.assertIn("ready to begin Lab 5", primary, rel)
+                self.assertIn("Check my Lab 6 access.", primary, rel)
+                self.assertIn("ready to begin Lab 6", primary, rel)
                 self.assertNotIn("ready to begin Lab 3", primary, rel)
-                self.assertIn("October 26", primary, rel)
-                self.assertIn("October 30", primary, rel)
+                self.assertIn("November 2", primary, rel)
+                self.assertIn("November 6", primary, rel)
                 self.assertIn("ready to begin Lab 3", text.split("## Returning to an earlier lab?")[1], rel)
             else:
-                # The facilitator run-through covers the current lab (Lab 5 from Oct 26).
-                self.assertIn("Check my Lab 5 access.", text, rel)
-                self.assertIn("October 26", text, rel)
-                self.assertIn("October 30", text, rel)
-                self.assertIn("recipe and narrative", text, rel)
+                # The facilitator run-through covers the current lab (Lab 6 from Nov 2).
+                self.assertIn("Check my Lab 6 access.", text, rel)
+                self.assertIn("November 2", text, rel)
+                self.assertIn("November 6", text, rel)
+                self.assertIn("reviewer, draft and all sources", text, rel)
             for question in questions:
                 self.assertIn(question, text, rel)
                 self.assertIn(len(question.split()), (4, 5))
@@ -93,15 +93,15 @@ class Artifacts(unittest.TestCase):
             hub = (SOURCE / "RWI-WellsFargo-Participant-Hub-08-11-2026.html").read_text()
             first_cta = re.search(r'<a class="hero-start" href="([^"]+)">([^<]+)</a>', hub)
             self.assertIsNotNone(first_cta)
-            # The participant page leads with the current lab (Lab 5 from Oct 26).
-            self.assertIn("Lab%205/KIT-Lab5-", first_cta[1])
-            self.assertEqual(first_cta[2], "Start Lab 5: numbers to narrative to deck")
-            self.assertIn("Check my Lab 5 access.", hub.split('<div class="controls">')[0])
+            # The participant page leads with the current lab (Lab 6 from Nov 2).
+            self.assertIn("Lab%206/KIT-Lab6-", first_cta[1])
+            self.assertEqual(first_cta[2], "Start Lab 6: a reusable reviewer and checked research")
+            self.assertIn("Check my Lab 6 access.", hub.split('<div class="controls">')[0])
             install = (SOURCE / "tools/lab-guide-page.template.html").read_text()
             # The install page leads with the current lab; earlier labs sit under the panel.
-            primary = install.split('<details><summary>Return to Lab 4, Lab 3, Lab 2 or an earlier lab</summary>')
+            primary = install.split('<details><summary>Return to Lab 5, Lab 4, Lab 3, Lab 2 or an earlier lab</summary>')
             self.assertEqual(len(primary), 2, "earlier-lab panel heading changed")
-            self.assertIn("ready to begin Lab 5", primary[0])
+            self.assertIn("ready to begin Lab 6", primary[0])
             self.assertNotIn("ready to begin Lab 2", primary[0])
         skill = (SKILL / "SKILL.md").read_text()
         for phrase in (*questions, "Is my workspace ready?"):
