@@ -10,7 +10,15 @@ Read the path for the screen you are using. Already using the current guide with
 
 ### I'm using Claude in my browser
 
-**Connect the guide from GitHub (one path, no downloads).** In your **AI-Labs Project**, open Project files and choose **Add from GitHub**, where offered. Enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these five files only:
+**Download and upload to your existing Project.**
+
+1. [Download the text guide](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md). Keep your current AI-Labs Project and work.
+2. Upload `lab-guide-chat.md` to **Context / Project files**, using the label shown on your screen. Open the uploaded copy. A paperclip attachment belongs to that chat and is not necessarily saved in Project context. Without Project controls, attach it to your work chat and carry it into each new chat that needs the guide.
+3. Ask **“Check my Lab 6 access.”** Verify the version and an actual kit quotation; a GitHub account, connector or installed plugin alone proves neither. Confirm the permitted work files are readable.
+
+After one failed check, use direct upload. If that fails, record the non-sensitive error for the facilitator and use the manual/fictional route. Do not create an account, configure OAuth/client IDs or repeatedly reconnect during lab entry.
+
+**Optional: keep GitHub if it already works.** In your **AI-Labs Project**, open Project files and choose **Add from GitHub**, where offered. Enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these five files only:
 
 - `plugins/wf-lab-guide/skills/lab-guide/SKILL.md` (the guide's instructions)
 - `plugins/wf-lab-guide/skills/lab-guide/pages/lab-6.md` (the Lab 6 page)
@@ -19,12 +27,6 @@ Read the path for the screen you are using. Already using the current guide with
 - `plugins/wf-lab-guide/skills/lab-guide/assets/writing-skills/ai-syntax-avoidance-extended.md` (the extended writing review)
 
 Your own work (`AGENTS.md`, your permitted draft, reviewer and all its allowed source files) stays in your Project files or chat attachments, never in GitHub. Your placeholder key, your original export and any sheet with names put back never go into the Project, a chat or GitHub. Once Claude can read those five files in your Project, it has the kit already; it must not ask you to download it again. For fictional practice, open your existing participant-site link, choose the Lab 6 card, and download `Lab6-fictional-practice.zip` (a new draft plus the unchanged Lab 5 CSV and context) from the live worksheet—not from the guide’s GitHub page. Make all three files readable in your work chat; they are separate from the five guide files. Never add a placeholder key. After the repository changes, use the Project's **Sync** control; see [Help](HELP.md).
-
-**No Add from GitHub?** Use the one-file attachment instead:
-
-1. Open your **AI-Labs Project** in Claude and start or return to your work chat.
-2. [Download the text guide](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md). Add `lab-guide-chat.md` to this chat with the attachment button. It already contains the Lab 6 kit. Add your latest `AGENTS.md` if available; missing earlier work does not prevent practice. Your sheet goes in only after the by-hand steps, as the checked, swapped copy.
-3. Check that the guide appears as an attachment or in Project files. Tell Claude you are working on Lab 6. Ask **“Check my Lab 6 access.”** Claude should confirm the current version, quote the Lab 6 kit and name the Lab 6 files it can see, by name only. Check that yourself.
 
 Then say **“I'm ready to begin Lab 6.”** Claude leads one question or action at a time and tells you which steps you do by hand. Use a permitted draft with its sources or the complete fictional practice set. You settle supported findings and personally check source passages and dates. The approved-tool/manual route needs no new account or installation.
 

@@ -4,15 +4,11 @@
 
 Already have the current guide? Continue in the chat or Project with the permitted files actually visible there.
 
-First time, with Add from GitHub in your Project? Add `chrisjarviscan/wf-lab-guide` (branch `main`) and select only the five Lab 5 files listed in the [README](README.md): `SKILL.md`, `pages/lab-5.md`, `assets/KIT-Lab5-Numbers-Narrative-Deck.md`, `assets/writing-skills/ai-syntax-avoidance.md` and `assets/writing-skills/ai-syntax-avoidance-extended.md`, all under `plugins/wf-lab-guide/skills/lab-guide/`. For fictional practice, open your existing participant-site link, choose the Lab 5 card, and download `MOCK-Benevity-Export-CLEANED-Reference.csv` and `MOCK-Program-Context.md` from the live worksheet—not from the guide’s GitHub page. Make both files readable in your work chat; they are separate from the five guide files. Never add a placeholder key.
+For Lab 6, download the [full guide attachment](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md) and upload it to **Context / Project files** in your existing AI-Labs Project. Open that copy. If it opens as text in the browser, save it as `lab-guide-chat.md` first. Without Project controls, attach it to the work chat; a chat attachment is not necessarily saved in Project context and must be carried to new chats that need it.
 
-First time, without Add from GitHub? Attach this one file to your own Claude work chat or Project:
+Ask “Check my Lab 6 access.” Verify the guide version and an actual kit quotation. A GitHub account, connector and installed plugin are different; none alone proves content access. Keep a working GitHub route, but after one failed check use direct upload. If that also fails, stop setup repair and ask the facilitator with the non-sensitive screen/error; use manual practice meanwhile. No account creation, OAuth/client-ID setup or repeated reconnections during entry.
 
-[Full guide attachment](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md)
-
-If the link opens as text, use your browser's Save Page As to save `lab-guide-chat.md`, then attach the file.
-The attachment supports guide questions and every guided lab, and already contains the kits for Labs 1 to 7. The two fictional practice files are separate; use the live worksheet download route above, never a placeholder key. It does not install the local workspace helper.
-No Project is required. Ask “Check my Lab 5 access.”, then say “I'm ready to begin Lab 5.” Claude can use visible files or the practice route.
+For fictional practice, use the Lab 6 worksheet’s three-file ZIP: new draft, cleaned CSV and context. All three must be readable in the review chat; they are separate from the guide. Never add a placeholder key. No Project or installation is required for the manual route.
 
 With file tools, Claude creates artifacts and reopens their contents before offering downloads.
 Without file tools, use the plain-text saving steps under Keep your work and return later below. Until you reopen a saved copy, file work remains pending.
