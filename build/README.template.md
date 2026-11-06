@@ -10,7 +10,19 @@ Read the path for the screen you are using. Already using the current guide with
 
 ### I'm using Claude in my browser
 
-**Connect the guide from GitHub (one path, no downloads).** In your **AI-Labs Project**, open Project files and choose **Add from GitHub**, where offered. Enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these five files only:
+Friday guided work requires a rebuilt guide whose bundled Lab 6 page contains the revised chat map and immediate manual-source route. Guide 1.0.42 does not meet that check; attaching this kit does not update its installed instructions. Until a verified replacement is available, open your existing participant-site link, choose the Lab 6 card, and follow its current worksheet directly with the facilitator or use the manual practice route.
+
+Quote the **Build**, **Sources**, **Review** and **Outside read** rows from the bundled Lab 6 chat map, plus its instruction “choose manual sources immediately.” If either is missing, stop guided Lab 6 work and use the current worksheet directly; do not certify Friday readiness from a generic kit quotation or an attached sidecar.
+
+**Download and upload to your existing Project.**
+
+1. [Download the text guide](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md). Keep your current AI-Labs Project and work.
+2. Upload `lab-guide-chat.md` to **Context / Project files**, using the label shown on your screen. Open the uploaded copy. A paperclip attachment belongs to that chat and is not necessarily saved in Project context. Without Project controls, attach it to your work chat and carry it into each new chat that needs the guide.
+3. Ask **“Check my Lab 6 access.”** Require the current version and quotations of the **Build**, **Sources**, **Review** and **Outside read** rows plus “choose manual sources immediately” from the guide’s own bundled Lab 6 page. If any required quotation is missing, stop guided work and use the current worksheet directly. Confirm the permitted work files Claude can see, by name only; a GitHub account, connector or installed plugin alone proves neither content nor file access.
+
+After one failed check, use direct upload. If that fails, record the non-sensitive error for the facilitator and use the manual/fictional route. Do not create an account, configure OAuth/client IDs or repeatedly reconnect during lab entry.
+
+**Optional: keep GitHub if it already works.** In your **AI-Labs Project**, open Project files and choose **Add from GitHub**, where offered. Enter `chrisjarviscan/wf-lab-guide`, branch `main`, and select these five files only:
 
 - `plugins/wf-lab-guide/skills/lab-guide/SKILL.md` (the guide's instructions)
 - `plugins/wf-lab-guide/skills/lab-guide/pages/lab-6.md` (the Lab 6 page)
@@ -20,13 +32,7 @@ Read the path for the screen you are using. Already using the current guide with
 
 Your own work (`AGENTS.md`, your permitted draft, reviewer and all its allowed source files) stays in your Project files or chat attachments, never in GitHub. Your placeholder key, your original export and any sheet with names put back never go into the Project, a chat or GitHub. Once Claude can read those five files in your Project, it has the kit already; it must not ask you to download it again. For fictional practice, open your existing participant-site link, choose the Lab 6 card, and download `Lab6-fictional-practice.zip` (a new draft plus the unchanged Lab 5 CSV and context) from the live worksheet—not from the guide’s GitHub page. Make all three files readable in your work chat; they are separate from the five guide files. Never add a placeholder key. After the repository changes, use the Project's **Sync** control; see [Help](HELP.md).
 
-**No Add from GitHub?** Use the one-file attachment instead:
-
-1. Open your **AI-Labs Project** in Claude and start or return to your work chat.
-2. [Download the text guide](https://raw.githubusercontent.com/chrisjarviscan/wf-lab-guide/main/download/lab-guide-chat.md). Add `lab-guide-chat.md` to this chat with the attachment button. It already contains the Lab 6 kit. Add your latest `AGENTS.md` if available; missing earlier work does not prevent practice. Your sheet goes in only after the by-hand steps, as the checked, swapped copy.
-3. Check that the guide appears as an attachment or in Project files. Tell Claude you are working on Lab 6. Ask **“Check my Lab 6 access.”** Claude should confirm the current version, quote the Lab 6 kit and name the Lab 6 files it can see, by name only. Check that yourself.
-
-Then say **“I'm ready to begin Lab 6.”** Claude leads one question or action at a time and tells you which steps you do by hand. Use a permitted draft with its sources or the complete fictional practice set. You settle supported findings and personally check source passages and dates. The approved-tool/manual route needs no new account or installation.
+Only after the bundled-content check passes and you confirm the visible work files, say **“I'm ready to begin Lab 6.”** Claude leads one question or action at a time and tells you which steps you do by hand. Use a permitted draft with its sources or the complete fictional practice set. You settle supported findings and personally check source passages and dates. The approved-tool/manual route needs no new account or installation.
 
 **Keep your finished work:** save the approved files to your Project, then open them to check the contents. Downloading saves a local copy; it does not update Project files. Use the browser saving steps in [Help](HELP.md). No Project or missing upload controls? See [Help](HELP.md).
 
@@ -36,7 +42,7 @@ Then say **“I'm ready to begin Lab 6.”** Claude leads one question or action
 2. In **Customize → Skills**, choose **+**, then **Upload a skill** (on some screens it sits under **Create skill**), select the ZIP and enable **lab-guide**, where these controls are offered. Use the update or replacement controls your account offers; open and verify the new guide before retiring the older copy.
 3. Open your work conversation. Ask **“Check and fix setup.”** If Claude requests folder access, choose your existing **AI-Labs** folder. Claude must name the files its tools can actually read, or explain what is missing. Installing the guide does not connect the folder.
 
-Tell Claude you are working on Lab 6. Ask **“Check my Lab 6 access.”** Expect the current version, a quotation from the kit and the Lab 6 files Claude can see, by name only. Then say **“I'm ready to begin Lab 6.”**
+Tell Claude you are working on Lab 6. Ask **“Check my Lab 6 access.”** Require the current version and quotations of the **Build**, **Sources**, **Review** and **Outside read** rows plus “choose manual sources immediately” from the guide’s own bundled Lab 6 page. Check the Lab 6 files Claude can see, by name only. If any required quotation is missing, stop guided work and use the current worksheet directly; an attached kit does not update the installed guide. Only after the bundled-content check passes and you confirm the visible work files, say **“I'm ready to begin Lab 6.”**
 
 **Keep your finished work:** with connected-folder tools, Claude saves and reopens the approved files. Confirm where they were saved. No folder access or Skills controls? See [Help](HELP.md); use the browser attachment and saving steps.
 
@@ -47,11 +53,11 @@ Research is optional. Before launch, establish permission and a public-only scop
 
 > Check my Lab 6 access.
 
-Pass: current README version, a quotation from the Lab 6 kit and the Lab 6 files Claude can see, by name only; it never opens a file with "key" in its name. Lab 6: Monday, November 2, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, November 6, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). Use the participant’s cohort; if unknown, show both.
+Pass: current README version; quotations of the **Build**, **Sources**, **Review** and **Outside read** rows plus “choose manual sources immediately” from the guide’s own bundled Lab 6 page; and the Lab 6 files Claude can see, by name only. If any required quotation is missing, stop guided work and use the current worksheet directly. A generic kit quotation or attached sidecar does not pass. It never opens a file with "key" in its name. Lab 6: Monday, November 2, 2026, 1:00–2:30 PM Eastern (noon–1:30 PM Central); Friday, November 6, 2026, noon–1:30 PM Eastern (11:00 AM–12:30 PM Central). Use the participant’s cohort; if unknown, show both.
 
 > I'm ready to begin Lab 6.
 
-Claude checks available work, asks one question at a time and handles authorized file work. You decide which supported review findings to accept, and personally check every retained research claim at its source. Save and reopen the reviewer and checked summary before claiming they are saved. If unfinished, save the rough reviewer, one checked correction and next step as a partial checkpoint, not Lab 6 complete. Without file tools, use complete downloads or the manual-saving steps in Help; saving to your computer does not update Project files.
+Use this start only after the same bundled-content and file checks pass. Claude checks available work, asks one question at a time and handles authorized file work. You decide which supported review findings to accept, and personally check every retained research claim at its source. Save and reopen the reviewer and checked summary before claiming they are saved. If unfinished, save the rough reviewer, one checked correction and next step as a partial checkpoint, not Lab 6 complete. Without file tools, use complete downloads or the manual-saving steps in Help; saving to your computer does not update Project files.
 Optional setup help: **Is the guide working?** or **Check and fix setup.**
 
 ## Returning to an earlier lab?
