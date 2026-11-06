@@ -2,7 +2,7 @@
 
 ## I'm using Claude in my browser
 
-Friday guided work requires a rebuilt guide whose bundled Lab 6 page contains the revised chat map and immediate manual-source route. Guide 1.0.42 does not meet that check; attaching this kit does not update its installed instructions. Until a verified replacement is available, follow the [current participant worksheet](https://wf-ai-labs.rw.institute/04-Participant%20Kits/Lab%206/KIT-Lab6-Agents-Toolbox-worksheet.html) directly with the facilitator or use the manual practice route.
+Friday guided work requires a rebuilt guide whose bundled Lab 6 page contains the revised chat map and immediate manual-source route. Guide 1.0.42 does not meet that check; attaching this kit does not update its installed instructions. Until a verified replacement is available, open your existing participant-site link, choose the Lab 6 card, and follow its current worksheet directly with the facilitator or use the manual practice route.
 
 Quote the **Build**, **Sources**, **Review** and **Outside read** rows from the bundled Lab 6 chat map, plus its instruction “choose manual sources immediately.” If either is missing, stop guided Lab 6 work and use the current worksheet directly; do not certify Friday readiness from a generic kit quotation or an attached sidecar.
 
@@ -10,7 +10,7 @@ Already have the current guide? Continue in the chat or Project with the permitt
 
 For Lab 6, download the [full guide attachment](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md) and upload it to **Context / Project files** in your existing AI-Labs Project. Open that copy. If it opens as text in the browser, save it as `lab-guide-chat.md` first. Without Project controls, attach it to the work chat; a chat attachment is not necessarily saved in Project context and must be carried to new chats that need it.
 
-Ask “Check my Lab 6 access.” Verify the guide version and an actual kit quotation. A GitHub account, connector and installed plugin are different; none alone proves content access. Keep a working GitHub route, but after one failed check use direct upload. If that also fails, stop setup repair and ask the facilitator with the non-sensitive screen/error; use manual practice meanwhile. No account creation, OAuth/client-ID setup or repeated reconnections during entry.
+Ask “Check my Lab 6 access.” Require the current version and quotations of the **Build**, **Sources**, **Review** and **Outside read** rows plus “choose manual sources immediately” from the guide’s own bundled Lab 6 page. If any required quotation is missing, stop guided work and use the current worksheet directly. Confirm the permitted work files Claude can see, by name only, before starting guided work. A GitHub account, connector and installed plugin are different; none alone proves content access. Keep a working GitHub route, but after one failed check use direct upload. If that also fails, stop setup repair and ask the facilitator with the non-sensitive screen/error; use manual practice meanwhile. No account creation, OAuth/client-ID setup or repeated reconnections during entry.
 
 For fictional practice, use the Lab 6 worksheet’s three-file ZIP: new draft, cleaned CSV and context. All three must be readable in the review chat; they are separate from the guide. Never add a placeholder key. No Project or installation is required for the manual route.
 

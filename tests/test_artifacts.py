@@ -107,6 +107,28 @@ class Artifacts(unittest.TestCase):
         for phrase in (*questions, "Is my workspace ready?"):
             self.assertIn(phrase, skill)
 
+    def test_lab6_readiness_is_consistent_across_entry_routes(self):
+        required = ("**Build**", "**Sources**", "**Review**", "**Outside read**",
+                    "choose manual sources immediately", "own bundled Lab 6 page")
+        for rel in ("build/README.template.md", "README.md", "START-HERE.md"):
+            text = (ROOT / rel).read_text()
+            browser = text.split("### I'm using Claude in my browser", 1)[1].split("### I'm using the Claude desktop app", 1)[0]
+            desktop = text.split("### I'm using the Claude desktop app", 1)[1].split("## Check, then begin", 1)[0]
+            common = text.split("Pass:", 1)[1].split("\n\n", 1)[0]
+            for section in (browser, desktop, common):
+                for phrase in required:
+                    self.assertIn(phrase, section, rel)
+                self.assertIn("If any required quotation is missing", section, rel)
+                self.assertIn("stop guided work and use the current worksheet directly", section, rel)
+            for section in (browser, desktop):
+                self.assertIn("Only after the bundled-content check passes", section, rel)
+            self.assertIn("Use this start only after the same bundled-content and file checks pass", text, rel)
+        help_text = (ROOT / "HELP.md").read_text()
+        entry = help_text.split('Ask “Check my Lab 6 access.”', 1)[1].split("\n\n", 1)[0]
+        for phrase in required:
+            self.assertIn(phrase, entry)
+        self.assertIn("If any required quotation is missing", entry)
+
     def test_workspace_helper_checks_then_repairs_missing_only(self):
         helper = SKILL / "scripts/prepare_workspace.py"
         self.assertTrue(helper.is_file(), "real packaged workspace helper is required")
