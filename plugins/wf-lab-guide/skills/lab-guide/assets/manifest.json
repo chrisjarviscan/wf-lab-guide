@@ -1,5 +1,5 @@
 {
-  "source_commit": "cee641a",
+  "source_commit": "a78d760",
   "files": [
     {
       "asset": "assets/KIT-Lab3-Reporting-Adversarial-Pass.md",
@@ -29,7 +29,7 @@
       "asset": "assets/KIT-Lab6-Agents-Toolbox.md",
       "destination": "Kits/KIT-Lab6-Agents-Toolbox.md",
       "source": "04-Participant Kits/Lab 6/KIT-Lab6-Agents-Toolbox.md",
-      "sha256": "c45d23817762b6525bbd4fb1b63a93e3625a614daf5517b96e6af6b4d41b2005"
+      "sha256": "900dd26caea8102ff151c804009998a43e013654e859e953599c74ac24254547"
     },
     {
       "asset": "assets/KIT-Lab7-Build-Roadmap.md",
