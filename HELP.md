@@ -2,6 +2,10 @@
 
 ## I'm using Claude in my browser
 
+Friday guided work requires a rebuilt guide whose bundled Lab 6 page contains the revised chat map and immediate manual-source route. Guide 1.0.42 does not meet that check; attaching this kit does not update its installed instructions. Until a verified replacement is available, follow the [current participant worksheet](https://wf-ai-labs.rw.institute/04-Participant%20Kits/Lab%206/KIT-Lab6-Agents-Toolbox-worksheet.html) directly with the facilitator or use the manual practice route.
+
+Quote the **Build**, **Sources**, **Review** and **Outside read** rows from the bundled Lab 6 chat map, plus its instruction “choose manual sources immediately.” If either is missing, stop guided Lab 6 work and use the current worksheet directly; do not certify Friday readiness from a generic kit quotation or an attached sidecar.
+
 Already have the current guide? Continue in the chat or Project with the permitted files actually visible there.
 
 For Lab 6, download the [full guide attachment](https://wf-ai-labs.rw.institute/lab-guide/lab-guide-chat.md) and upload it to **Context / Project files** in your existing AI-Labs Project. Open that copy. If it opens as text in the browser, save it as `lab-guide-chat.md` first. Without Project controls, attach it to the work chat; a chat attachment is not necessarily saved in Project context and must be carried to new chats that need it.
