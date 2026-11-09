@@ -418,6 +418,18 @@ def trim_overview(md):
 
 # -------------------------------------------------------------- kits
 
+def use_bundled_writing_skills(markdown):
+    """Point the mirrored kit at its bundled copies of the writing checks."""
+    for name in ("ai-syntax-avoidance", "ai-syntax-avoidance-extended"):
+        guide_path = f"/lab-guide/{name}.md"
+        markdown = re.sub(
+            rf"\[([^\]]+)\]\(https://[^/)]+{re.escape(guide_path)}\)",
+            lambda match: f"{match[1]} (guide file `assets/writing-skills/{name}.md`)",
+            markdown,
+        )
+    return markdown
+
+
 def clean_kit(md, cfg):
     md = re.sub(r"<!--.*?-->\s*\n?", "", md, flags=re.S)
     anchors = cfg["hub_anchor_pages"]
@@ -660,7 +672,7 @@ def main():
             die(f"expected one Lab {n} kit, found {len(hits)}")
         rel = os.path.relpath(hits[0], src)
         refuse_internal(cfg, rel)
-        md = clean_kit(open(hits[0], encoding="utf-8").read(), cfg)
+        md = clean_kit(use_bundled_writing_skills(open(hits[0], encoding="utf-8").read()), cfg)
         kits[n] = md
         tm = re.match(r"# Lab \d+: (.+)", md)
         titles[n] = tm.group(1).strip() if tm else f"Lab {n}"
@@ -687,7 +699,7 @@ def main():
     asset_contents = {}
     for name, relative in asset_sources.items():
         refuse_internal(cfg, relative)
-        asset_contents[name] = open(os.path.join(src, relative), encoding="utf-8").read()
+        asset_contents[name] = use_bundled_writing_skills(open(os.path.join(src, relative), encoding="utf-8").read())
     check_facts(facts, norm(hub_html), norm(timeline_html), kit_texts)
     if args.bump:
         write(vfile, version + "\n")

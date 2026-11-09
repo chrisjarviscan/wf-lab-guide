@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.43 · Nov 6, 2026. Mirrored from the Lab 4 kit as published on Nov 6, 2026 (source a78d760). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.44 · Nov 9, 2026. Mirrored from the Lab 4 kit as published on Nov 9, 2026 (source 8ffbd84). Do not edit: rebuild instead. -->
 
 # Lab 4: Data, clean and extract
 

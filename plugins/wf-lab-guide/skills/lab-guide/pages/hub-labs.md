@@ -1,8 +1,10 @@
-<!-- Lab Guide 1.0.43 · Nov 6, 2026. Mirrored from the participant page as published on Nov 6, 2026 (source a78d760). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.44 · Nov 9, 2026. Mirrored from the participant page as published on Nov 9, 2026 (source 8ffbd84). Do not edit: rebuild instead. -->
 
 # The seven labs and what each one is for
 
 ## The seven labs
+
+See how each lab helps you build your workflow.
 
 Each lab has a kit. Every build runs on your own material or a practice file, and both take the same steps. From Lab 3 on, the Lab Guide already carries each kit, and each lab's page says which practice files to save. The Lab 4 practice key always stays outside your AI-Labs folder.
 
@@ -162,7 +164,7 @@ Download the three-file fictional practice pack · Practice draft only. Use all 
 
 ### Lab 7: Build session and 90-day roadmap
 
-A written workflow a colleague could run without you, timed before and after and shown to your room, and a plan for the next 90 days.
+Claude uses approved examples and asks about the gaps. Review the workflow it drafts, test the handoff and plan your next 90 days.
 
 Monday, November 9 · Friday, November 13
 
@@ -174,4 +176,10 @@ Open the Lab 7 page (lab-7.md), choose your screen and follow its one setup step
 
 Open the Lab 7 page (lab-7.md), choose Desktop app and follow its one setup step. Keep using your AI-Labs folder.
 
-**Lab 7 kit**: Writing your workflow down, checking it, and your 90-day plan. The workflow can be your own or the one you ran on the Lab 4 and 5 practice files; both take the same steps. (lab-7.md)
+#### Lab 7 tools to use
+
+Start in your approved Claude chat. Name the saved files to use, attach an approved example or let Claude interview you. If your organization permits it, an existing Microsoft 365 connection can help Claude find a specific Outlook message or event. Agree on the exact source and search before it reads anything. Use an approved excerpt if you can’t limit the search.
+
+Copy the interview and see the Outlook guidance (lab-7.md). The same brief is on roadmap page 15.
+
+**Lab 7 kit**: Start with Claude’s workflow interview. Use approved past work or the fictional practice example, then review the draft and choose your next run. (lab-7.md)

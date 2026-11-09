@@ -1,10 +1,10 @@
-<!-- Lab Guide 1.0.43 · Nov 6, 2026. Mirrored from the participant page as published on Nov 6, 2026 (source a78d760). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.44 · Nov 9, 2026. Mirrored from the participant page as published on Nov 9, 2026 (source 8ffbd84). Do not edit: rebuild instead. -->
 
 # Words we use
 
 What the words in the kits mean, in plain terms. Each kit also explains a word where it first comes up.
 
-**90-day plan**: Your plan for the three months after the labs, saved as `Workflows/90-day-plan.md` next to your workflow. It has one row a month (which workflow, which tool and why that tool), then your answers to two questions: what result will tell you it worked, and when you'll look at that result and feed it back into the workflow. Month 1 is running your own workflow for real. You write it at the end of Lab 7, and it takes the place of that week's homework levels.
+**90-day plan**: Claude drafts this from your workflow and your choices. For each month, record the job or test, approved tool, why it fits, what would show it helped and when you’ll review it. Save it as `Workflows/90-day-plan.md`. It takes the place of homework levels after Lab 7.
 
 **AGENTS.md**: A one-page instruction file saved directly in your AI-Labs folder, outside Kits and Working. You ask Claude, or any AI tool, to read it first, so it knows who you are, who you write for and how you sound. Claude writes yours in Lab 1 by interviewing you. The .md ending marks a plain text file, which Notepad or TextEdit can open.
 
@@ -90,8 +90,8 @@ What the words in the kits mean, in plain terms. Each kit also explains a word w
 
 **Voice notes**: Claude's description of how your organization sounds, edited and approved by you, plus your never-say list. For your own material in today's Cowork session, Claude saves the approved notes as `Org-Brain/voice-notes.md` and updates the approved voice rules under "How we sound" in `AGENTS.md`. Practice voice notes stay separate and labeled practice, and do not replace your real voice rules.
 
-**Workflow**: The recurring task you'll rebuild with Claude over the seven labs: something you do at least twice a month that ends in something you send. You start choosing it in Lab 1, bring its name to Lab 2, and write it up in Lab 7, so a colleague could run it without you.
+**Workflow**: The recurring task you'll rebuild with Claude over the seven labs: something you do at least twice a month that ends in something you send. You start choosing it in Lab 1, bring its name to Lab 2, and ask Claude to draft it in Lab 7 so you can test whether a colleague could follow it.
 
-**Workflow document**: Your workflow written down so a colleague could run it without you, saved in Workflows under a name for the job. It has ten headings, from "When it runs" to "What it can't do", including the tool for each step and the old-way and new-way times from your ship log. Claude writes it in Lab 7 from your brief and by interviewing you.
+**Workflow document**: The ten-heading guide Claude drafts in Lab 7 from approved past work and an interview. It records when the job runs, who runs it, tools, checks and what to do if something goes wrong. Review it and save it in `Workflows`.
 
 **Workspace folder**: Your AI-Labs folder: one place where your organization's AI work lives as plain files you own. It grows a little each week.

@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.43 · Nov 6, 2026. Mirrored from the Lab 5 kit as published on Nov 6, 2026 (source a78d760). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.44 · Nov 9, 2026. Mirrored from the Lab 5 kit as published on Nov 9, 2026 (source 8ffbd84). Do not edit: rebuild instead. -->
 
 # Lab 5: Numbers to narrative to deck
 
@@ -286,7 +286,7 @@ In the browser, paste the step from this page instead of the file name. If Claud
 
 ## This week
 
-**Optional writing bonus:** the guide includes the [base writing check](https://wf-ai-labs.rw.institute/lab-guide/ai-syntax-avoidance.md) and [extended writing review](https://wf-ai-labs.rw.institute/lab-guide/ai-syntax-avoidance-extended.md). Try them on one permitted paragraph using your approved voice rules, then decide which changes to keep. For source checking, keep this lab’s row-by-row checks: open each underlying source and verify the claim it supports before adding an APA-style reference and hyperlink where appropriate. A formatted citation is not evidence that a claim is true, and a writing check is not a detector-evasion tool.
+**Optional writing bonus:** the guide includes the base writing check (guide file `assets/writing-skills/ai-syntax-avoidance.md`) and extended writing review (guide file `assets/writing-skills/ai-syntax-avoidance-extended.md`). Try them on one permitted paragraph using your approved voice rules, then decide which changes to keep. For source checking, keep this lab’s row-by-row checks: open each underlying source and verify the claim it supports before adding an APA-style reference and hyperlink where appropriate. A formatted citation is not evidence that a claim is true, and a writing check is not a detector-evasion tool.
 
 Choose one level. You and your colleague can choose different ones, and you can switch levels any week.
 

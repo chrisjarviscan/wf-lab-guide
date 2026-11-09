@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.43 · Nov 6, 2026. Mirrored from the participant page as published on Nov 6, 2026 (source a78d760). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.44 · Nov 9, 2026. Mirrored from the participant page as published on Nov 9, 2026 (source 8ffbd84). Do not edit: rebuild instead. -->
 
 # Your AI-Labs folder, and the tools
 
@@ -47,11 +47,11 @@ The ship log is one line for each thing you finish and send: the date, what it w
 
 **Starter ship log**: Browser: keep it as ship-log.md in Project files or attach it to your chat; a local Outputs folder is optional. In Cowork, prompt 1 in the Lab 1 kit makes the ship log for you.
 
-## Current tools, September 2026
+## Tool reference from September 2026
 
 Checked September 23, 2026
 
-AI tools change from month to month, and names may change while the program runs. The kits name models by their role, such as "the default model," so they stay accurate. This box holds the current names and details, and we update it when something changes.
+AI tools change from month to month, and names may change while the program runs. The kits name models by their role, such as "the default model," so they stay accurate. For the final session, see Lab 7 tools to use. The notes below are from the September setup.
 
 **Where you work**: Claude in your browser or desktop app. Check the tools actually offered. With connected-folder tools, work in AI-Labs. Otherwise use Project files or attach files to each work chat; a Project is optional.
 
