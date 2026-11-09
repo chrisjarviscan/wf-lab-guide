@@ -1,4 +1,4 @@
-<!-- Lab Guide 1.0.43 · Nov 6, 2026. Mirrored from the participant page as published on Nov 6, 2026 (source a78d760). Do not edit: rebuild instead. -->
+<!-- Lab Guide 1.0.44 · Nov 9, 2026. Mirrored from the participant page as published on Nov 9, 2026 (source 8ffbd84). Do not edit: rebuild instead. -->
 
 # How the labs run: what you need, the rooms, the week between labs, recordings, who to ask
 
@@ -18,11 +18,11 @@ You and your colleague choose a homework level each week. Keep Pace takes 30 to 
 
 ### What you leave with
 
-A workspace folder that holds your organization's AI work in plain files, a ship log of what you finished and how long it took, and by Lab 7 a written workflow a colleague could run without you. Your Claude account is yours to keep. Wells Fargo covers it for six months, well past the last lab. After that it keeps charging your card each month until you cancel, so decide before then whether to keep it.
+A workspace folder that holds your organization's AI work in plain files, a ship log of what you finished and how long it took, and by Lab 7 a workflow Claude helps you draft and test so a colleague could run it. Your Claude account is yours to keep. Wells Fargo covers it for six months, well past the last lab. After that it keeps charging your card each month until you cancel, so decide before then whether to keep it.
 
 ## How the rooms work
 
-Most of each lab happens in a Zoom breakout room of about eight: you and your colleague, people from three other organizations, and a facilitator. Each of you works on your own computer with your own Claude. You keep the same room all seven weeks, and in Lab 7 it joins one other room to build and show each other your workflows. We matched rooms on three things. The organizations meet on the same cohort day, they're in different cities so you aren't competing for the same local funders, and the room has a mix of AI experience.
+Most of each lab happens in a Zoom breakout room of about eight: you and your colleague, people from three other organizations, and a facilitator. Each of you works on your own computer with your own Claude. In Lab 7 you build and describe your workflows in your breakout room. We matched rooms on three things. The organizations meet on the same cohort day, they're in different cities so you aren't competing for the same local funders, and the room has a mix of AI experience.
 
 Each of you works on your own material. At set moments your facilitator brings the room together to share what you're finding, and each draft stays on its own screen. The facilitator stays with your room for the whole build. Everything in the main room is recorded.
 
